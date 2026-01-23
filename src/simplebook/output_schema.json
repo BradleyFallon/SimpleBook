@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/SimpleBook-output.schema.json",
+  "title": "SimpleBook Output",
+  "description": "Schema for SimpleBook tree structure from the SimpleBook module",
+  "type": "object",
+  "required": ["metadata", "chapters"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["title", "author", "language"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Book title"
+        },
+        "author": {
+          "type": "string",
+          "description": "Book author/creator"
+        },
+        "language": {
+          "type": "string",
+          "description": "Book language code (e.g., 'en', 'en-US')"
+        },
+        "isbn": {
+          "type": "string",
+          "description": "ISBN identifier (if available)",
+          "default": ""
+        },
+        "uuid": {
+          "type": "string",
+          "description": "UUID identifier (if available)",
+          "default": ""
+        }
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "description": "List of book chapters with their content",
+      "items": {
+        "type": "object",
+        "required": ["name", "pp", "chunks"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Chapter name/title"
+          },
+          "pp": {
+            "type": "array",
+            "description": "List of paragraph texts in the chapter",
+            "items": {
+              "type": "string"
+            }
+          },
+          "chunks": {
+            "type": "array",
+            "description": "Paragraph indexes at which new chunks start",
+            "items": {
+              "type": "integer",
+              "description": "Zero-based paragraph index"
+            }
+          }
+        }
+      }
+    }
+  }
+}

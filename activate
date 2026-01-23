@@ -1,0 +1,42 @@
+
+
+_project_root="$(cd "$(dirname "${_script_path}")" && pwd)"
+
+_venv_dir=""
+if [ -d "${_project_root}/venv" ]; then
+  _venv_dir="${_project_root}/venv"
+elif [ -d "${_project_root}/src/venv" ]; then
+  _venv_dir="${_project_root}/src/venv"
+else
+  if command -v python3 >/dev/null 2>&1; then
+    python3 -m venv "${_project_root}/venv"
+    _venv_dir="${_project_root}/venv"
+  elif command -v python >/dev/null 2>&1; then
+    python -m venv "${_project_root}/venv"
+    _venv_dir="${_project_root}/venv"
+  else
+    echo "Python not found. Install Python 3 to create a virtual environment."
+    return 1
+  fi
+fi
+
+# Activate the virtual environment
+# shellcheck disable=SC1090
+. "${_venv_dir}/bin/activate"
+
+export SIMPLEBOOK_ROOT="${_project_root}"
+
+# Install requirements once per venv
+if [ -f "${_project_root}/requirements.txt" ]; then
+  _marker_path="${_venv_dir}/.simplebook_requirements_installed"
+  if [ ! -f "${_marker_path}" ]; then
+    echo "Installing requirements..."
+    pip install -r "${_project_root}/requirements.txt"
+    touch "${_marker_path}"
+  fi
+fi
+
+if [ -f "${_project_root}/devtools/aliases.sh" ]; then
+  # shellcheck disable=SC1090
+  . "${_project_root}/devtools/aliases.sh"
+fi

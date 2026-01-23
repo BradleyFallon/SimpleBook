@@ -1,0 +1,9 @@
+# Runtime dependencies
+ebooklib>=0.18
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+jsonschema>=4.0.0
+
+# Dev/test dependencies
+pytest>=7.0.0
+hypothesis>=6.0.0

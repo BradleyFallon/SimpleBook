@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "title": "Winnie-the-Pooh",
+    "author": "A. A. Milne",
+    "language": "en-GB",
+    "isbn": "",
+    "uuid": "https://standardebooks.org/ebooks/a-a-milne/winnie-the-pooh"
+  },
+  "chapters": [
+    {
+      "name": "I - In Which We Are Introduced to Winnie-the-Pooh and Some Bees, and the Stories Begin",
+      "pp": [],
+      "chunks": [
+        0,
+        1,
+        15,
+        27,
+        34,
+        45,
+        55,
+        58,
+        62,
+        75,
+        89,
+        102,
+        114
+      ]
+    },
+    {
+      "name": "II - In Which Pooh Goes Visiting and Gets Into a Tight Place",
+      "pp": [],
+      "chunks": [
+        0,
+        1,
+        5,
+        26,
+        31,
+        40,
+        52,
+        61,
+        68,
+        77
+      ]
+    },
+    {
+      "name": "III - In Which Pooh and Piglet Go Hunting and Nearly Catch a Woozle",
+      "pp": [],
+      "chunks": [
+        0,
+        1,
+        8,
+        18,
+        20,
+        25,
+        26,
+        29,
+        38
+      ]
+    },
+    {
+      "name": "IV - In Which Eeyore Loses a Tail and Pooh Finds One",
+      "pp": [],
+      "chunks": [
+        0,
+        1,
+        14,
+        23,
+        26,
+        30,
+        42,
+        46,
+        53,
+        63
+      ]
+    },
+    {
+      "name": "V - In Which Piglet Meets a Heffalump",
+      "pp": [],
+      "chunks": [
+        0,
+        9,
+        14,
+        22,
+        30,
+        33,
+        35,
+        38,
+        39,
+        48,
+        49,
+        54,
+        55,
+        63,
+        66,
+        70,
+        71,
+        84
+      ]
+    },
+    {
+      "name": "VI - In Which Eeyore Has a Birthday and Gets Two Presents",
+      "pp": [],
+      "chunks": [
+        0,
+        14,
+        26,
+        45,
+        51,
+        61,
+        66,
+        80,
+        93,
+        95,
+        103,
+        108,
+        128,
+        148,
+        160
+      ]
+    },
+    {
+      "name": "VII - In Which Kanga and Baby Roo Come to the Forest, and Piglet Has a Bath",
+      "pp": [],
+      "chunks": [
+        0,
+        1,
+        8,
+        24,
+        29,
+        34,
+        44,
+        63,
+        72,
+        86,
+        101,
+        115,
+        126,
+        130,
+        138,
+        149,
+        156,
+        161,
+        162
+      ]
+    },
+    {
+      "name": "VIII - In Which Christopher Robin Leads an Expotition to the North Pole",
+      "pp": [],
+      "chunks": [
+        0,
+        3,
+        4,
+        11,
+        24,
+        37,
+        46,
+        56,
+        65,
+        71,
+        80,
+        85,
+        94,
+        106,
+        107,
+        116,
+        119,
+        120,
+        133,
+        145
+      ]
+    },
+    {
+      "name": "IX - In Which Piglet Is Entirely Surrounded by Water",
+      "pp": [],
+      "chunks": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        12,
+        13,
+        15,
+        17,
+        18,
+        21,
+        28,
+        33,
+        40,
+        60,
+        71,
+        79,
+        86,
+        88,
+        89
+      ]
+    },
+    {
+      "name": "X - In Which Christopher Robin Gives Pooh a Party, and We Say Goodbye",
+      "pp": [],
+      "chunks": [
+        0,
+        1,
+        9,
+        13,
+        15,
+        18,
+        32,
+        41,
+        45,
+        56,
+        61,
+        62,
+        68
+      ]
+    }
+  ]
+}
