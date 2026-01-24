@@ -1,0 +1,380 @@
+[
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 0,
+    "chapter_name": "I - The Professor and His Family",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "To his misfortune, my uncle was not gifted with a sufficiently rapid utterance; not, to be sure, when he was talking at home, but certainly in his public delivery; this is a want much to be deplored in a speaker. The fact is, that during the course of his lectures at the Johannæum, the Professor often came to a complete standstill; he fought with wilful words that refused to pass his struggling lips, such words as resist and distend the cheeks, and at last break out into the unasked-for shape of a round and most unscientific oath: then his fury would gradually abate.",
+    "expected": "To his misfortune, my uncle was not gifted with a sufficiently rapid utterance; not, to be sure, when he was talking at home, but certainly in his public delivery; this is a want much to be deplored in a speaker. The fact is, that during the course of his lectures at the Johannum, the Professor often came to a complete standstill; he fought with wilful words that refused to pass his struggling lips, such words as resist and distend the cheeks, and at last break out into the unasked-for shape of a round and most unscientific oath: then his fury would gradually abate."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 1,
+    "chapter_name": "II - A Mystery to Be Solved at Any Price",
+    "element_index": 33,
+    "element_type": "paragraph",
+    "raw": "And Professor Liedenbrock must have known, for he was acknowledged to be quite a polyglot. Not that he could speak fluently in the two thousand languages and twelve thousand dialects which are spoken on the earth, but he knew at least his share of them.",
+    "expected": "And Professor Liedenbrock must have known, for he was acknowledged to be quite a polyglot. Not that he could speak fluently in the two thousand languages and twelve thousand dialects which are spoken on the earth, but he knew at least his share of them."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 2,
+    "chapter_name": "III - The Runic Writing Exercises the Professor",
+    "element_index": 78,
+    "element_type": "table_cell",
+    "raw": "u",
+    "expected": "u"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 3,
+    "chapter_name": "IV - The Enemy to Be Starved Into Submission",
+    "element_index": 0,
+    "element_type": "paragraph",
+    "raw": "“He is gone!” cried Martha, running out of her kitchen at the noise of the violent slamming of doors.",
+    "expected": "<<He is gone!>> cried Martha, running out of her kitchen at the noise of the violent slamming of doors."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 4,
+    "chapter_name": "V - Famine, Then Victory, Followed by Dismay",
+    "element_index": 36,
+    "element_type": "paragraph",
+    "raw": "This mute conversation at such a momentous crisis would have riveted the attention of the most indifferent. And the fact really was that I dared not speak now, so intense was the excitement for fear lest my uncle should smother me in his first joyful embraces. But he became so urgent that I was at last compelled to answer.",
+    "expected": "This mute conversation at such a momentous crisis would have riveted the attention of the most indifferent. And the fact really was that I dared not speak now, so intense was the excitement for fear lest my uncle should smother me in his first joyful embraces. But he became so urgent that I was at last compelled to answer."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 5,
+    "chapter_name": "VII - A Womans Courage",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "I came out of my room. I thought my pale countenance and my red and sleepless eyes would work upon Gräuben’s sympathies and change her mind.",
+    "expected": "I came out of my room. I thought my pale countenance and my red and sleepless eyes would work upon Graubens sympathies and change her mind."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 6,
+    "chapter_name": "VIII - Serious Preparations for Vertical Descent",
+    "element_index": 49,
+    "element_type": "paragraph",
+    "raw": "I opened my eyes. I saw houses squashed flat as if they had all fallen down from the skies; a smoke fog seemed to drown them. Over my head ragged clouds were drifting past, and by an optical inversion they seemed stationary, while the steeple, the ball and I were all spinning along with fantastic speed. Far away on one side was the green country, on the other the sea sparkled, bathed in sunlight. The Sound stretched away to Elsinore, dotted with a few white sails, like seagulls’ wings; and in the misty east and away to the northeast lay outstretched the faintly-shadowed shores of Sweden. All this immensity of space whirled and wavered, fluctuating beneath my eyes.",
+    "expected": "I opened my eyes. I saw houses squashed flat as if they had all fallen down from the skies; a smoke fog seemed to drown them. Over my head ragged clouds were drifting past, and by an optical inversion they seemed stationary, while the steeple, the ball and I were all spinning along with fantastic speed. Far away on one side was the green country, on the other the sea sparkled, bathed in sunlight. The Sound stretched away to Elsinore, dotted with a few white sails, like seagulls wings; and in the misty east and away to the northeast lay outstretched the faintly-shadowed shores of Sweden. All this immensity of space whirled and wavered, fluctuating beneath my eyes."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 7,
+    "chapter_name": "IX - Iceland! But What Next?",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "“How long will the passage take?” my uncle asked.",
+    "expected": "<<How long will the passage take?>> my uncle asked."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 8,
+    "chapter_name": "X - Interesting Conversations with Icelandic Savants",
+    "element_index": 43,
+    "element_type": "paragraph",
+    "raw": "“Oh, yes; more than five hundred years.”",
+    "expected": "<<Oh, yes; more than five hundred years.>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 9,
+    "chapter_name": "XI - A Guide Found to the Centre of the Earth",
+    "element_index": 15,
+    "element_type": "paragraph",
+    "raw": "“After,” said the Professor for my edification.",
+    "expected": "<<After,>> said the Professor for my edification."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 10,
+    "chapter_name": "XII - A Barren Land",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "Three hours later, still treading on the colourless grass of the pasture land, we had to work round the Kollafjord, a longer way but an easier one than across that inlet. We soon entered into a \npingstaœr\n or parish called Ejulberg, from whose steeple twelve o’clock would have struck, if Icelandic churches were rich enough to possess clocks. But they are like the parishioners who have no watches and do without.",
+    "expected": "Three hours later, still treading on the colourless grass of the pasture land, we had to work round the Kollafjord, a longer way but an easier one than across that inlet. We soon entered into a pingstar or parish called Ejulberg, from whose steeple twelve oclock would have struck, if Icelandic churches were rich enough to possess clocks. But they are like the parishioners who have no watches and do without."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 11,
+    "chapter_name": "XIII - Hospitality Under the Arctic Circle",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "At a hundred yards from Gardär the soil began to change its aspect; it became boggy and less favourable to progress. On our right the chain of mountains was indefinitely prolonged like an immense system of natural fortifications, of which we were following the counter-scarp or lesser steep; often we were met by streams, which we had to ford with great care, not to wet our packages.",
+    "expected": "At a hundred yards from Gardar the soil began to change its aspect; it became boggy and less favourable to progress. On our right the chain of mountains was indefinitely prolonged like an immense system of natural fortifications, of which we were following the counter-scarp or lesser steep; often we were met by streams, which we had to ford with great care, not to wet our packages."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 12,
+    "chapter_name": "XIV - But Arctics Can Be Inhospitable, Too",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "So, at last, when I could hold out no longer, I resolved to lay the case before my uncle, as prudently and as cautiously as possible, just under the form of an almost impossible hypothesis.",
+    "expected": "So, at last, when I could hold out no longer, I resolved to lay the case before my uncle, as prudently and as cautiously as possible, just under the form of an almost impossible hypothesis."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 13,
+    "chapter_name": "XV - Snfells at Last",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "Such as it was, it did us good service. The steepness increased, but these stone steps allowed us to rise with facility, and even with such rapidity that, having rested for a moment while my companions continued their ascent, I perceived them already reduced by distance to microscopic dimensions.",
+    "expected": "Such as it was, it did us good service. The steepness increased, but these stone steps allowed us to rise with facility, and even with such rapidity that, having rested for a moment while my companions continued their ascent, I perceived them already reduced by distance to microscopic dimensions."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 14,
+    "chapter_name": "XVI - Boldly Down the Crater",
+    "element_index": 39,
+    "element_type": "paragraph",
+    "raw": "The next day the sky was again overcast; but on the 29th of June, the last day but one of the month, with the change of the moon came a change of weather. The sun poured a flood of light down the crater. Every hillock, every rock and stone, every projecting surface, had its share of the beaming torrent, and threw its shadow on the ground. Amongst them all, Scartaris laid down his sharp-pointed angular shadow which began to move slowly in the opposite direction to that of the radiant orb.",
+    "expected": "The next day the sky was again overcast; but on the 29th of June, the last day but one of the month, with the change of the moon came a change of weather. The sun poured a flood of light down the crater. Every hillock, every rock and stone, every projecting surface, had its share of the beaming torrent, and threw its shadow on the ground. Amongst them all, Scartaris laid down his sharp-pointed angular shadow which began to move slowly in the opposite direction to that of the radiant orb."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 15,
+    "chapter_name": "XVII - Vertical Descent",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "I don’t suppose the maddest geologist under such circumstances would have studied the nature of the rocks that we were passing. I am sure I did trouble my head about them. Pliocene, Miocene, Eocene, Cretaceous, Jurassic, Triassic, Permian, Carboniferous, Devonian, Silurian, or Primitive was all one to me. But the Professor, no doubt, was pursuing his observations or taking notes, for in one of our halts he said to me:",
+    "expected": "I dont suppose the maddest geologist under such circumstances would have studied the nature of the rocks that we were passing. I am sure I did trouble my head about them. Pliocene, Miocene, Eocene, Cretaceous, Jurassic, Triassic, Permian, Carboniferous, Devonian, Silurian, or Primitive was all one to me. But the Professor, no doubt, was pursuing his observations or taking notes, for in one of our halts he said to me:"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 16,
+    "chapter_name": "XVIII - The Wonders of Terrestrial Depths",
+    "element_index": 51,
+    "element_type": "paragraph",
+    "raw": "“Very accurate indeed.”",
+    "expected": "<<Very accurate indeed.>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 17,
+    "chapter_name": "XIX - Geological Studies In Situ",
+    "element_index": 48,
+    "element_type": "paragraph",
+    "raw": "“Well, Axel, we will put ourselves upon rations.”",
+    "expected": "<<Well, Axel, we will put ourselves upon rations.>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 18,
+    "chapter_name": "XX - The First Signs of Distress",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "Notwithstanding the theories of Professor Liedenbrock, a violent heat did at that time brood within the body of the spheroid. Its action was felt to the very last coats of the terrestrial crust; the plants, unacquainted with the beneficent influences of the sun, yielded neither flowers nor scent. But their roots drew vigorous life from the burning soil of the early days of this planet.",
+    "expected": "Notwithstanding the theories of Professor Liedenbrock, a violent heat did at that time brood within the body of the spheroid. Its action was felt to the very last coats of the terrestrial crust; the plants, unacquainted with the beneficent influences of the sun, yielded neither flowers nor scent. But their roots drew vigorous life from the burning soil of the early days of this planet."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 19,
+    "chapter_name": "XXI - Compassion Fuses the Professors Heart",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "I shook my head incredulously.",
+    "expected": "I shook my head incredulously."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 20,
+    "chapter_name": "XXII - Total Failure of Water",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "Never had mineralogists found themselves in so marvellous a situation to study nature \nin situ\n. What the boring machine, an insensible, inert instrument, was unable to bring to the surface of the inner structure of the globe, we were able to peruse with our own eyes and handle with our own hands.",
+    "expected": "Never had mineralogists found themselves in so marvellous a situation to study nature in situ . What the boring machine, an insensible, inert instrument, was unable to bring to the surface of the inner structure of the globe, we were able to peruse with our own eyes and handle with our own hands."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 21,
+    "chapter_name": "XXIV - Well Said, Old Mole! Canst Thou Work i the Ground So Fast?",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "We breakfasted, and drank of this excellent chalybeate water. I felt wonderfully stronger, and quite decided upon pushing on. Why should not so firmly convinced a man as my uncle, furnished with so industrious a guide as Hans, and accompanied by so determined a nephew as myself, go on to final success? Such were the magnificent plans which struggled for mastery within me. If it had been proposed to me to return to the summit of Snæfells, I should have indignantly declined.",
+    "expected": "We breakfasted, and drank of this excellent chalybeate water. I felt wonderfully stronger, and quite decided upon pushing on. Why should not so firmly convinced a man as my uncle, furnished with so industrious a guide as Hans, and accompanied by so determined a nephew as myself, go on to final success? Such were the magnificent plans which struggled for mastery within me. If it had been proposed to me to return to the summit of Snfells, I should have indignantly declined."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 22,
+    "chapter_name": "XXV - De Profundis",
+    "element_index": 50,
+    "element_type": "paragraph",
+    "raw": "“No doubt it is. A deaf man would soon learn to hear perfectly.”",
+    "expected": "<<No doubt it is. A deaf man would soon learn to hear perfectly.>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 23,
+    "chapter_name": "XXVI - The Worst Peril of All",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "During the fortnight following our last conversation, no incident occurred worthy of being recorded. But I have good reason for remembering one very serious event which took place at this time, and of which I could scarcely now forget the smallest details.",
+    "expected": "During the fortnight following our last conversation, no incident occurred worthy of being recorded. But I have good reason for remembering one very serious event which took place at this time, and of which I could scarcely now forget the smallest details."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 24,
+    "chapter_name": "XXVII - Lost in the Bowels of the Earth",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "I must thus arrive at the point where I had left the stream, that fatal turn in the road. With the stream at my feet, I might hope to regain the summit of Snæfells.",
+    "expected": "I must thus arrive at the point where I had left the stream, that fatal turn in the road. With the stream at my feet, I might hope to regain the summit of Snfells."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 25,
+    "chapter_name": "XXVIII - The Rescue in the Whispering Gallery",
+    "element_index": 54,
+    "element_type": "paragraph",
+    "raw": "…",
+    "expected": "..."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 26,
+    "chapter_name": "XXIX - Thalatta! Thalatta!",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "“What is the matter, Axel?”",
+    "expected": "<<What is the matter, Axel?>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 27,
+    "chapter_name": "XXX - A New Mare Internum",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "It will be easily conceived that after an imprisonment of forty-seven days in a narrow gallery it was the height of physical enjoyment to breathe a moist air impregnated with saline particles.",
+    "expected": "It will be easily conceived that after an imprisonment of forty-seven days in a narrow gallery it was the height of physical enjoyment to breathe a moist air impregnated with saline particles."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 28,
+    "chapter_name": "XXXII - Wonders of the Deep",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "Hans, keeping fast by the helm, let the raft run on, which, after all, needed no steering, the wind blowing directly aft.",
+    "expected": "Hans, keeping fast by the helm, let the raft run on, which, after all, needed no steering, the wind blowing directly aft."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 29,
+    "chapter_name": "XXXIII - A Battle of Monsters",
+    "element_index": 0,
+    "element_type": "blockquote",
+    "raw": "Saturday, August 15\n.﻿—The sea unbroken all round. No land in sight. The horizon seems extremely distant.\nMy head is still stupefied with the vivid reality of my dream.\nMy uncle has had no dreams, but he is out of temper. He examines the horizon all round with his glass, and folds his arms with the air of an injured man.\nI remark that Professor Liedenbrock has a tendency to relapse into an impatient mood, and I make a note of it in my log. All my danger and sufferings were needed to strike a spark of human feeling out of him; but now that I am well his nature has resumed its sway. And yet, what cause was there for anger? Is not the voyage prospering as favourably as possible under the circumstances? Is not the raft spinning along with marvellous speed?\n“﻿—You seem anxious, my uncle,” I said, seeing him continually with his glass to his eye.\n“Anxious! No, not at all.”\n“Impatient, then?”\n“One might be, with less reason than now.”\n“Yet we are going very fast.”\n“What does that signify? I am not complaining that the rate is slow, but that the sea is so wide.”\nI then remembered that the Professor, before starting, had estimated the length of this underground sea at thirty leagues. Now we had made three times the distance, yet still the southern coast was not in sight.\n“We are not descending as we ought to be,” the Professor declares. “We are losing time, and the fact is, I have not come all this way to take a little sail upon a pond on a raft.”\nHe called this sea a pond, and our long voyage, taking a little sail!\n“But,” I remarked, “since we have followed the road that Saknussemm has shown us﻿—”\n“That is just the question. Have we followed that road? Did Saknussemm meet this sheet of water? Did he cross it? Has not the stream that we followed led us altogether astray?”\n“At any rate we cannot feel sorry to have come so far. This prospect is magnificent, and﻿—”\n“But I don’t care for prospects. I came with an object, and I mean to attain it. Therefore don’t talk to me about views and prospects.”\nI take this as my answer, and I leave the Professor to bite his lips with impatience. At six in the evening Hans asks for his wages, and his three rixdalers are counted out to him.",
+    "expected": "Saturday, August 15 .The sea unbroken all round. No land in sight. The horizon seems extremely distant. My head is still stupefied with the vivid reality of my dream. My uncle has had no dreams, but he is out of temper. He examines the horizon all round with his glass, and folds his arms with the air of an injured man. I remark that Professor Liedenbrock has a tendency to relapse into an impatient mood, and I make a note of it in my log. All my danger and sufferings were needed to strike a spark of human feeling out of him; but now that I am well his nature has resumed its sway. And yet, what cause was there for anger? Is not the voyage prospering as favourably as possible under the circumstances? Is not the raft spinning along with marvellous speed? <<You seem anxious, my uncle,>> I said, seeing him continually with his glass to his eye. <<Anxious! No, not at all.>> <<Impatient, then?>> <<One might be, with less reason than now.>> <<Yet we are going very fast.>> <<What does that signify? I am not complaining that the rate is slow, but that the sea is so wide.>> I then remembered that the Professor, before starting, had estimated the length of this underground sea at thirty leagues. Now we had made three times the distance, yet still the southern coast was not in sight. <<We are not descending as we ought to be,>> the Professor declares. <<We are losing time, and the fact is, I have not come all this way to take a little sail upon a pond on a raft.>> He called this sea a pond, and our long voyage, taking a little sail! <<But,>> I remarked, <<since we have followed the road that Saknussemm has shown us>> <<That is just the question. Have we followed that road? Did Saknussemm meet this sheet of water? Did he cross it? Has not the stream that we followed led us altogether astray?>> <<At any rate we cannot feel sorry to have come so far. This prospect is magnificent, and>> <<But I dont care for prospects. I came with an object, and I mean to attain it. Therefore dont talk to me about views and prospects.>> I take this as my answer, and I leave the Professor to bite his lips with impatience. At six in the evening Hans asks for his wages, and his three rixdalers are counted out to him."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 30,
+    "chapter_name": "XXXIV - The Great Geyser",
+    "element_index": 0,
+    "element_type": "blockquote",
+    "raw": "Wednesday, August 19\n.﻿—Fortunately the wind blows violently, and has enabled us to flee from the scene of the late terrible struggle. Hans keeps at his post at the helm. My uncle, whom the absorbing incidents of the combat had drawn away from his contemplations, began again to look impatiently around him.\nThe voyage resumes its uniform tenor, which I don’t care to break with a repetition of such events as yesterday’s.",
+    "expected": "Wednesday, August 19 .Fortunately the wind blows violently, and has enabled us to flee from the scene of the late terrible struggle. Hans keeps at his post at the helm. My uncle, whom the absorbing incidents of the combat had drawn away from his contemplations, began again to look impatiently around him. The voyage resumes its uniform tenor, which I dont care to break with a repetition of such events as yesterdays."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 31,
+    "chapter_name": "XXXV - An Electric Storm",
+    "element_index": 0,
+    "element_type": "blockquote",
+    "raw": "Friday, August 21\n.﻿—On the morrow the magnificent geyser has disappeared. The wind has risen, and has rapidly carried us away from Axel Island. The roarings become lost in the distance.\nThe weather﻿—if we may use that term﻿—will change before long. The atmosphere is charged with vapours, pervaded with the electricity generated by the evaporation of saline waters. The clouds are sinking lower, and assume an olive hue. The electric light can scarcely penetrate through the dense curtain which has dropped over the theatre on which the battle of the elements is about to be waged.\nI feel peculiar sensations, like many creatures on earth at the approach of violent atmospheric changes. The heavily voluted cumulus clouds lower gloomily and threateningly; they wear that implacable look which I have sometimes noticed at the outbreak of a great storm. The air is heavy; the sea is calm.\nIn the distance the clouds resemble great bales of cotton, piled up in picturesque disorder. By degrees they dilate, and gain in huge size what they lose in number. Such is their ponderous weight that they cannot rise from the horizon; but, obeying an impulse from higher currents, their dense consistency slowly yields. The gloom upon them deepens; and they soon present to our view a ponderous mass of almost level surface. From time to time a fleecy tuft of mist, with yet some gleaming light left upon it, drops down upon the dense floor of grey, and loses itself in the opaque and impenetrable mass.\nThe atmosphere is evidently charged and surcharged with electricity. My whole body is saturated; my hair bristles just as when you stand upon an insulated stool under the action of an electrical machine. It seems to me as if my companions, the moment they touched me, would receive a severe shock like that from an electric eel.\nAt ten in the morning the symptoms of storm become aggravated. The wind never lulls but to acquire increased strength; the vast bank of heavy clouds is a huge reservoir of fearful windy gusts and rushing storms.\nI am loth to believe these atmospheric menaces, and yet I cannot help muttering:\n“Here’s some very bad weather coming on.”\nThe Professor made no answer. His temper is awful, to judge from the working of his features, as he sees this vast length of ocean unrolling before him to an indefinite extent. He can only spare time to shrug his shoulders viciously.\n“There’s a heavy storm coming on,” I cried, pointing towards the horizon. “Those clouds seem as if they were going to crush the sea.”\nA deep silence falls on all around. The lately roaring winds are hushed into a dead calm; nature seems to breathe no more, and to be sinking into the stillness of death. On the mast already I see the light play of a lambent \nSt.\n Elmo’s fire; the outstretched sail catches not a breath of wind, and hangs like a sheet of lead. The rudder stands motionless in a sluggish, waveless sea. But if we have now ceased to advance why do we yet leave that sail loose, which at the first shock of the tempest may capsize us in a moment?\n“Let us reef the sail and cut the mast down!” I cried. “That will be safest.”\n“No, no! Never!” shouted my impetuous uncle. “Never! Let the wind catch us if it will! What I want is to get the least glimpse of rock or shore, even if our raft should be smashed into shivers!”\nThe words were hardly out of his mouth when a sudden change took place in the southern sky. The piled-up vapours condense into water; and the air, put into violent action to supply the vacuum left by the condensation of the mists, rouses itself into a whirlwind. It rushes on from the farthest recesses of the vast cavern. The darkness deepens; scarcely can I jot down a few hurried notes. The helm makes a bound. My uncle falls full length; I creep close to him. He has laid a firm hold upon a rope, and appears to watch with grim satisfaction this awful display of elemental strife.\nHans stirs not. His long hair blown by the pelting storm, and laid flat across his immovable countenance, makes him a strange figure; for the end of each lock of loose flowing hair is tipped with little luminous radiations. This frightful mask of electric sparks suggests to me, even in this dizzy excitement, a comparison with pre-adamite man, the contemporary of the ichthyosaurus and the Megatherium.\n13\nThe mast yet holds firm. The sail stretches tight like a bubble ready to burst. The raft flies at a rate that I cannot reckon, but not so fast as the foaming clouds of spray which it dashes from side to side in its headlong speed.\n“The sail! the sail!” I cry, motioning to lower it.\n“No!” replies my uncle.\n“\nNej!\n” repeats Hans, leisurely shaking his head.\nBut now the rain forms a rushing cataract in front of that horizon toward which we are running with such maddening speed. But before it has reached us the rain cloud parts asunder, the sea boils, and the electric fires are brought into violent action by a mighty chemical power that descends from the higher regions. The most vivid flashes of lightning are mingled with the violent crash of continuous thunder. Ceaseless fiery arrows dart in and out amongst the flying thunderclouds; the vaporous mass soon glows with incandescent heat; hailstones rattle fiercely down, and as they dash upon our iron tools they too emit gleams and flashes of lurid light. The heaving waves resemble fiery volcanic hills, each belching forth its own interior flames, and every crest is plumed with dancing fire. My eyes fail under the dazzling light, my ears are stunned with the incessant crash of thunder. I must be bound to the mast, which bows like a reed before the mighty strength of the storm.\n(Here my notes become vague and indistinct. I have only been able to find a few which I seem to have jotted down almost unconsciously. But their very brevity and their obscurity reveal the intensity of the excitement which dominated me, and describe the actual position even better than my memory could do.)",
+    "expected": "Friday, August 21 .On the morrow the magnificent geyser has disappeared. The wind has risen, and has rapidly carried us away from Axel Island. The roarings become lost in the distance. The weatherif we may use that termwill change before long. The atmosphere is charged with vapours, pervaded with the electricity generated by the evaporation of saline waters. The clouds are sinking lower, and assume an olive hue. The electric light can scarcely penetrate through the dense curtain which has dropped over the theatre on which the battle of the elements is about to be waged. I feel peculiar sensations, like many creatures on earth at the approach of violent atmospheric changes. The heavily voluted cumulus clouds lower gloomily and threateningly; they wear that implacable look which I have sometimes noticed at the outbreak of a great storm. The air is heavy; the sea is calm. In the distance the clouds resemble great bales of cotton, piled up in picturesque disorder. By degrees they dilate, and gain in huge size what they lose in number. Such is their ponderous weight that they cannot rise from the horizon; but, obeying an impulse from higher currents, their dense consistency slowly yields. The gloom upon them deepens; and they soon present to our view a ponderous mass of almost level surface. From time to time a fleecy tuft of mist, with yet some gleaming light left upon it, drops down upon the dense floor of grey, and loses itself in the opaque and impenetrable mass. The atmosphere is evidently charged and surcharged with electricity. My whole body is saturated; my hair bristles just as when you stand upon an insulated stool under the action of an electrical machine. It seems to me as if my companions, the moment they touched me, would receive a severe shock like that from an electric eel. At ten in the morning the symptoms of storm become aggravated. The wind never lulls but to acquire increased strength; the vast bank of heavy clouds is a huge reservoir of fearful windy gusts and rushing storms. I am loth to believe these atmospheric menaces, and yet I cannot help muttering: <<Heres some very bad weather coming on.>> The Professor made no answer. His temper is awful, to judge from the working of his features, as he sees this vast length of ocean unrolling before him to an indefinite extent. He can only spare time to shrug his shoulders viciously. <<Theres a heavy storm coming on,>> I cried, pointing towards the horizon. <<Those clouds seem as if they were going to crush the sea.>> A deep silence falls on all around. The lately roaring winds are hushed into a dead calm; nature seems to breathe no more, and to be sinking into the stillness of death. On the mast already I see the light play of a lambent St. Elmos fire; the outstretched sail catches not a breath of wind, and hangs like a sheet of lead. The rudder stands motionless in a sluggish, waveless sea. But if we have now ceased to advance why do we yet leave that sail loose, which at the first shock of the tempest may capsize us in a moment? <<Let us reef the sail and cut the mast down!>> I cried. <<That will be safest.>> <<No, no! Never!>> shouted my impetuous uncle. <<Never! Let the wind catch us if it will! What I want is to get the least glimpse of rock or shore, even if our raft should be smashed into shivers!>> The words were hardly out of his mouth when a sudden change took place in the southern sky. The piled-up vapours condense into water; and the air, put into violent action to supply the vacuum left by the condensation of the mists, rouses itself into a whirlwind. It rushes on from the farthest recesses of the vast cavern. The darkness deepens; scarcely can I jot down a few hurried notes. The helm makes a bound. My uncle falls full length; I creep close to him. He has laid a firm hold upon a rope, and appears to watch with grim satisfaction this awful display of elemental strife. Hans stirs not. His long hair blown by the pelting storm, and laid flat across his immovable countenance, makes him a strange figure; for the end of each lock of loose flowing hair is tipped with little luminous radiations. This frightful mask of electric sparks suggests to me, even in this dizzy excitement, a comparison with pre-adamite man, the contemporary of the ichthyosaurus and the Megatherium. 13 The mast yet holds firm. The sail stretches tight like a bubble ready to burst. The raft flies at a rate that I cannot reckon, but not so fast as the foaming clouds of spray which it dashes from side to side in its headlong speed. <<The sail! the sail!>> I cry, motioning to lower it. <<No!>> replies my uncle. << Nej! >> repeats Hans, leisurely shaking his head. But now the rain forms a rushing cataract in front of that horizon toward which we are running with such maddening speed. But before it has reached us the rain cloud parts asunder, the sea boils, and the electric fires are brought into violent action by a mighty chemical power that descends from the higher regions. The most vivid flashes of lightning are mingled with the violent crash of continuous thunder. Ceaseless fiery arrows dart in and out amongst the flying thunderclouds; the vaporous mass soon glows with incandescent heat; hailstones rattle fiercely down, and as they dash upon our iron tools they too emit gleams and flashes of lurid light. The heaving waves resemble fiery volcanic hills, each belching forth its own interior flames, and every crest is plumed with dancing fire. My eyes fail under the dazzling light, my ears are stunned with the incessant crash of thunder. I must be bound to the mast, which bows like a reed before the mighty strength of the storm. (Here my notes become vague and indistinct. I have only been able to find a few which I seem to have jotted down almost unconsciously. But their very brevity and their obscurity reveal the intensity of the excitement which dominated me, and describe the actual position even better than my memory could do.)"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 32,
+    "chapter_name": "XXXVI - Calm Philosophic Discussions",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "I followed him to a headland, after he had given his instructions to the hunter. There preserved meat, biscuit, and tea made us an excellent meal, one of the best I ever remember. Hunger, the fresh air, the calm quiet weather, after the commotions we had gone through, all contributed to give me a good appetite.",
+    "expected": "I followed him to a headland, after he had given his instructions to the hunter. There preserved meat, biscuit, and tea made us an excellent meal, one of the best I ever remember. Hunger, the fresh air, the calm quiet weather, after the commotions we had gone through, all contributed to give me a good appetite."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 33,
+    "chapter_name": "XXXVII - The Liedenbrock Museum of Geology",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "We moved with difficulty across these granite fissures and chasms mingled with silex, crystals of quartz, and alluvial deposits, when a field, nay, more than a field, a vast plain, of bleached bones lay spread before us. It seemed like an immense cemetery, where the remains of twenty ages mingled their dust together. Huge mounds of bony fragments rose stage after stage in the distance. They undulated away to the limits of the horizon, and melted in the distance in a faint haze. There within three square miles were accumulated the materials for a complete history of the animal life of ages, a history scarcely outlined in the too recent strata of the inhabited world.",
+    "expected": "We moved with difficulty across these granite fissures and chasms mingled with silex, crystals of quartz, and alluvial deposits, when a field, nay, more than a field, a vast plain, of bleached bones lay spread before us. It seemed like an immense cemetery, where the remains of twenty ages mingled their dust together. Huge mounds of bony fragments rose stage after stage in the distance. They undulated away to the limits of the horizon, and melted in the distance in a faint haze. There within three square miles were accumulated the materials for a complete history of the animal life of ages, a history scarcely outlined in the too recent strata of the inhabited world."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 34,
+    "chapter_name": "XXXVIII - The Professor in His Chair Again",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "It was not to be done. The unlucky word would not come out. At the Johannæum there would have been a laugh.",
+    "expected": "It was not to be done. The unlucky word would not come out. At the Johannum there would have been a laugh."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 35,
+    "chapter_name": "XXXIX - Forest Scenery Illuminated by Electricity",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "“No human creature?” replied my uncle in a lower voice. “You are wrong, Axel. Look, look down there! I fancy I see a living creature similar to ourselves: it is a man!”",
+    "expected": "<<No human creature?>> replied my uncle in a lower voice. <<You are wrong, Axel. Look, look down there! I fancy I see a living creature similar to ourselves: it is a man!>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 36,
+    "chapter_name": "XL - Preparations for Blasting a Passage to the Centre of the Earth",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "I sat down in despair. My uncle strode from side to side in the narrow passage.",
+    "expected": "I sat down in despair. My uncle strode from side to side in the narrow passage."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 37,
+    "chapter_name": "XLI - The Great Explosion and the Rush Down Below",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "What took place at that moment? I believe I did not hear the dull roar of the explosion. But the rocks suddenly assumed a new arrangement: they rent asunder like a curtain. I saw a bottomless pit open on the shore. The sea, lashed into sudden fury, rose up in an enormous billow, on the ridge of which the unhappy raft was uplifted bodily in the air with all its crew and cargo.",
+    "expected": "What took place at that moment? I believe I did not hear the dull roar of the explosion. But the rocks suddenly assumed a new arrangement: they rent asunder like a curtain. I saw a bottomless pit open on the shore. The sea, lashed into sudden fury, rose up in an enormous billow, on the ridge of which the unhappy raft was uplifted bodily in the air with all its crew and cargo."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 38,
+    "chapter_name": "XLII - Headlong Speed Upward Through the Horrors of Darkness",
+    "element_index": 43,
+    "element_type": "paragraph",
+    "raw": "“Well, let us consume it then,” I cried.",
+    "expected": "<<Well, let us consume it then,>> I cried."
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 39,
+    "chapter_name": "XLIII - Shot Out of a Volcano at Last!",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "“I believe we are,” said the indomitable Professor with an air of perfect self-possession; “and it is the best thing that could possibly happen to us under our circumstances.”",
+    "expected": "<<I believe we are,>> said the indomitable Professor with an air of perfect self-possession; <<and it is the best thing that could possibly happen to us under our circumstances.>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 40,
+    "chapter_name": "XLIV - Sunny Lands in the Blue Mediterranean",
+    "element_index": 28,
+    "element_type": "paragraph",
+    "raw": "“Unless, indeed, this is the North Pole!”",
+    "expected": "<<Unless, indeed, this is the North Pole!>>"
+  },
+  {
+    "book": "jules-verne-journey-to-the-center-of-the-earth-f-a-malleson-(1)",
+    "chapter_index": 41,
+    "chapter_name": "XLV - Alls Well That Ends Well",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "While these questions were being debated with great animation, my uncle met with a real sorrow. Our faithful Hans, in spite of our entreaties, had left Hamburg; the man to whom we owed all our success and our lives too would not suffer us to reward him as we could have wished. He was seized with the \nmal de pays\n, a complaint for which we have not even a name in English.",
+    "expected": "While these questions were being debated with great animation, my uncle met with a real sorrow. Our faithful Hans, in spite of our entreaties, had left Hamburg; the man to whom we owed all our success and our lives too would not suffer us to reward him as we could have wished. He was seized with the mal de pays , a complaint for which we have not even a name in English."
+  }
+]

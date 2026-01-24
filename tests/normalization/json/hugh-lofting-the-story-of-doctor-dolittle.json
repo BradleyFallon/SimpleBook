@@ -1,0 +1,191 @@
+[
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 1,
+    "chapter_name": "I - Puddleby",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "Sixpence a year wasn’t enough to live on﻿—even in those days, long ago; and if the Doctor hadn’t had some money saved up in his money-box, no one knows what would have happened.",
+    "expected": "Sixpence a year wasnt enough to live oneven in those days, long ago; and if the Doctor hadnt had some money saved up in his money-box, no one knows what would have happened."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 2,
+    "chapter_name": "II - Animal Language",
+    "element_index": 39,
+    "element_type": "paragraph",
+    "raw": "And soon it became a common sight to see farm-animals wearing glasses in the country round Puddleby; and a blind horse was a thing unknown.",
+    "expected": "And soon it became a common sight to see farm-animals wearing glasses in the country round Puddleby; and a blind horse was a thing unknown."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 3,
+    "chapter_name": "III - More Money Troubles",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "Of course at first they all found their new jobs very hard to do﻿—all except Chee-Chee, who had hands, and could do things like a man. But they soon got used to it; and they used to think it great fun to watch Jip, the dog, sweeping his tail over the floor with a rag tied onto it for a broom. After a little they got to do the work so well that the Doctor said that he had never had his house kept so tidy or so clean before.",
+    "expected": "Of course at first they all found their new jobs very hard to doall except Chee-Chee, who had hands, and could do things like a man. But they soon got used to it; and they used to think it great fun to watch Jip, the dog, sweeping his tail over the floor with a rag tied onto it for a broom. After a little they got to do the work so well that the Doctor said that he had never had his house kept so tidy or so clean before."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 4,
+    "chapter_name": "IV - A Message from Africa",
+    "element_index": 26,
+    "element_type": "paragraph",
+    "raw": "So the sailor went to see the grocer. And presently he came back with all the things they wanted.",
+    "expected": "So the sailor went to see the grocer. And presently he came back with all the things they wanted."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 5,
+    "chapter_name": "V - The Great Journey",
+    "element_index": 36,
+    "element_type": "paragraph",
+    "raw": "“You must all come before the King,” said the black man.",
+    "expected": "<<You must all come before the King,>> said the black man."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 6,
+    "chapter_name": "VI - Polynesia and the King",
+    "element_index": 28,
+    "element_type": "paragraph",
+    "raw": "“Foolish King!” answered Polynesia. “Have you forgotten that you are talking to John Dolittle, \nM.D.\n﻿—the most wonderful man on earth? Of course you cannot see me. I have made myself invisible. There is nothing I cannot do. Now listen: I have come here tonight to warn you. If you don’t let me and my animals travel through your kingdom, I will make you and all your people sick like the monkeys. For I can make people well: and I can make people ill﻿—just by raising my little finger. Send your soldiers at once to open the dungeon door, or you shall have mumps before the morning sun has risen on the hills of Jolliginki.”",
+    "expected": "<<Foolish King!>> answered Polynesia. <<Have you forgotten that you are talking to John Dolittle, M.D. the most wonderful man on earth? Of course you cannot see me. I have made myself invisible. There is nothing I cannot do. Now listen: I have come here tonight to warn you. If you dont let me and my animals travel through your kingdom, I will make you and all your people sick like the monkeys. For I can make people well: and I can make people illjust by raising my little finger. Send your soldiers at once to open the dungeon door, or you shall have mumps before the morning sun has risen on the hills of Jolliginki.>>"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 7,
+    "chapter_name": "VII - The Bridge of Apes",
+    "element_index": 37,
+    "element_type": "paragraph",
+    "raw": "Then Chee-Chee turned to the Doctor and said,",
+    "expected": "Then Chee-Chee turned to the Doctor and said,"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 8,
+    "chapter_name": "VIII - The Leader of the Lions",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "But so many were sick, there were not enough well ones to do the nursing. So he sent messages to the other animals, like the lions and the leopards and the antelopes, to come and help with the nursing.",
+    "expected": "But so many were sick, there were not enough well ones to do the nursing. So he sent messages to the other animals, like the lions and the leopards and the antelopes, to come and help with the nursing."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 9,
+    "chapter_name": "IX - The Monkeys Council",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "“If you want to please him,” he said, “give him an animal. You may be sure he will be kind to it. Give him some rare animal they have not got in the menageries.”",
+    "expected": "<<If you want to please him,>> he said, <<give him an animal. You may be sure he will be kind to it. Give him some rare animal they have not got in the menageries.>>"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 10,
+    "chapter_name": "X - The Rarest Animal of All",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "“Yes,” said the pushmi-pullyu﻿—“to the Abyssinian Gazelles and the Asiatic Chamois﻿—on my mother’s side. My father’s great-grandfather was the last of the Unicorns.”",
+    "expected": "<<Yes,>> said the pushmi-pullyu<<to the Abyssinian Gazelles and the Asiatic Chamoison my mothers side. My fathers great-grandfather was the last of the Unicorns.>>"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 11,
+    "chapter_name": "XI - The Black Prince",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "“If I were only a \nwhite\n prince!” said he, with a dreamy, faraway look in his eyes.",
+    "expected": "<<If I were only a white prince!>> said he, with a dreamy, faraway look in his eyes."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 12,
+    "chapter_name": "XII - Medicine and Magic",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "“Yes, that is all,” said Bumpo. “Because I shall wear shining armor and gauntlets of steel, like the other white princes, and ride on a horse.”",
+    "expected": "<<Yes, that is all,>> said Bumpo. <<Because I shall wear shining armor and gauntlets of steel, like the other white princes, and ride on a horse.>>"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 13,
+    "chapter_name": "XIII - Red Sails and Blue Wings",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "Now one sunshiny day the Doctor and Dab-Dab were walking up and down on the ship for exercise; a nice fresh wind was blowing the boat along, and everybody was happy. Presently Dab-Dab saw the sail of another ship a long way behind them on the edge of the sea. It was a red sail.",
+    "expected": "Now one sunshiny day the Doctor and Dab-Dab were walking up and down on the ship for exercise; a nice fresh wind was blowing the boat along, and everybody was happy. Presently Dab-Dab saw the sail of another ship a long way behind them on the edge of the sea. It was a red sail."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 14,
+    "chapter_name": "XIV - The Rats Warning",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“Yes,” said the Doctor﻿—“so I’ve been told.”",
+    "expected": "<<Yes,>> said the Doctor<<so Ive been told.>>"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 15,
+    "chapter_name": "XV - The Barbary Dragon",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "Some of them started to swim for the shores of the island; while others came and tried to get on to the boat where the Doctor was. But Jip kept snapping at their noses, so they were afraid to climb up the side of the ship.",
+    "expected": "Some of them started to swim for the shores of the island; while others came and tried to get on to the boat where the Doctor was. But Jip kept snapping at their noses, so they were afraid to climb up the side of the ship."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 16,
+    "chapter_name": "XVI - Too-Too, the Listener",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "So the Doctor went downstairs and he saw that it was indeed a beautiful ship. He found the animals gathered round a little door, all talking at once, trying to guess what was inside. The Doctor turned the handle but it wouldn’t open. Then they all started to hunt for the key. They looked under the mat; they looked under all the carpets; they looked in all the cupboards and drawers and lockers﻿—in the big chests in the ship’s dining-room; they looked everywhere.",
+    "expected": "So the Doctor went downstairs and he saw that it was indeed a beautiful ship. He found the animals gathered round a little door, all talking at once, trying to guess what was inside. The Doctor turned the handle but it wouldnt open. Then they all started to hunt for the key. They looked under the mat; they looked under all the carpets; they looked in all the cupboards and drawers and lockersin the big chests in the ships dining-room; they looked everywhere."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 17,
+    "chapter_name": "VII - The Ocean Gossips",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "“What are those funny, clicking noises you are making with your tongue?” asked the boy.",
+    "expected": "<<What are those funny, clicking noises you are making with your tongue?>> asked the boy."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 18,
+    "chapter_name": "XVIII - Smells",
+    "element_index": 41,
+    "element_type": "paragraph",
+    "raw": "“Bricks,” he whispered, very low﻿—“old yellow bricks, crumbling with age in a garden-wall; the sweet breath of young cows standing in a mountain-stream; the lead roof of a dovecote﻿—or perhaps a granary﻿—with the midday sun on it; black kid gloves lying in a bureau-drawer of walnut-wood; a dusty road with a horses’ drinking-trough beneath the sycamores; little mushrooms bursting through the rotting leaves; and﻿—and﻿—and﻿—”",
+    "expected": "<<Bricks,>> he whispered, very low<<old yellow bricks, crumbling with age in a garden-wall; the sweet breath of young cows standing in a mountain-stream; the lead roof of a dovecoteor perhaps a granarywith the midday sun on it; black kid gloves lying in a bureau-drawer of walnut-wood; a dusty road with a horses drinking-trough beneath the sycamores; little mushrooms bursting through the rotting leaves; andandand>>"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 19,
+    "chapter_name": "XIX - The Rock",
+    "element_index": 36,
+    "element_type": "paragraph",
+    "raw": "Jip at once put his nose down close to the ground and began to run all over the place. Up and down he went, back and forth﻿—zigzagging, twisting, doubling and turning. And everywhere he went, the Doctor ran behind him, close at his heels﻿—till he was terribly out of breath.",
+    "expected": "Jip at once put his nose down close to the ground and began to run all over the place. Up and down he went, back and forthzigzagging, twisting, doubling and turning. And everywhere he went, the Doctor ran behind him, close at his heelstill he was terribly out of breath."
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 20,
+    "chapter_name": "XX - The Fishermans Town",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "And all the little boys of the fishing-village went down to the beach and pointed at the great ship anchored there, and said to one another in whispers,",
+    "expected": "And all the little boys of the fishing-village went down to the beach and pointed at the great ship anchored there, and said to one another in whispers,"
+  },
+  {
+    "book": "hugh-lofting-the-story-of-doctor-dolittle",
+    "chapter_index": 21,
+    "chapter_name": "XXI - Home Again",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "“I wonder what The Good Man’s doing now﻿—over there, in the Land of the White Men! Do you think he ever will come back?”",
+    "expected": "<<I wonder what The Good Mans doing nowover there, in the Land of the White Men! Do you think he ever will come back?>>"
+  }
+]

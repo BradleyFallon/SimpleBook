@@ -6,10 +6,19 @@ build-backend = "setuptools.build_meta"
 name = "simplebook"
 version = "0.1.0"
 description = "Deterministic EPUB normalizer and tooling."
-readme = "docs/src/README.md"
+readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "UNLICENSED" }
-
+license = { file = "LICENSE" }
+authors = [{ name = "Bradley Fallon", email = "bradley.fallon@gmail.com" }]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
 dependencies = [
   "ebooklib>=0.18",
   "beautifulsoup4>=4.12.0",
@@ -17,10 +26,15 @@ dependencies = [
   "jsonschema>=4.0.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/BradleyFallon/SimpleBook"
+Repository = "https://github.com/BradleyFallon/SimpleBook"
+
 [project.optional-dependencies]
 dev = [
   "pytest>=7.0.0",
   "hypothesis>=6.0.0",
+  "PyYAML>=6.0",
   "black>=24.0.0",
   "ruff>=0.5.0",
   "pyright>=1.1.0",
@@ -34,10 +48,14 @@ simplebook = "simplebook.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
+include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["simplebook"]
+
+[tool.setuptools.package-data]
+simplebook = ["output_schema.json"]
 
 [tool.pytest.ini_options]
 addopts = "-q"

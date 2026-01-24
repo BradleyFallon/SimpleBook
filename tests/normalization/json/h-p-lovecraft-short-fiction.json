@@ -1,0 +1,299 @@
+[
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 0,
+    "chapter_name": "The Alchemist",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "Of my exact age, even down to days and hours, I kept a most careful record, for each movement of the pendulum of the massive clock in the library tolled off so much more of my doomed existence. At length I approached that time which I had so long viewed with apprehension. Since most of my ancestors had been seized some little while before they reached the exact age of the Comte Henri at his end, I was every moment on the watch for the coming of the unknown death. In what strange form the curse should overtake me, I knew not; but I was resolved at least that it should not find me a cowardly or a passive victim. With new vigour I applied myself to my examination of the old château and its contents.",
+    "expected": "Of my exact age, even down to days and hours, I kept a most careful record, for each movement of the pendulum of the massive clock in the library tolled off so much more of my doomed existence. At length I approached that time which I had so long viewed with apprehension. Since most of my ancestors had been seized some little while before they reached the exact age of the Comte Henri at his end, I was every moment on the watch for the coming of the unknown death. In what strange form the curse should overtake me, I knew not; but I was resolved at least that it should not find me a cowardly or a passive victim. With new vigour I applied myself to my examination of the old chateau and its contents."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 1,
+    "chapter_name": "A Reminiscence of Dr. Samuel Johnson",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "I had no personal Acquaintances with the Doctor till 1763, when I was presented to him at the \nMitre\n Tavern by \nMr.\n \nJames Boswell\n, a young \nScotchman\n of excellent Family and great Learning, but small Wit, whose metrical Effusions I had sometimes revis’d.",
+    "expected": "I had no personal Acquaintances with the Doctor till 1763, when I was presented to him at the Mitre Tavern by Mr. James Boswell , a young Scotchman of excellent Family and great Learning, but small Wit, whose metrical Effusions I had sometimes revisd."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 2,
+    "chapter_name": "Beyond the Wall of Sleep",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "It was from a youthful reverie filled with speculations of this sort that I arose one afternoon in the winter of 1900﻿–﻿01, when to the state psychopathic institution in which I served as an interne was brought the man whose case has ever since haunted me so unceasingly. His name, as given on the records, was Joe Slater, or Slaader, and his appearance was that of the typical denizen of the Catskill Mountain region; one of those strange, repellent scions of a primitive Colonial peasant stock whose isolation for nearly three centuries in the hilly fastnesses of a little travelled countryside has caused them to sink to a kind of barbaric degeneracy, rather than advance with their more fortunately placed brethren of the thickly settled districts. Among these odd folk, who correspond exactly to the decadent element of “white trash” in the south, law and morals are nonexistent; and their general mental status is probably below that of any other section of the native American people.",
+    "expected": "It was from a youthful reverie filled with speculations of this sort that I arose one afternoon in the winter of 190001, when to the state psychopathic institution in which I served as an interne was brought the man whose case has ever since haunted me so unceasingly. His name, as given on the records, was Joe Slater, or Slaader, and his appearance was that of the typical denizen of the Catskill Mountain region; one of those strange, repellent scions of a primitive Colonial peasant stock whose isolation for nearly three centuries in the hilly fastnesses of a little travelled countryside has caused them to sink to a kind of barbaric degeneracy, rather than advance with their more fortunately placed brethren of the thickly settled districts. Among these odd folk, who correspond exactly to the decadent element of <<white trash>> in the south, law and morals are nonexistent; and their general mental status is probably below that of any other section of the native American people."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 3,
+    "chapter_name": "Dagon",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "The sun was blazing down from a sky which seemed to me almost black in its cloudless cruelty; as though reflecting the inky marsh beneath my feet. As I crawled into the stranded boat I realized that only one theory could explain my position. Through some unprecedented volcanic upheaval, a portion of the ocean floor must have been thrown to the surface, exposing regions which for innumerable millions of years had lain hidden under unfathomable watery depths. So great was the extent of the new land which had risen under me, that I could not detect the faintest noise of the surging ocean, strain my ears as I might. Nor were there any sea-fowl to prey upon the dead things.",
+    "expected": "The sun was blazing down from a sky which seemed to me almost black in its cloudless cruelty; as though reflecting the inky marsh beneath my feet. As I crawled into the stranded boat I realized that only one theory could explain my position. Through some unprecedented volcanic upheaval, a portion of the ocean floor must have been thrown to the surface, exposing regions which for innumerable millions of years had lain hidden under unfathomable watery depths. So great was the extent of the new land which had risen under me, that I could not detect the faintest noise of the surging ocean, strain my ears as I might. Nor were there any sea-fowl to prey upon the dead things."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 4,
+    "chapter_name": "The White Ship",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "Then came we to a pleasant coast gay with blossoms of every hue, where as far inland as we could see basked lovely groves and radiant arbours beneath a meridian sun. From bowers beyond our view came bursts of song and snatches of lyric harmony, interspersed with faint laughter so delicious that I urged the rowers onward in my eagerness to reach the scene. And the bearded man spoke no word, but watched me as we approached the lily-lined shore. Suddenly a wind blowing from over the flowery meadows and leafy woods brought a scent at which I trembled. The wind grew stronger, and the air was filled with the lethal, charnel odour of plague-stricken towns and uncovered cemeteries. And as we sailed madly away from that damnable coast the bearded man spoke at last, saying, “This is Xura, the Land of Pleasures Unattained.”",
+    "expected": "Then came we to a pleasant coast gay with blossoms of every hue, where as far inland as we could see basked lovely groves and radiant arbours beneath a meridian sun. From bowers beyond our view came bursts of song and snatches of lyric harmony, interspersed with faint laughter so delicious that I urged the rowers onward in my eagerness to reach the scene. And the bearded man spoke no word, but watched me as we approached the lily-lined shore. Suddenly a wind blowing from over the flowery meadows and leafy woods brought a scent at which I trembled. The wind grew stronger, and the air was filled with the lethal, charnel odour of plague-stricken towns and uncovered cemeteries. And as we sailed madly away from that damnable coast the bearded man spoke at last, saying, <<This is Xura, the Land of Pleasures Unattained.>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 5,
+    "chapter_name": "The Statement of Randolph Carter",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "The tone changed again, this time acquiring a softer quality, as of hopeless resignation. Yet it remained tense through anxiety for me.",
+    "expected": "The tone changed again, this time acquiring a softer quality, as of hopeless resignation. Yet it remained tense through anxiety for me."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 6,
+    "chapter_name": "Polaris",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "Alos, my friend, was commander of all the forces on the plateau, and in him lay the last hope of our country. On this occasion he spoke of the perils to be faced and exhorted the men of Olathoe, bravest of the Lomarians, to sustain the traditions of their ancestors, who when forced to move southward from Zobna before the advance of the great ice sheet, (even as our descendants must some day flee from the land of Lomar) valiantly and victoriously swept aside the hairy, long-armed, cannibal Gnophkehs that stood in their way. To me Alos denied a warrior’s part, for I was feeble and given to strange faintings when subjected to stress and hardships. But my eyes were the keenest in the city, despite the long hours I gave each day to the study of the Pnakotic manuscripts and the wisdom of the Zobnarian Fathers; so my friend, desiring not to doom me to inaction, rewarded me with that duty which was second to nothing in importance. To the watchtower of Thapnen he sent me, there to serve as the eyes of our army. Should the Inutos attempt to gain the citadel by the narrow pass behind the peak Noton and thereby surprise the garrison, I was to give the signal of fire which would warn the waiting soldiers, and, save the town from immediate disaster.",
+    "expected": "Alos, my friend, was commander of all the forces on the plateau, and in him lay the last hope of our country. On this occasion he spoke of the perils to be faced and exhorted the men of Olathoe, bravest of the Lomarians, to sustain the traditions of their ancestors, who when forced to move southward from Zobna before the advance of the great ice sheet, (even as our descendants must some day flee from the land of Lomar) valiantly and victoriously swept aside the hairy, long-armed, cannibal Gnophkehs that stood in their way. To me Alos denied a warriors part, for I was feeble and given to strange faintings when subjected to stress and hardships. But my eyes were the keenest in the city, despite the long hours I gave each day to the study of the Pnakotic manuscripts and the wisdom of the Zobnarian Fathers; so my friend, desiring not to doom me to inaction, rewarded me with that duty which was second to nothing in importance. To the watchtower of Thapnen he sent me, there to serve as the eyes of our army. Should the Inutos attempt to gain the citadel by the narrow pass behind the peak Noton and thereby surprise the garrison, I was to give the signal of fire which would warn the waiting soldiers, and, save the town from immediate disaster."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 7,
+    "chapter_name": "Ex Oblivione",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "Many times I walked through that valley, and longer and longer would I pause in the spectral half-light where the giant trees squirmed and twisted grotesquely, and the grey ground stretched damply from trunk to trunk, sometimes disclosing the mould-stained stones of buried temples. And always the goal of my fancies was the mighty vine-grown wall with the little gate of bronze therein.",
+    "expected": "Many times I walked through that valley, and longer and longer would I pause in the spectral half-light where the giant trees squirmed and twisted grotesquely, and the grey ground stretched damply from trunk to trunk, sometimes disclosing the mould-stained stones of buried temples. And always the goal of my fancies was the mighty vine-grown wall with the little gate of bronze therein."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 8,
+    "chapter_name": "Facts Concerning the Late Arthur Jermyn and His Family 1",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "Madness was in all the Jermyns, and people were glad there were not many of them. The line put forth no branches, and Arthur was the last of it. If he had not been, one can not say what he would have done when the \nobject\n came.",
+    "expected": "Madness was in all the Jermyns, and people were glad there were not many of them. The line put forth no branches, and Arthur was the last of it. If he had not been, one can not say what he would have done when the object came."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 9,
+    "chapter_name": "The Picture in the House",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "Here the old man lapsed into a kind of chuckle, and made no explanation when I questioned him. He seemed to be in an aboundingly good humor, yet to possess those eccentricities which one might guess from his grooming. For some time he rambled on with an almost feverish geniality, when it struck me to ask him how he came by so rare a book as Pigafetta’s \nRegnum Congo\n. The effect of this volume had not left me, and I felt a certain hesitancy in speaking of it; but curiosity overmastered all the vague fears which had steadily accumulated since my first glimpse of the house. To my relief, the question did not seem an awkward one; for the old man answered freely and volubly.",
+    "expected": "Here the old man lapsed into a kind of chuckle, and made no explanation when I questioned him. He seemed to be in an aboundingly good humor, yet to possess those eccentricities which one might guess from his grooming. For some time he rambled on with an almost feverish geniality, when it struck me to ask him how he came by so rare a book as Pigafettas Regnum Congo . The effect of this volume had not left me, and I felt a certain hesitancy in speaking of it; but curiosity overmastered all the vague fears which had steadily accumulated since my first glimpse of the house. To my relief, the question did not seem an awkward one; for the old man answered freely and volubly."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 10,
+    "chapter_name": "The Music of Erich Zann",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "It was perhaps an hour later, while I still waited and while the old musician’s feverishly written sheets still continued to pile up, that I saw Zann start as from the hint of a horrible shock. Unmistakably he was looking at the curtained window and listening shudderingly. Then I half fancied I heard a sound myself; though it was not a horrible sound, but rather an exquisitely low and infinitely distant musical note, suggesting a player in one of the neighboring houses, or in some abode beyond the lofty wall over which I had never been able to look. Upon Zann the effect was terrible, for, dropping his pencil, suddenly he rose, seized his viol, and commenced to rend the night with the wildest playing I had ever heard from his bow save when listening at the barred door.",
+    "expected": "It was perhaps an hour later, while I still waited and while the old musicians feverishly written sheets still continued to pile up, that I saw Zann start as from the hint of a horrible shock. Unmistakably he was looking at the curtained window and listening shudderingly. Then I half fancied I heard a sound myself; though it was not a horrible sound, but rather an exquisitely low and infinitely distant musical note, suggesting a player in one of the neighboring houses, or in some abode beyond the lofty wall over which I had never been able to look. Upon Zann the effect was terrible, for, dropping his pencil, suddenly he rose, seized his viol, and commenced to rend the night with the wildest playing I had ever heard from his bow save when listening at the barred door."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 11,
+    "chapter_name": "Celephais",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "Kuranes came very suddenly upon his old world of childhood. He had been dreaming of the house where he had been born; the great stone house covered with ivy, where thirteen generations of his ancestors had lived, and where he had hoped to die. It was moonlight, and he had stolen out into the fragrant summer night, through the gardens, down the terraces, past the great oaks of the park, and along the long white road to the village. The village seemed very old, eaten away at the edge like the moon which had commenced to wane, and Kuranes wondered whether the peaked roofs of the small houses hid sleep or death. In the streets were spears of long grass, and the windowpanes on either side were either broken or filmily staring. Kuranes had not lingered, but had plodded on as though summoned toward some goal. He dared not disobey the summons for fear it might prove an illusion like the urges and aspirations of waking life, which do not lead to any goal. Then he had been drawn down a lane that led off from the village street toward the channel cliffs, and had come to the end of things﻿—to the precipice and the abyss where all the village and all the world fell abruptly into the unechoing emptiness of infinity, and where even the sky ahead was empty and unlit by the crumbling moon and the peering stars. Faith had urged him on, over the precipice and into the gulf, where he had floated down, down, down; past dark, shapeless, undreamed dreams, faintly glowing spheres that may have been partly dreamed dreams, and laughing winged things that seemed to mock the dreamers of all the worlds. Then a rift seemed to open in the darkness before him, and he saw the city of the valley, glistening radiantly far, far below, with a background of sea and sky, and a snow-capped mountain near the shore.",
+    "expected": "Kuranes came very suddenly upon his old world of childhood. He had been dreaming of the house where he had been born; the great stone house covered with ivy, where thirteen generations of his ancestors had lived, and where he had hoped to die. It was moonlight, and he had stolen out into the fragrant summer night, through the gardens, down the terraces, past the great oaks of the park, and along the long white road to the village. The village seemed very old, eaten away at the edge like the moon which had commenced to wane, and Kuranes wondered whether the peaked roofs of the small houses hid sleep or death. In the streets were spears of long grass, and the windowpanes on either side were either broken or filmily staring. Kuranes had not lingered, but had plodded on as though summoned toward some goal. He dared not disobey the summons for fear it might prove an illusion like the urges and aspirations of waking life, which do not lead to any goal. Then he had been drawn down a lane that led off from the village street toward the channel cliffs, and had come to the end of thingsto the precipice and the abyss where all the village and all the world fell abruptly into the unechoing emptiness of infinity, and where even the sky ahead was empty and unlit by the crumbling moon and the peering stars. Faith had urged him on, over the precipice and into the gulf, where he had floated down, down, down; past dark, shapeless, undreamed dreams, faintly glowing spheres that may have been partly dreamed dreams, and laughing winged things that seemed to mock the dreamers of all the worlds. Then a rift seemed to open in the darkness before him, and he saw the city of the valley, glistening radiantly far, far below, with a background of sea and sky, and a snow-capped mountain near the shore."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 12,
+    "chapter_name": "Hypnos",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "I said to myself, with all the ardor of a sculptor, that this man was a faun’s statue out of antique Hellas, dug from a temple’s ruins and brought somehow to life in our stifling age only to feel the chill and pressure of devastating years. And when he opened his immense, sunken, and wildly luminous black eyes I knew he would be thenceforth my only friend﻿—the only friend of one who had never possessed a friend before﻿—for I saw that such eyes must have looked fully upon the grandeur and the terror of realms beyond normal consciousness and reality; realms which I had cherished in fancy, but vainly sought. So as I drove the crowd away I told him he must come home with me and be my teacher and leader in unfathomed mysteries, and he assented without speaking a word. Afterward I found that his voice was music﻿—the music of deep viols and of crystalline spheres. We talked often in the night, and in the day, when I chiseled busts of him and carved miniature heads in ivory to immortalize his different expressions.",
+    "expected": "I said to myself, with all the ardor of a sculptor, that this man was a fauns statue out of antique Hellas, dug from a temples ruins and brought somehow to life in our stifling age only to feel the chill and pressure of devastating years. And when he opened his immense, sunken, and wildly luminous black eyes I knew he would be thenceforth my only friendthe only friend of one who had never possessed a friend beforefor I saw that such eyes must have looked fully upon the grandeur and the terror of realms beyond normal consciousness and reality; realms which I had cherished in fancy, but vainly sought. So as I drove the crowd away I told him he must come home with me and be my teacher and leader in unfathomed mysteries, and he assented without speaking a word. Afterward I found that his voice was musicthe music of deep viols and of crystalline spheres. We talked often in the night, and in the day, when I chiseled busts of him and carved miniature heads in ivory to immortalize his different expressions."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 13,
+    "chapter_name": "The Rats in the Walls",
+    "element_index": 76,
+    "element_type": "paragraph",
+    "raw": "Something bumped into me﻿—something soft and plump. It must have been the rats; the viscous, gelatinous, ravenous army that feast on the dead and the living.﻿ ﻿… Why shouldn’t rats eat a de la Poer as a de la Poer eats forbidden things?﻿ ﻿… The war ate my boy, damn them all﻿ ﻿… and the Yanks ate Carfax with flames and burnt Grandsire Delapore and the secret﻿ ﻿… No, no, I tell you, I am \nnot\n that daemon swineherd in the twilit grotto! It was not Edward Norrys’ fat face on that flabby, fungous thing! Who says I am a de la Poer? He lived, but my boy died!﻿ ﻿… Shall a Norrys hold the lands of a de la Poer?﻿ ﻿… It’s voodoo, I tell you﻿ ﻿… that spotted snake﻿ ﻿… Curse you, Thornton, I’ll teach you to faint at what my family do!﻿ ﻿… ’Sblood, thou stinkard, I’ll learn ye how to gust﻿ ﻿… wolde ye swynke me thilke wys?﻿ ﻿… \nMagna Mater! Magna Mater!﻿ ﻿… Atys\n﻿ ﻿… \nDia ad aghaidh ’s ad aodaun﻿ ﻿… agus bas dunach ort! Dhonas ’s dholas ort, agus leat-sa!﻿ ﻿…\n \nUngl﻿ ﻿… nngl﻿ ﻿… rrrlh﻿ ﻿… ckckck.﻿ ﻿…",
+    "expected": "Something bumped into mesomething soft and plump. It must have been the rats; the viscous, gelatinous, ravenous army that feast on the dead and the living. ... Why shouldnt rats eat a de la Poer as a de la Poer eats forbidden things? ... The war ate my boy, damn them all ... and the Yanks ate Carfax with flames and burnt Grandsire Delapore and the secret ... No, no, I tell you, I am not that daemon swineherd in the twilit grotto! It was not Edward Norrys fat face on that flabby, fungous thing! Who says I am a de la Poer? He lived, but my boy died! ... Shall a Norrys hold the lands of a de la Poer? ... Its voodoo, I tell you ... that spotted snake ... Curse you, Thornton, Ill teach you to faint at what my family do! ... Sblood, thou stinkard, Ill learn ye how to gust ... wolde ye swynke me thilke wys? ... Magna Mater! Magna Mater! ... Atys ... Dia ad aghaidh s ad aodaun ... agus bas dunach ort! Dhonas s dholas ort, agus leat-sa! ... Ungl ... nngl ... rrrlh ... ckckck. ..."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 14,
+    "chapter_name": "The Festival",
+    "element_index": 28,
+    "element_type": "blockquote",
+    "raw": "“The nethermost caverns,” wrote the mad Arab, “are not for the fathoming of eyes that see; for their marvels are strange and terrific. Cursed the ground where dead thoughts live new and oddly bodied, and evil the mind that is held by no head. Wisely did Ibn Schacabac say that happy is the tomb where no wizard hath lain, and happy the town at night whose wizards are all in ashes. For it is of old rumour that the soul of the devil-bought hastes not from his charnel clay, but fats and instructs \nthe very worm that gnaws\n; till out of corruption horrid life springs, and the dull scavengers of earth wax crafty to vex it and swell monstrous to plague it. Great holes secretly are digged where earth’s pores ought to suffice, and things have learnt to walk that ought to crawl.”",
+    "expected": "<<The nethermost caverns,>> wrote the mad Arab, <<are not for the fathoming of eyes that see; for their marvels are strange and terrific. Cursed the ground where dead thoughts live new and oddly bodied, and evil the mind that is held by no head. Wisely did Ibn Schacabac say that happy is the tomb where no wizard hath lain, and happy the town at night whose wizards are all in ashes. For it is of old rumour that the soul of the devil-bought hastes not from his charnel clay, but fats and instructs the very worm that gnaws ; till out of corruption horrid life springs, and the dull scavengers of earth wax crafty to vex it and swell monstrous to plague it. Great holes secretly are digged where earths pores ought to suffice, and things have learnt to walk that ought to crawl.>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 15,
+    "chapter_name": "The Unnamable",
+    "element_index": 15,
+    "element_type": "paragraph",
+    "raw": "“There were some bones up under the eaves. They may have been what that boy saw﻿—if he was sensitive he wouldn’t have needed anything in the window-glass to unhinge him. If they all came from the same object it must have been an hysterical, delirious monstrosity. It would have been blasphemous to leave such bones in the world, so I went back with a sack and took them to the tomb behind the house. There was an opening where I could dump them in. Don’t think I was a fool﻿—you ought to have seen that skull. It had four-inch horns, but a face and jaw something like yours and mine.”",
+    "expected": "<<There were some bones up under the eaves. They may have been what that boy sawif he was sensitive he wouldnt have needed anything in the window-glass to unhinge him. If they all came from the same object it must have been an hysterical, delirious monstrosity. It would have been blasphemous to leave such bones in the world, so I went back with a sack and took them to the tomb behind the house. There was an opening where I could dump them in. Dont think I was a foolyou ought to have seen that skull. It had four-inch horns, but a face and jaw something like yours and mine.>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 16,
+    "chapter_name": "The Temple",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "On August 9, we espied the ocean floor, and sent a powerful beam from the searchlight over it. It was a vast undulating plain, mostly covered with seaweed, and strown with the shells of small molluscs. Here and there were slimy objects of puzzling contour, draped with weeds and encrusted with barnacles, which Klenze declared must be ancient ships lying in their graves. He was puzzled by one thing, a peak of solid matter, protruding above the ocean bed nearly four feet at its apex; about two feet thick, with flat sides and smooth upper surfaces which met at a very obtuse angle. I called the peak a bit of outcropping rock, but Klenze thought he saw carvings on it. After a while he began to shudder, and turned away from the scene as if frightened; yet could give no explanation save that he was overcome with the vastness, darkness, remoteness, antiquity, and mystery of the oceanic abysses. His mind was tired, but I am always a German, and was quick to notice two things; that the U-29 was standing the deep-sea pressure splendidly, and that the peculiar dolphins were still about us, even at a depth where the existence of high organisms is considered impossible by most naturalists. That I had previously overestimated our depth, I was sure; but none the less we must still be deep enough to make these phenomena remarkable. Our southward speed, as gauged by the ocean floor, was about as I had estimated from the organisms passed at higher levels.",
+    "expected": "On August 9, we espied the ocean floor, and sent a powerful beam from the searchlight over it. It was a vast undulating plain, mostly covered with seaweed, and strown with the shells of small molluscs. Here and there were slimy objects of puzzling contour, draped with weeds and encrusted with barnacles, which Klenze declared must be ancient ships lying in their graves. He was puzzled by one thing, a peak of solid matter, protruding above the ocean bed nearly four feet at its apex; about two feet thick, with flat sides and smooth upper surfaces which met at a very obtuse angle. I called the peak a bit of outcropping rock, but Klenze thought he saw carvings on it. After a while he began to shudder, and turned away from the scene as if frightened; yet could give no explanation save that he was overcome with the vastness, darkness, remoteness, antiquity, and mystery of the oceanic abysses. His mind was tired, but I am always a German, and was quick to notice two things; that the U-29 was standing the deep-sea pressure splendidly, and that the peculiar dolphins were still about us, even at a depth where the existence of high organisms is considered impossible by most naturalists. That I had previously overestimated our depth, I was sure; but none the less we must still be deep enough to make these phenomena remarkable. Our southward speed, as gauged by the ocean floor, was about as I had estimated from the organisms passed at higher levels."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 17,
+    "chapter_name": "The Tomb",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "On the following day I was brought to this room with the barred windows, but I have been kept informed of certain things through an aged and simple-minded servitor, for whom I bore a fondness in infancy, and who, like me, loves the churchyard. What I have dared relate of my experiences within the vault has brought me only pitying smiles. My father, who visits me frequently, declares that at no time did I pass the chained portal, and swears that the rusted padlock had not been touched for fifty years when he examined it. He even says that all the village knew of my journeys to the tomb, and that I was often watched as I slept in the bower outside the grim façade, my half-open eyes fixed on the crevice that leads to the interior. Against these assertions I have no tangible proof to offer, since my key to the padlock was lost in the struggle on that night of horrors. The strange things of the past which I have learned during those nocturnal meetings with the dead he dismisses as the fruits of my lifelong and omnivorous browsing amongst the ancient volumes of the family library. Had it not been for my old servant Hiram, I should have by this time become quite convinced of my madness.",
+    "expected": "On the following day I was brought to this room with the barred windows, but I have been kept informed of certain things through an aged and simple-minded servitor, for whom I bore a fondness in infancy, and who, like me, loves the churchyard. What I have dared relate of my experiences within the vault has brought me only pitying smiles. My father, who visits me frequently, declares that at no time did I pass the chained portal, and swears that the rusted padlock had not been touched for fifty years when he examined it. He even says that all the village knew of my journeys to the tomb, and that I was often watched as I slept in the bower outside the grim facade, my half-open eyes fixed on the crevice that leads to the interior. Against these assertions I have no tangible proof to offer, since my key to the padlock was lost in the struggle on that night of horrors. The strange things of the past which I have learned during those nocturnal meetings with the dead he dismisses as the fruits of my lifelong and omnivorous browsing amongst the ancient volumes of the family library. Had it not been for my old servant Hiram, I should have by this time become quite convinced of my madness."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 18,
+    "chapter_name": "The Cats of Ulthar",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "It was fully a week before the villagers noticed that no lights were appearing at dusk in the windows of the cottage under the trees. Then the lean Nith remarked that no one had seen the old man or his wife since the night the cats were away. In another week the burgomaster decided to overcome his fears and call at the strangely silent dwelling as a matter of duty, though in doing so he was careful to take with him Shang the blacksmith and Thul the cutter of stone as witnesses. And when they had broken down the frail door they found only this: two cleanly picked human skeletons on the earthen floor, and a number of singular beetles crawling in the shadowy corners.",
+    "expected": "It was fully a week before the villagers noticed that no lights were appearing at dusk in the windows of the cottage under the trees. Then the lean Nith remarked that no one had seen the old man or his wife since the night the cats were away. In another week the burgomaster decided to overcome his fears and call at the strangely silent dwelling as a matter of duty, though in doing so he was careful to take with him Shang the blacksmith and Thul the cutter of stone as witnesses. And when they had broken down the frail door they found only this: two cleanly picked human skeletons on the earthen floor, and a number of singular beetles crawling in the shadowy corners."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 19,
+    "chapter_name": "The Outsider",
+    "element_index": 2,
+    "element_type": "cite",
+    "raw": "Keats",
+    "expected": "Keats"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 20,
+    "chapter_name": "The Moon-Bog",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "That morning and afternoon I wandered alone through the sun-gilded village and talked now and then with idle laborers, for Barry was busy with the final plans for beginning his work of drainage. The laborers were not as happy as they might have been, for most of them seemed uneasy over some dream which they had had, yet which they tried in vain to remember. I told them of my dream, but they were not interested till I spoke of the weird sounds I thought I had heard. Then they looked oddly at me, and said that they seemed to remember weird sounds, too.",
+    "expected": "That morning and afternoon I wandered alone through the sun-gilded village and talked now and then with idle laborers, for Barry was busy with the final plans for beginning his work of drainage. The laborers were not as happy as they might have been, for most of them seemed uneasy over some dream which they had had, yet which they tried in vain to remember. I told them of my dream, but they were not interested till I spoke of the weird sounds I thought I had heard. Then they looked oddly at me, and said that they seemed to remember weird sounds, too."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 21,
+    "chapter_name": "He",
+    "element_index": 30,
+    "element_type": "paragraph",
+    "raw": "At this point three slow and very deliberate raps shook the panels of the door, and a white foam gathered at the mouth of the frantic magician. His fright, turning to steely despair, left room for a resurgence of his rage against me; and he staggered a step toward the table on whose edge I was steadying myself. The curtains, still clutched in his right hand as his left clawed out at me, grew taut and finally crashed down from their lofty fastenings; admitting to the room a flood of that full moonlight which the brightening of the sky had presaged. In those greenish beams the candles paled, and a new semblance of decay spread over the musk-reeking room with its wormy paneling, sagging floor, battered mantel, rickety furniture, and ragged draperies. It spread over the old man, too, whether from the same source or because of his fear and vehemence, and I saw him shrivel and blacken as he lurched near and strove to rend me with vulturine talons. Only his eyes stayed whole, and they glared with a propulsive, dilated incandescence which grew as the face around them charred and dwindled.",
+    "expected": "At this point three slow and very deliberate raps shook the panels of the door, and a white foam gathered at the mouth of the frantic magician. His fright, turning to steely despair, left room for a resurgence of his rage against me; and he staggered a step toward the table on whose edge I was steadying myself. The curtains, still clutched in his right hand as his left clawed out at me, grew taut and finally crashed down from their lofty fastenings; admitting to the room a flood of that full moonlight which the brightening of the sky had presaged. In those greenish beams the candles paled, and a new semblance of decay spread over the musk-reeking room with its wormy paneling, sagging floor, battered mantel, rickety furniture, and ragged draperies. It spread over the old man, too, whether from the same source or because of his fear and vehemence, and I saw him shrivel and blacken as he lurched near and strove to rend me with vulturine talons. Only his eyes stayed whole, and they glared with a propulsive, dilated incandescence which grew as the face around them charred and dwindled."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 22,
+    "chapter_name": "The Horror at Red Hook",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "It was here that an alliance of Federal inspectors and police, Malone with them, entered the case. The law had watched the Suydam action with interest, and had in many instances been called upon to aid the private detectives. In this work it developed that Suydam’s new associates were among the blackest and most vicious criminals of Red Hook’s devious lanes, and that at least a third of them were known and repeated offenders in the matter of thievery, disorder, and the importation of illegal immigrants. Indeed, it would not have been too much to say that the old scholar’s particular circle coincided almost perfectly with the worst of the organized cliques which smuggled ashore certain nameless and unclassified Asian dregs wisely turned back by Ellis Island. In the teeming rookeries of Parker Place﻿—since renamed﻿—where Suydam had his basement flat, there had grown up a very unusual colony of unclassified slant-eyed folk who used the Arabic alphabet but were eloquently repudiated by the great mass of Syrians in and around Atlantic Avenue. They could all have been deported for lack of credentials, but legalism is slow-moving, and one does not disturb Red Hook unless publicity forces one to.",
+    "expected": "It was here that an alliance of Federal inspectors and police, Malone with them, entered the case. The law had watched the Suydam action with interest, and had in many instances been called upon to aid the private detectives. In this work it developed that Suydams new associates were among the blackest and most vicious criminals of Red Hooks devious lanes, and that at least a third of them were known and repeated offenders in the matter of thievery, disorder, and the importation of illegal immigrants. Indeed, it would not have been too much to say that the old scholars particular circle coincided almost perfectly with the worst of the organized cliques which smuggled ashore certain nameless and unclassified Asian dregs wisely turned back by Ellis Island. In the teeming rookeries of Parker Placesince renamedwhere Suydam had his basement flat, there had grown up a very unusual colony of unclassified slant-eyed folk who used the Arabic alphabet but were eloquently repudiated by the great mass of Syrians in and around Atlantic Avenue. They could all have been deported for lack of credentials, but legalism is slow-moving, and one does not disturb Red Hook unless publicity forces one to."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 23,
+    "chapter_name": "The Colour Out of Space",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "Then fell the time of fruit and harvest. The pears and apples slowly ripened, and Nahum vowed that his orchards were prospering as never before. The fruit was growing to phenomenal size and unwonted gloss, and in such abundance that extra barrels were ordered to handle the future crop. But with the ripening came sore disappointment, for of all that gorgeous array of specious lusciousness not one single jot was fit to eat. Into the fine flavour of the pears and apples had crept a stealthy bitterness and sickishness, so that even the smallest of bites induced a lasting disgust. It was the same with the melons and tomatoes, and Nahum sadly saw that his entire crop was lost. Quick to connect events, he declared that the meteorite had poisoned the soil, and thanked Heaven that most of the other crops were in the upland lot along the road.",
+    "expected": "Then fell the time of fruit and harvest. The pears and apples slowly ripened, and Nahum vowed that his orchards were prospering as never before. The fruit was growing to phenomenal size and unwonted gloss, and in such abundance that extra barrels were ordered to handle the future crop. But with the ripening came sore disappointment, for of all that gorgeous array of specious lusciousness not one single jot was fit to eat. Into the fine flavour of the pears and apples had crept a stealthy bitterness and sickishness, so that even the smallest of bites induced a lasting disgust. It was the same with the melons and tomatoes, and Nahum sadly saw that his entire crop was lost. Quick to connect events, he declared that the meteorite had poisoned the soil, and thanked Heaven that most of the other crops were in the upland lot along the road."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 24,
+    "chapter_name": "Pickmans Model",
+    "element_index": 46,
+    "element_type": "paragraph",
+    "raw": "Well﻿—that paper wasn’t a photograph of any background, after all. What it showed was simply the monstrous being he was painting on that awful canvas. It was the model he was using﻿—and its background was merely the wall of the cellar studio in minute detail. But by God, Eliot, \nit was a photograph from life\n.",
+    "expected": "Wellthat paper wasnt a photograph of any background, after all. What it showed was simply the monstrous being he was painting on that awful canvas. It was the model he was usingand its background was merely the wall of the cellar studio in minute detail. But by God, Eliot, it was a photograph from life ."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 25,
+    "chapter_name": "The Call of Cthulhu",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "This verbal jumble was the key to the recollection which excited and disturbed Professor Angell. He questioned the sculptor with scientific minuteness; and studied with almost frantic intensity the bas-relief on which the youth had found himself working, chilled and clad only in his nightclothes, when waking had stolen bewilderingly over him. My uncle blamed his old age, Wilcox afterward said, for his slowness in recognizing both hieroglyphics and pictorial design. Many of his questions seemed highly out of place to his visitor, especially those which tried to connect the latter with strange cults or societies; and Wilcox could not understand the repeated promises of silence which he was offered in exchange for an admission of membership in some widespread mystical or paganly religious body. When Professor Angell became convinced that the sculptor was indeed ignorant of any cult or system of cryptic lore, he besieged his visitor with demands for future reports of dreams. This bore regular fruit, for after the first interview the manuscript records daily calls of the young man, during which he related startling fragments of nocturnal imagery whose burden was always some terrible Cyclopean vista of dark and dripping stone, with a subterrene voice or intelligence shouting monotonously in enigmatical sense-impacts uninscribable save as gibberish. The two sounds most frequently repeated are those rendered by the letters “\nCthulhu\n” and “\nR’lyeh\n.”",
+    "expected": "This verbal jumble was the key to the recollection which excited and disturbed Professor Angell. He questioned the sculptor with scientific minuteness; and studied with almost frantic intensity the bas-relief on which the youth had found himself working, chilled and clad only in his nightclothes, when waking had stolen bewilderingly over him. My uncle blamed his old age, Wilcox afterward said, for his slowness in recognizing both hieroglyphics and pictorial design. Many of his questions seemed highly out of place to his visitor, especially those which tried to connect the latter with strange cults or societies; and Wilcox could not understand the repeated promises of silence which he was offered in exchange for an admission of membership in some widespread mystical or paganly religious body. When Professor Angell became convinced that the sculptor was indeed ignorant of any cult or system of cryptic lore, he besieged his visitor with demands for future reports of dreams. This bore regular fruit, for after the first interview the manuscript records daily calls of the young man, during which he related startling fragments of nocturnal imagery whose burden was always some terrible Cyclopean vista of dark and dripping stone, with a subterrene voice or intelligence shouting monotonously in enigmatical sense-impacts uninscribable save as gibberish. The two sounds most frequently repeated are those rendered by the letters << Cthulhu >> and << Rlyeh .>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 26,
+    "chapter_name": "Cool Air",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "Black terror, however, had preceded me. The house was in utter turmoil, and above the chatter of awed voices I heard a man praying in a deep basso. Fiendish things were in the air, and lodgers told over the beads of their rosaries as they caught the odor from beneath the doctor’s closed door. The lounger I had hired, it seems, had fled screaming and mad-eyed not long after his second delivery of ice: perhaps as a result of excessive curiosity. He could not, of course, have locked the door behind him; yet it was now fastened, presumably from the inside. There was no sound within save a nameless sort of slow, thick dripping.",
+    "expected": "Black terror, however, had preceded me. The house was in utter turmoil, and above the chatter of awed voices I heard a man praying in a deep basso. Fiendish things were in the air, and lodgers told over the beads of their rosaries as they caught the odor from beneath the doctors closed door. The lounger I had hired, it seems, had fled screaming and mad-eyed not long after his second delivery of ice: perhaps as a result of excessive curiosity. He could not, of course, have locked the door behind him; yet it was now fastened, presumably from the inside. There was no sound within save a nameless sort of slow, thick dripping."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 27,
+    "chapter_name": "The Silver Key",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "Having perceived at last the hollowness and futility of real things, Carter spent his days in retirement, and in wistful disjointed memories of his dream-filled youth. He thought it rather silly that he bother to keep on living at all, and got from a South American acquaintance a very curious liquid to take him to oblivion without suffering. Inertia and force of habit, however, caused him to defer action; and he lingered indecisively among thoughts of old times, taking down the strange hangings from his walls and refitting the house as it was in his early boyhood﻿—purple panes, Victorian furniture, and all.",
+    "expected": "Having perceived at last the hollowness and futility of real things, Carter spent his days in retirement, and in wistful disjointed memories of his dream-filled youth. He thought it rather silly that he bother to keep on living at all, and got from a South American acquaintance a very curious liquid to take him to oblivion without suffering. Inertia and force of habit, however, caused him to defer action; and he lingered indecisively among thoughts of old times, taking down the strange hangings from his walls and refitting the house as it was in his early boyhoodpurple panes, Victorian furniture, and all."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 28,
+    "chapter_name": "The Dunwich Horror",
+    "element_index": 37,
+    "element_type": "paragraph",
+    "raw": "He was obviously quite mad. After a pause, during which the flock of whippoorwills outside adjusted their cries to the altered tempo while some indications of the strange hill noises came from afar off, he added another sentence or two.",
+    "expected": "He was obviously quite mad. After a pause, during which the flock of whippoorwills outside adjusted their cries to the altered tempo while some indications of the strange hill noises came from afar off, he added another sentence or two."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 29,
+    "chapter_name": "The Other Gods",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "Barzai knew so much of the gods that he could tell of their comings and goings, and guessed so many of their secrets that he was deemed half a god himself. It was he who wisely advised the burgesses of Ulthar when they passed their remarkable law against the slaying of cats, and who first told the young priest Atal where it is that black cats go at midnight on \nSt.\n John’s Eve. Barzai was learned in the lore of earth’s gods, and had gained a desire to look upon their faces. He believed that his great secret knowledge of gods could shield him from their wrath, so resolved to go up to the summit of high and rocky Hatheg-Kla on a night when he knew the gods would be there.",
+    "expected": "Barzai knew so much of the gods that he could tell of their comings and goings, and guessed so many of their secrets that he was deemed half a god himself. It was he who wisely advised the burgesses of Ulthar when they passed their remarkable law against the slaying of cats, and who first told the young priest Atal where it is that black cats go at midnight on St. Johns Eve. Barzai was learned in the lore of earths gods, and had gained a desire to look upon their faces. He believed that his great secret knowledge of gods could shield him from their wrath, so resolved to go up to the summit of high and rocky Hatheg-Kla on a night when he knew the gods would be there."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 30,
+    "chapter_name": "From Beyond",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "When Tillinghast said these things I remonstrated, for I knew him well enough to be frightened rather than amused; but he was a fanatic, and drove me from the house. Now he was no less a fanatic, but his desire to speak had conquered his resentment, and he had written me imperatively in a hand I could scarcely recognize. As I entered the abode of the friend so suddenly metamorphosed to a shivering gargoyle, I became infected with the terror which seemed stalking in all the shadows. The words and beliefs expressed ten weeks before seemed bodied forth in the darkness beyond the small circle of candle light, and I sickened at the hollow, altered voice of my host. I wished the servants were about, and did not like it when he said they had all left three days previously. It seemed strange that old Gregory, at least, should desert his master without telling as tried a friend as I. It was he who had given me all the information I had of Tillinghast after I was repulsed in rage.",
+    "expected": "When Tillinghast said these things I remonstrated, for I knew him well enough to be frightened rather than amused; but he was a fanatic, and drove me from the house. Now he was no less a fanatic, but his desire to speak had conquered his resentment, and he had written me imperatively in a hand I could scarcely recognize. As I entered the abode of the friend so suddenly metamorphosed to a shivering gargoyle, I became infected with the terror which seemed stalking in all the shadows. The words and beliefs expressed ten weeks before seemed bodied forth in the darkness beyond the small circle of candle light, and I sickened at the hollow, altered voice of my host. I wished the servants were about, and did not like it when he said they had all left three days previously. It seemed strange that old Gregory, at least, should desert his master without telling as tried a friend as I. It was he who had given me all the information I had of Tillinghast after I was repulsed in rage."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 31,
+    "chapter_name": "The Quest of Iranon",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Into the granite city of Teloth wandered the youth, vine-crowned, his yellow hair glistening with myrrh and his purple robe torn with briers of the mountain Sidrak that lies across the antique bridge of stone. The men of Teloth are dark and stern, and dwell in square houses, and with frowns they asked the stranger whence he had come and what were his name and fortune. So the youth answered:",
+    "expected": "Into the granite city of Teloth wandered the youth, vine-crowned, his yellow hair glistening with myrrh and his purple robe torn with briers of the mountain Sidrak that lies across the antique bridge of stone. The men of Teloth are dark and stern, and dwell in square houses, and with frowns they asked the stranger whence he had come and what were his name and fortune. So the youth answered:"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction",
+    "chapter_index": 32,
+    "chapter_name": "The Haunter of the Dark",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "The Haunter of the Dark",
+    "expected": "The Haunter of the Dark"
+  }
+]

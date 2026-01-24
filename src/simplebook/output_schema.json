@@ -39,26 +39,49 @@
       "description": "List of book chapters with their content",
       "items": {
         "type": "object",
-        "required": ["name", "pp", "chunks"],
+        "required": ["name", "elements", "chunks"],
         "properties": {
           "name": {
             "type": "string",
             "minLength": 1,
             "description": "Chapter name/title"
           },
-          "pp": {
+          "elements": {
             "type": "array",
-            "description": "List of paragraph texts in the chapter",
+            "description": "List of typed elements in the chapter",
             "items": {
-              "type": "string"
+              "type": "object",
+              "required": ["type"],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Element type (e.g., paragraph, blockquote, table)"
+                },
+                "text": {
+                  "type": "string",
+                  "description": "Normalized text content (when applicable)"
+                },
+                "rows": {
+                  "type": "array",
+                  "description": "Table rows when element type is table",
+                  "items": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                },
+                "meta": {
+                  "type": "object",
+                  "description": "Optional metadata for the element"
+                }
+              }
             }
           },
           "chunks": {
             "type": "array",
-            "description": "Paragraph indexes at which new chunks start",
+            "description": "Element indexes at which new chunks start",
             "items": {
               "type": "integer",
-              "description": "Zero-based paragraph index"
+              "description": "Zero-based element index"
             }
           }
         }

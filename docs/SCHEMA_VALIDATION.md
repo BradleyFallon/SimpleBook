@@ -88,13 +88,13 @@ The output schema defines the SimpleBook tree structure:
 
 Each chapter contains:
 - **`name`**: Chapter title/name (required, non-empty string)
-- **`pp`**: Array of individual paragraph texts
-- **`chunks`**: Array of paragraph indexes where new chunks start
+- **`elements`**: Array of typed element objects (paragraphs, blockquotes, tables, etc.)
+- **`chunks`**: Array of element indexes where new chunks start
 
 ### Chunk Structure
 
 Each chunk entry is:
-- **integer**: Zero-based paragraph index where a new chunk starts
+- **integer**: Zero-based element index where a new chunk starts
 
 ## Example Valid Output
 
@@ -110,16 +110,16 @@ Each chunk entry is:
   "chapters": [
     {
       "name": "Chapter 1",
-      "pp": [
-        "This is the first paragraph.",
-        "This is the second paragraph."
+      "elements": [
+        { "type": "paragraph", "text": "This is the first paragraph." },
+        { "type": "paragraph", "text": "This is the second paragraph." }
       ],
       "chunks": [0]
     },
     {
       "name": "Chapter 2",
-      "pp": [
-        "Chapter two content here."
+      "elements": [
+        { "type": "paragraph", "text": "Chapter two content here." }
       ],
       "chunks": [0]
     }
@@ -158,10 +158,10 @@ metadata: 'language' is a required property
 ### Missing Chapter Fields
 
 ```
-chapters.0: 'pp' is a required property
+chapters.0: 'elements' is a required property
 ```
 
-**Fix**: Ensure each chapter has name, pp, and chunks fields.
+**Fix**: Ensure each chapter has name, elements, and chunks fields.
 
 ### Wrong Type
 
@@ -177,7 +177,7 @@ chapters: 'string' is not of type 'array'
 chapters.0.chunks.0: 'x' is not of type 'integer'
 ```
 
-**Fix**: Chunk entries must be integers (paragraph indexes).
+**Fix**: Chunk entries must be integers (element indexes).
 
 ## Extending the Schema
 

@@ -1,0 +1,281 @@
+[
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 0,
+    "chapter_name": "I - The Peak in Darien",
+    "element_index": 55,
+    "element_type": "paragraph",
+    "raw": "He wrote, “Owners, Walkers Limited.” Underneath that he wrote:",
+    "expected": "He wrote, <<Owners, Walkers Limited.>> Underneath that he wrote:"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 1,
+    "chapter_name": "II - Making Ready",
+    "element_index": 36,
+    "element_type": "paragraph",
+    "raw": "“I’m going to make her a much better flag than that,” said Titty.",
+    "expected": "<<Im going to make her a much better flag than that,>> said Titty."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 2,
+    "chapter_name": "III - The Voyage to the Island",
+    "element_index": 94,
+    "element_type": "paragraph",
+    "raw": "John shifted the tiller a very little.",
+    "expected": "John shifted the tiller a very little."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 3,
+    "chapter_name": "IV - The Hidden Harbour",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "So they set about making their camp. They brought the tent bundles up from the landing-place and unrolled them. They chose four trees on the side of the fireplace nearest to the big pine. “The high ground will shelter them from the north,” said John. Then he climbed about seven feet up the trunk of a tree, and fastened one end of one of the tent ropes. Susan held the other end until he had climbed up another tree, when he fastened it at about the same height. The rope, of course, sagged in the middle, so that the tent was only about five feet high. The rope was not made too taut, because the dew at night would make it shrink. The tent now hung down on both sides of the rope like a sheet put to dry. The next thing to do was to fill its pockets with stones. As soon as there were a few stones in the pockets that were at the bottom of each side of the tent, it was easy to keep the walls apart. But to make sure that the tent was firmly set up they carried a great many stones from the beach, besides the stones they picked up under the trees, so that all round the two sides and back of the tent there was a row of stones in the pockets keeping the tent walls properly stretched.",
+    "expected": "So they set about making their camp. They brought the tent bundles up from the landing-place and unrolled them. They chose four trees on the side of the fireplace nearest to the big pine. <<The high ground will shelter them from the north,>> said John. Then he climbed about seven feet up the trunk of a tree, and fastened one end of one of the tent ropes. Susan held the other end until he had climbed up another tree, when he fastened it at about the same height. The rope, of course, sagged in the middle, so that the tent was only about five feet high. The rope was not made too taut, because the dew at night would make it shrink. The tent now hung down on both sides of the rope like a sheet put to dry. The next thing to do was to fill its pockets with stones. As soon as there were a few stones in the pockets that were at the bottom of each side of the tent, it was easy to keep the walls apart. But to make sure that the tent was firmly set up they carried a great many stones from the beach, besides the stones they picked up under the trees, so that all round the two sides and back of the tent there was a row of stones in the pockets keeping the tent walls properly stretched."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 4,
+    "chapter_name": "V - First Night on the Island",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "“But Susan and Titty and I could never climb the tree. It’s got no sticky-out branches.”",
+    "expected": "<<But Susan and Titty and I could never climb the tree. Its got no sticky-out branches.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 5,
+    "chapter_name": "VI - Island Life",
+    "element_index": 81,
+    "element_type": "paragraph",
+    "raw": "“We’ll make a chart of our own,” said John, “and every year we’ll put in the part we have explored until we know it all.”",
+    "expected": "<<Well make a chart of our own,>> said John, <<and every year well put in the part we have explored until we know it all.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 6,
+    "chapter_name": "VII - More Island Life",
+    "element_index": 59,
+    "element_type": "paragraph",
+    "raw": "“Let him have line off the reel,” said John, but Roger held on.",
+    "expected": "<<Let him have line off the reel,>> said John, but Roger held on."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 7,
+    "chapter_name": "VIII - Skull and Crossbones",
+    "element_index": 44,
+    "element_type": "paragraph",
+    "raw": "All four were in the stern of the boat to give her her best chance with a following wind. John steered, and the other three sat in the bottom of the boat. The little \nSwallow\n foamed through the water. John did his best to keep her nose steadily on the outermost point of Darien, but, glancing back, he knew that he was not steering so well as the girl at the tiller of the \nAmazon\n. Still, he did his best, and the noise of the water boiling under \nSwallow\n’s forefoot showed that \nSwallow\n was doing her best too. The tops of the trees on the shores of the lake seemed to race across the purple slopes of the hills.",
+    "expected": "All four were in the stern of the boat to give her her best chance with a following wind. John steered, and the other three sat in the bottom of the boat. The little Swallow foamed through the water. John did his best to keep her nose steadily on the outermost point of Darien, but, glancing back, he knew that he was not steering so well as the girl at the tiller of the Amazon . Still, he did his best, and the noise of the water boiling under Swallow s forefoot showed that Swallow was doing her best too. The tops of the trees on the shores of the lake seemed to race across the purple slopes of the hills."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 8,
+    "chapter_name": "IX - The Arrow with the Green Feather",
+    "element_index": 48,
+    "element_type": "paragraph",
+    "raw": "“Perhaps this is his island,” said Titty. “You know someone had been here before us and made a fireplace.”",
+    "expected": "<<Perhaps this is his island,>> said Titty. <<You know someone had been here before us and made a fireplace.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 9,
+    "chapter_name": "X - The Parley",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "Susan pulled John by the sleeve. “If the houseboat man isn’t with them,” she whispered, “they must have taken \nSwallow\n themselves, and the only place they could put her is the harbour. Their own ship must be there too. So if they have got our tents we can take both ships.”",
+    "expected": "Susan pulled John by the sleeve. <<If the houseboat man isnt with them,>> she whispered, <<they must have taken Swallow themselves, and the only place they could put her is the harbour. Their own ship must be there too. So if they have got our tents we can take both ships.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 10,
+    "chapter_name": "XI - In Alliance",
+    "element_index": 26,
+    "element_type": "paragraph",
+    "raw": "She filled all the mugs from the barrel. Nancy Blackett, meanwhile, was sitting by herself, thinking hard. She took a mug when it was brought to her by Roger, and she took a hunk of molasses from the bag when it was offered to her by Titty, but, for a moment or two, she hardly seemed to see them.",
+    "expected": "She filled all the mugs from the barrel. Nancy Blackett, meanwhile, was sitting by herself, thinking hard. She took a mug when it was brought to her by Roger, and she took a hunk of molasses from the bag when it was offered to her by Titty, but, for a moment or two, she hardly seemed to see them."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 11,
+    "chapter_name": "XII - Leading Lights",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "“Close together,” said Titty.",
+    "expected": "<<Close together,>> said Titty."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 12,
+    "chapter_name": "XIII - The Charcoal-Burners",
+    "element_index": 67,
+    "element_type": "paragraph",
+    "raw": "“While we’re burning,” replied the old man.",
+    "expected": "<<While were burning,>> replied the old man."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 13,
+    "chapter_name": "XIV - The Letter from Captain Flint",
+    "element_index": 27,
+    "element_type": "paragraph",
+    "raw": "“To the end of the world,” said Titty.",
+    "expected": "<<To the end of the world,>> said Titty."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 14,
+    "chapter_name": "XV - Captain John Visits Captain Flint",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "“I couldn’t keep my feet on the bottom,” he said. “They came up of themselves.”",
+    "expected": "<<I couldnt keep my feet on the bottom,>> he said. <<They came up of themselves.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 15,
+    "chapter_name": "XVI - The Birthday Party",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "He put it round his shoulders. He rubbed first one arm and then the other. He felt much better.",
+    "expected": "He put it round his shoulders. He rubbed first one arm and then the other. He felt much better."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 16,
+    "chapter_name": "XVII - A Fair Wind",
+    "element_index": 61,
+    "element_type": "paragraph",
+    "raw": "“I can’t put on two pairs of shoes,” said Roger.",
+    "expected": "<<I cant put on two pairs of shoes,>> said Roger."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 17,
+    "chapter_name": "XVIII - Robinson Crusoe and Man Friday",
+    "element_index": 50,
+    "element_type": "paragraph",
+    "raw": "Titty said nothing.",
+    "expected": "Titty said nothing."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 18,
+    "chapter_name": "XIX - The Amazon River",
+    "element_index": 78,
+    "element_type": "paragraph",
+    "raw": "The captain and the mate examined the envelope by the light of the torch. There was a skull and crossbones on it, done in red pencil. Under that, in blue pencil, was written, “To the Swallows.” John tore the envelope open. Inside there was a sheet of paper with another skull and crossbones, done in blue. Under them in red were the words “Ha! Ha!” written very large, and under them were the words, “The Amazon Pirates,” and two names, “Nancy Blackett, Captain” and “Peggy Blackett, Mate” also written in red.",
+    "expected": "The captain and the mate examined the envelope by the light of the torch. There was a skull and crossbones on it, done in red pencil. Under that, in blue pencil, was written, <<To the Swallows.>> John tore the envelope open. Inside there was a sheet of paper with another skull and crossbones, done in blue. Under them in red were the words <<Ha! Ha!>> written very large, and under them were the words, <<The Amazon Pirates,>> and two names, <<Nancy Blackett, Captain>> and <<Peggy Blackett, Mate>> also written in red."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 19,
+    "chapter_name": "XX - Titty Alone",
+    "element_index": 54,
+    "element_type": "paragraph",
+    "raw": "It was the noise of rowing, hard, fast rowing, the noise of two pairs of oars in a native boat, pin oars, and the slap, slap of a boat’s bows into the short waves. She knew that noise well.",
+    "expected": "It was the noise of rowing, hard, fast rowing, the noise of two pairs of oars in a native boat, pin oars, and the slap, slap of a boats bows into the short waves. She knew that noise well."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 20,
+    "chapter_name": "XXI - Swallows in the Dark",
+    "element_index": 141,
+    "element_type": "paragraph",
+    "raw": "“I don’t believe there’s anybody in her,” said Susan.",
+    "expected": "<<I dont believe theres anybody in her,>> said Susan."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 21,
+    "chapter_name": "XXII - The White Flag",
+    "element_index": 64,
+    "element_type": "paragraph",
+    "raw": "“It’s all right,” shouted John. “You can go in. They’ve surrendered. They’re in an awful hurry about something. We’ll go in together.”",
+    "expected": "<<Its all right,>> shouted John. <<You can go in. Theyve surrendered. Theyre in an awful hurry about something. Well go in together.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 22,
+    "chapter_name": "XXIII - Taking Breath",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "“Why not?” said Roger.",
+    "expected": "<<Why not?>> said Roger."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 23,
+    "chapter_name": "XXIV - Grave News from Houseboat Bay",
+    "element_index": 56,
+    "element_type": "paragraph",
+    "raw": "“Lucky we brought a sailmaker’s needle,” he said as he came back.",
+    "expected": "<<Lucky we brought a sailmakers needle,>> he said as he came back."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 24,
+    "chapter_name": "XXV - Captain Flint Gets the Black Spot",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "“By Jove!” said Captain Flint, “so it was those young harum-scarums all the time. What a brute that boy must have thought me. And I was a brute too. And now I’ve gone and told the police that I thought he might have something to do with this mess. Into your private cabin with you, Polly. There’s too much about to leave you in charge here.”",
+    "expected": "<<By Jove!>> said Captain Flint, <<so it was those young harum-scarums all the time. What a brute that boy must have thought me. And I was a brute too. And now Ive gone and told the police that I thought he might have something to do with this mess. Into your private cabin with you, Polly. Theres too much about to leave you in charge here.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 25,
+    "chapter_name": "XXVI - He Makes Peace and Declares War",
+    "element_index": 85,
+    "element_type": "paragraph",
+    "raw": "“Of course she isn’t,” said Nancy. “She is the mate of the \nSwallow\n, and her name is Susan.”",
+    "expected": "<<Of course she isnt,>> said Nancy. <<She is the mate of the Swallow , and her name is Susan.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 26,
+    "chapter_name": "XXVII - The Battle in Houseboat Bay",
+    "element_index": 100,
+    "element_type": "paragraph",
+    "raw": "He came up once more, this time close to the sun helmet. He grabbed it and threw it, spinning, up on the deck of his ship.",
+    "expected": "He came up once more, this time close to the sun helmet. He grabbed it and threw it, spinning, up on the deck of his ship."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 27,
+    "chapter_name": "XXVIII - The Treasure on Cormorant Island",
+    "element_index": 79,
+    "element_type": "paragraph",
+    "raw": "“I wonder how many whales they’ve caught,” said Roger. “Sharks too, perhaps. Anyhow, lots of perch.”",
+    "expected": "<<I wonder how many whales theyve caught,>> said Roger. <<Sharks too, perhaps. Anyhow, lots of perch.>>"
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 28,
+    "chapter_name": "XXIX - Two Sorts of Fish",
+    "element_index": 49,
+    "element_type": "paragraph",
+    "raw": "“I’ll do my best,” said Captain Flint, “but don’t wait for me. I’ve got a long way to row. Come along.” He hove the big box on his shoulder and carried it to his boat. Roger was there before him, looking at a great green and white pike lying on the bottom boards.",
+    "expected": "<<Ill do my best,>> said Captain Flint, <<but dont wait for me. Ive got a long way to row. Come along.>> He hove the big box on his shoulder and carried it to his boat. Roger was there before him, looking at a great green and white pike lying on the bottom boards."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 29,
+    "chapter_name": "XXX - The Storm",
+    "element_index": 106,
+    "element_type": "paragraph",
+    "raw": "Nobody could go to sleep. They became shipwrecked sailors.",
+    "expected": "Nobody could go to sleep. They became shipwrecked sailors."
+  },
+  {
+    "book": "arthur-ransome-swallows-and-amazons",
+    "chapter_index": 30,
+    "chapter_name": "XXXI - The Sailors Return",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "“We wouldn’t have found the treasure if we had,” said Titty.",
+    "expected": "<<We wouldnt have found the treasure if we had,>> said Titty."
+  }
+]

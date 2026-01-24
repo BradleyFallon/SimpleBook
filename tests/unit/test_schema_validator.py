@@ -67,9 +67,9 @@ class TestSchemaValidator:
             "chapters": [
                 {
                     "name": "Chapter 1",
-                    "pp": [
-                        "This is chapter one content.",
-                        "It has multiple sentences."
+                    "elements": [
+                        {"type": "paragraph", "text": "This is chapter one content."},
+                        {"type": "paragraph", "text": "It has multiple sentences."}
                     ],
                     "chunks": [0]
                 }
@@ -109,7 +109,7 @@ class TestSchemaValidator:
             "chapters": [
                 {
                     "name": "Chapter 1"
-                    # Missing 'pp' and 'chunks'
+                    # Missing 'elements' and 'chunks'
                 }
             ]
         }
@@ -130,7 +130,7 @@ class TestSchemaValidator:
             "chapters": [
                 {
                     "name": "Chapter 1",
-                    "pp": ["Content"],
+                    "elements": [{"type": "paragraph", "text": "Content"}],
                     "chunks": ["not-an-int"]
                 }
             ]

@@ -1,0 +1,353 @@
+[
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 0,
+    "chapter_name": "The Alchemist",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "High up, crowning the grassy summit of a swelling mound whose sides are wooded near the base with the gnarled trees of the primeval forest, stands the old château of my ancestors. For centuries its lofty battlements have frowned down upon the wild and rugged countryside about, serving as a home and stronghold for the proud house whose honoured line is older even than the moss-grown castle walls. These ancient turrets, stained by the storms of generations and crumbling under the slow yet mighty pressure of time, formed in the ages of feudalism one of the most dreaded and formidable fortresses in all France. From its machicolated parapets and mounted battlements Barons, Counts, and even Kings had been defied, yet never had its spacious halls resounded to the footstep of the invader.",
+    "expected": "High up, crowning the grassy summit of a swelling mound whose sides are wooded near the base with the gnarled trees of the primeval forest, stands the old chateau of my ancestors. For centuries its lofty battlements have frowned down upon the wild and rugged countryside about, serving as a home and stronghold for the proud house whose honoured line is older even than the moss-grown castle walls. These ancient turrets, stained by the storms of generations and crumbling under the slow yet mighty pressure of time, formed in the ages of feudalism one of the most dreaded and formidable fortresses in all France. From its machicolated parapets and mounted battlements Barons, Counts, and even Kings had been defied, yet never had its spacious halls resounded to the footstep of the invader."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 1,
+    "chapter_name": "A Reminiscence of Dr. Samuel Johnson",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "Being nearly seventy-three, full nineteen Years older than \nDr.\n \nJohnson\n, (I say Doctor, though his Degree came not till two Years afterward) I naturally expected him to have some Regard for my Age; and was therefore not in that Fear of him, which others confess’d. On my asking him what he thought of my favourable Notice of his Dictionary in \nThe Londoner\n, my periodical Paper, he said: “Sir, I possess no Recollection of having perus’d your Paper, and have not a great Interest in the Opinions of the less thoughtful Part of Mankind.” Being more than a little piqued at the Incivility of one whose Celebrity made me solicitous of his Approbation, I ventur’d to retaliate in kind, and told him, I was surpris’d that a Man of Sense shou’d judge the Thoughtfulness of one whose Productions he admitted never having read. “Why, Sir,” reply’d \nJohnson\n, “I do not require to become familiar with a Man’s Writings in order to estimate the Superficiality of his Attainments, when he plainly shews it by his Eagerness to mention his own Productions in the first Question he puts to me.” Having thus become Friends, we convers’d on many Matters. When, to agree with him, I said I was distrustful of the Authenticity of \nOssian’s\n Poems, \nMr.\n \nJohnson\n said: “That, Sir, does not do your Understanding particular Credit; for what all the Town is sensible of, is no great Discovery for a \nGrub-Street\n Critick to make. You might as well say, you have a strong Suspicion that \nMilton\n wrote \nParadise Lost\n!”",
+    "expected": "Being nearly seventy-three, full nineteen Years older than Dr. Johnson , (I say Doctor, though his Degree came not till two Years afterward) I naturally expected him to have some Regard for my Age; and was therefore not in that Fear of him, which others confessd. On my asking him what he thought of my favourable Notice of his Dictionary in The Londoner , my periodical Paper, he said: <<Sir, I possess no Recollection of having perusd your Paper, and have not a great Interest in the Opinions of the less thoughtful Part of Mankind.>> Being more than a little piqued at the Incivility of one whose Celebrity made me solicitous of his Approbation, I venturd to retaliate in kind, and told him, I was surprisd that a Man of Sense shoud judge the Thoughtfulness of one whose Productions he admitted never having read. <<Why, Sir,>> replyd Johnson , <<I do not require to become familiar with a Mans Writings in order to estimate the Superficiality of his Attainments, when he plainly shews it by his Eagerness to mention his own Productions in the first Question he puts to me.>> Having thus become Friends, we conversd on many Matters. When, to agree with him, I said I was distrustful of the Authenticity of Ossians Poems, Mr. Johnson said: <<That, Sir, does not do your Understanding particular Credit; for what all the Town is sensible of, is no great Discovery for a Grub-Street Critick to make. You might as well say, you have a strong Suspicion that Milton wrote Paradise Lost !>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 2,
+    "chapter_name": "Beyond the Wall of Sleep",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "I have said that I am a constant speculator concerning dream life, and from this you may judge of the eagerness with which I applied myself to the study of the new patient as soon as I had fully ascertained the facts of his case. He seemed to sense a certain friendliness in me; born no doubt of the interest I could not conceal, and the gentle manner in which I questioned him. Not that he ever recognised me during his attacks, when I hung breathlessly upon his chaotic but cosmic word-pictures; but he knew me in his quiet hours, when he would sit by his barred window weaving baskets of straw and willow, and perhaps pining for the mountain freedom he could never again enjoy. His family never called to see him; probably it had found another temporary head, after the manner of decadent mountain folk.",
+    "expected": "I have said that I am a constant speculator concerning dream life, and from this you may judge of the eagerness with which I applied myself to the study of the new patient as soon as I had fully ascertained the facts of his case. He seemed to sense a certain friendliness in me; born no doubt of the interest I could not conceal, and the gentle manner in which I questioned him. Not that he ever recognised me during his attacks, when I hung breathlessly upon his chaotic but cosmic word-pictures; but he knew me in his quiet hours, when he would sit by his barred window weaving baskets of straw and willow, and perhaps pining for the mountain freedom he could never again enjoy. His family never called to see him; probably it had found another temporary head, after the manner of decadent mountain folk."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 3,
+    "chapter_name": "Dagon",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "When I finally found myself adrift and free, I had but little idea of my surroundings. Never a competent navigator, I could only guess vaguely by the sun and stars that I was somewhat south of the equator. Of the longitude I knew nothing, and no island or coastline was in sight. The weather kept fair, and for uncounted days I drifted aimlessly beneath the scorching sun; waiting either for some passing ship, or to be cast on the shores of some habitable land. But neither ship nor land appeared, and I began to despair in my solitude upon the heaving vastness of unbroken blue.",
+    "expected": "When I finally found myself adrift and free, I had but little idea of my surroundings. Never a competent navigator, I could only guess vaguely by the sun and stars that I was somewhat south of the equator. Of the longitude I knew nothing, and no island or coastline was in sight. The weather kept fair, and for uncounted days I drifted aimlessly beneath the scorching sun; waiting either for some passing ship, or to be cast on the shores of some habitable land. But neither ship nor land appeared, and I began to despair in my solitude upon the heaving vastness of unbroken blue."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 4,
+    "chapter_name": "The White Ship",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "So once more the White Ship followed the bird of heaven, over warm blessed seas fanned by caressing, aromatic breezes. Day after day and night after night did we sail, and when the moon was full we would listen to soft songs of the oarsmen, sweet as on that distant night when we sailed away from my far native land. And it was by moonlight that we anchored at last in the harbour of Sona-Nyl, which is guarded by twin headlands of crystal that rise from the sea and meet in a resplendent arch. This is the Land of Fancy, and we walked to the verdant shore upon a golden bridge of moonbeams.",
+    "expected": "So once more the White Ship followed the bird of heaven, over warm blessed seas fanned by caressing, aromatic breezes. Day after day and night after night did we sail, and when the moon was full we would listen to soft songs of the oarsmen, sweet as on that distant night when we sailed away from my far native land. And it was by moonlight that we anchored at last in the harbour of Sona-Nyl, which is guarded by twin headlands of crystal that rise from the sea and meet in a resplendent arch. This is the Land of Fancy, and we walked to the verdant shore upon a golden bridge of moonbeams."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 5,
+    "chapter_name": "The Statement of Randolph Carter",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "“God! If you could see what I am seeing!”",
+    "expected": "<<God! If you could see what I am seeing!>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 6,
+    "chapter_name": "Polaris",
+    "element_index": 10,
+    "element_type": "blockquote",
+    "raw": "“Slumber, watcher, till the spheres,\nSix and twenty thousand years\nHave revolv’d, and I return\nTo the spot where now I burn.\nOther stars anon shall rise\nTo the axis of the skies;\nStars that soothe and stars that bless\nWith a sweet forgetfulness:\nOnly when my round is o’er\nShall the past disturb thy door.”",
+    "expected": "<<Slumber, watcher, till the spheres, Six and twenty thousand years Have revolvd, and I return To the spot where now I burn. Other stars anon shall rise To the axis of the skies; Stars that soothe and stars that bless With a sweet forgetfulness: Only when my round is oer Shall the past disturb thy door.>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 7,
+    "chapter_name": "Ex Oblivione",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "When the last days were upon me, and the ugly trifles of existence began to drive me to madness like the small drops of water that torturers let fall ceaselessly upon one spot of their victim’s body, I loved the irradiate refuge of sleep. In my dreams I found a little of the beauty I had vainly sought in life, and wandered through old gardens and enchanted woods.",
+    "expected": "When the last days were upon me, and the ugly trifles of existence began to drive me to madness like the small drops of water that torturers let fall ceaselessly upon one spot of their victims body, I loved the irradiate refuge of sleep. In my dreams I found a little of the beauty I had vainly sought in life, and wandered through old gardens and enchanted woods."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 8,
+    "chapter_name": "Facts Concerning the Late Arthur Jermyn and His Family 1",
+    "element_index": 32,
+    "element_type": "paragraph",
+    "raw": "Arthur Jermyn waited very patiently for the expected box from \nM.\n Verhaeren, meanwhile studying with increased diligence the manuscripts left by his mad ancestor. He began to feel closely akin to Sir Wade, and to seek relics of the latter’s personal life in England as well as of his African exploits. Oral accounts of the mysterious and secluded wife had been numerous, but no tangible relic of her stay at Jermyn House remained. Jermyn wondered what circumstance had prompted or permitted such an effacement, and decided that the husband’s insanity was the prime cause.",
+    "expected": "Arthur Jermyn waited very patiently for the expected box from M. Verhaeren, meanwhile studying with increased diligence the manuscripts left by his mad ancestor. He began to feel closely akin to Sir Wade, and to seek relics of the latters personal life in England as well as of his African exploits. Oral accounts of the mysterious and secluded wife had been numerous, but no tangible relic of her stay at Jermyn House remained. Jermyn wondered what circumstance had prompted or permitted such an effacement, and decided that the husbands insanity was the prime cause."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 9,
+    "chapter_name": "The Picture in the House",
+    "element_index": 27,
+    "element_type": "paragraph",
+    "raw": "The old man fumbled among his rags, producing a pair of dirty and amazingly antique glasses with small octagonal lenses and steel bows. Donning these, he reached for the volume on the table and turned the pages lovingly.",
+    "expected": "The old man fumbled among his rags, producing a pair of dirty and amazingly antique glasses with small octagonal lenses and steel bows. Donning these, he reached for the volume on the table and turned the pages lovingly."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 10,
+    "chapter_name": "The Music of Erich Zann",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "It was perhaps an hour later, while I still waited and while the old musician’s feverishly written sheets still continued to pile up, that I saw Zann start as from the hint of a horrible shock. Unmistakably he was looking at the curtained window and listening shudderingly. Then I half fancied I heard a sound myself; though it was not a horrible sound, but rather an exquisitely low and infinitely distant musical note, suggesting a player in one of the neighboring houses, or in some abode beyond the lofty wall over which I had never been able to look. Upon Zann the effect was terrible, for, dropping his pencil, suddenly he rose, seized his viol, and commenced to rend the night with the wildest playing I had ever heard from his bow save when listening at the barred door.",
+    "expected": "It was perhaps an hour later, while I still waited and while the old musicians feverishly written sheets still continued to pile up, that I saw Zann start as from the hint of a horrible shock. Unmistakably he was looking at the curtained window and listening shudderingly. Then I half fancied I heard a sound myself; though it was not a horrible sound, but rather an exquisitely low and infinitely distant musical note, suggesting a player in one of the neighboring houses, or in some abode beyond the lofty wall over which I had never been able to look. Upon Zann the effect was terrible, for, dropping his pencil, suddenly he rose, seized his viol, and commenced to rend the night with the wildest playing I had ever heard from his bow save when listening at the barred door."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 11,
+    "chapter_name": "Celephais",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "For many months after that Kuranes sought the marvellous city of Celephaïs and its sky-bound galleys in vain; and though his dreams carried him to many gorgeous and unheard-of places, no one whom he met could tell him how to find Ooth-Nargai, beyond the Tanarian Hills. One night he went flying over dark mountains where there were faint, lone campfires at great distances apart, and strange, shaggy herds with tinkling bells on the leaders; and in the wildest part of this hilly country, so remote that few men could ever have seen it, he found a hideously ancient wall or causeway of stone zigzagging along the ridges and valleys; too gigantic ever to have risen by human hands, and of such a length that neither end of it could be seen. Beyond that wall in the grey dawn he came to a land of quaint gardens and cherry trees, and when the sun rose he beheld such beauty of red and white flowers, green foliage and lawns, white paths, diamond brooks, blue lakelets, carven bridges, and red-roofed pagodas, that he for a moment forgot Celephaïs in sheer delight. But he remembered it again when he walked down a white path toward a red-roofed pagoda, and would have questioned the people of that land about it, had he not found that there were no people there, but only birds and bees and butterflies. On another night Kuranes walked up a damp stone spiral stairway endlessly, and came to a tower window overlooking a mighty plain and river lit by the full moon; and in the silent city that spread away from the riverbank he thought he beheld some feature or arrangement which he had known before. He would have descended and asked the way to Ooth-Nargai had not a fearsome aurora sputtered up from some remote place beyond the horizon, showing the ruin and antiquity of the city, and the stagnation of the reedy river, and the death lying upon that land, as it had lain since King Kynaratholis came home from his conquests to find the vengeance of the gods.",
+    "expected": "For many months after that Kuranes sought the marvellous city of Celephais and its sky-bound galleys in vain; and though his dreams carried him to many gorgeous and unheard-of places, no one whom he met could tell him how to find Ooth-Nargai, beyond the Tanarian Hills. One night he went flying over dark mountains where there were faint, lone campfires at great distances apart, and strange, shaggy herds with tinkling bells on the leaders; and in the wildest part of this hilly country, so remote that few men could ever have seen it, he found a hideously ancient wall or causeway of stone zigzagging along the ridges and valleys; too gigantic ever to have risen by human hands, and of such a length that neither end of it could be seen. Beyond that wall in the grey dawn he came to a land of quaint gardens and cherry trees, and when the sun rose he beheld such beauty of red and white flowers, green foliage and lawns, white paths, diamond brooks, blue lakelets, carven bridges, and red-roofed pagodas, that he for a moment forgot Celephais in sheer delight. But he remembered it again when he walked down a white path toward a red-roofed pagoda, and would have questioned the people of that land about it, had he not found that there were no people there, but only birds and bees and butterflies. On another night Kuranes walked up a damp stone spiral stairway endlessly, and came to a tower window overlooking a mighty plain and river lit by the full moon; and in the silent city that spread away from the riverbank he thought he beheld some feature or arrangement which he had known before. He would have descended and asked the way to Ooth-Nargai had not a fearsome aurora sputtered up from some remote place beyond the horizon, showing the ruin and antiquity of the city, and the stagnation of the reedy river, and the death lying upon that land, as it had lain since King Kynaratholis came home from his conquests to find the vengeance of the gods."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 12,
+    "chapter_name": "The Lurking Fear - 1 - The Shadow on the Chimney",
+    "element_index": 48,
+    "element_type": "paragraph",
+    "raw": "What language can describe the spectacle of a man lost in infinitely abysmal earth; pawing, twisting, wheezing; scrambling madly through sunken convolutions of immemorial blackness without an idea of time, safety, direction, or definite object? There is something hideous in it, but that is what I did. I did it for so long that life faded to a far memory, and I became one with the moles and grubs of nighted depths. Indeed, it was only by accident that after interminable writhings I jarred my forgotten electric lamp alight, so that it shone eerily along the burrow of caked loam that stretched and curved ahead.",
+    "expected": "What language can describe the spectacle of a man lost in infinitely abysmal earth; pawing, twisting, wheezing; scrambling madly through sunken convolutions of immemorial blackness without an idea of time, safety, direction, or definite object? There is something hideous in it, but that is what I did. I did it for so long that life faded to a far memory, and I became one with the moles and grubs of nighted depths. Indeed, it was only by accident that after interminable writhings I jarred my forgotten electric lamp alight, so that it shone eerily along the burrow of caked loam that stretched and curved ahead."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 13,
+    "chapter_name": "Hypnos",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "No word was spoken amidst the distant sound that grew nearer and nearer, but as I followed the memory-face’s mad stare along that cursed shaft of light to its source, the source whence also the whining came, I, too, saw for an instant what it saw, and fell with ringing ears in that fit of shrieking epilepsy which brought the lodgers and the police. Never could I tell, try as I might, what it actually was that I saw; nor could the still face tell, for although it must have seen more than I did, it will never speak again. But always I shall guard against the mocking and insatiate Hypnos, lord of sleep, against the night sky, and against the mad ambitions of knowledge and philosophy.",
+    "expected": "No word was spoken amidst the distant sound that grew nearer and nearer, but as I followed the memory-faces mad stare along that cursed shaft of light to its source, the source whence also the whining came, I, too, saw for an instant what it saw, and fell with ringing ears in that fit of shrieking epilepsy which brought the lodgers and the police. Never could I tell, try as I might, what it actually was that I saw; nor could the still face tell, for although it must have seen more than I did, it will never speak again. But always I shall guard against the mocking and insatiate Hypnos, lord of sleep, against the night sky, and against the mad ambitions of knowledge and philosophy."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 14,
+    "chapter_name": "The Hound - I",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "My friend was dying when I spoke to him, and he could not answer coherently. All he could do was to whisper, “The amulet⁠—that damned thing⁠—.”",
+    "expected": "My friend was dying when I spoke to him, and he could not answer coherently. All he could do was to whisper, <<The amuletthat damned thing.>>"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 15,
+    "chapter_name": "The Rats in the Walls",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "As I gradually recovered the image of the edifice as it had been when my ancestors left it over three centuries before, I began to hire workmen for the reconstruction. In every case I was forced to go outside the immediate locality, for the Anchester villagers had an almost unbelievable fear and hatred of the place. This sentiment was so great that it was sometimes communicated to the outside laborers, causing numerous desertions; whilst its scope appeared to include both the priory and its ancient family.",
+    "expected": "As I gradually recovered the image of the edifice as it had been when my ancestors left it over three centuries before, I began to hire workmen for the reconstruction. In every case I was forced to go outside the immediate locality, for the Anchester villagers had an almost unbelievable fear and hatred of the place. This sentiment was so great that it was sometimes communicated to the outside laborers, causing numerous desertions; whilst its scope appeared to include both the priory and its ancient family."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 16,
+    "chapter_name": "Imprisoned with the Pharaohs 2",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "Shortly after nine our party, mounted on donkeys bearing such royal or tourist-reminiscent names as “Rameses,” “Mark Twain,” “\nJ. P.\n Morgan,” and “Minnehaha,” edged through street labyrinths both Oriental and Occidental, crossed the muddy and mast-forested Nile by the bridge of the bronze lions, and cantered philosophically between the lebbakhs on the road to Giza. Slightly over two hours were consumed by the trip, toward the end of which we passed the last of the returning tourists, saluted the last inbound trolley-car, and were alone with the night and the past and the spectral moon.",
+    "expected": "Shortly after nine our party, mounted on donkeys bearing such royal or tourist-reminiscent names as <<Rameses,>> <<Mark Twain,>> << J. P. Morgan,>> and <<Minnehaha,>> edged through street labyrinths both Oriental and Occidental, crossed the muddy and mast-forested Nile by the bridge of the bronze lions, and cantered philosophically between the lebbakhs on the road to Giza. Slightly over two hours were consumed by the trip, toward the end of which we passed the last of the returning tourists, saluted the last inbound trolley-car, and were alone with the night and the past and the spectral moon."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 17,
+    "chapter_name": "The Festival",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "At the hospital they told me I had been found half frozen in Kingsport Harbour at dawn, clinging to the drifting spar that accident sent to save me. They told me I had taken the wrong fork of the hill road the night before, and fallen over the cliffs at Orange Point⁠—a thing they deduced from prints found in the snow. There was nothing I could say, because everything was wrong. Everything was wrong, with the broad window showing a sea of roofs in which only about one in five was ancient, and the sound of trolleys and motors in the streets below. They insisted that this was Kingsport, and I could not deny it.",
+    "expected": "At the hospital they told me I had been found half frozen in Kingsport Harbour at dawn, clinging to the drifting spar that accident sent to save me. They told me I had taken the wrong fork of the hill road the night before, and fallen over the cliffs at Orange Pointa thing they deduced from prints found in the snow. There was nothing I could say, because everything was wrong. Everything was wrong, with the broad window showing a sea of roofs in which only about one in five was ancient, and the sound of trolleys and motors in the streets below. They insisted that this was Kingsport, and I could not deny it."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 18,
+    "chapter_name": "The Unnamable",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "My tale had been called “The Attic Window,” and appeared in the January, 1922, issue of \nWhispers\n. In a good many places, especially the South and the Pacific coast, they took the magazines off the stands at the complaints of silly milksops; but New England didn’t get the thrill and merely shrugged its shoulders at my extravagance. The thing, it was averred, was biologically impossible to start with; merely another of those crazy country mutterings which Cotton Mather had been gullible enough to dump into his chaotic \nMagnalia Christi Americana\n, and so poorly authenticated that even he had not ventured to name the locality where the horror occurred. And as to the way I amplified the bare jotting of the old mystic⁠—that was quite impossible, and characteristic of a flighty and notional scribbler! Mather had indeed told of the thing as being born, but nobody but a cheap sensationalist would think of having it grow up, look into people’s windows at night, and be hidden in the attic of a house, in flesh and in spirit, till someone saw it at the window centuries later and couldn’t describe what it was that turned his hair grey. All this was flagrant trashiness, and my friend Manton was not slow to insist on that fact. Then I told him what I had found in an old diary kept between 1706 and 1723, unearthed among family papers not a mile from where we were sitting; that, and the certain reality of the scars on my ancestor’s chest and back which the diary described. I told him, too, of the fears of others in that region, and how they were whispered down for generations; and how no mythical madness came to the boy who in 1793 entered an abandoned house to examine certain traces suspected to be there.",
+    "expected": "My tale had been called <<The Attic Window,>> and appeared in the January, 1922, issue of Whispers . In a good many places, especially the South and the Pacific coast, they took the magazines off the stands at the complaints of silly milksops; but New England didnt get the thrill and merely shrugged its shoulders at my extravagance. The thing, it was averred, was biologically impossible to start with; merely another of those crazy country mutterings which Cotton Mather had been gullible enough to dump into his chaotic Magnalia Christi Americana , and so poorly authenticated that even he had not ventured to name the locality where the horror occurred. And as to the way I amplified the bare jotting of the old mysticthat was quite impossible, and characteristic of a flighty and notional scribbler! Mather had indeed told of the thing as being born, but nobody but a cheap sensationalist would think of having it grow up, look into peoples windows at night, and be hidden in the attic of a house, in flesh and in spirit, till someone saw it at the window centuries later and couldnt describe what it was that turned his hair grey. All this was flagrant trashiness, and my friend Manton was not slow to insist on that fact. Then I told him what I had found in an old diary kept between 1706 and 1723, unearthed among family papers not a mile from where we were sitting; that, and the certain reality of the scars on my ancestors chest and back which the diary described. I told him, too, of the fears of others in that region, and how they were whispered down for generations; and how no mythical madness came to the boy who in 1793 entered an abandoned house to examine certain traces suspected to be there."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 19,
+    "chapter_name": "The Temple",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "Confronted at last with the Atlantis I had formerly deemed largely a myth, I was the most eager of explorers. At the bottom of that valley a river once had flowed; for as I examined the scene more closely I beheld the remains of stone and marble bridges and seawalls, and terraces and embankments once verdant and beautiful. In my enthusiasm I became nearly as idiotic and sentimental as poor Klenze, and was very tardy in noticing that the southward current had ceased at last, allowing the U-29 to settle slowly down upon the sunken city as an airplane settles upon a town of the upper earth. I was slow, too, in realising that the school of unusual dolphins had vanished.",
+    "expected": "Confronted at last with the Atlantis I had formerly deemed largely a myth, I was the most eager of explorers. At the bottom of that valley a river once had flowed; for as I examined the scene more closely I beheld the remains of stone and marble bridges and seawalls, and terraces and embankments once verdant and beautiful. In my enthusiasm I became nearly as idiotic and sentimental as poor Klenze, and was very tardy in noticing that the southward current had ceased at last, allowing the U-29 to settle slowly down upon the sunken city as an airplane settles upon a town of the upper earth. I was slow, too, in realising that the school of unusual dolphins had vanished."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 20,
+    "chapter_name": "The Tomb",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "Suddenly a peal of thunder, resonant even above the din of the swinish revelry, clave the very roof and laid a hush of fear upon the boisterous company. Red tongues of flame and searing gusts of heat engulfed the house; and the roysterers, struck with terror at the descent of a calamity which seemed to transcend the bounds of unguided nature, fled shrieking into the night. I alone remained, riveted to my seat by a groveling fear which I had never felt before. And then a second horror took possession of my soul. Burnt alive to ashes, my body dispersed by the four winds, \nI might never lie in the tomb of the Hydes\n! Was not my coffin prepared for me? Had I not a right to rest till eternity amongst the descendants of Sir Geoffrey Hyde? Aye! I would claim my heritage of death, even though my soul go seeking through the ages for another corporeal tenement to represent it on that vacant slab in the alcove of the vault. \nJervas Hyde\n should never share the sad fate of Palinurus!",
+    "expected": "Suddenly a peal of thunder, resonant even above the din of the swinish revelry, clave the very roof and laid a hush of fear upon the boisterous company. Red tongues of flame and searing gusts of heat engulfed the house; and the roysterers, struck with terror at the descent of a calamity which seemed to transcend the bounds of unguided nature, fled shrieking into the night. I alone remained, riveted to my seat by a groveling fear which I had never felt before. And then a second horror took possession of my soul. Burnt alive to ashes, my body dispersed by the four winds, I might never lie in the tomb of the Hydes ! Was not my coffin prepared for me? Had I not a right to rest till eternity amongst the descendants of Sir Geoffrey Hyde? Aye! I would claim my heritage of death, even though my soul go seeking through the ages for another corporeal tenement to represent it on that vacant slab in the alcove of the vault. Jervas Hyde should never share the sad fate of Palinurus!"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 21,
+    "chapter_name": "The Cats of Ulthar",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "One day a caravan of strange wanderers from the South entered the narrow cobbled streets of Ulthar. Dark wanderers they were, and unlike the other roving folk who passed through the village twice every year. In the marketplace they told fortunes for silver, and bought gay beads from the merchants. What was the land of these wanderers none could tell; but it was seen that they were given to strange prayers, and that they had painted on the sides of their wagons strange figures with human bodies and the heads of cats, hawks, rams, and lions. And the leader of the caravan wore a headdress with two horns and a curious disk betwixt the horns.",
+    "expected": "One day a caravan of strange wanderers from the South entered the narrow cobbled streets of Ulthar. Dark wanderers they were, and unlike the other roving folk who passed through the village twice every year. In the marketplace they told fortunes for silver, and bought gay beads from the merchants. What was the land of these wanderers none could tell; but it was seen that they were given to strange prayers, and that they had painted on the sides of their wagons strange figures with human bodies and the heads of cats, hawks, rams, and lions. And the leader of the caravan wore a headdress with two horns and a curious disk betwixt the horns."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 22,
+    "chapter_name": "The Outsider",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "The cries were shocking; and as I stood in the brilliant apartment alone and dazed, listening to their vanishing echoes, I trembled at the thought of what might be lurking near me unseen. At a casual inspection the room seemed deserted, but when I moved toward one of the alcoves I thought I detected a presence there⁠—a hint of motion beyond the golden-arched doorway leading to another and somewhat similar room. As I approached the arch I began to perceive the presence more clearly; and then, with the first and last sound I ever uttered⁠—a ghastly ululation that revolted me almost as poignantly as its noxious cause⁠—I beheld in full, frightful vividness the inconceivable, indescribable, and unmentionable monstrosity which had by its simple appearance changed a merry company to a herd of delirious fugitives.",
+    "expected": "The cries were shocking; and as I stood in the brilliant apartment alone and dazed, listening to their vanishing echoes, I trembled at the thought of what might be lurking near me unseen. At a casual inspection the room seemed deserted, but when I moved toward one of the alcoves I thought I detected a presence therea hint of motion beyond the golden-arched doorway leading to another and somewhat similar room. As I approached the arch I began to perceive the presence more clearly; and then, with the first and last sound I ever uttereda ghastly ululation that revolted me almost as poignantly as its noxious causeI beheld in full, frightful vividness the inconceivable, indescribable, and unmentionable monstrosity which had by its simple appearance changed a merry company to a herd of delirious fugitives."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 23,
+    "chapter_name": "The Moon-Bog",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Somewhere, to what remote and fearsome region I know not, Denys Barry has gone. I was with him the last night he lived among men, and heard his screams when the thing came to him; but all the peasants and police in County Meath could never find him, or the others, though they searched long and far. And now I shudder when I hear the frogs piping in swamps, or see the moon in lonely places.",
+    "expected": "Somewhere, to what remote and fearsome region I know not, Denys Barry has gone. I was with him the last night he lived among men, and heard his screams when the thing came to him; but all the peasants and police in County Meath could never find him, or the others, though they searched long and far. And now I shudder when I hear the frogs piping in swamps, or see the moon in lonely places."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 24,
+    "chapter_name": "He",
+    "element_index": 15,
+    "element_type": "paragraph",
+    "raw": "He paused, but I could only nod my head. I have said that I was alarmed, yet to my soul nothing was more deadly than the material daylight world of New York, and whether this man were a harmless eccentric or a wielder of dangerous arts I had no choice save to follow him and slake my sense of wonder on whatever he might have to offer. So I listened.",
+    "expected": "He paused, but I could only nod my head. I have said that I was alarmed, yet to my soul nothing was more deadly than the material daylight world of New York, and whether this man were a harmless eccentric or a wielder of dangerous arts I had no choice save to follow him and slake my sense of wonder on whatever he might have to offer. So I listened."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 25,
+    "chapter_name": "The Horror at Red Hook",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "So much the gossips of Chepachet and Pascoag knew; and so much, also, the most learned specialists believed. But Malone had at first told the specialists much more, ceasing only when he saw that utter incredulity was his portion. Thereafter he held his peace, protesting not at all when it was generally agreed that the collapse of certain squalid brick houses in the Red Hook section of Brooklyn, and the consequent death of many brave officers, had unseated his nervous equilibrium. He had worked too hard, all said, in trying to clean up those nests of disorder and violence; certain features were shocking enough, in all conscience, and the unexpected tragedy was the last straw. This was a simple explanation which everyone could understand, and because Malone was not a simple person he perceived that he had better let it suffice. To hint to unimaginative people of a horror beyond all human conception⁠—a horror of houses and blocks and cities leprous and cancerous with evil dragged from elder worlds⁠—would be merely to invite a padded cell instead of a restful rustication, and Malone was a man of sense despite his mysticism. He had the Celt’s far vision of weird and hidden things, but the logician’s quick eye for the outwardly unconvincing; an amalgam which had led him far afield in the forty-two years of his life, and set him in strange places for a Dublin University man born in a Georgian villa near Phoenix Park.",
+    "expected": "So much the gossips of Chepachet and Pascoag knew; and so much, also, the most learned specialists believed. But Malone had at first told the specialists much more, ceasing only when he saw that utter incredulity was his portion. Thereafter he held his peace, protesting not at all when it was generally agreed that the collapse of certain squalid brick houses in the Red Hook section of Brooklyn, and the consequent death of many brave officers, had unseated his nervous equilibrium. He had worked too hard, all said, in trying to clean up those nests of disorder and violence; certain features were shocking enough, in all conscience, and the unexpected tragedy was the last straw. This was a simple explanation which everyone could understand, and because Malone was not a simple person he perceived that he had better let it suffice. To hint to unimaginative people of a horror beyond all human conceptiona horror of houses and blocks and cities leprous and cancerous with evil dragged from elder worldswould be merely to invite a padded cell instead of a restful rustication, and Malone was a man of sense despite his mysticism. He had the Celts far vision of weird and hidden things, but the logicians quick eye for the outwardly unconvincing; an amalgam which had led him far afield in the forty-two years of his life, and set him in strange places for a Dublin University man born in a Georgian villa near Phoenix Park."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 26,
+    "chapter_name": "The Colour Out of Space",
+    "element_index": 37,
+    "element_type": "paragraph",
+    "raw": "It was quite dark inside, for the window was small and half-obscured by the crude wooden bars; and Ammi could see nothing at all on the wide-planked floor. The stench was beyond enduring, and before proceeding further he had to retreat to another room and return with his lungs filled with breathable air. When he did enter he saw something dark in the corner, and upon seeing it more clearly he screamed outright. While he screamed he thought a momentary cloud eclipsed the window, and a second later he felt himself brushed as if by some hateful current of vapour. Strange colours danced before his eyes; and had not a present horror numbed him he would have thought of the globule in the meteor that the geologist’s hammer had shattered, and of the morbid vegetation that had sprouted in the spring. As it was he thought only of the blasphemous monstrosity which confronted him, and which all too clearly had shared the nameless fate of young Thaddeus and the livestock. But the terrible thing about the horror was that it very slowly and perceptibly moved as it continued to crumble.",
+    "expected": "It was quite dark inside, for the window was small and half-obscured by the crude wooden bars; and Ammi could see nothing at all on the wide-planked floor. The stench was beyond enduring, and before proceeding further he had to retreat to another room and return with his lungs filled with breathable air. When he did enter he saw something dark in the corner, and upon seeing it more clearly he screamed outright. While he screamed he thought a momentary cloud eclipsed the window, and a second later he felt himself brushed as if by some hateful current of vapour. Strange colours danced before his eyes; and had not a present horror numbed him he would have thought of the globule in the meteor that the geologists hammer had shattered, and of the morbid vegetation that had sprouted in the spring. As it was he thought only of the blasphemous monstrosity which confronted him, and which all too clearly had shared the nameless fate of young Thaddeus and the livestock. But the terrible thing about the horror was that it very slowly and perceptibly moved as it continued to crumble."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 27,
+    "chapter_name": "Pickmans Model",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "There was something very disturbing about the nauseous sketches and half-finished monstrosities that leered around from every side of the room, and when Pickman suddenly unveiled a huge canvas on the side away from the light I could not for my life keep back a loud scream⁠—the second I had emitted that night. It echoed and echoed through the dim vaultings of that ancient and nitrous cellar, and I had to choke back a flood of reaction that threatened to burst out as hysterical laughter. Merciful Creator! Eliot, but I don’t know how much was real and how much was feverish fancy. It doesn’t seem to me that earth can hold a dream like that!",
+    "expected": "There was something very disturbing about the nauseous sketches and half-finished monstrosities that leered around from every side of the room, and when Pickman suddenly unveiled a huge canvas on the side away from the light I could not for my life keep back a loud screamthe second I had emitted that night. It echoed and echoed through the dim vaultings of that ancient and nitrous cellar, and I had to choke back a flood of reaction that threatened to burst out as hysterical laughter. Merciful Creator! Eliot, but I dont know how much was real and how much was feverish fancy. It doesnt seem to me that earth can hold a dream like that!"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 28,
+    "chapter_name": "The Call of Cthulhu",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "It may have been only imagination and it may have been only echoes which induced one of the men, an excitable Spaniard, to fancy he heard antiphonal responses to the ritual from some far and unillumined spot deeper within the wood of ancient legendry and horror. This man, Joseph \nD.\n Galvez, I later met and questioned; and he proved distractingly imaginative. He indeed went so far as to hint of the faint beating of great wings, and of a glimpse of shining eyes and a mountainous white bulk beyond the remotest trees⁠—but I suppose he had been hearing too much native superstition.",
+    "expected": "It may have been only imagination and it may have been only echoes which induced one of the men, an excitable Spaniard, to fancy he heard antiphonal responses to the ritual from some far and unillumined spot deeper within the wood of ancient legendry and horror. This man, Joseph D. Galvez, I later met and questioned; and he proved distractingly imaginative. He indeed went so far as to hint of the faint beating of great wings, and of a glimpse of shining eyes and a mountainous white bulk beyond the remotest treesbut I suppose he had been hearing too much native superstition."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 29,
+    "chapter_name": "Cool Air",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "A rush of cool air greeted me; and though the day was one of the hottest of late June, I shivered as I crossed the threshold into a large apartment whose rich and tasteful decoration surprised me in this nest of squalor and seediness. A folding couch now filled its diurnal role of sofa, and the mahogany furniture, sumptuous hangings, old paintings, and mellow bookshelves all bespoke a gentleman’s study rather than a boardinghouse bedroom. I now saw that the hall room above mine⁠—the “leetle room” of bottles and machines which \nMrs.\n Herrero had mentioned⁠—was merely the laboratory of the doctor; and that his main living-quarters lay in the spacious adjoining room whose convenient alcoves and large contiguous bathroom permitted him to hide all dressers and obtrusively utilitarian devices. Doctor Muñoz, most certainly, was a man of birth, cultivation, and discrimination.",
+    "expected": "A rush of cool air greeted me; and though the day was one of the hottest of late June, I shivered as I crossed the threshold into a large apartment whose rich and tasteful decoration surprised me in this nest of squalor and seediness. A folding couch now filled its diurnal role of sofa, and the mahogany furniture, sumptuous hangings, old paintings, and mellow bookshelves all bespoke a gentlemans study rather than a boardinghouse bedroom. I now saw that the hall room above minethe <<leetle room>> of bottles and machines which Mrs. Herrero had mentionedwas merely the laboratory of the doctor; and that his main living-quarters lay in the spacious adjoining room whose convenient alcoves and large contiguous bathroom permitted him to hide all dressers and obtrusively utilitarian devices. Doctor Munoz, most certainly, was a man of birth, cultivation, and discrimination."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 30,
+    "chapter_name": "The Silver Key",
+    "element_index": 20,
+    "element_type": "paragraph",
+    "raw": "Then came the steeper slope that held the old Carter place he had not seen in over forty years. Afternoon was far gone when he reached the foot, and at the bend halfway up he paused to scan the outspread countryside golden and glorified in the slanting floods of magic poured out by a western sun. All the strangeness and expectancy of his recent dreams seemed present in this hushed and unearthly landscape, and he thought of the unknown solitudes of other planets as his eyes traced out the velvet and deserted lawns shining undulant between their tumbled walls, the clumps of faery forest setting off far lines of purple hills beyond hills, and the spectral wooded valley dipping down in shadow to dank hollows where trickling waters crooned and gurgled among swollen and distorted roots.",
+    "expected": "Then came the steeper slope that held the old Carter place he had not seen in over forty years. Afternoon was far gone when he reached the foot, and at the bend halfway up he paused to scan the outspread countryside golden and glorified in the slanting floods of magic poured out by a western sun. All the strangeness and expectancy of his recent dreams seemed present in this hushed and unearthly landscape, and he thought of the unknown solitudes of other planets as his eyes traced out the velvet and deserted lawns shining undulant between their tumbled walls, the clumps of faery forest setting off far lines of purple hills beyond hills, and the spectral wooded valley dipping down in shadow to dank hollows where trickling waters crooned and gurgled among swollen and distorted roots."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 31,
+    "chapter_name": "The Dunwich Horror",
+    "element_index": 74,
+    "element_type": "paragraph",
+    "raw": "Here he faltered, and seemed to shiver afresh with the fright that had sent him flying home. \nMrs.\n Corey, unable to extract more information, began telephoning the neighbors; thus starting on its rounds the overture of panic that heralded the major terrors. When she got Sally Sawyer, housekeeper at Seth Bishop’s, the nearest place to Whateley’s, it became her turn to listen instead of transmit; for Sally’s boy Chauncey, who slept poorly, had been up on the hill toward Whateley’s, and had dashed back in terror after one look at the place, and at the pasturage where \nMr.\n Bishop’s cows had been left out all night.",
+    "expected": "Here he faltered, and seemed to shiver afresh with the fright that had sent him flying home. Mrs. Corey, unable to extract more information, began telephoning the neighbors; thus starting on its rounds the overture of panic that heralded the major terrors. When she got Sally Sawyer, housekeeper at Seth Bishops, the nearest place to Whateleys, it became her turn to listen instead of transmit; for Sallys boy Chauncey, who slept poorly, had been up on the hill toward Whateleys, and had dashed back in terror after one look at the place, and at the pasturage where Mr. Bishops cows had been left out all night."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 32,
+    "chapter_name": "The Other Gods",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Atop the tallest of earth’s peaks dwell the gods of earth, and suffer no man to tell that he hath looked upon them. Lesser peaks they once inhabited; but ever the men from the plains would scale the slopes of rock and snow, driving the gods to higher and higher mountains till now only the last remains. When they left their older peaks they took with them all signs of themselves, save once, it is said, when they left a carven image on the face of the mountain which they called Ngranek.",
+    "expected": "Atop the tallest of earths peaks dwell the gods of earth, and suffer no man to tell that he hath looked upon them. Lesser peaks they once inhabited; but ever the men from the plains would scale the slopes of rock and snow, driving the gods to higher and higher mountains till now only the last remains. When they left their older peaks they took with them all signs of themselves, save once, it is said, when they left a carven image on the face of the mountain which they called Ngranek."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 33,
+    "chapter_name": "From Beyond",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“Do you know what that is?” he whispered, “\nthat is ultraviolet\n.” He chuckled oddly at my surprise. “You thought ultraviolet was invisible, and so it is⁠—but you can see that and many other invisible things \nnow\n.",
+    "expected": "<<Do you know what that is?>> he whispered, << that is ultraviolet .>> He chuckled oddly at my surprise. <<You thought ultraviolet was invisible, and so it isbut you can see that and many other invisible things now ."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 34,
+    "chapter_name": "The Quest of Iranon",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "So Iranon went out of the stable and walked over the narrow stone streets between the gloomy square houses of granite, seeking something green, for all was of stone. On the faces of men were frowns, but by the stone embankment along the sluggish river Zuro sat a young boy with sad eyes gazing into the waters to spy green budding branches washed down from the hills by the freshets. And the boy said to him: “Art thou not indeed he of whom the archons tell, who seekest a far city in a fair land? I am Romnod, and born in the blood of Teloth, but am not old in the ways of the granite city, and yearn daily for the warm groves and the distant lands of beauty and song. \nBeyond the Karthian hills lieth Oonai, the city of lutes and dancing, which men whisper of and say is both lovely and terrible.\n Thither would I go were I old enough to find the way, and thither shouldst thou go and thou wouldst sing and have men listen to thee. Let us leave the city Teloth and fare together among the hills of spring. Thou shalt show me the ways of travel and I will attend thy songs at evening when the stars one by one bring dreams to the minds of dreamers. And peradventure it may be that Oonai the city of lutes and dancing is even the fair Aira thou seekest, for it is told that thou hast not known Aira since old days, and a name often changeth. Let us go to Oonai, O Iranon of the golden head, where men shall know our longings and welcome us as brothers, nor ever laugh or frown at what we say.” And Iranon answered:",
+    "expected": "So Iranon went out of the stable and walked over the narrow stone streets between the gloomy square houses of granite, seeking something green, for all was of stone. On the faces of men were frowns, but by the stone embankment along the sluggish river Zuro sat a young boy with sad eyes gazing into the waters to spy green budding branches washed down from the hills by the freshets. And the boy said to him: <<Art thou not indeed he of whom the archons tell, who seekest a far city in a fair land? I am Romnod, and born in the blood of Teloth, but am not old in the ways of the granite city, and yearn daily for the warm groves and the distant lands of beauty and song. Beyond the Karthian hills lieth Oonai, the city of lutes and dancing, which men whisper of and say is both lovely and terrible. Thither would I go were I old enough to find the way, and thither shouldst thou go and thou wouldst sing and have men listen to thee. Let us leave the city Teloth and fare together among the hills of spring. Thou shalt show me the ways of travel and I will attend thy songs at evening when the stars one by one bring dreams to the minds of dreamers. And peradventure it may be that Oonai the city of lutes and dancing is even the fair Aira thou seekest, for it is told that thou hast not known Aira since old days, and a name often changeth. Let us go to Oonai, O Iranon of the golden head, where men shall know our longings and welcome us as brothers, nor ever laugh or frown at what we say.>> And Iranon answered:"
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 35,
+    "chapter_name": "The Shadow Over Innsmouth",
+    "element_index": 82,
+    "element_type": "paragraph",
+    "raw": "“Wal, Sir, it seems by the time Obed knowed them islanders they was all full o’ fish blood from them deep-water things. When they got old an’ begun to show it, they was kep’ hid until they felt like takin’ to the water an’ quittin’ the place. Some was more teched than others, an’ some never did change quite enough to take to the water; but mostly they turned aout jest the way them things said. Them as was born more like the things changed arly, but them as was nearly human sometimes stayed on the island till they was past seventy, though they’d usually go daown under fer trial trips afore that. Folks as had took to the water, gen’rally come back a good deal to visit, so’s a man ud often be a-talkin’ to his own five-times-great-grandfather, who’d left the dry land a couple o’ hundred years or so afore.",
+    "expected": "<<Wal, Sir, it seems by the time Obed knowed them islanders they was all full o fish blood from them deep-water things. When they got old an begun to show it, they was kep hid until they felt like takin to the water an quittin the place. Some was more teched than others, an some never did change quite enough to take to the water; but mostly they turned aout jest the way them things said. Them as was born more like the things changed arly, but them as was nearly human sometimes stayed on the island till they was past seventy, though theyd usually go daown under fer trial trips afore that. Folks as had took to the water, genrally come back a good deal to visit, sos a man ud often be a-talkin to his own five-times-great-grandfather, whod left the dry land a couple o hundred years or so afore."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 36,
+    "chapter_name": "The Haunter of the Dark",
+    "element_index": 43,
+    "element_type": "paragraph",
+    "raw": "Every evening the old impulse to gaze westward returned, and he saw the black steeple as of yore amongst the bristling roofs of a distant and half-fabulous world. But now it held a fresh note of terror for him. He knew the heritage of evil lore it masked, and with the knowledge his vision ran riot in queer new ways. The birds of spring were returning, and as he watched their sunset flights he fancied they avoided the gaunt, lone spire as never before. When a flock of them approached it, he thought, they would wheel and scatter in panic confusion⁠—and he could guess at the wild twitterings which failed to reach him across the intervening miles.",
+    "expected": "Every evening the old impulse to gaze westward returned, and he saw the black steeple as of yore amongst the bristling roofs of a distant and half-fabulous world. But now it held a fresh note of terror for him. He knew the heritage of evil lore it masked, and with the knowledge his vision ran riot in queer new ways. The birds of spring were returning, and as he watched their sunset flights he fancied they avoided the gaunt, lone spire as never before. When a flock of them approached it, he thought, they would wheel and scatter in panic confusionand he could guess at the wild twitterings which failed to reach him across the intervening miles."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 37,
+    "chapter_name": "The Thing on the Doorstep - 1",
+    "element_index": 88,
+    "element_type": "paragraph",
+    "raw": "The final nightmare came before Candlemas⁠—heralded, in cruel irony, by a false gleam of hope. One morning late in January the sanitarium telephoned to report that Edward’s reason had suddenly come back. His continuous memory, they said, was badly impaired; but sanity itself was certain. Of course he must remain some time for observation, but there could be little doubt of the outcome. All going well, he would surely be free in a week.",
+    "expected": "The final nightmare came before Candlemasheralded, in cruel irony, by a false gleam of hope. One morning late in January the sanitarium telephoned to report that Edwards reason had suddenly come back. His continuous memory, they said, was badly impaired; but sanity itself was certain. Of course he must remain some time for observation, but there could be little doubt of the outcome. All going well, he would surely be free in a week."
+  },
+  {
+    "book": "h-p-lovecraft-short-fiction-advanced",
+    "chapter_index": 38,
+    "chapter_name": "The Shunned House - I",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "We never⁠—even in our wildest Halloween moods⁠—visited this cellar by night, but in some of our daytime visits could detect the phosphorescence, especially when the day was dark and wet. There was also a subtler thing we often thought we detected⁠—a very strange thing which was, however, merely suggestive at most. I refer to a sort of cloudy whitish pattern on the dirt floor⁠—a vague, shifting deposit of mold or niter which we sometimes thought we could trace amidst the sparse fungous growths near the huge fireplace of the basement kitchen. Once in a while it struck us that this patch bore an uncanny resemblance to a doubled-up human figure, though generally no such kinship existed, and often there was no whitish deposit whatever.",
+    "expected": "We nevereven in our wildest Halloween moodsvisited this cellar by night, but in some of our daytime visits could detect the phosphorescence, especially when the day was dark and wet. There was also a subtler thing we often thought we detecteda very strange thing which was, however, merely suggestive at most. I refer to a sort of cloudy whitish pattern on the dirt floora vague, shifting deposit of mold or niter which we sometimes thought we could trace amidst the sparse fungous growths near the huge fireplace of the basement kitchen. Once in a while it struck us that this patch bore an uncanny resemblance to a doubled-up human figure, though generally no such kinship existed, and often there was no whitish deposit whatever."
+  }
+]

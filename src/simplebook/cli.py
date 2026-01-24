@@ -28,7 +28,7 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--preview",
         action="store_true",
-        help="Emit chapter structure and chunk indices only (omit paragraphs).",
+        help="Emit chapter structure and chunk indices only (omit element text).",
     )
     parser.add_argument(
         "--validate",

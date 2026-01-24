@@ -1,0 +1,110 @@
+[
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 0,
+    "chapter_name": "I",
+    "element_index": 20,
+    "element_type": "paragraph",
+    "raw": "The Time Traveller smiled. “Are you sure we can move freely in Space? Right and left we can go, backward and forward freely enough, and men always have done so. I admit we move freely in two dimensions. But how about up and down? Gravitation limits us there.”",
+    "expected": "The Time Traveller smiled. <<Are you sure we can move freely in Space? Right and left we can go, backward and forward freely enough, and men always have done so. I admit we move freely in two dimensions. But how about up and down? Gravitation limits us there.>>"
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 1,
+    "chapter_name": "II",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“I say,” said the Editor hilariously, “these chaps here say you have been travelling into the middle of next week! Tell us all about little Rosebery, will you? What will you take for the lot?”",
+    "expected": "<<I say,>> said the Editor hilariously, <<these chaps here say you have been travelling into the middle of next week! Tell us all about little Rosebery, will you? What will you take for the lot?>>"
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 2,
+    "chapter_name": "III",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "“I am afraid I cannot convey the peculiar sensations of time travelling. They are excessively unpleasant. There is a feeling exactly like that one has upon a switchback﻿—of a helpless headlong motion! I felt the same horrible anticipation, too, of an imminent smash. As I put on pace, night followed day like the flapping of a black wing. The dim suggestion of the laboratory seemed presently to fall away from me, and I saw the sun hopping swiftly across the sky, leaping it every minute, and every minute marking a day. I supposed the laboratory had been destroyed and I had come into the open air. I had a dim impression of scaffolding, but I was already going too fast to be conscious of any moving things. The slowest snail that ever crawled dashed by too fast for me. The twinkling succession of darkness and light was excessively painful to the eye. Then, in the intermittent darknesses, I saw the moon spinning swiftly through her quarters from new to full, and had a faint glimpse of the circling stars. Presently, as I went on, still gaining velocity, the palpitation of night and day merged into one continuous greyness; the sky took on a wonderful deepness of blue, a splendid luminous color like that of early twilight; the jerking sun became a streak of fire, a brilliant arch, in space; the moon a fainter fluctuating band; and I could see nothing of the stars, save now and then a brighter circle flickering in the blue.",
+    "expected": "<<I am afraid I cannot convey the peculiar sensations of time travelling. They are excessively unpleasant. There is a feeling exactly like that one has upon a switchbackof a helpless headlong motion! I felt the same horrible anticipation, too, of an imminent smash. As I put on pace, night followed day like the flapping of a black wing. The dim suggestion of the laboratory seemed presently to fall away from me, and I saw the sun hopping swiftly across the sky, leaping it every minute, and every minute marking a day. I supposed the laboratory had been destroyed and I had come into the open air. I had a dim impression of scaffolding, but I was already going too fast to be conscious of any moving things. The slowest snail that ever crawled dashed by too fast for me. The twinkling succession of darkness and light was excessively painful to the eye. Then, in the intermittent darknesses, I saw the moon spinning swiftly through her quarters from new to full, and had a faint glimpse of the circling stars. Presently, as I went on, still gaining velocity, the palpitation of night and day merged into one continuous greyness; the sky took on a wonderful deepness of blue, a splendid luminous color like that of early twilight; the jerking sun became a streak of fire, a brilliant arch, in space; the moon a fainter fluctuating band; and I could see nothing of the stars, save now and then a brighter circle flickering in the blue."
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 3,
+    "chapter_name": "IV",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "“For a moment I was staggered, though the import of his gesture was plain enough. The question had come into my mind abruptly: were these creatures fools? You may hardly understand how it took me. You see I had always anticipated that the people of the year Eight Hundred and Two Thousand odd would be incredibly in front of us in knowledge, art, everything. Then one of them suddenly asked me a question that showed him to be on the intellectual level of one of our five-year-old children﻿—asked me, in fact, if I had come from the sun in a thunderstorm! It let loose the judgment I had suspended upon their clothes, their frail light limbs, and fragile features. A flow of disappointment rushed across my mind. For a moment I felt that I had built the Time Machine in vain.",
+    "expected": "<<For a moment I was staggered, though the import of his gesture was plain enough. The question had come into my mind abruptly: were these creatures fools? You may hardly understand how it took me. You see I had always anticipated that the people of the year Eight Hundred and Two Thousand odd would be incredibly in front of us in knowledge, art, everything. Then one of them suddenly asked me a question that showed him to be on the intellectual level of one of our five-year-old childrenasked me, in fact, if I had come from the sun in a thunderstorm! It let loose the judgment I had suspended upon their clothes, their frail light limbs, and fragile features. A flow of disappointment rushed across my mind. For a moment I felt that I had built the Time Machine in vain."
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 4,
+    "chapter_name": "V",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“I got up after a time, and began walking aimlessly through the bushes towards the hill again. ‘Patience,’ said I to myself. ‘If you want your machine again you must leave that sphinx alone. If they mean to take your machine away, it’s little good your wrecking their bronze panels, and if they don’t, you will get it back as soon as you can ask for it. To sit among all those unknown things before a puzzle like that is hopeless. That way lies monomania. Face this world. Learn its ways, watch it, be careful of too hasty guesses at its meaning. In the end you will find clues to it all.’ Then suddenly the humour of the situation came into my mind: the thought of the years I had spent in study and toil to get into the future age, and now my passion of anxiety to get out of it. I had made myself the most complicated and the most hopeless trap that ever a man devised. Although it was at my own expense, I could not help myself. I laughed aloud.",
+    "expected": "<<I got up after a time, and began walking aimlessly through the bushes towards the hill again. Patience, said I to myself. If you want your machine again you must leave that sphinx alone. If they mean to take your machine away, its little good your wrecking their bronze panels, and if they dont, you will get it back as soon as you can ask for it. To sit among all those unknown things before a puzzle like that is hopeless. That way lies monomania. Face this world. Learn its ways, watch it, be careful of too hasty guesses at its meaning. In the end you will find clues to it all. Then suddenly the humour of the situation came into my mind: the thought of the years I had spent in study and toil to get into the future age, and now my passion of anxiety to get out of it. I had made myself the most complicated and the most hopeless trap that ever a man devised. Although it was at my own expense, I could not help myself. I laughed aloud."
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 5,
+    "chapter_name": "VI",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“I tried to call to them, but the language they had was apparently different from that of the Over-world people; so that I was needs left to my own unaided efforts, and the thought of flight before exploration was even then in my mind. But I said to myself, ‘You are in for it now,’ and, feeling my way along the tunnel, I found the noise of machinery grow louder. Presently the walls fell away from me, and I came to a large open space, and striking another match, saw that I had entered a vast arched cavern, which stretched into utter darkness beyond the range of my light. The view I had of it was as much as one could see in the burning of a match.",
+    "expected": "<<I tried to call to them, but the language they had was apparently different from that of the Over-world people; so that I was needs left to my own unaided efforts, and the thought of flight before exploration was even then in my mind. But I said to myself, You are in for it now, and, feeling my way along the tunnel, I found the noise of machinery grow louder. Presently the walls fell away from me, and I came to a large open space, and striking another match, saw that I had entered a vast arched cavern, which stretched into utter darkness beyond the range of my light. The view I had of it was as much as one could see in the burning of a match."
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 6,
+    "chapter_name": "VII",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "“Weena had been hugely delighted when I began to carry her, but after a while she desired me to let her down, and ran along by the side of me, occasionally darting off on either hand to pick flowers to stick in my pockets. My pockets had always puzzled Weena, but at the last she had concluded that they were an eccentric kind of vase for floral decoration. At least she utilized them for that purpose. And that reminds me! In changing my jacket I found﻿ ﻿…”",
+    "expected": "<<Weena had been hugely delighted when I began to carry her, but after a while she desired me to let her down, and ran along by the side of me, occasionally darting off on either hand to pick flowers to stick in my pockets. My pockets had always puzzled Weena, but at the last she had concluded that they were an eccentric kind of vase for floral decoration. At least she utilized them for that purpose. And that reminds me! In changing my jacket I found ...>>"
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 7,
+    "chapter_name": "VIII",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "“To judge from the size of the place, this Palace of Green Porcelain had a great deal more in it than a Gallery of Palaeontology; possibly historical galleries; it might be, even a library! To me, at least in my present circumstances, these would be vastly more interesting than this spectacle of oldtime geology in decay. Exploring, I found another short gallery running transversely to the first. This appeared to be devoted to minerals, and the sight of a block of sulphur set my mind running on gunpowder. But I could find no saltpeter; indeed, no nitrates of any kind. Doubtless they had deliquesced ages ago. Yet the sulphur hung in my mind, and set up a train of thinking. As for the rest of the contents of that gallery, though on the whole they were the best preserved of all I saw, I had little interest. I am no specialist in mineralogy, and I went on down a very ruinous aisle running parallel to the first hall I had entered. Apparently this section had been devoted to natural history, but everything had long since passed out of recognition. A few shrivelled and blackened vestiges of what had once been stuffed animals, desiccated mummies in jars that had once held spirit, a brown dust of departed plants: that was all! I was sorry for that, because I should have been glad to trace the patent readjustments by which the conquest of animated nature had been attained. Then we came to a gallery of simply colossal proportions, but singularly ill-lit, the floor of it running downward at a slight angle from the end at which I entered. At intervals white globes hung from the ceiling﻿—many of them cracked and smashed﻿—which suggested that originally the place had been artificially lit. Here I was more in my element, for rising on either side of me were the huge bulks of big machines, all greatly corroded and many broken down, but some still fairly complete. You know I have a certain weakness for mechanism, and I was inclined to linger among these; the more so as for the most part they had the interest of puzzles, and I could make only the vaguest guesses at what they were for. I fancied that if I could solve their puzzles I should find myself in possession of powers that might be of use against the Morlocks.",
+    "expected": "<<To judge from the size of the place, this Palace of Green Porcelain had a great deal more in it than a Gallery of Palaeontology; possibly historical galleries; it might be, even a library! To me, at least in my present circumstances, these would be vastly more interesting than this spectacle of oldtime geology in decay. Exploring, I found another short gallery running transversely to the first. This appeared to be devoted to minerals, and the sight of a block of sulphur set my mind running on gunpowder. But I could find no saltpeter; indeed, no nitrates of any kind. Doubtless they had deliquesced ages ago. Yet the sulphur hung in my mind, and set up a train of thinking. As for the rest of the contents of that gallery, though on the whole they were the best preserved of all I saw, I had little interest. I am no specialist in mineralogy, and I went on down a very ruinous aisle running parallel to the first hall I had entered. Apparently this section had been devoted to natural history, but everything had long since passed out of recognition. A few shrivelled and blackened vestiges of what had once been stuffed animals, desiccated mummies in jars that had once held spirit, a brown dust of departed plants: that was all! I was sorry for that, because I should have been glad to trace the patent readjustments by which the conquest of animated nature had been attained. Then we came to a gallery of simply colossal proportions, but singularly ill-lit, the floor of it running downward at a slight angle from the end at which I entered. At intervals white globes hung from the ceilingmany of them cracked and smashedwhich suggested that originally the place had been artificially lit. Here I was more in my element, for rising on either side of me were the huge bulks of big machines, all greatly corroded and many broken down, but some still fairly complete. You know I have a certain weakness for mechanism, and I was inclined to linger among these; the more so as for the most part they had the interest of puzzles, and I could make only the vaguest guesses at what they were for. I fancied that if I could solve their puzzles I should find myself in possession of powers that might be of use against the Morlocks."
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 8,
+    "chapter_name": "IX",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "IX",
+    "expected": "IX"
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 9,
+    "chapter_name": "X",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "“I awoke a little before sunsetting. I now felt safe against being caught napping by the Morlocks, and, stretching myself, I came on down the hill towards the White Sphinx. I had my crowbar in one hand, and the other hand played with the matches in my pocket.",
+    "expected": "<<I awoke a little before sunsetting. I now felt safe against being caught napping by the Morlocks, and, stretching myself, I came on down the hill towards the White Sphinx. I had my crowbar in one hand, and the other hand played with the matches in my pocket."
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 10,
+    "chapter_name": "XI",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“So I travelled, stopping ever and again, in great strides of a thousand years or more, drawn on by the mystery of the earth’s fate, watching with a strange fascination the sun grow larger and duller in the westward sky, and the life of the old earth ebb away. At last, more than thirty million years hence, the huge red-hot dome of the sun had come to obscure nearly a tenth part of the darkling heavens. Then I stopped once more, for the crawling multitude of crabs had disappeared, and the red beach, save for its livid green liverworts and lichens, seemed lifeless. And now it was flecked with white. A bitter cold assailed me. Rare white flakes ever and again came eddying down. To the northeastward, the glare of snow lay under the starlight of the sable sky and I could see an undulating crest of hillocks pinkish white. There were fringes of ice along the sea margin, with drifting masses further out; but the main expanse of that salt ocean, all bloody under the eternal sunset, was still unfrozen.",
+    "expected": "<<So I travelled, stopping ever and again, in great strides of a thousand years or more, drawn on by the mystery of the earths fate, watching with a strange fascination the sun grow larger and duller in the westward sky, and the life of the old earth ebb away. At last, more than thirty million years hence, the huge red-hot dome of the sun had come to obscure nearly a tenth part of the darkling heavens. Then I stopped once more, for the crawling multitude of crabs had disappeared, and the red beach, save for its livid green liverworts and lichens, seemed lifeless. And now it was flecked with white. A bitter cold assailed me. Rare white flakes ever and again came eddying down. To the northeastward, the glare of snow lay under the starlight of the sable sky and I could see an undulating crest of hillocks pinkish white. There were fringes of ice along the sea margin, with drifting masses further out; but the main expanse of that salt ocean, all bloody under the eternal sunset, was still unfrozen."
+  },
+  {
+    "book": "h-g-wells-the-time-machine",
+    "chapter_index": 11,
+    "chapter_name": "XII",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "The Time Traveller hesitated. Then suddenly: “Certainly not.”",
+    "expected": "The Time Traveller hesitated. Then suddenly: <<Certainly not.>>"
+  }
+]

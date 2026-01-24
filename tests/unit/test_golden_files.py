@@ -34,7 +34,7 @@ except ImportError:
 
 # Test data directories
 TEST_EPUBS_DIR = PROJECT_ROOT / "tests" / "epubs"
-GOLDEN_OUTPUTS_DIR = PROJECT_ROOT / "tests"
+GOLDEN_OUTPUTS_DIR = PROJECT_ROOT / "tests" / "schema" / "json"
 
 
 def get_test_epubs():
@@ -66,7 +66,7 @@ def normalize_epub(epub_path: Path) -> dict:
     """Normalize an EPUB and return the output."""
     book = SimpleBook()
     book.load_epub(str(epub_path))
-    return book.serialize()
+    return book.serialize(preview=True)
 
 
 class TestGoldenFiles:

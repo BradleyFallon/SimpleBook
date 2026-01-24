@@ -1,0 +1,272 @@
+[
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 0,
+    "chapter_name": "I - The Dwellings of Mid-Mark",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "Now the name of this House was the Wolfings, and they bore a Wolf on their banners, and their warriors were marked on the breast with the image of the Wolf, that they might be known for what they were if they fell in battle, and were stripped.",
+    "expected": "Now the name of this House was the Wolfings, and they bore a Wolf on their banners, and their warriors were marked on the breast with the image of the Wolf, that they might be known for what they were if they fell in battle, and were stripped."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 1,
+    "chapter_name": "II - The Flitting of the War-Arrow",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "There sat the chiefs and elders on the dais, and round about stood the kindred intermingled with the thralls, and no man spake, for they were awaiting sure and certain tidings: and when all were come in who had a mind to, there was so great a silence in the hall, that the song of the nightingales on the wood-edge sounded clear and loud therein, and even the chink of the bats about the upper windows could be heard. Then amidst the hush of menfolk, and the sounds of the life of the earth came another sound that made all turn their eyes toward the door; and this was the \npad-pad\n of one running on the trodden and summer-dried ground anigh the hall: it stopped for a moment at the Man’s-door, and the door opened, and the throng parted, making way for the man that entered and came hastily up to the midst of the table that stood on the dais athwart the hall, and stood there panting, holding forth in his outstretched hand something which not all could see in the dimness of the hall-twilight, but which all knew nevertheless. The man was young, lithe and slender, and had no raiment but linen breeches round his middle, and skin shoes on his feet. As he stood there gathering his breath for speech, Thiodolf stood up, and poured mead into a drinking horn and held it out towards the newcomer, and spake, but in rhyme and measure:",
+    "expected": "There sat the chiefs and elders on the dais, and round about stood the kindred intermingled with the thralls, and no man spake, for they were awaiting sure and certain tidings: and when all were come in who had a mind to, there was so great a silence in the hall, that the song of the nightingales on the wood-edge sounded clear and loud therein, and even the chink of the bats about the upper windows could be heard. Then amidst the hush of menfolk, and the sounds of the life of the earth came another sound that made all turn their eyes toward the door; and this was the pad-pad of one running on the trodden and summer-dried ground anigh the hall: it stopped for a moment at the Mans-door, and the door opened, and the throng parted, making way for the man that entered and came hastily up to the midst of the table that stood on the dais athwart the hall, and stood there panting, holding forth in his outstretched hand something which not all could see in the dimness of the hall-twilight, but which all knew nevertheless. The man was young, lithe and slender, and had no raiment but linen breeches round his middle, and skin shoes on his feet. As he stood there gathering his breath for speech, Thiodolf stood up, and poured mead into a drinking horn and held it out towards the newcomer, and spake, but in rhyme and measure:"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 2,
+    "chapter_name": "III - Thiodolf Talketh with the Wood-Sun",
+    "element_index": 34,
+    "element_type": "blockquote",
+    "raw": "“For thy fair love I thank thee, and thy faithful word, O friend!\nBut how might it otherwise happen but we twain must meet in the end,\nThe God of this mighty people and the Markmen and their kin?\nLo, this is the weird of the world, and what may we do herein?”",
+    "expected": "<<For thy fair love I thank thee, and thy faithful word, O friend! But how might it otherwise happen but we twain must meet in the end, The God of this mighty people and the Markmen and their kin? Lo, this is the weird of the world, and what may we do herein?>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 3,
+    "chapter_name": "IV - The House Fareth to the War",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "Such imaginations of trouble then were in the hearts of the stay-at-homes of the Wolfings; the tale tells not indeed that all had such forebodings, but chiefly the old folk who were nursing the end of their life-days amidst the cherishing Kindred of the House.",
+    "expected": "Such imaginations of trouble then were in the hearts of the stay-at-homes of the Wolfings; the tale tells not indeed that all had such forebodings, but chiefly the old folk who were nursing the end of their life-days amidst the cherishing Kindred of the House."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 4,
+    "chapter_name": "V - Concerning the Hall-Sun",
+    "element_index": 0,
+    "element_type": "paragraph",
+    "raw": "When the warriors and the others had gone down to the mead, the Hall-Sun was left standing on the Hill of Speech, and she stood there till she saw the host in due array going on its ways dark and bright and beautiful; then she made as if to turn aback to the Great Roof; but all at once it seemed to her as if something held her back, as if her will to move had departed from her, and that she could not put one foot before the other. So she lingered on the Hill, and the quenched candle fell from her hand, and presently she sank adown on the grass and sat there with the face of one thinking intently. Yet was it with her that a thousand thoughts were in her mind at once and no one of them uppermost, and images of what had been and what then was flickered about in her brain, and betwixt them were engendered images of things to be, but unstable and not to be trowed in. So sat the Hall-Sun on the Hill of Speech lost in a dream of the day, whose stories were as little clear as those of a night-dream.",
+    "expected": "When the warriors and the others had gone down to the mead, the Hall-Sun was left standing on the Hill of Speech, and she stood there till she saw the host in due array going on its ways dark and bright and beautiful; then she made as if to turn aback to the Great Roof; but all at once it seemed to her as if something held her back, as if her will to move had departed from her, and that she could not put one foot before the other. So she lingered on the Hill, and the quenched candle fell from her hand, and presently she sank adown on the grass and sat there with the face of one thinking intently. Yet was it with her that a thousand thoughts were in her mind at once and no one of them uppermost, and images of what had been and what then was flickered about in her brain, and betwixt them were engendered images of things to be, but unstable and not to be trowed in. So sat the Hall-Sun on the Hill of Speech lost in a dream of the day, whose stories were as little clear as those of a night-dream."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 5,
+    "chapter_name": "VI - They Talk on the Way to the Folk-Thing",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "“How then if ye come not back, nor Wolfkettle, nor the Welsh Guest, nor I myself? Meseemeth no one of these Southland Cities shall we behold, and no more of the Southlanders than their war-array.”",
+    "expected": "<<How then if ye come not back, nor Wolfkettle, nor the Welsh Guest, nor I myself? Meseemeth no one of these Southland Cities shall we behold, and no more of the Southlanders than their war-array.>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 6,
+    "chapter_name": "VII - They Gather to the Folk-Mote",
+    "element_index": 28,
+    "element_type": "paragraph",
+    "raw": "But when the stour was hard, and the battle was broken, and the hearts of men began to fail them, and doubt fell upon the Markmen, then was he another man to see: wise, but swift and dangerous, rushing on as if shot out by some mighty engine: heedful of all, on either side and in front; running hither and thither as the fight failed and the fire of battle faltered; his sword so swift and deadly that it was as if he wielded the very lightening of the heavens: for with the sword it was ever his wont to fight.",
+    "expected": "But when the stour was hard, and the battle was broken, and the hearts of men began to fail them, and doubt fell upon the Markmen, then was he another man to see: wise, but swift and dangerous, rushing on as if shot out by some mighty engine: heedful of all, on either side and in front; running hither and thither as the fight failed and the fire of battle faltered; his sword so swift and deadly that it was as if he wielded the very lightening of the heavens: for with the sword it was ever his wont to fight."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 7,
+    "chapter_name": "VIII - The Folk-Mote of the Markmen",
+    "element_index": 29,
+    "element_type": "paragraph",
+    "raw": "“Therewith he fell back and died. So I did as he bade me and took his gear, worth six kine, and did it on me; I laid turf upon him in that dale, and hid my bow and my gear in a blackthorn brake hard by, and then took his horse and rode away.",
+    "expected": "<<Therewith he fell back and died. So I did as he bade me and took his gear, worth six kine, and did it on me; I laid turf upon him in that dale, and hid my bow and my gear in a blackthorn brake hard by, and then took his horse and rode away."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 8,
+    "chapter_name": "IX - The Ancient Man of the Daylings",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "But Thiodolf spake nought of the matter, though in his heart he pondered it.",
+    "expected": "But Thiodolf spake nought of the matter, though in his heart he pondered it."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 9,
+    "chapter_name": "X - That Carline Cometh to the Roof of the Wolfings",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "So they grew merry, and they led the carline into the Hall with them, and set her down in the Women’s-Chamber, and washed her feet, and gave her meat and drink, and bade her rest and think of nothing troublous, and in all wise made her good cheer; and she was merry with them, and praised their fairness and their deftness, and asked them many questions about their weaving and spinning and carding; (howbeit the looms were idle as then because it was midsummer, and the men gone to the war). And this they deemed strange, as it seemed to them that all women should know of such things; but they thought it was a token that she came from far away.",
+    "expected": "So they grew merry, and they led the carline into the Hall with them, and set her down in the Womens-Chamber, and washed her feet, and gave her meat and drink, and bade her rest and think of nothing troublous, and in all wise made her good cheer; and she was merry with them, and praised their fairness and their deftness, and asked them many questions about their weaving and spinning and carding; (howbeit the looms were idle as then because it was midsummer, and the men gone to the war). And this they deemed strange, as it seemed to them that all women should know of such things; but they thought it was a token that she came from far away."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 10,
+    "chapter_name": "XI - The Hall-Sun Speaketh",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "She held her peace for a little while, and no one dared to speak; then she lifted up her head and spake:",
+    "expected": "She held her peace for a little while, and no one dared to speak; then she lifted up her head and spake:"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 11,
+    "chapter_name": "XII - Tidings of the Battle in Mirkwood",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "So again they brought him the horn, and made much of him; and he drank, and then spake on.",
+    "expected": "So again they brought him the horn, and made much of him; and he drank, and then spake on."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 12,
+    "chapter_name": "XIII - The Hall-Sun Saith Another Word",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "The folk were doubtful and somewhat heavyhearted because of those last words of hers; but they would not ask her more, or rouse her from her sleep, lest they should grieve her; so they departed to their beds and slept for what was yet left of the night.",
+    "expected": "The folk were doubtful and somewhat heavyhearted because of those last words of hers; but they would not ask her more, or rouse her from her sleep, lest they should grieve her; so they departed to their beds and slept for what was yet left of the night."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 13,
+    "chapter_name": "XIV - The Hall-Sun Is Careful Concerning the Passes of the Wood",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "“Now of these eleven I ordain Hrosshild to be the leader and captain, and to choose for her fellows the stoutest-limbed and heaviest-handed of all the maidens here: art thou content Hrosshild?”",
+    "expected": "<<Now of these eleven I ordain Hrosshild to be the leader and captain, and to choose for her fellows the stoutest-limbed and heaviest-handed of all the maidens here: art thou content Hrosshild?>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 14,
+    "chapter_name": "XV - They Hear Tell of the Battle on the Ridge",
+    "element_index": 26,
+    "element_type": "paragraph",
+    "raw": "“So there we abided a while moving nought, and Thiodolf stood with Throng-plough on his shoulder, unhelmed, unbyrnied, as though he trusted to the kindred for all defence. Nor for their part did the Romans dare to leave their vantage-ground, when they beheld what grim countenance we made them.",
+    "expected": "<<So there we abided a while moving nought, and Thiodolf stood with Throng-plough on his shoulder, unhelmed, unbyrnied, as though he trusted to the kindred for all defence. Nor for their part did the Romans dare to leave their vantage-ground, when they beheld what grim countenance we made them."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 15,
+    "chapter_name": "XVI - How the Dwarf-Wrought Hauberk Was Brought Away from the Hall of the Daylings",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "There were three or four gathered about them now, and a maiden of them said: “Shall I bring Agni hither, mother?”",
+    "expected": "There were three or four gathered about them now, and a maiden of them said: <<Shall I bring Agni hither, mother?>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 16,
+    "chapter_name": "XVII - The Wood-Sun Speaketh with Thiodolf",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“What aileth thee, O Wood-Sun, and is this a new custom of thy kindred and the folk of God-home that their brides array themselves like thralls new-taken, and as women who have lost their kindred and are outcast? Who then hath won the Burg of the Anses, and clomb the rampart of God-home?”",
+    "expected": "<<What aileth thee, O Wood-Sun, and is this a new custom of thy kindred and the folk of God-home that their brides array themselves like thralls new-taken, and as women who have lost their kindred and are outcast? Who then hath won the Burg of the Anses, and clomb the rampart of God-home?>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 17,
+    "chapter_name": "XVIII - Tidings Brought to the Wain-Burg",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "“But know ye that the Romans shall fall with all their power on the Wolfing dwellings, deeming that when they have that, they shall have all that is ours with ourselves also. For there is the Hall-Sun under the Great Roof, and there hath Thiodolf, our War-duke, his dwelling-place; therefore shall all of us, save those that abide with the wains, take horse, and ride without delay, and cross the water at Battleford, so that we may fall upon the foe before they come west of the water; for as ye know there is but one ford whereby a man wending straight from the Bearings may cross Mirkwood-water, and it is like that the foe will tarry at the Bearing stead long enough to burn and pillage it.",
+    "expected": "<<But know ye that the Romans shall fall with all their power on the Wolfing dwellings, deeming that when they have that, they shall have all that is ours with ourselves also. For there is the Hall-Sun under the Great Roof, and there hath Thiodolf, our War-duke, his dwelling-place; therefore shall all of us, save those that abide with the wains, take horse, and ride without delay, and cross the water at Battleford, so that we may fall upon the foe before they come west of the water; for as ye know there is but one ford whereby a man wending straight from the Bearings may cross Mirkwood-water, and it is like that the foe will tarry at the Bearing stead long enough to burn and pillage it."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 18,
+    "chapter_name": "XIX - Those Messengers Come to Thiodolf",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“Farewell,” said he, “and thou, Viglund, take this word in parting, that belike thou shalt yet see the Romans, and strike a stroke, and maybe be smitten. For indeed they be most mighty warriors.”",
+    "expected": "<<Farewell,>> said he, <<and thou, Viglund, take this word in parting, that belike thou shalt yet see the Romans, and strike a stroke, and maybe be smitten. For indeed they be most mighty warriors.>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 19,
+    "chapter_name": "XX - Otter and His Folk Come Into Mid-Mark",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "But a little while abode Otter in that place, and then waved his arm and rode on and all the host followed; and as they drew nigher, Otter, who was wise in war, beheld the Romans and deemed them a great host, and the very kernel and main body of them many more than all his company; and moreover they were duly and well arrayed as men waiting a foe; so he knew that he must be wary or he would lose himself and all his men.",
+    "expected": "But a little while abode Otter in that place, and then waved his arm and rode on and all the host followed; and as they drew nigher, Otter, who was wise in war, beheld the Romans and deemed them a great host, and the very kernel and main body of them many more than all his company; and moreover they were duly and well arrayed as men waiting a foe; so he knew that he must be wary or he would lose himself and all his men."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 20,
+    "chapter_name": "XXII - Otter Falls on Against His Will",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "Then Otter answered meekly, for he was a wise man and a bold: “We fled not, Arinbiorn, but as the sword fleeth, when it springeth up from the iron helm to fall on the woollen coat. Are we not now of more avail to you, O men of the Bearings, than our dead corpses would have been?”",
+    "expected": "Then Otter answered meekly, for he was a wise man and a bold: <<We fled not, Arinbiorn, but as the sword fleeth, when it springeth up from the iron helm to fall on the woollen coat. Are we not now of more avail to you, O men of the Bearings, than our dead corpses would have been?>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 21,
+    "chapter_name": "XXIII - Thiodolf Meeteth the Romans in the Wolfing Meadow",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "But now befell a wonder, a strange thing to tell of. The Romans soon perceived what was a-doing, whereupon the half of them turned about to face the newcomers, while the other half still withstood the company of Otter: the wedge-array of Thiodolf drew nearer and nearer till it was hard on the place where it should spread itself out to storm down on the foe, and the Goths beset by the Romans made them ready to fall on from their side. There was Thiodolf leading his host, and all men looking for the token and sign to fall on; but even as he lifted up Throng-plough to give that sign, a cloud came over his eyes and he saw nought of all that was before him, and he staggered back as one who hath gotten a deadly stroke, and so fell swooning to the earth, though none had smitten him. Then stayed was the wedge-array even at the very point of onset, and the hearts of the Goths sank, for they deemed that their leader was slain, and those who were nearest to him raised him up and bore him hastily aback out of the battle; and the Romans also had beheld him fall, and they also deemed him dead or sore hurt, and shouted for joy and loitered not, but stormed forth on the wedge-array like valiant men; for it must be told that they, who erst outnumbered the company of Otter, were now much outnumbered, but they deemed it might well be that they could dismay the Goths since they had been stayed by the fall of their leader; and Otter’s company were wearied with sore fighting against a great host. Nevertheless these last, who had not seen the fall of Thiodolf (for the Romans were thick between him and them) fell on with such exceeding fury that they drove the Romans who faced them back on those who had set on the wedge-array, which also stood fast undismayed; for he who stood next to Thiodolf, a man big of body, and stout of heart, hight Thorolf, hove up a great axe and cried out aloud:",
+    "expected": "But now befell a wonder, a strange thing to tell of. The Romans soon perceived what was a-doing, whereupon the half of them turned about to face the newcomers, while the other half still withstood the company of Otter: the wedge-array of Thiodolf drew nearer and nearer till it was hard on the place where it should spread itself out to storm down on the foe, and the Goths beset by the Romans made them ready to fall on from their side. There was Thiodolf leading his host, and all men looking for the token and sign to fall on; but even as he lifted up Throng-plough to give that sign, a cloud came over his eyes and he saw nought of all that was before him, and he staggered back as one who hath gotten a deadly stroke, and so fell swooning to the earth, though none had smitten him. Then stayed was the wedge-array even at the very point of onset, and the hearts of the Goths sank, for they deemed that their leader was slain, and those who were nearest to him raised him up and bore him hastily aback out of the battle; and the Romans also had beheld him fall, and they also deemed him dead or sore hurt, and shouted for joy and loitered not, but stormed forth on the wedge-array like valiant men; for it must be told that they, who erst outnumbered the company of Otter, were now much outnumbered, but they deemed it might well be that they could dismay the Goths since they had been stayed by the fall of their leader; and Otters company were wearied with sore fighting against a great host. Nevertheless these last, who had not seen the fall of Thiodolf (for the Romans were thick between him and them) fell on with such exceeding fury that they drove the Romans who faced them back on those who had set on the wedge-array, which also stood fast undismayed; for he who stood next to Thiodolf, a man big of body, and stout of heart, hight Thorolf, hove up a great axe and cried out aloud:"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 22,
+    "chapter_name": "XXIV - The Goths Are Overthrown by the Romans",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "So at last Thiodolf led forward with Throng-plough held aloft in his right hand; but his left hand he held out by his side, as though he were leading someone along. And as he went, he muttered: “When will these accursed sons of the nether earth leave the way clear to us, that we may be alone and take pleasure each in each amidst of the flowers and the sun?”",
+    "expected": "So at last Thiodolf led forward with Throng-plough held aloft in his right hand; but his left hand he held out by his side, as though he were leading someone along. And as he went, he muttered: <<When will these accursed sons of the nether earth leave the way clear to us, that we may be alone and take pleasure each in each amidst of the flowers and the sun?>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 23,
+    "chapter_name": "XXV - The Host of the Markmen Cometh Into the Wild-Wood",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "So did he without delay, and presently they came anigh the Thing-stead; and the place was fenced cunningly, so that if men would enter they must go by a narrow way that had a fence of tree-trunks on each side wending inward like the maze in a pleasance. Thereby now wended the host all afoot, since it was a holy place and no beast must set foot therein, so that the horses were left without it: so slowly and right quietly once more they came into the garth of the Thing-stead; and lo, a many folk there, of the Wolfings and the Bearings and other kindreds, who had gathered thereto; and albeit these were not warriors in their prime, yet were there none save the young children and the weaker of the women but had weapons of some kind; and they were well ordered, standing or sitting in ranks like folk awaiting battle. There were booths of boughs and rushes set up for shelter of the feebler women and the old men and children along the edges of the fence, for the Hall-Sun had bidden them keep the space clear round about the Doom-ring and the Hill-of-Speech as if for a mighty folk-mote, so that the warriors might have room to muster there and order their array. There were some cooking-fires lighted about the aforesaid booths, but neither many nor great, and they were screened with wattle from the side that lay toward the Romans; for the Hall-Sun would not that they should hold up lanterns for their foemen to find them by. Little noise there was in that stronghold, moreover, for the hearts of all who knew their right hands from their left were set on battle and the destruction of the foe that would destroy the kindreds.",
+    "expected": "So did he without delay, and presently they came anigh the Thing-stead; and the place was fenced cunningly, so that if men would enter they must go by a narrow way that had a fence of tree-trunks on each side wending inward like the maze in a pleasance. Thereby now wended the host all afoot, since it was a holy place and no beast must set foot therein, so that the horses were left without it: so slowly and right quietly once more they came into the garth of the Thing-stead; and lo, a many folk there, of the Wolfings and the Bearings and other kindreds, who had gathered thereto; and albeit these were not warriors in their prime, yet were there none save the young children and the weaker of the women but had weapons of some kind; and they were well ordered, standing or sitting in ranks like folk awaiting battle. There were booths of boughs and rushes set up for shelter of the feebler women and the old men and children along the edges of the fence, for the Hall-Sun had bidden them keep the space clear round about the Doom-ring and the Hill-of-Speech as if for a mighty folk-mote, so that the warriors might have room to muster there and order their array. There were some cooking-fires lighted about the aforesaid booths, but neither many nor great, and they were screened with wattle from the side that lay toward the Romans; for the Hall-Sun would not that they should hold up lanterns for their foemen to find them by. Little noise there was in that stronghold, moreover, for the hearts of all who knew their right hands from their left were set on battle and the destruction of the foe that would destroy the kindreds."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 24,
+    "chapter_name": "XXVI - Thiodolf Talketh with the Wood-Sun",
+    "element_index": 61,
+    "element_type": "paragraph",
+    "raw": "She said:",
+    "expected": "She said:"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 25,
+    "chapter_name": "XXVII - They Wend to the Morning Battle",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "Then the bitterness of tears stayed her speech, and he spake no word more, but took her in his arms a while and soothed her and fondled her, and then they parted, and he went with great strides towards the outgoing of the Thing-stead.",
+    "expected": "Then the bitterness of tears stayed her speech, and he spake no word more, but took her in his arms a while and soothed her and fondled her, and then they parted, and he went with great strides towards the outgoing of the Thing-stead."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 26,
+    "chapter_name": "XXVIII - Of the Storm of Dawning",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "Now Thiodolf, as his wont was when he saw that all was going well, had refrained himself of hand-strokes, but was here and there and everywhere giving heart to his folk, and keeping them in due order, and close array, lest the Romans should yet come among them. But he watched the ranks of the foe, and saw how presently they began to spread out beyond his, and might, if it were not looked to, take them in flank; and he was about to order his men anew to meet them, when he looked on his left hand and saw how Roman men were pouring thick from the wood out of all array, followed by a close throng of the kindreds: for on this side the Romans were outnumbered and had stumbled unawares into the ambush of the Markmen, who had fallen on them straightway and disarrayed them from the first. This flight of their folk the Romans saw also, and held their men together, refraining from the onset, as men who deem that they will have enough to do to stand fast.",
+    "expected": "Now Thiodolf, as his wont was when he saw that all was going well, had refrained himself of hand-strokes, but was here and there and everywhere giving heart to his folk, and keeping them in due order, and close array, lest the Romans should yet come among them. But he watched the ranks of the foe, and saw how presently they began to spread out beyond his, and might, if it were not looked to, take them in flank; and he was about to order his men anew to meet them, when he looked on his left hand and saw how Roman men were pouring thick from the wood out of all array, followed by a close throng of the kindreds: for on this side the Romans were outnumbered and had stumbled unawares into the ambush of the Markmen, who had fallen on them straightway and disarrayed them from the first. This flight of their folk the Romans saw also, and held their men together, refraining from the onset, as men who deem that they will have enough to do to stand fast."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 27,
+    "chapter_name": "XXI - Of Thiodolfs Storm",
+    "element_index": 42,
+    "element_type": "paragraph",
+    "raw": "“O men in this Hall, the War-duke is dead! O people hearken! for Thiodolf the Mighty hath changed his life: Come hither, O men, Come hither, for this is true, that Thiodolf is dead!”",
+    "expected": "<<O men in this Hall, the War-duke is dead! O people hearken! for Thiodolf the Mighty hath changed his life: Come hither, O men, Come hither, for this is true, that Thiodolf is dead!>>"
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 28,
+    "chapter_name": "XXX - Thiodolf Is Borne Out of the Hall and Otter Is Laid Beside Him",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "So the old man came forth, and went slowly in his clashing war-gear up on to the dais. But his attire gleamed and glittered, since over-old was he to thrust deep into the press that day, howbeit he was wise in war. So he stood beside her on the dais holding his head high, and proud he looked, for all his thin white locks and sunken eyes.",
+    "expected": "So the old man came forth, and went slowly in his clashing war-gear up on to the dais. But his attire gleamed and glittered, since over-old was he to thrust deep into the press that day, howbeit he was wise in war. So he stood beside her on the dais holding his head high, and proud he looked, for all his thin white locks and sunken eyes."
+  },
+  {
+    "book": "william-morris-the-house-of-the-wolfings",
+    "chapter_index": 29,
+    "chapter_name": "XXXI - Old Asmund Speaketh Over the War-Dukes: The Dead Are Laid in Mound",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "So she spoke, and a murmur arose as those valiant men came forth again. But lo, now were they dight in fresh and fair raiment and gleaming war-array. For while all this was a-doing and a-saying, they had gotten them by the Hall-Sun’s bidding unto the wains of their Houses, and had arrayed them from the store therein.",
+    "expected": "So she spoke, and a murmur arose as those valiant men came forth again. But lo, now were they dight in fresh and fair raiment and gleaming war-array. For while all this was a-doing and a-saying, they had gotten them by the Hall-Suns bidding unto the wains of their Houses, and had arrayed them from the store therein."
+  }
+]

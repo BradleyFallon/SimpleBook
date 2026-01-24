@@ -24,7 +24,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--out",
-        help="Output directory (default: ./unpacked/<name>).",
+        help="Output directory (default: ./tests/epubs/unpacked/<name>).",
     )
     parser.add_argument(
         "--clean",
@@ -65,7 +65,7 @@ def resolve_epub(arg: str) -> Path:
 def default_out_dir(arg: str, epub_path: Path) -> Path:
     books = build_books()
     name = arg if arg in books else epub_path.stem
-    return PROJECT_ROOT / "unpacked" / name
+    return PROJECT_ROOT / "tests" / "epubs" / "unpacked" / name
 
 
 def main() -> int:

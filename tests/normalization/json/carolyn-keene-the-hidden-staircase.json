@@ -1,0 +1,209 @@
+[
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 0,
+    "chapter_name": "I - A Rude Visitor",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "“Oh, so that’s where the papers are? I thought as much!”",
+    "expected": "<<Oh, so thats where the papers are? I thought as much!>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 1,
+    "chapter_name": "II - A Warning of Trouble",
+    "element_index": 30,
+    "element_type": "paragraph",
+    "raw": "Quickly thrusting the papers back into the desk, she closed down the top and locked it.",
+    "expected": "Quickly thrusting the papers back into the desk, she closed down the top and locked it."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 2,
+    "chapter_name": "III - Interesting Information",
+    "element_index": 41,
+    "element_type": "paragraph",
+    "raw": "“As I recall it, he sold a strip of land on either side of the river. Then after the bridge went up he claimed the railroad had built over its boundary line.”",
+    "expected": "<<As I recall it, he sold a strip of land on either side of the river. Then after the bridge went up he claimed the railroad had built over its boundary line.>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 3,
+    "chapter_name": "IV - A Second Call",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "“But, Dad, there’s nothing to what he says, is there? You don’t owe him any money?”",
+    "expected": "<<But, Dad, theres nothing to what he says, is there? You dont owe him any money?>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 4,
+    "chapter_name": "V - Strange Happenings",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "“You’ll be back before dark?”",
+    "expected": "<<Youll be back before dark?>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 5,
+    "chapter_name": "VI - The Ghost Calls Again",
+    "element_index": 69,
+    "element_type": "paragraph",
+    "raw": "“Oh, you don’t suppose someone has been spying upon us?” she demanded fearfully. “I never once thought of that closet! What if there’s someone in there now?”",
+    "expected": "<<Oh, you dont suppose someone has been spying upon us?>> she demanded fearfully. <<I never once thought of that closet! What if theres someone in there now?>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 6,
+    "chapter_name": "VII - What Can It Mean!",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "“Nancy, I’ve been worried about you,” he began.",
+    "expected": "<<Nancy, Ive been worried about you,>> he began."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 7,
+    "chapter_name": "VIII - The Warning",
+    "element_index": 41,
+    "element_type": "paragraph",
+    "raw": "Nancy started.",
+    "expected": "Nancy started."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 8,
+    "chapter_name": "IX - The Anonymous Message",
+    "element_index": 55,
+    "element_type": "paragraph",
+    "raw": "“But can she? I’m beginning to doubt that anyone can help us!”",
+    "expected": "<<But can she? Im beginning to doubt that anyone can help us!>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 9,
+    "chapter_name": "X - An Unfruitful Search",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "“Shall we try the basement?”",
+    "expected": "<<Shall we try the basement?>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 10,
+    "chapter_name": "XI - A Cry in the Night",
+    "element_index": 48,
+    "element_type": "paragraph",
+    "raw": "Rosemary’s eyes had fallen upon the same chair.",
+    "expected": "Rosemarys eyes had fallen upon the same chair."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 11,
+    "chapter_name": "XII - The Theft",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "“No, I haven’t heard from him since he left,” came the response.",
+    "expected": "<<No, I havent heard from him since he left,>> came the response."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 12,
+    "chapter_name": "XIII - Another Surprise",
+    "element_index": 51,
+    "element_type": "paragraph",
+    "raw": "“We never gave him any sort of option,” Floretta insisted. “We wouldn’t do business with him at any price, because we couldn’t trust him. He would cheat us out of our eye teeth!”",
+    "expected": "<<We never gave him any sort of option,>> Floretta insisted. <<We wouldnt do business with him at any price, because we couldnt trust him. He would cheat us out of our eye teeth!>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 13,
+    "chapter_name": "XIV - What Happened to Carson Drew",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "“Hurry!” \nMr.\n Drew urged. “I can’t get there quickly enough!”",
+    "expected": "<<Hurry!>> Mr. Drew urged. <<I cant get there quickly enough!>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 14,
+    "chapter_name": "XV - A Prisoner",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“Can that be the Turnbull house?” he questioned himself.",
+    "expected": "<<Can that be the Turnbull house?>> he questioned himself."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 15,
+    "chapter_name": "XVI - A New Clue",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "“I’m almost certain of it. But to prove my theory will not be easy. Nathan is as clever as he is scheming. Tell me, how long has he lived in the stone house?”",
+    "expected": "<<Im almost certain of it. But to prove my theory will not be easy. Nathan is as clever as he is scheming. Tell me, how long has he lived in the stone house?>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 16,
+    "chapter_name": "XVIII - Inside the Other House",
+    "element_index": 57,
+    "element_type": "paragraph",
+    "raw": "“Canaries!” Nancy whispered, impressed at the sight. “Now I am sure it was Nathan Gombet who entered the Turnbull mansion. The two canaries which we found in Floretta’s room must have come from here! But how did they get there? That is what I must find out before I leave here tonight!”",
+    "expected": "<<Canaries!>> Nancy whispered, impressed at the sight. <<Now I am sure it was Nathan Gombet who entered the Turnbull mansion. The two canaries which we found in Florettas room must have come from here! But how did they get there? That is what I must find out before I leave here tonight!>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 17,
+    "chapter_name": "XX - The Underground Passage",
+    "element_index": 56,
+    "element_type": "paragraph",
+    "raw": "“That was a lucky escape,” she said inwardly. “I might have broken my leg there.”",
+    "expected": "<<That was a lucky escape,>> she said inwardly. <<I might have broken my leg there.>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 18,
+    "chapter_name": "XXI - The End of the Passage",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "“Probably there are openings on each floor,” Nancy thought. “It would be easy for Nathan to go from one room to another without being discovered, it would be just like him to hide and listen to any conversation he could!”",
+    "expected": "<<Probably there are openings on each floor,>> Nancy thought. <<It would be easy for Nathan to go from one room to another without being discovered, it would be just like him to hide and listen to any conversation he could!>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 19,
+    "chapter_name": "XXII - The Next Move",
+    "element_index": 81,
+    "element_type": "paragraph",
+    "raw": "“Ouch!” she exclaimed.",
+    "expected": "<<Ouch!>> she exclaimed."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 20,
+    "chapter_name": "XXIII - Notifying the Police",
+    "element_index": 48,
+    "element_type": "paragraph",
+    "raw": "“It’s pretty serious business to go breaking into a man’s house,” he said, somewhat crestfallen, “unless you’re mighty sure you’ve got the right man.”",
+    "expected": "<<Its pretty serious business to go breaking into a mans house,>> he said, somewhat crestfallen, <<unless youre mighty sure youve got the right man.>>"
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 21,
+    "chapter_name": "XXIV - Nancy Leads the Way",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "“Well, what do you know about that!” the sheriff exclaimed.",
+    "expected": "<<Well, what do you know about that!>> the sheriff exclaimed."
+  },
+  {
+    "book": "carolyn-keene-the-hidden-staircase",
+    "chapter_index": 22,
+    "chapter_name": "XXV - Captured",
+    "element_index": 79,
+    "element_type": "paragraph",
+    "raw": "So it was decided. Nancy helped her father into the roadster and drove him to The Mansion. As soon as she saw that he was comfortably settled on the sofa, she returned for the Turnbull sisters.",
+    "expected": "So it was decided. Nancy helped her father into the roadster and drove him to The Mansion. As soon as she saw that he was comfortably settled on the sofa, she returned for the Turnbull sisters."
+  }
+]

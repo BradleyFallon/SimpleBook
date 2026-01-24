@@ -1,0 +1,254 @@
+[
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 0,
+    "chapter_name": "I - The Strange Mans Arrival",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "Mrs.\n Hall, nothing loath, answered his questions and developed a conversation. “It’s a steep road by the down, sir,” she said in answer to the question about a trap; and then, snatching at an opening, said, “It was there a carriage was upsettled, a year ago and more. A gentleman killed, besides his coachman. Accidents, sir, happen in a moment, don’t they?”",
+    "expected": "Mrs. Hall, nothing loath, answered his questions and developed a conversation. <<Its a steep road by the down, sir,>> she said in answer to the question about a trap; and then, snatching at an opening, said, <<It was there a carriage was upsettled, a year ago and more. A gentleman killed, besides his coachman. Accidents, sir, happen in a moment, dont they?>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 1,
+    "chapter_name": "II - Mr. Teddy Henfreys First Impressions",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "And leading the way, she went across to the parlour door and rapped and entered.",
+    "expected": "And leading the way, she went across to the parlour door and rapped and entered."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 2,
+    "chapter_name": "III - The Thousand and One Bottles",
+    "element_index": 20,
+    "element_type": "paragraph",
+    "raw": "When \nMrs.\n Hall took his dinner in to him, he was already so absorbed in his work, pouring little drops out of the bottles into test tubes, that he did not hear her until she had swept away the bulk of the straw and put the tray on the table, with some little emphasis perhaps, seeing the state that the floor was in. Then he half turned his head and immediately turned it away again. But she saw he had removed his glasses; they were beside him on the table, and it seemed to her that his eye sockets were extraordinarily hollow. He put on his spectacles again, and then turned and faced her. She was about to complain of the straw on the floor when he anticipated her.",
+    "expected": "When Mrs. Hall took his dinner in to him, he was already so absorbed in his work, pouring little drops out of the bottles into test tubes, that he did not hear her until she had swept away the bulk of the straw and put the tray on the table, with some little emphasis perhaps, seeing the state that the floor was in. Then he half turned his head and immediately turned it away again. But she saw he had removed his glasses; they were beside him on the table, and it seemed to her that his eye sockets were extraordinarily hollow. He put on his spectacles again, and then turned and faced her. She was about to complain of the straw on the floor when he anticipated her."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 3,
+    "chapter_name": "IV - Mr. Cuss Interviews the Stranger",
+    "element_index": 0,
+    "element_type": "paragraph",
+    "raw": "I have told the circumstances of the stranger’s arrival in \nIping\n with a certain fullness of detail, in order that the curious impression he created may be understood by the reader. But excepting two odd incidents, the circumstances of his stay until the extraordinary day of the club festival may be passed over very cursorily. There were a number of skirmishes with \nMrs.\n Hall on matters of domestic discipline, but in every case until late April, when the first signs of penury began, he overrode her by the easy expedient of an extra payment. Hall did not like him, and whenever he dared he talked of the advisability of getting rid of him; but he showed his dislike chiefly by concealing it ostentatiously, and avoiding his visitor as much as possible. “Wait till the summer,” said \nMrs.\n Hall sagely, “when the artisks are beginning to come. Then we’ll see. He may be a bit overbearing, but bills settled punctual is bills settled punctual, whatever you’d like to say.”",
+    "expected": "I have told the circumstances of the strangers arrival in Iping with a certain fullness of detail, in order that the curious impression he created may be understood by the reader. But excepting two odd incidents, the circumstances of his stay until the extraordinary day of the club festival may be passed over very cursorily. There were a number of skirmishes with Mrs. Hall on matters of domestic discipline, but in every case until late April, when the first signs of penury began, he overrode her by the easy expedient of an extra payment. Hall did not like him, and whenever he dared he talked of the advisability of getting rid of him; but he showed his dislike chiefly by concealing it ostentatiously, and avoiding his visitor as much as possible. <<Wait till the summer,>> said Mrs. Hall sagely, <<when the artisks are beginning to come. Then well see. He may be a bit overbearing, but bills settled punctual is bills settled punctual, whatever youd like to say.>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 4,
+    "chapter_name": "V - The Burglary at the Vicarage",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "The place was empty. They refastened the back door, examined the kitchen, pantry, and scullery thoroughly, and at last went down into the cellar. There was not a soul to be found in the house, search as they would.",
+    "expected": "The place was empty. They refastened the back door, examined the kitchen, pantry, and scullery thoroughly, and at last went down into the cellar. There was not a soul to be found in the house, search as they would."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 5,
+    "chapter_name": "VI - The Furniture That Went Mad",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "“Look there!” he said, and their eyes followed the direction of his gloved finger and saw a bottle of sarsaparilla hard by the cellar door. Then he entered the parlour, and suddenly, swiftly, viciously, slammed the door in their faces.",
+    "expected": "<<Look there!>> he said, and their eyes followed the direction of his gloved finger and saw a bottle of sarsaparilla hard by the cellar door. Then he entered the parlour, and suddenly, swiftly, viciously, slammed the door in their faces."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 6,
+    "chapter_name": "VII - The Unveiling of the Stranger",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "“Why wasn’t my breakfast laid? Why haven’t you prepared my meals and answered my bell? Do you think I live without eating?”",
+    "expected": "<<Why wasnt my breakfast laid? Why havent you prepared my meals and answered my bell? Do you think I live without eating?>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 7,
+    "chapter_name": "VIII - In Transit",
+    "element_index": 0,
+    "element_type": "paragraph",
+    "raw": "The eighth chapter is exceedingly brief, and relates that Gibbons, the amateur naturalist of the district, while lying out on the spacious open downs without a soul within a couple of miles of him, as he thought, and almost dozing, heard close to him the sound as of a man coughing, sneezing, and then swearing savagely to himself; and looking, beheld nothing. Yet the voice was indisputable. It continued to swear with that breadth and variety that distinguishes the swearing of a cultivated man. It grew to a climax, diminished again, and died away in the distance, going as it seemed to him in the direction of \nAdderdean\n. It lifted to a spasmodic sneeze and ended. Gibbons had heard nothing of the morning’s occurrences, but the phenomenon was so striking and disturbing that his philosophical tranquillity vanished; he got up hastily, and hurried down the steepness of the hill towards the village, as fast as he could go.",
+    "expected": "The eighth chapter is exceedingly brief, and relates that Gibbons, the amateur naturalist of the district, while lying out on the spacious open downs without a soul within a couple of miles of him, as he thought, and almost dozing, heard close to him the sound as of a man coughing, sneezing, and then swearing savagely to himself; and looking, beheld nothing. Yet the voice was indisputable. It continued to swear with that breadth and variety that distinguishes the swearing of a cultivated man. It grew to a climax, diminished again, and died away in the distance, going as it seemed to him in the direction of Adderdean . It lifted to a spasmodic sneeze and ended. Gibbons had heard nothing of the mornings occurrences, but the phenomenon was so striking and disturbing that his philosophical tranquillity vanished; he got up hastily, and hurried down the steepness of the hill towards the village, as fast as he could go."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 8,
+    "chapter_name": "IX - Mr. Thomas Marvel",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "“It’s a beast of a country,” said the voice. “And pigs for people.”",
+    "expected": "<<Its a beast of a country,>> said the voice. <<And pigs for people.>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 9,
+    "chapter_name": "X - Mr. Marvels Visit to Iping",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "Presently the stranger stood up abruptly and put his pipe in his pocket. Then he vanished into the yard. Forthwith \nMr.\n Huxter, conceiving he was witness of some petty larceny, leapt round his counter and ran out into the road to intercept the thief. As he did so, \nMr.\n Marvel reappeared, his hat askew, a big bundle in a blue tablecloth in one hand, and three books tied together﻿—as it proved afterwards with the vicar’s braces﻿—in the other. Directly he saw Huxter he gave a sort of gasp, and turning sharply to the left, began to run. “Stop, thief!” cried Huxter, and set off after him. \nMr.\n Huxter’s sensations were vivid but brief. He saw the man just before him and spurting briskly for the church corner and the hill road. He saw the village flags and festivities beyond, and a face or so turned towards him. He bawled, “Stop!” again. He had hardly gone ten strides before his shin was caught in some mysterious fashion, and he was no longer running, but flying with inconceivable rapidity through the air. He saw the ground suddenly close to his face. The world seemed to splash into a million whirling specks of light, and subsequent proceedings interested him no more.",
+    "expected": "Presently the stranger stood up abruptly and put his pipe in his pocket. Then he vanished into the yard. Forthwith Mr. Huxter, conceiving he was witness of some petty larceny, leapt round his counter and ran out into the road to intercept the thief. As he did so, Mr. Marvel reappeared, his hat askew, a big bundle in a blue tablecloth in one hand, and three books tied togetheras it proved afterwards with the vicars bracesin the other. Directly he saw Huxter he gave a sort of gasp, and turning sharply to the left, began to run. <<Stop, thief!>> cried Huxter, and set off after him. Mr. Huxters sensations were vivid but brief. He saw the man just before him and spurting briskly for the church corner and the hill road. He saw the village flags and festivities beyond, and a face or so turned towards him. He bawled, <<Stop!>> again. He had hardly gone ten strides before his shin was caught in some mysterious fashion, and he was no longer running, but flying with inconceivable rapidity through the air. He saw the ground suddenly close to his face. The world seemed to splash into a million whirling specks of light, and subsequent proceedings interested him no more."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 10,
+    "chapter_name": "XI - In the Coach and Horses",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "“But did you﻿—are you sure? Suppose a mirror, for instance﻿—hallucinations are so easily produced. I don’t know if you have ever seen a really good conjuror﻿—”",
+    "expected": "<<But did youare you sure? Suppose a mirror, for instancehallucinations are so easily produced. I dont know if you have ever seen a really good conjuror>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 11,
+    "chapter_name": "XII - The Invisible Man Loses His Temper",
+    "element_index": 27,
+    "element_type": "paragraph",
+    "raw": "At first she refused to see anything in what they had heard at all. Then she insisted on Hall keeping silence, while Henfrey told her his story. She was inclined to think the whole business nonsense﻿—perhaps they were just moving the furniture about. “I heerd’n say ‘disgraceful’; \nthat\n I did,” said Hall.",
+    "expected": "At first she refused to see anything in what they had heard at all. Then she insisted on Hall keeping silence, while Henfrey told her his story. She was inclined to think the whole business nonsenseperhaps they were just moving the furniture about. <<I heerdn say disgraceful; that I did,>> said Hall."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 12,
+    "chapter_name": "XIII - Mr. Marvel Discusses His Resignation",
+    "element_index": 26,
+    "element_type": "paragraph",
+    "raw": "“I wish I was dead,” said Marvel.",
+    "expected": "<<I wish I was dead,>> said Marvel."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 13,
+    "chapter_name": "XIV - At Port Stowe",
+    "element_index": 50,
+    "element_type": "paragraph",
+    "raw": "“What’s up?” said the mariner, concerned.",
+    "expected": "<<Whats up?>> said the mariner, concerned."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 14,
+    "chapter_name": "XV - The Man Who Was Running",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "But those who saw the fugitive nearer, and perceived the abject terror on his perspiring face, being themselves in the open roadway, did not share in the doctor’s contempt. By the man pounded, and as he ran he chinked like a well-filled purse that is tossed to and fro. He looked neither to the right nor the left, but his dilated eyes stared straight downhill to where the lamps were being lit, and the people were crowded in the street. And his ill-shaped mouth fell apart, and a glairy foam lay on his lips, and his breath came hoarse and noisy. All he passed stopped and began staring up the road and down, and interrogating one another with an inkling of discomfort for the reason of his haste.",
+    "expected": "But those who saw the fugitive nearer, and perceived the abject terror on his perspiring face, being themselves in the open roadway, did not share in the doctors contempt. By the man pounded, and as he ran he chinked like a well-filled purse that is tossed to and fro. He looked neither to the right nor the left, but his dilated eyes stared straight downhill to where the lamps were being lit, and the people were crowded in the street. And his ill-shaped mouth fell apart, and a glairy foam lay on his lips, and his breath came hoarse and noisy. All he passed stopped and began staring up the road and down, and interrogating one another with an inkling of discomfort for the reason of his haste."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 15,
+    "chapter_name": "XVI - In the Jolly Cricketers",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "The window of the inn was suddenly smashed in, and there was a screaming and running to and fro in the street. The policeman had been standing on the settee staring out, craning to see who was at the door. He got down with raised eyebrows. “It’s that,” he said. The barman stood in front of the bar parlour door which was now locked on \nMr.\n Marvel, stared at the smashed window, and came round to the two other men.",
+    "expected": "The window of the inn was suddenly smashed in, and there was a screaming and running to and fro in the street. The policeman had been standing on the settee staring out, craning to see who was at the door. He got down with raised eyebrows. <<Its that,>> he said. The barman stood in front of the bar parlour door which was now locked on Mr. Marvel, stared at the smashed window, and came round to the two other men."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 16,
+    "chapter_name": "XVII - Dr. Kemps Visitor",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "“Hullo!” said \nDr.\n Kemp, putting his pen into his mouth again and listening. “Who’s letting off revolvers in \nBurdock\n? What are the asses at now?”",
+    "expected": "<<Hullo!>> said Dr. Kemp, putting his pen into his mouth again and listening. <<Whos letting off revolvers in Burdock ? What are the asses at now?>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 17,
+    "chapter_name": "XVIII - The Invisible Man Sleeps",
+    "element_index": 31,
+    "element_type": "paragraph",
+    "raw": "The invisible man awoke even as Kemp was doing this. He awoke in an evil temper, and Kemp, alert for every sound, heard his pattering feet rush suddenly across the bedroom overhead. Then a chair was flung over and the wash-hand stand tumbler smashed. Kemp hurried upstairs and rapped eagerly.",
+    "expected": "The invisible man awoke even as Kemp was doing this. He awoke in an evil temper, and Kemp, alert for every sound, heard his pattering feet rush suddenly across the bedroom overhead. Then a chair was flung over and the wash-hand stand tumbler smashed. Kemp hurried upstairs and rapped eagerly."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 18,
+    "chapter_name": "XIX - Certain First Principles",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "“Before we can do anything else,” said Kemp, “I must understand a little more about this invisibility of yours.” He had sat down, after one nervous glance out of the window, with the air of a man who has talking to do. His doubts of the sanity of the entire business flashed and vanished again as he looked across to where Griffin sat at the breakfast-table﻿—a headless, handless dressing gown, wiping unseen lips on a miraculously held serviette.",
+    "expected": "<<Before we can do anything else,>> said Kemp, <<I must understand a little more about this invisibility of yours.>> He had sat down, after one nervous glance out of the window, with the air of a man who has talking to do. His doubts of the sanity of the entire business flashed and vanished again as he looked across to where Griffin sat at the breakfast-tablea headless, handless dressing gown, wiping unseen lips on a miraculously held serviette."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 19,
+    "chapter_name": "XX - At the House in Great Portland Street",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "“And then came a curious experience. I heard a meow behind me, and turning, saw a lean white cat, very dirty, on the cistern cover outside the window. A thought came into my head. ‘Everything ready for you,’ I said, and went to the window, opened it, and called softly. She came in, purring﻿—the poor beast was starving﻿—and I gave her some milk. All my food was in a cupboard in the corner of the room. After that she went smelling round the room, evidently with the idea of making herself at home. The invisible rag upset her a bit; you should have seen her spit at it! But I made her comfortable on the pillow of my truckle bed. And I gave her butter to get her to wash.”",
+    "expected": "<<And then came a curious experience. I heard a meow behind me, and turning, saw a lean white cat, very dirty, on the cistern cover outside the window. A thought came into my head. Everything ready for you, I said, and went to the window, opened it, and called softly. She came in, purringthe poor beast was starvingand I gave her some milk. All my food was in a cupboard in the corner of the room. After that she went smelling round the room, evidently with the idea of making herself at home. The invisible rag upset her a bit; you should have seen her spit at it! But I made her comfortable on the pillow of my truckle bed. And I gave her butter to get her to wash.>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 20,
+    "chapter_name": "XXI - In Oxford Street",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "“But hardly had I emerged upon Great Portland Street, however (my lodging was close to the big draper’s shop there), when I heard a clashing concussion and was hit violently behind, and turning saw a man carrying a basket of soda-water syphons, and looking in amazement at his burden. Although the blow had really hurt me, I found something so irresistible in his astonishment that I laughed aloud. ‘The devil’s in the basket,’ I said, and suddenly twisted it out of his hand. He let go incontinently, and I swung the whole weight into the air.",
+    "expected": "<<But hardly had I emerged upon Great Portland Street, however (my lodging was close to the big drapers shop there), when I heard a clashing concussion and was hit violently behind, and turning saw a man carrying a basket of soda-water syphons, and looking in amazement at his burden. Although the blow had really hurt me, I found something so irresistible in his astonishment that I laughed aloud. The devils in the basket, I said, and suddenly twisted it out of his hand. He let go incontinently, and I swung the whole weight into the air."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 21,
+    "chapter_name": "XXII - In the Emporium",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“Art pots,” suggested Kemp.",
+    "expected": "<<Art pots,>> suggested Kemp."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 22,
+    "chapter_name": "XXIII - In Drury Lane",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "“The spectacular quality of my sensations was curious and novel, but for all that I was heartily tired and angry long before he had done his eating. But at last he made an end and putting his beggarly crockery on the black tin tray upon which he had had his teapot, and gathering all the crumbs up on the mustard stained cloth, he took the whole lot of things after him. His burden prevented his shutting the door behind him﻿—as he would have done; I never saw such a man for shutting doors﻿—and I followed him into a very dirty underground kitchen and scullery. I had the pleasure of seeing him begin to wash up, and then, finding no good in keeping down there, and the brick floor being cold on my feet, I returned upstairs and sat in his chair by the fire. It was burning low, and scarcely thinking, I put on a little coal. The noise of this brought him up at once, and he stood aglare. He peered about the room and was within an ace of touching me. Even after that examination, he scarcely seemed satisfied. He stopped in the doorway and took a final inspection before he went down.",
+    "expected": "<<The spectacular quality of my sensations was curious and novel, but for all that I was heartily tired and angry long before he had done his eating. But at last he made an end and putting his beggarly crockery on the black tin tray upon which he had had his teapot, and gathering all the crumbs up on the mustard stained cloth, he took the whole lot of things after him. His burden prevented his shutting the door behind himas he would have done; I never saw such a man for shutting doorsand I followed him into a very dirty underground kitchen and scullery. I had the pleasure of seeing him begin to wash up, and then, finding no good in keeping down there, and the brick floor being cold on my feet, I returned upstairs and sat in his chair by the fire. It was burning low, and scarcely thinking, I put on a little coal. The noise of this brought him up at once, and he stood aglare. He peered about the room and was within an ace of touching me. Even after that examination, he scarcely seemed satisfied. He stopped in the doorway and took a final inspection before he went down."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 23,
+    "chapter_name": "XXIV - The Plan That Failed",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "“And then the filthy brute must needs try and rob me! He \nhas\n hidden my books, Kemp. Hidden my books! If I can lay my hands on him!”",
+    "expected": "<<And then the filthy brute must needs try and rob me! He has hidden my books, Kemp. Hidden my books! If I can lay my hands on him!>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 24,
+    "chapter_name": "XXV - The Hunting of the Invisible Man",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "“The man’s become inhuman, I tell you,” said Kemp. “I am as sure he will establish a reign of terror﻿—so soon as he has got over the emotions of this escape﻿—as I am sure I am talking to you. Our only chance is to be ahead. He has cut himself off from his kind. His blood be upon his own head.”",
+    "expected": "<<The mans become inhuman, I tell you,>> said Kemp. <<I am as sure he will establish a reign of terrorso soon as he has got over the emotions of this escapeas I am sure I am talking to you. Our only chance is to be ahead. He has cut himself off from his kind. His blood be upon his own head.>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 25,
+    "chapter_name": "XXVI - The Wicksteed Murder",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "After the murder of \nMr.\n Wicksteed, he would seem to have struck across the country towards the downland. There is a story of a voice heard about sunset by a couple of men in a field near Fern Bottom. It was wailing and laughing, sobbing and groaning, and ever and again it shouted. It must have been queer hearing. It drove up across the middle of a clover field and died away towards the hills.",
+    "expected": "After the murder of Mr. Wicksteed, he would seem to have struck across the country towards the downland. There is a story of a voice heard about sunset by a couple of men in a field near Fern Bottom. It was wailing and laughing, sobbing and groaning, and ever and again it shouted. It must have been queer hearing. It drove up across the middle of a clover field and died away towards the hills."
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 26,
+    "chapter_name": "XXVII - The Siege of Kemps House",
+    "element_index": 66,
+    "element_type": "paragraph",
+    "raw": "“The invisible man!” said Kemp. “He has a revolver, with two shots﻿—left. He’s killed Adye. Shot him anyhow. Didn’t you see him on the lawn? He’s lying there.”",
+    "expected": "<<The invisible man!>> said Kemp. <<He has a revolver, with two shotsleft. Hes killed Adye. Shot him anyhow. Didnt you see him on the lawn? Hes lying there.>>"
+  },
+  {
+    "book": "h-g-wells-the-invisible-man",
+    "chapter_index": 27,
+    "chapter_name": "XXVIII - The Hunter Hunted",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "And so, slowly, beginning at his hands and feet and creeping along his limbs to the vital centres of his body, that strange change continued. It was like the slow spreading of a poison. First came the little white nerves, a hazy grey sketch of a limb, then the glassy bones and intricate arteries, then the flesh and skin, first a faint fogginess, and then growing rapidly dense and opaque. Presently they could see his crushed chest and his shoulders, and the dim outline of his drawn and battered features.",
+    "expected": "And so, slowly, beginning at his hands and feet and creeping along his limbs to the vital centres of his body, that strange change continued. It was like the slow spreading of a poison. First came the little white nerves, a hazy grey sketch of a limb, then the glassy bones and intricate arteries, then the flesh and skin, first a faint fogginess, and then growing rapidly dense and opaque. Presently they could see his crushed chest and his shoulders, and the dim outline of his drawn and battered features."
+  }
+]

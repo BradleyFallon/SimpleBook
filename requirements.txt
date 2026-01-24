@@ -7,3 +7,4 @@ jsonschema>=4.0.0
 # Dev/test dependencies
 pytest>=7.0.0
 hypothesis>=6.0.0
+PyYAML>=6.0

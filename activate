@@ -26,6 +26,13 @@ fi
 
 export SIMPLEBOOK_ROOT="${_project_root}"
 
+# Load PyPI token if available (for twine uploads).
+_pypi_token_file="${_project_root}/devtools/pypi_token"
+if [ -f "${_pypi_token_file}" ]; then
+  export TWINE_USERNAME="__token__"
+  export TWINE_PASSWORD="$(tr -d '\n' < "${_pypi_token_file}")"
+fi
+
 # Install requirements once per venv
 if [ -f "${_project_root}/requirements.txt" ]; then
   _marker_path="${_venv_dir}/.simplebook_requirements_installed"

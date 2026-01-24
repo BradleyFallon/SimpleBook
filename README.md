@@ -12,6 +12,18 @@ simplebook tests/epubs/the-hobbit.epub --validate
 gen-docs
 ```
 
+## Install (pip)
+
+```bash
+python -m pip install .
+```
+
+Editable install for development:
+
+```bash
+python -m pip install -e .[dev]
+```
+
 ## CLI
 
 Run the normalizer with the installed command or the dev wrapper:
@@ -23,7 +35,7 @@ scripts/simplebook.py path/to/book.epub
 ```
 
 Flags:
-- `--preview` outputs chapter structure/chunks only (omits paragraphs).
+- `--preview` outputs chapter structure/chunks only (omits element text).
 - `--out` writes JSON to a file instead of stdout.
 - `--validate` validates output against the JSON schema.
 
@@ -49,7 +61,7 @@ canonical book structure (sections/chapters/chunks) plus normalized artifacts.
 - Spine resolution + reading order
 - Canonical text extraction (HTML/XHTML → text)
 - Section/Chapter inference (deterministic)
-- Chunking (paragraph/segment splitting)
+- Chunking (element/segment splitting)
 - Asset index + manifest normalization
 - Raw artifact capture (OPF/NCX/nav, source file map)
 
@@ -81,12 +93,12 @@ canonical book structure (sections/chapters/chunks) plus normalized artifacts.
 4. **Extract text deterministically**  
    - Parse XHTML/HTML.
    - Strip non-content elements (nav, scripts, styles, hidden).
-   - Normalize whitespace; preserve basic structure (headings, paragraphs).
+   - Normalize whitespace; preserve basic structure (headings, elements).
 
 5. **Structure + chunk**  
    - Deterministically segment into **sections** (toc entries + headings).
    - Derive **chapters** from toc labels/heading levels when present.
-   - Chunk text into stable sizes with paragraph boundaries.
+   - Chunk text into stable sizes with element boundaries.
 
 6. **Normalize artifacts**  
    - Canonical manifest with stable paths and metadata.
@@ -111,7 +123,7 @@ pure functions that can be imported by FantasyWorldBible (or any other app).
 - `metadata` (title, language, identifiers)
 - `chapters[]` (ordered, real chapters only)
 - `toc[]` (mirrors chapters; chapter-only TOC)
-- `chunks[]` (paragraph chunks, numbered per chapter)
+- `chunks[]` (element chunks, numbered per chapter)
 - `artifacts` (raw OPF/NCX/nav + container for debugging)
 
 ### Public surface (ebooklib-backed)
@@ -199,6 +211,6 @@ We want **real chapters**, not every “section” in the EPUB.
 
 ## Chunking
 
-- Chunk **paragraphs** in chapter order.
+- Chunk **elements** in chapter order.
 - Each chunk has a **chapter-local ordinal** (`1..N` per chapter).
 - Target chunk size is deterministic and configurable (e.g., by char count).

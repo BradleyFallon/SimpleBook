@@ -1,0 +1,209 @@
+[
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 0,
+    "chapter_name": "I - The Speed Demon",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "“It’s a hundred-foot drop. You’d be smashed to pieces before you ever hit the shore.”",
+    "expected": "<<Its a hundred-foot drop. Youd be smashed to pieces before you ever hit the shore.>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 1,
+    "chapter_name": "II - The Stolen Roadster",
+    "element_index": 43,
+    "element_type": "paragraph",
+    "raw": "“Wait a minute,” cried Frank suddenly. “I have an idea! Joe, do you remember that car we saw wrecked in the bushes?”",
+    "expected": "<<Wait a minute,>> cried Frank suddenly. <<I have an idea! Joe, do you remember that car we saw wrecked in the bushes?>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 2,
+    "chapter_name": "III - Traces of the Thief",
+    "element_index": 39,
+    "element_type": "paragraph",
+    "raw": "“I certainly did. Just asked them if they had seen a yellow roadster and they started to fight about what was the best car for a farmer to buy.”",
+    "expected": "<<I certainly did. Just asked them if they had seen a yellow roadster and they started to fight about what was the best car for a farmer to buy.>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 3,
+    "chapter_name": "IV - The Holdup",
+    "element_index": 48,
+    "element_type": "paragraph",
+    "raw": "“And I’m sure he had long, red hair!” shouted Henry \nJ.\n Brown, very indignantly. “Do you think I’m blind? Do you think I’d tell a lie about it?”",
+    "expected": "<<And Im sure he had long, red hair!>> shouted Henry J. Brown, very indignantly. <<Do you think Im blind? Do you think Id tell a lie about it?>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 4,
+    "chapter_name": "V - Chets Auto Horn",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "And through the week that followed there were no further clues. Chet had given up all hope of seeing the roadster again.",
+    "expected": "And through the week that followed there were no further clues. Chet had given up all hope of seeing the roadster again."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 5,
+    "chapter_name": "VI - Tire Tracks",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Mrs.\n Hardy quickly made up a generous package of sandwiches, not forgetting to slip in several big slices of the boys’ favorite cake, and the lads started out in the bright morning sunshine, with the whole holiday before them.",
+    "expected": "Mrs. Hardy quickly made up a generous package of sandwiches, not forgetting to slip in several big slices of the boys favorite cake, and the lads started out in the bright morning sunshine, with the whole holiday before them."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 6,
+    "chapter_name": "VII - The Mansion Robbery",
+    "element_index": 44,
+    "element_type": "paragraph",
+    "raw": "“Luckily, he’ll not have to satisfy \nMr.\n Applegate, but will have to convince a jury﻿—if it gets that far,” whispered Joe in his brother’s ear.",
+    "expected": "<<Luckily, hell not have to satisfy Mr. Applegate, but will have to convince a juryif it gets that far,>> whispered Joe in his brothers ear."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 7,
+    "chapter_name": "VIII - The Arrest",
+    "element_index": 27,
+    "element_type": "paragraph",
+    "raw": "“I know it looks bad,” replied the caretaker doggedly. “But I can’t tell you where that money came from.”",
+    "expected": "<<I know it looks bad,>> replied the caretaker doggedly. <<But I cant tell you where that money came from.>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 8,
+    "chapter_name": "IX - Red Hair",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "“And that explains why Harrity and his witness couldn’t agree on the color of the fellow’s hair!” exclaimed Joe, in excitement.",
+    "expected": "<<And that explains why Harrity and his witness couldnt agree on the color of the fellows hair!>> exclaimed Joe, in excitement."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 9,
+    "chapter_name": "XI - Mr. Hardy Investigates",
+    "element_index": 50,
+    "element_type": "paragraph",
+    "raw": "Slim Robinson was at school that day, but after four o’clock he confided to the Hardy boys that he was leaving.",
+    "expected": "Slim Robinson was at school that day, but after four oclock he confided to the Hardy boys that he was leaving."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 10,
+    "chapter_name": "XII - Days of Waiting",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "“Why?”",
+    "expected": "<<Why?>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 11,
+    "chapter_name": "XIII - In Poor Quarters",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“But nobody really believes \nMr.\n Robinson did it!”",
+    "expected": "<<But nobody really believes Mr. Robinson did it!>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 12,
+    "chapter_name": "XIV - Red Jackley",
+    "element_index": 100,
+    "element_type": "paragraph",
+    "raw": "Mr.\n Hardy sat back with a gesture of despair.",
+    "expected": "Mr. Hardy sat back with a gesture of despair."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 13,
+    "chapter_name": "XV - The Chief Gets a Bomb",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "A dozen plans were suggested, each wilder than the one before. Biff Hooper was in favor of kidnapping the chief and his detective, binding them hand and foot and setting them adrift in the bay in an open boat.",
+    "expected": "A dozen plans were suggested, each wilder than the one before. Biff Hooper was in favor of kidnapping the chief and his detective, binding them hand and foot and setting them adrift in the bay in an open boat."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 14,
+    "chapter_name": "XVI - A Confession",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "“This is the meanest job I ever got,” observed Con Riley. But he ambled across the street, wondering why a crowd of people had collected﻿—for word had quickly spread that a bomb had been found under Rocco’s fruit stand﻿—and when he reached the package he inspected it wonderingly.",
+    "expected": "<<This is the meanest job I ever got,>> observed Con Riley. But he ambled across the street, wondering why a crowd of people had collectedfor word had quickly spread that a bomb had been found under Roccos fruit standand when he reached the package he inspected it wonderingly."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 15,
+    "chapter_name": "XVII - The Search of the Tower",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "“Yes?” he said testily, for he was annoyed at being disturbed. “What do you boys want here at this hour of day?”",
+    "expected": "<<Yes?>> he said testily, for he was annoyed at being disturbed. <<What do you boys want here at this hour of day?>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 16,
+    "chapter_name": "XVIII - The New Tower",
+    "element_index": 58,
+    "element_type": "paragraph",
+    "raw": "“Now, Adelia, I think they meant well﻿—”",
+    "expected": "<<Now, Adelia, I think they meant well>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 17,
+    "chapter_name": "XIX - The Mystery Deepens",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "“Then, why should Jackley say he hid the stuff there?” exclaimed Frank, puzzled.",
+    "expected": "<<Then, why should Jackley say he hid the stuff there?>> exclaimed Frank, puzzled."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 18,
+    "chapter_name": "XX - The Flash in the Tower",
+    "element_index": 80,
+    "element_type": "paragraph",
+    "raw": "“Got to﻿—but can we?”",
+    "expected": "<<Got tobut can we?>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 19,
+    "chapter_name": "XXI - A New Idea",
+    "element_index": 42,
+    "element_type": "paragraph",
+    "raw": "In the eyes of both was the light of a great discovery. They knew that they were both thinking of the same thing.",
+    "expected": "In the eyes of both was the light of a great discovery. They knew that they were both thinking of the same thing."
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 20,
+    "chapter_name": "XXII - The Search",
+    "element_index": 54,
+    "element_type": "paragraph",
+    "raw": "“Wait till Hurd Applegate sees his bonds back. And wait till Chief Collig and Detective Smuff hear about it!”",
+    "expected": "<<Wait till Hurd Applegate sees his bonds back. And wait till Chief Collig and Detective Smuff hear about it!>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 21,
+    "chapter_name": "XXIII - Adelia Applegates Compliment",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "“No!”",
+    "expected": "<<No!>>"
+  },
+  {
+    "book": "franklin-w-dixon-the-tower-treasure",
+    "chapter_index": 22,
+    "chapter_name": "XXIV - The Last of the Tower Case",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "“No, but we will be, someday.”",
+    "expected": "<<No, but we will be, someday.>>"
+  }
+]

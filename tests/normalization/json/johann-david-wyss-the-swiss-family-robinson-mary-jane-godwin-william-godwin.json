@@ -1,0 +1,344 @@
+[
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 0,
+    "chapter_name": "Part I",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nI\n\n",
+    "expected": "Part I"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 1,
+    "chapter_name": "I",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "What I had just said, appeased the fears of all; for they had the habit of confiding in my assurances. They now therefore began to feel the advantage of the ship’s remaining still; for its motion had cruelly annoyed them by jostling them one against another, and sometimes against the vessel. My wife, however, more accustomed than the children to read my inmost thoughts, perceived the anxiety which devoured me. I made her a sign which conveyed an idea of the hopelessness of our situation, and I had the consolation to see that she was resolved to support the trial with resignation. Let us take some nourishment, said she: our courage will strengthen with our bodies; we shall perhaps need this comfort to support a long and melancholy night.",
+    "expected": "What I had just said, appeased the fears of all; for they had the habit of confiding in my assurances. They now therefore began to feel the advantage of the ships remaining still; for its motion had cruelly annoyed them by jostling them one against another, and sometimes against the vessel. My wife, however, more accustomed than the children to read my inmost thoughts, perceived the anxiety which devoured me. I made her a sign which conveyed an idea of the hopelessness of our situation, and I had the consolation to see that she was resolved to support the trial with resignation. Let us take some nourishment, said she: our courage will strengthen with our bodies; we shall perhaps need this comfort to support a long and melancholy night."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 2,
+    "chapter_name": "II",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "Yes, yes, said Jack, holding up one of his claws; you may well wonder at his size: this was the frightful claw which seized my leg, and I believe that if I had not had on my thick sea pantaloons, he would have bit it through and through; but I have taught him what it is to attack \nme\n: I have paid him well.",
+    "expected": "Yes, yes, said Jack, holding up one of his claws; you may well wonder at his size: this was the frightful claw which seized my leg, and I believe that if I had not had on my thick sea pantaloons, he would have bit it through and through; but I have taught him what it is to attack me : I have paid him well."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 3,
+    "chapter_name": "III",
+    "element_index": 86,
+    "element_type": "paragraph",
+    "raw": "And is it possible that this can excite your vengeance, my most reasonable \nMr.\n Fritz? To say the truth, I am not myself a patron of the race of monkeys, who, as you say, are naturally prone to be malicious. But as long as an animal does us no injury, or that his death can in no shape be useful in preserving our own lives, we have no right to destroy it, and still less to torment it for our amusement, or from an insensate desire of revenge.",
+    "expected": "And is it possible that this can excite your vengeance, my most reasonable Mr. Fritz? To say the truth, I am not myself a patron of the race of monkeys, who, as you say, are naturally prone to be malicious. But as long as an animal does us no injury, or that his death can in no shape be useful in preserving our own lives, we have no right to destroy it, and still less to torment it for our amusement, or from an insensate desire of revenge."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 4,
+    "chapter_name": "IV",
+    "element_index": 52,
+    "element_type": "paragraph",
+    "raw": "There are the man of war bird, cormorants, and pelicans, father.",
+    "expected": "There are the man of war bird, cormorants, and pelicans, father."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 5,
+    "chapter_name": "V",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "The children were much surprised at the sight of a yellow-coloured animal standing without motion at the entrance of the tent. O heavens! exclaimed Francis, and stepping back a few paces for fear; it is a wolf! No, no, said Jack, going near the jackall and taking one of his paws; it is a yellow dog, and he is dead; he does not move at all. It is neither a dog nor a wolf, interrupted Ernest in a consequential tone; do you not see that it is a \ngolden\n fox? Best of all, most learned professor! now exclaimed Fritz. So you can tell an agouti, when you see him, but you cannot tell a jackall; for jackall is the creature you see before you, and I killed him myself in the night!",
+    "expected": "The children were much surprised at the sight of a yellow-coloured animal standing without motion at the entrance of the tent. O heavens! exclaimed Francis, and stepping back a few paces for fear; it is a wolf! No, no, said Jack, going near the jackall and taking one of his paws; it is a yellow dog, and he is dead; he does not move at all. It is neither a dog nor a wolf, interrupted Ernest in a consequential tone; do you not see that it is a golden fox? Best of all, most learned professor! now exclaimed Fritz. So you can tell an agouti, when you see him, but you cannot tell a jackall; for jackall is the creature you see before you, and I killed him myself in the night!"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 6,
+    "chapter_name": "VI",
+    "element_index": 32,
+    "element_type": "paragraph",
+    "raw": "Perceiving that no preparations were making for supper, I ordered Fritz to bring us the Westphalia ham, for that I was hungry. The eyes of all were now fixed upon me with astonishment; for everyone believed that I could only be in jest; when Fritz returned, jumping and displaying with exultation a large and excellent ham, which we had begun to cut in the morning. A ham! cried one and all; a ham! and ready dressed! What a nice supper we shall have! said they, clapping their hands, to give a hearty welcome to the bearer of so fine a treat.﻿—It comes quite in the nick of time too, interrupted I; for, to judge by appearances, a certain careful steward I could name, seems to have intended to send us supperless to bed, little thinking, I suppose, that a long voyage by water is apt to increase the appetite.",
+    "expected": "Perceiving that no preparations were making for supper, I ordered Fritz to bring us the Westphalia ham, for that I was hungry. The eyes of all were now fixed upon me with astonishment; for everyone believed that I could only be in jest; when Fritz returned, jumping and displaying with exultation a large and excellent ham, which we had begun to cut in the morning. A ham! cried one and all; a ham! and ready dressed! What a nice supper we shall have! said they, clapping their hands, to give a hearty welcome to the bearer of so fine a treat.It comes quite in the nick of time too, interrupted I; for, to judge by appearances, a certain careful steward I could name, seems to have intended to send us supperless to bed, little thinking, I suppose, that a long voyage by water is apt to increase the appetite."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 7,
+    "chapter_name": "VII",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "As we advanced, I reflected that our safety depended in some measure on the two boys, because it was they only who knew how to use the guns. I now for the first time began to feel how fortunate it was, that you had accustomed them from infancy to face danger of every kind; in our own country I had sometimes blamed you for allowing them the use of guns, and showing them how to fire. I was averse to their conceiving a partiality to field sports, and apprehended numberless accidents that might happen to them. But at present I am convinced that every parent who adopts a hardy scheme of education acts the wisest part. Let me now resume the passing of the river.",
+    "expected": "As we advanced, I reflected that our safety depended in some measure on the two boys, because it was they only who knew how to use the guns. I now for the first time began to feel how fortunate it was, that you had accustomed them from infancy to face danger of every kind; in our own country I had sometimes blamed you for allowing them the use of guns, and showing them how to fire. I was averse to their conceiving a partiality to field sports, and apprehended numberless accidents that might happen to them. But at present I am convinced that every parent who adopts a hardy scheme of education acts the wisest part. Let me now resume the passing of the river."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 8,
+    "chapter_name": "VIII",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "Thus, then, we decided the important question of removing to a new abode; after which we fixed in concert upon a plan of labour for the day, and then awaked the boys. Their ecstasy on hearing of our project may easily be conceived; but they expressed their fear that it would be a long while before a bridge could be built; a single hour appearing an age to them, with such a novelty in view as the prospect of removing to the wood, to live under the giant trees. They, in the fullness of their joy, entreated that the place might be called, “The promised Land.”",
+    "expected": "Thus, then, we decided the important question of removing to a new abode; after which we fixed in concert upon a plan of labour for the day, and then awaked the boys. Their ecstasy on hearing of our project may easily be conceived; but they expressed their fear that it would be a long while before a bridge could be built; a single hour appearing an age to them, with such a novelty in view as the prospect of removing to the wood, to live under the giant trees. They, in the fullness of their joy, entreated that the place might be called, <<The promised Land.>>"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 9,
+    "chapter_name": "IX",
+    "element_index": 32,
+    "element_type": "paragraph",
+    "raw": "Father.\n﻿—This indeed is a question I cannot answer, and we must be contented with taking care to arm ourselves against them: neither can I explain to you, why many other things, which to us appear to have only injurious qualities, have been created. With respect to beasts of prey, I am inclined to believe, that one of the ends of Providence, in giving them existence, is their embellishing and varying the works of the creation; of maintaining a necessary equilibrium among creatures endowed with life; and lastly, to furnish man, who comes naked into the world, with materials for protecting him from the cold, by the use of their skins, which become the means of exchange and commerce between different nations. We may also add, that the care of protecting himself from the attacks of ferocious animals, invigorates the physical and moral powers of man, supports his activity, and renders him inventive and courageous. The ancient Germans, for example, were rendered robust and valiant warriors, through their habitual exercises in the field, which enabled them, at a time of need, to defend their country and their liberty, with as little difficulty, as they would have experienced in killing a wolf or a bear.",
+    "expected": "Father. This indeed is a question I cannot answer, and we must be contented with taking care to arm ourselves against them: neither can I explain to you, why many other things, which to us appear to have only injurious qualities, have been created. With respect to beasts of prey, I am inclined to believe, that one of the ends of Providence, in giving them existence, is their embellishing and varying the works of the creation; of maintaining a necessary equilibrium among creatures endowed with life; and lastly, to furnish man, who comes naked into the world, with materials for protecting him from the cold, by the use of their skins, which become the means of exchange and commerce between different nations. We may also add, that the care of protecting himself from the attacks of ferocious animals, invigorates the physical and moral powers of man, supports his activity, and renders him inventive and courageous. The ancient Germans, for example, were rendered robust and valiant warriors, through their habitual exercises in the field, which enabled them, at a time of need, to defend their country and their liberty, with as little difficulty, as they would have experienced in killing a wolf or a bear."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 10,
+    "chapter_name": "X",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "Ernest.\n﻿—This dead one, then, is an old fellow, and I am afraid by his colours that he will make but a tough dish: shall we not take him home to mamma?",
+    "expected": "Ernest. This dead one, then, is an old fellow, and I am afraid by his colours that he will make but a tough dish: shall we not take him home to mamma?"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 11,
+    "chapter_name": "XI",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "I always find you right, my dear, said I. It shall not be long ere we again undertake another visit to the vessel, to fetch a new provision of grain for your poultry.",
+    "expected": "I always find you right, my dear, said I. It shall not be long ere we again undertake another visit to the vessel, to fetch a new provision of grain for your poultry."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 12,
+    "chapter_name": "XII",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "“To effect this end, the Great King caused a fleet to be equipped, which was to transport the new colonists to this island. These he chose from the kingdom of Night, and for his first gift bestowed upon them the enjoyment of light, and the view of the lovely face of nature, of which they had been deprived in their gloomy and unknown abode. It will easily be imagined that they arrived joyful and happy, at least they became so, when they had been for a short time accustomed to the multitude of new objects which struck their feeble sight. The island was rich and fertile when cultivated. The beneficent King provided each individual who was disembarked upon it, with all the things he could want in the time he had fixed for their stay in it, and all the means for obtaining the certainty of being admitted as citizens of his magnificent abode, when they should leave the Earthly Island. All that was required to entitle them to this benefit was, that they should occupy themselves unceasingly in useful labour, and strictly obey the commands of the Great King which he made known to them. He sent to them his only son, who addressed them from his father in the following terms:",
+    "expected": "<<To effect this end, the Great King caused a fleet to be equipped, which was to transport the new colonists to this island. These he chose from the kingdom of Night, and for his first gift bestowed upon them the enjoyment of light, and the view of the lovely face of nature, of which they had been deprived in their gloomy and unknown abode. It will easily be imagined that they arrived joyful and happy, at least they became so, when they had been for a short time accustomed to the multitude of new objects which struck their feeble sight. The island was rich and fertile when cultivated. The beneficent King provided each individual who was disembarked upon it, with all the things he could want in the time he had fixed for their stay in it, and all the means for obtaining the certainty of being admitted as citizens of his magnificent abode, when they should leave the Earthly Island. All that was required to entitle them to this benefit was, that they should occupy themselves unceasingly in useful labour, and strictly obey the commands of the Great King which he made known to them. He sent to them his only son, who addressed them from his father in the following terms:"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 13,
+    "chapter_name": "XIII",
+    "element_index": 42,
+    "element_type": "paragraph",
+    "raw": "Francis.\n﻿—And I will catch my handkerchief full of lobsters in the Jackall’s River, and we will put them into Falcon’s Stream, where, no doubt, they will thrive to admiration.",
+    "expected": "Francis. And I will catch my handkerchief full of lobsters in the Jackalls River, and we will put them into Falcons Stream, where, no doubt, they will thrive to admiration."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 14,
+    "chapter_name": "XIV",
+    "element_index": 55,
+    "element_type": "paragraph",
+    "raw": "Father.\n﻿—And when a multitude of persons of veracity, and of different ages, shall declare, that with their own eyes they saw a balloon, to which a parachute was fastened filled with men, and that all mounted in the air together, and disappeared above the clouds; should you still maintain that it is false that a man can fly?",
+    "expected": "Father. And when a multitude of persons of veracity, and of different ages, shall declare, that with their own eyes they saw a balloon, to which a parachute was fastened filled with men, and that all mounted in the air together, and disappeared above the clouds; should you still maintain that it is false that a man can fly?"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 15,
+    "chapter_name": "XV",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "Father.\n﻿—All ineffectual means, I assure you. Do you think you would have strength enough to destroy so formidable a creature? or that you could penetrate so thick a hide with your clasp knife? Nor would you have the resource of climbing up a tree, for bears climb also. The only means you could use, and I confess it would be most cruel, would be to give up the ass to him, by keeping him before you in readiness. When the bear should begin the attack, you might try to shoot him with your pistol, or to plunge your knife into his throat. But I trust we shall have no such animal to encounter; for I should be sorry to sacrifice our poor ass, even in defence of our own lives.",
+    "expected": "Father. All ineffectual means, I assure you. Do you think you would have strength enough to destroy so formidable a creature? or that you could penetrate so thick a hide with your clasp knife? Nor would you have the resource of climbing up a tree, for bears climb also. The only means you could use, and I confess it would be most cruel, would be to give up the ass to him, by keeping him before you in readiness. When the bear should begin the attack, you might try to shoot him with your pistol, or to plunge your knife into his throat. But I trust we shall have no such animal to encounter; for I should be sorry to sacrifice our poor ass, even in defence of our own lives."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 16,
+    "chapter_name": "XVI",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "A bathing, a fishing, the jumping hare, and a masquerade.",
+    "expected": "A bathing, a fishing, the jumping hare, and a masquerade."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 17,
+    "chapter_name": "Part II",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nII\n\n",
+    "expected": "Part II"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 18,
+    "chapter_name": "XVII",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "I rose with the first crowing of the cock, before the rest of the family was awake, descended the ladder, and employed myself in carefully skinning the kangaroo, so as not to deface its beautiful mouse-coloured coat; and it was really high time to think about it. Our dogs were so well satisfied the preceding evening with their meal on the entrails of the animal, that they became partial to it, and had just sprung up in the design of making a complete breakfast of the whole carcase. Before I was at the bottom of the ladder, they had torn off the head of the kangaroo, which I had suspended at some height by the hind feet, and, half friends half foes, they were going to divide it amongst them, when my presence opportunely prevented the partition. It occurred to me, that as I had neither cellar nor safe to keep my provisions in, it behoved me to give them a slight correction: growling and barking, they took refuge under the roots, and the half-suppressed kind of howling they continued to make, awoke my wife, who, on missing me, came down alarmed to know what was the matter. For the love of God, exclaimed she, what has happened? Are the dogs run mad, or have you lost your senses?﻿—Nothing of the kind, I answered; I was only giving our dogs a short sermon on temperance and the necessity of self-control.﻿—Then better it would be to enforce your precepts by example, to begin by subduing anger, and not by exercising your vengeance on poor faithful animals, who are innocent, and unconscious of the mischief they are doing.",
+    "expected": "I rose with the first crowing of the cock, before the rest of the family was awake, descended the ladder, and employed myself in carefully skinning the kangaroo, so as not to deface its beautiful mouse-coloured coat; and it was really high time to think about it. Our dogs were so well satisfied the preceding evening with their meal on the entrails of the animal, that they became partial to it, and had just sprung up in the design of making a complete breakfast of the whole carcase. Before I was at the bottom of the ladder, they had torn off the head of the kangaroo, which I had suspended at some height by the hind feet, and, half friends half foes, they were going to divide it amongst them, when my presence opportunely prevented the partition. It occurred to me, that as I had neither cellar nor safe to keep my provisions in, it behoved me to give them a slight correction: growling and barking, they took refuge under the roots, and the half-suppressed kind of howling they continued to make, awoke my wife, who, on missing me, came down alarmed to know what was the matter. For the love of God, exclaimed she, what has happened? Are the dogs run mad, or have you lost your senses?Nothing of the kind, I answered; I was only giving our dogs a short sermon on temperance and the necessity of self-control.Then better it would be to enforce your precepts by example, to begin by subduing anger, and not by exercising your vengeance on poor faithful animals, who are innocent, and unconscious of the mischief they are doing."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 19,
+    "chapter_name": "XVIII",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "Father.\n﻿—Vastly well, my lads, if we had only our amusement or our ease to think of; but I want you all to form the habit of thinking and acting for the general good, rather than of what will most gratify or accommodate his single self.﻿—Now, then, let me ask to what use Fritz, the only rightful claimant to the shell, had intended to apply it?",
+    "expected": "Father. Vastly well, my lads, if we had only our amusement or our ease to think of; but I want you all to form the habit of thinking and acting for the general good, rather than of what will most gratify or accommodate his single self.Now, then, let me ask to what use Fritz, the only rightful claimant to the shell, had intended to apply it?"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 20,
+    "chapter_name": "XIX",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "Father.\n I am sorry for this, my dear; but be assured I am not the less gratified for hearing of your kindness in this unexpected manner. But tell me, I beseech you, where did you procure all these seeds and grains, and how came you to think of so extraordinary a plan?",
+    "expected": "Father. I am sorry for this, my dear; but be assured I am not the less gratified for hearing of your kindness in this unexpected manner. But tell me, I beseech you, where did you procure all these seeds and grains, and how came you to think of so extraordinary a plan?"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 21,
+    "chapter_name": "XX",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "Father.\n﻿—I have no objection; but it would be more prudent to make only a small cake, at first, by way of experiment, which as I said before we will give to the monkey and the fowls, and wait to see the effect, instead of exhausting our whole store at once.",
+    "expected": "Father. I have no objection; but it would be more prudent to make only a small cake, at first, by way of experiment, which as I said before we will give to the monkey and the fowls, and wait to see the effect, instead of exhausting our whole store at once."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 22,
+    "chapter_name": "XXI",
+    "element_index": 32,
+    "element_type": "paragraph",
+    "raw": "The pinnace was anchored on the shore, and fastened with a rope, by her head, to a stake. When all our stores were thus disposed of, we began our journey to Falcon’s Stream, but not empty-handed; we took with us everything that seemed to be absolutely wanted for comfort; and when brought together, it was really so much, that both ourselves and our beasts of burden had no easy task to perform.",
+    "expected": "The pinnace was anchored on the shore, and fastened with a rope, by her head, to a stake. When all our stores were thus disposed of, we began our journey to Falcons Stream, but not empty-handed; we took with us everything that seemed to be absolutely wanted for comfort; and when brought together, it was really so much, that both ourselves and our beasts of burden had no easy task to perform."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 23,
+    "chapter_name": "XXII",
+    "element_index": 29,
+    "element_type": "paragraph",
+    "raw": "I tried the experiment of dividing the plants longways, and they soon gave out water enough to supply even the ass, the monkey, and the wounded bustard. We were still compelled to fight our way through thick bushes, till at length we arrived at the wood of gourds, which was the object of our excursion, and we were not long in finding the spot where Fritz and I had once before enjoyed so agreeable a repose. Our companions had not soon done admiring and wondering at the magnificence of the trees they now beheld, and the prodigious size of the fruit which grew in so singular a manner upon the trunk. Fritz, who was already acquainted with particulars respecting them, now performed the office of lecturer to the rest, as I before had done to him. I was glad to observe that he had not forgot any part of the detail he received from me during our first visit; and while he was talking, I strolled about the wood, choosing among the numerous sizes of the gourds, such as were particularly suited for our necessities, and marking the places in my mind’s eye. I sought also to discover whether the malicious horde of monkeys were not still in the same neighbourhood, for I a little apprehended being molested by them during our occupation. I, however, to my great satisfaction, discovered no trace of them, and I returned to my companions.",
+    "expected": "I tried the experiment of dividing the plants longways, and they soon gave out water enough to supply even the ass, the monkey, and the wounded bustard. We were still compelled to fight our way through thick bushes, till at length we arrived at the wood of gourds, which was the object of our excursion, and we were not long in finding the spot where Fritz and I had once before enjoyed so agreeable a repose. Our companions had not soon done admiring and wondering at the magnificence of the trees they now beheld, and the prodigious size of the fruit which grew in so singular a manner upon the trunk. Fritz, who was already acquainted with particulars respecting them, now performed the office of lecturer to the rest, as I before had done to him. I was glad to observe that he had not forgot any part of the detail he received from me during our first visit; and while he was talking, I strolled about the wood, choosing among the numerous sizes of the gourds, such as were particularly suited for our necessities, and marking the places in my minds eye. I sought also to discover whether the malicious horde of monkeys were not still in the same neighbourhood, for I a little apprehended being molested by them during our occupation. I, however, to my great satisfaction, discovered no trace of them, and I returned to my companions."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 24,
+    "chapter_name": "XXIII",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Excursion into unknown countries.",
+    "expected": "Excursion into unknown countries."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 25,
+    "chapter_name": "XXIV",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "Our success in this last enterprise, encouraged us to think of another, the idea of which had long been cherished by our kind steward of provisions: it was, to make fresh butter of the cream we every day skimmed from the milk, and which was frequently, to her great vexation, spoiled, and given to the animals for want of such a process. The utensil we stood in need of, was a churn, to turn the cream in. Having earnestly applied my thoughts, as to the most effectual manner of conquering the difficulty, I suddenly recollected what I had read in a book of travels, of the method used by the Hottentots for making butter; but in adopting it, I determined to introduce one feature of proceeding, for which, apparently, they have not a partiality; and this was, the utmost attention to cleanliness. Instead of a sheepskin sewed together at its extremities, I emptied a large gourd of its natural contents, and filled it again with cream, and stopped it quite close with the piece I had cut from the top. I placed my vase of cream on a piece of coarse linen cloth with four corners, which last I tied to four stakes; I placed one boy midway between each stake, and directed them to shake the linen briskly, but with a steady measure, for a certain time. This exercise, which seemed like children’s play, pleased them mightily, and they called it rocking the cradle. They performed their office singing and laughing all the time, and in an hour, on taking off the cover, we had the satisfaction of seeing some excellent butter. We heartily congratulated each other, and praised the workmen, who by their constancy of labour, had thus produced one of the first conveniences in the list of articles for food.",
+    "expected": "Our success in this last enterprise, encouraged us to think of another, the idea of which had long been cherished by our kind steward of provisions: it was, to make fresh butter of the cream we every day skimmed from the milk, and which was frequently, to her great vexation, spoiled, and given to the animals for want of such a process. The utensil we stood in need of, was a churn, to turn the cream in. Having earnestly applied my thoughts, as to the most effectual manner of conquering the difficulty, I suddenly recollected what I had read in a book of travels, of the method used by the Hottentots for making butter; but in adopting it, I determined to introduce one feature of proceeding, for which, apparently, they have not a partiality; and this was, the utmost attention to cleanliness. Instead of a sheepskin sewed together at its extremities, I emptied a large gourd of its natural contents, and filled it again with cream, and stopped it quite close with the piece I had cut from the top. I placed my vase of cream on a piece of coarse linen cloth with four corners, which last I tied to four stakes; I placed one boy midway between each stake, and directed them to shake the linen briskly, but with a steady measure, for a certain time. This exercise, which seemed like childrens play, pleased them mightily, and they called it rocking the cradle. They performed their office singing and laughing all the time, and in an hour, on taking off the cover, we had the satisfaction of seeing some excellent butter. We heartily congratulated each other, and praised the workmen, who by their constancy of labour, had thus produced one of the first conveniences in the list of articles for food."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 26,
+    "chapter_name": "XXV",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "A new excursion.﻿—Palm tree wine.",
+    "expected": "A new excursion.Palm tree wine."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 27,
+    "chapter_name": "XXVI",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "We had so many and such heavy articles to remove, that I did not hesitate to dismiss, for that day, all thoughts of looking further for the ass, that we might return the sooner to our companions to relieve any uneasiness they might have felt at our long stay, and also to be myself satisfied respecting their safety during our absence. I began now to think of untying the young buffalo; and on approaching him, perceived with pleasure that he was asleep, which afforded me a proof that his wound was not extremely painful. When I awaked him he gave a start as I began to pull him gently with the string; but he afterwards seemed to forget his pain, and followed me without resistance. I fastened another string to his horns, and led him on by drawing both together; and he performed the journey with little inconvenience, and with so unexpected a docility, that to ease ourselves of a part of the heavy burdens we had to carry, we even ventured on the measure of fastening the bundles of reeds upon his back, and upon these we laid the salted pieces of the buffalo. The creature did not seem aware that he was carrying a load; he followed in our path, as before, and thus on the first day of our acquaintance he rendered us an essential service.",
+    "expected": "We had so many and such heavy articles to remove, that I did not hesitate to dismiss, for that day, all thoughts of looking further for the ass, that we might return the sooner to our companions to relieve any uneasiness they might have felt at our long stay, and also to be myself satisfied respecting their safety during our absence. I began now to think of untying the young buffalo; and on approaching him, perceived with pleasure that he was asleep, which afforded me a proof that his wound was not extremely painful. When I awaked him he gave a start as I began to pull him gently with the string; but he afterwards seemed to forget his pain, and followed me without resistance. I fastened another string to his horns, and led him on by drawing both together; and he performed the journey with little inconvenience, and with so unexpected a docility, that to ease ourselves of a part of the heavy burdens we had to carry, we even ventured on the measure of fastening the bundles of reeds upon his back, and upon these we laid the salted pieces of the buffalo. The creature did not seem aware that he was carrying a load; he followed in our path, as before, and thus on the first day of our acquaintance he rendered us an essential service."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 28,
+    "chapter_name": "XXVII",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "I found she was in the right: but in that case it was necessary to employ a day in the business, since to open from one end to the other the trunk of a tree sixty feet long was not a trivial task. I assented however with some readiness, as, independent of the use of the farinaceous pith, I could, by emptying it, obtain two handsome and large troughs for the conveyance of water from Jackal’s river to my wife’s kitchen garden at Tent-House, and thence to my new plantations of trees.",
+    "expected": "I found she was in the right: but in that case it was necessary to employ a day in the business, since to open from one end to the other the trunk of a tree sixty feet long was not a trivial task. I assented however with some readiness, as, independent of the use of the farinaceous pith, I could, by emptying it, obtain two handsome and large troughs for the conveyance of water from Jackals river to my wifes kitchen garden at Tent-House, and thence to my new plantations of trees."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 29,
+    "chapter_name": "XXVIII",
+    "element_index": 49,
+    "element_type": "paragraph",
+    "raw": "Father.\n﻿—This, in several respects, is useful; wall-trees, being sheltered on one side, bear earlier and more choice fruits; it is easier to defend them from insects; their fruits are more conveniently gathered. The tree, giving less shade, is not so injurious to the culinary plants that are near it.﻿—Are not these substantial reasons?",
+    "expected": "Father. This, in several respects, is useful; wall-trees, being sheltered on one side, bear earlier and more choice fruits; it is easier to defend them from insects; their fruits are more conveniently gathered. The tree, giving less shade, is not so injurious to the culinary plants that are near it.Are not these substantial reasons?"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 30,
+    "chapter_name": "XXIX",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "We soon after these operations proceeded to examine the inside of the tree. I sounded it with a pole from the opening I had made towards the top; and a stone fastened to a string served us to sound the bottom, and thus to ascertain the height and depth of the cavity. To my great surprise the pole penetrated without any resistance to the branches on which our dwelling rested, and the stone descended to the roots. The trunk, it appeared, had wholly lost its pith, and most of its wood internally; nothing therefore was more practicable than to fix winding stairs in this capacious hollow, that should reach from top to bottom. It seems that this species of tree, like the willow in our climates, receives nourishment through the bark; for it did not look decayed, and its far-extended branches were luxuriant and beautiful in the extreme. I determined to begin our construction that very day. The undertaking appeared at first beyond our powers; but intelligence, patience, time, and a firm resolution vanquished all obstacles. We were not disposed to relax in any of these requisites; and I was pleased to find opportunities to keep my sons in continual action, and their minds and bodies were all the better for exertion. They grew tall, strong, and were too much engaged to regret, in ignoble leisure, any of their past enjoyments in Europe.",
+    "expected": "We soon after these operations proceeded to examine the inside of the tree. I sounded it with a pole from the opening I had made towards the top; and a stone fastened to a string served us to sound the bottom, and thus to ascertain the height and depth of the cavity. To my great surprise the pole penetrated without any resistance to the branches on which our dwelling rested, and the stone descended to the roots. The trunk, it appeared, had wholly lost its pith, and most of its wood internally; nothing therefore was more practicable than to fix winding stairs in this capacious hollow, that should reach from top to bottom. It seems that this species of tree, like the willow in our climates, receives nourishment through the bark; for it did not look decayed, and its far-extended branches were luxuriant and beautiful in the extreme. I determined to begin our construction that very day. The undertaking appeared at first beyond our powers; but intelligence, patience, time, and a firm resolution vanquished all obstacles. We were not disposed to relax in any of these requisites; and I was pleased to find opportunities to keep my sons in continual action, and their minds and bodies were all the better for exertion. They grew tall, strong, and were too much engaged to regret, in ignoble leisure, any of their past enjoyments in Europe."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 31,
+    "chapter_name": "XXX",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "Francis.\n﻿—Now I think they are savages come to eat their prisoners on our island; I wish we could save them, and get a good “Man Friday” as Robinson Crusoe did.",
+    "expected": "Francis. Now I think they are savages come to eat their prisoners on our island; I wish we could save them, and get a good <<Man Friday>> as Robinson Crusoe did."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 32,
+    "chapter_name": "XXXI",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "Francis repeated his wish to have a “Man Friday”; Fritz thought it better to be without such a companion, and to have no savages to contend with. Jack was for the savages, warfare and encounters. The final result of our deliberations was to go and survey the rocks round Tent-House, and to examine whether any of them could be excavated for our purpose.",
+    "expected": "Francis repeated his wish to have a <<Man Friday>>; Fritz thought it better to be without such a companion, and to have no savages to contend with. Jack was for the savages, warfare and encounters. The final result of our deliberations was to go and survey the rocks round Tent-House, and to examine whether any of them could be excavated for our purpose."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 33,
+    "chapter_name": "XXXII",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "Our summer occupations commenced by arranging and thoroughly cleaning Falcon’s Nest, the order and neatness of which the rain and dead leaves blown by the wind had disturbed: in other respects, however, it was not injured, and in a few days we rendered it completely fit for our reception; the stairs were cleared, the rooms between the roots re-occupied, and we were left with leisure to proceed to other employments. My wife lost not a moment in resuming the process of her flax concern. Our sons hastened to lead the cattle to the fresh pastures, already dried by the sun; whilst it was my task to carry the bundles of flax into the open air, whereby heaping stones together I contrived an oven sufficiently commodious to dry it well. The same evening we all set to work to peel, and afterwards to beat it and strip off the bark, and lastly to comb it with my carding machine, which fully answered the purpose. I took this somewhat laborious task on myself, and drew out such distaffs full of long soft flax ready for spinning, that my enraptured wife ran to embrace me, to express her heartfelt acknowledgement, requesting me to make her a wheel without delay, that she might enter upon her favourite work.",
+    "expected": "Our summer occupations commenced by arranging and thoroughly cleaning Falcons Nest, the order and neatness of which the rain and dead leaves blown by the wind had disturbed: in other respects, however, it was not injured, and in a few days we rendered it completely fit for our reception; the stairs were cleared, the rooms between the roots re-occupied, and we were left with leisure to proceed to other employments. My wife lost not a moment in resuming the process of her flax concern. Our sons hastened to lead the cattle to the fresh pastures, already dried by the sun; whilst it was my task to carry the bundles of flax into the open air, whereby heaping stones together I contrived an oven sufficiently commodious to dry it well. The same evening we all set to work to peel, and afterwards to beat it and strip off the bark, and lastly to comb it with my carding machine, which fully answered the purpose. I took this somewhat laborious task on myself, and drew out such distaffs full of long soft flax ready for spinning, that my enraptured wife ran to embrace me, to express her heartfelt acknowledgement, requesting me to make her a wheel without delay, that she might enter upon her favourite work."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 34,
+    "chapter_name": "XXXIII",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "XXXIII",
+    "expected": "XXXIII"
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 35,
+    "chapter_name": "XXXIV",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "From the moment I discovered gypsum to be the basis of the crystal salt\n24\n in our grotto, I foresaw the great advantages I should derive from it for our undertaking; but being unwilling to enlarge the dimensions of our dwelling by digging further, I tried to find a place in the continuation of the rock, which I might be able to blow up: I had soon the good fortune to meet with a narrow slip between the projections of the rocks which I could easily, by the means I proposed, convert into a passage that should terminate in our workroom. I found also on the ground a quantity of fragments of gypsum, and removed a great number of them to the kitchen, where we did not fail to bake a few of the pieces at a time when we made a fire for cooking, which, thus calcined, rubbed into a powder when cold: we obtained a considerable quantity of it, which I put carefully into casks for use when the time should come for finishing the interior of our dwelling. My notion was, to form the walls for separating the apartments of the squares of stone I had already provided, and to unite them together with a cement of this new ingredient, which would be the means both of sparing the timber, and increasing the beauty and solidity of the work.",
+    "expected": "From the moment I discovered gypsum to be the basis of the crystal salt 24 in our grotto, I foresaw the great advantages I should derive from it for our undertaking; but being unwilling to enlarge the dimensions of our dwelling by digging further, I tried to find a place in the continuation of the rock, which I might be able to blow up: I had soon the good fortune to meet with a narrow slip between the projections of the rocks which I could easily, by the means I proposed, convert into a passage that should terminate in our workroom. I found also on the ground a quantity of fragments of gypsum, and removed a great number of them to the kitchen, where we did not fail to bake a few of the pieces at a time when we made a fire for cooking, which, thus calcined, rubbed into a powder when cold: we obtained a considerable quantity of it, which I put carefully into casks for use when the time should come for finishing the interior of our dwelling. My notion was, to form the walls for separating the apartments of the squares of stone I had already provided, and to unite them together with a cement of this new ingredient, which would be the means both of sparing the timber, and increasing the beauty and solidity of the work."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 36,
+    "chapter_name": "XXXV",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "Ponto just at this moment dragged out of the water a bird he had seized; we ran to examine it, and our surprise was extreme on remarking the singularity of its appearance. It was somewhat in shape like an otter, and, like the tribe of waterbirds, web-footed: its tail was long and erect, and covered with a soft kind of hair; the head was very small, and the ears and eyes were almost invisible; to these more ordinary characters was added, a long flat bill, like that of a duck, which protruded from its snout, and produced so ludicrous an effect that we could not resist a hearty laugh. All the science of the learned Ernest, joined with my own, was insufficient to ascertain the name and nature of this animal. We had no resource but to remain ignorant; in the meantime we christened it by the name of “Beast with a bill,” and decided that it should be carefully stuffed and preserved.",
+    "expected": "Ponto just at this moment dragged out of the water a bird he had seized; we ran to examine it, and our surprise was extreme on remarking the singularity of its appearance. It was somewhat in shape like an otter, and, like the tribe of waterbirds, web-footed: its tail was long and erect, and covered with a soft kind of hair; the head was very small, and the ears and eyes were almost invisible; to these more ordinary characters was added, a long flat bill, like that of a duck, which protruded from its snout, and produced so ludicrous an effect that we could not resist a hearty laugh. All the science of the learned Ernest, joined with my own, was insufficient to ascertain the name and nature of this animal. We had no resource but to remain ignorant; in the meantime we christened it by the name of <<Beast with a bill,>> and decided that it should be carefully stuffed and preserved."
+  },
+  {
+    "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
+    "chapter_index": 37,
+    "chapter_name": "XXXVI",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "XXXVI",
+    "expected": "XXXVI"
+  }
+]

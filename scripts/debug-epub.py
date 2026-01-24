@@ -18,9 +18,9 @@ from bs4 import BeautifulSoup  # type: ignore[import-untyped]  # noqa: E402
 from simplebook.main import (  # noqa: E402
     EbookContent,
     STRIP_ELEMENTS,
-    _clean_text,
     _classify_label_type,
     _extract_heading_texts,
+    _extract_elements,
 )
 
 
@@ -68,14 +68,14 @@ def resolve_epub(arg: str) -> Path:
     return Path(arg).expanduser().resolve()
 
 
-def classify_item(label_text: str | None, para_count: int) -> tuple[str, str]:
+def classify_item(label_text: str | None, element_count: int) -> tuple[str, str]:
     label_type = _classify_label_type(label_text)
     if label_type in {"front", "back"}:
         return label_type, "label_keyword"
     if label_type == "chapter":
         return "chapter", "heading_match"
-    if para_count >= 10:
-        return "chapter", "para_count>=10"
+    if element_count >= 10:
+        return "chapter", "element_count>=10"
     return "other", "fallback"
 
 
@@ -87,19 +87,15 @@ def debug_item(content_bytes: bytes) -> dict:
     heading_texts = _extract_heading_texts(soup)
     label_text = " - ".join(heading_texts) if heading_texts else None
 
-    paragraphs = [
-        _clean_text(p.get_text("\n"))
-        for p in soup.find_all("p")
-        if _clean_text(p.get_text("\n"))
-    ]
-    para_count = len(paragraphs)
+    elements = _extract_elements(soup)
+    element_count = sum(1 for el in elements if el.text_length() > 0)
 
-    item_type, reason = classify_item(label_text, para_count)
+    item_type, reason = classify_item(label_text, element_count)
 
     return {
         "headings": heading_texts,
         "label": label_text,
-        "para_count": para_count,
+        "element_count": element_count,
         "type": item_type,
         "reason": reason,
     }

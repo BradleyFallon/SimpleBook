@@ -1,0 +1,110 @@
+[
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 0,
+    "chapter_name": "I",
+    "element_index": 43,
+    "element_type": "paragraph",
+    "raw": "Despite the almost unanimous accounts of appalling winds and tempests that pour down from the plateau, we determined to dispense with intermediate bases, taking our chances in the interest of economy and probable efficiency.",
+    "expected": "Despite the almost unanimous accounts of appalling winds and tempests that pour down from the plateau, we determined to dispense with intermediate bases, taking our chances in the interest of economy and probable efficiency."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 1,
+    "chapter_name": "II",
+    "element_index": 55,
+    "element_type": "paragraph",
+    "raw": "Far from helping to place the strange entity, this provisional dissection merely deepened its mystery. All guesses about its external members had been correct, and on the evidence of these one could hardly hesitate to call the thing animal, but internal inspection brought up so many vegetable evidences that Lake was left hopelessly at sea. It had digestion and circulation, and eliminated waste matter through the reddish tubes of its starfish-shaped base.",
+    "expected": "Far from helping to place the strange entity, this provisional dissection merely deepened its mystery. All guesses about its external members had been correct, and on the evidence of these one could hardly hesitate to call the thing animal, but internal inspection brought up so many vegetable evidences that Lake was left hopelessly at sea. It had digestion and circulation, and eliminated waste matter through the reddish tubes of its starfish-shaped base."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 2,
+    "chapter_name": "III",
+    "element_index": 46,
+    "element_type": "paragraph",
+    "raw": "This body of data is in every respect true so far as it goes, and it completely satisfied the men at the camp. We laid our absence of sixteen hours﻿—a longer time than our announced flying, landing, reconnoitering, and rock-collecting program called for﻿—to a long mythical spell of adverse wind conditions, and told truly of our landing on the farther foothills.",
+    "expected": "This body of data is in every respect true so far as it goes, and it completely satisfied the men at the camp. We laid our absence of sixteen hoursa longer time than our announced flying, landing, reconnoitering, and rock-collecting program called forto a long mythical spell of adverse wind conditions, and told truly of our landing on the farther foothills."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 3,
+    "chapter_name": "IV",
+    "element_index": 29,
+    "element_type": "paragraph",
+    "raw": "Danforth and I, studying the notes made by Pabodie in his afternoon flight and checking up with a sextant, had calculated that the lowest available pass in the range lay somewhat to the right of us, within sight of camp, and about twenty-three thousand or twenty-four thousand feet above sea level. For this point, then, we first headed in the lightened plane as we embarked on our flight of discovery.",
+    "expected": "Danforth and I, studying the notes made by Pabodie in his afternoon flight and checking up with a sextant, had calculated that the lowest available pass in the range lay somewhat to the right of us, within sight of camp, and about twenty-three thousand or twenty-four thousand feet above sea level. For this point, then, we first headed in the lightened plane as we embarked on our flight of discovery."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 4,
+    "chapter_name": "V",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "The nameless stone labyrinth consisted, for the most part, of walls from ten to one hundred and fifty feet in ice-clear height, and of a thickness varying from five to ten feet. It was composed mostly of prodigious blocks of dark primordial slate, schist, and sandstone﻿—blocks in many cases as large as 4 × 6 × 8 feet﻿—though in several places it seemed to be carved out of a solid, uneven bed rock of pre-Cambrian slate.",
+    "expected": "The nameless stone labyrinth consisted, for the most part, of walls from ten to one hundred and fifty feet in ice-clear height, and of a thickness varying from five to ten feet. It was composed mostly of prodigious blocks of dark primordial slate, schist, and sandstoneblocks in many cases as large as 4 6 8 feetthough in several places it seemed to be carved out of a solid, uneven bed rock of pre-Cambrian slate."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 5,
+    "chapter_name": "VI",
+    "element_index": 20,
+    "element_type": "paragraph",
+    "raw": "Interrupting these sculptured walls were high windows and massive twelve-foot doorways; both now and then retaining the petrified wooden planks﻿—elaborately carved and polished﻿—of the actual shutters and doors. All metal fixtures had long ago vanished, but some of the doors remained in place and had to be forced aside as we progressed from room to room.",
+    "expected": "Interrupting these sculptured walls were high windows and massive twelve-foot doorways; both now and then retaining the petrified wooden plankselaborately carved and polishedof the actual shutters and doors. All metal fixtures had long ago vanished, but some of the doors remained in place and had to be forced aside as we progressed from room to room."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 6,
+    "chapter_name": "VII",
+    "element_index": 38,
+    "element_type": "paragraph",
+    "raw": "At a rather later age their cities dotted all the land and water areas of the globe﻿—hence the recommendation in my coming monograph that some archaeologist make systematic borings with Pabodie’s type of apparatus in certain widely separated regions.",
+    "expected": "At a rather later age their cities dotted all the land and water areas of the globehence the recommendation in my coming monograph that some archaeologist make systematic borings with Pabodies type of apparatus in certain widely separated regions."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 7,
+    "chapter_name": "VIII",
+    "element_index": 33,
+    "element_type": "paragraph",
+    "raw": "They were, however, kept in admirable control. The phosphorescent organisms supplied light with vast effectiveness, and doubtless atoned for the loss of the familiar polar auroras of the outer-world night.",
+    "expected": "They were, however, kept in admirable control. The phosphorescent organisms supplied light with vast effectiveness, and doubtless atoned for the loss of the familiar polar auroras of the outer-world night."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 8,
+    "chapter_name": "IX",
+    "element_index": 39,
+    "element_type": "paragraph",
+    "raw": "Pabodie might have been able to tell what sort of engineering held it in place, but Danforth and I could merely admire and marvel. We could see mighty stone corbels and pillars here and there, but what we saw seemed inadequate to the function performed. The thing was excellently preserved up to the present top of the tower﻿—a highly remarkable circumstance in view of its exposure﻿—and its shelter had done much to protect the bizarre and disturbing cosmic sculptures on the walls.",
+    "expected": "Pabodie might have been able to tell what sort of engineering held it in place, but Danforth and I could merely admire and marvel. We could see mighty stone corbels and pillars here and there, but what we saw seemed inadequate to the function performed. The thing was excellently preserved up to the present top of the towera highly remarkable circumstance in view of its exposureand its shelter had done much to protect the bizarre and disturbing cosmic sculptures on the walls."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 9,
+    "chapter_name": "X",
+    "element_index": 28,
+    "element_type": "paragraph",
+    "raw": "The nameless scent of such things was very distinct. Doubtless it was suicidally foolish to venture into that tunnel under the known conditions, but the lure of the unplumbed is stronger in certain persons than most suspect﻿—indeed, it was just such a lure which had brought us to this unearthly polar waste in the first place.",
+    "expected": "The nameless scent of such things was very distinct. Doubtless it was suicidally foolish to venture into that tunnel under the known conditions, but the lure of the unplumbed is stronger in certain persons than most suspectindeed, it was just such a lure which had brought us to this unearthly polar waste in the first place."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 10,
+    "chapter_name": "XI",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "Another thought which the advent of the cave inspired was the possibility of losing our pursuer at this bewildering focus of large galleries. There were several of the blind albino penguins in the open space, and it seemed clear that their fear of the oncoming entity was extreme to the point of unaccountability.",
+    "expected": "Another thought which the advent of the cave inspired was the possibility of losing our pursuer at this bewildering focus of large galleries. There were several of the blind albino penguins in the open space, and it seemed clear that their fear of the oncoming entity was extreme to the point of unaccountability."
+  },
+  {
+    "book": "h-p-lovecraft-at-the-mountains-of-madness",
+    "chapter_index": 11,
+    "chapter_name": "XII",
+    "element_index": 16,
+    "element_type": "paragraph",
+    "raw": "At a very high level there must have been great disturbance, since the ice-dust clouds of the zenith were doing all sorts of fantastic things; but at twenty-four thousand feet, the height we needed for the pass, we found navigation quite practicable.",
+    "expected": "At a very high level there must have been great disturbance, since the ice-dust clouds of the zenith were doing all sorts of fantastic things; but at twenty-four thousand feet, the height we needed for the pass, we found navigation quite practicable."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "book": "charles-dickens-a-christmas-carol",
+    "chapter_index": 0,
+    "chapter_name": "Stave I - Marleys Ghost",
+    "element_index": 77,
+    "element_type": "paragraph",
+    "raw": "The clerk promised that he would; and Scrooge walked out with a growl. The office was closed in a twinkling, and the clerk, with the long ends of his white comforter dangling below his waist (for he boasted no greatcoat), went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve, and then ran home to Camden Town as hard as he could pelt, to play at blind man’s buff.",
+    "expected": "The clerk promised that he would; and Scrooge walked out with a growl. The office was closed in a twinkling, and the clerk, with the long ends of his white comforter dangling below his waist (for he boasted no greatcoat), went down a slide on Cornhill, at the end of a lane of boys, twenty times, in honour of its being Christmas Eve, and then ran home to Camden Town as hard as he could pelt, to play at blind mans buff."
+  },
+  {
+    "book": "charles-dickens-a-christmas-carol",
+    "chapter_index": 1,
+    "chapter_name": "Stave II - The First of the Three Spirits",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“Ding, dong!”",
+    "expected": "<<Ding, dong!>>"
+  },
+  {
+    "book": "charles-dickens-a-christmas-carol",
+    "chapter_index": 2,
+    "chapter_name": "Stave III - The Second of the Three Spirits",
+    "element_index": 125,
+    "element_type": "paragraph",
+    "raw": "“He has given us plenty of merriment, I am sure,” said Fred, “and it would be ungrateful not to drink his health. Here is a glass of mulled wine ready to our hand at the moment; and I say, ‘Uncle Scrooge!’ ”",
+    "expected": "<<He has given us plenty of merriment, I am sure,>> said Fred, <<and it would be ungrateful not to drink his health. Here is a glass of mulled wine ready to our hand at the moment; and I say, Uncle Scrooge! >>"
+  },
+  {
+    "book": "charles-dickens-a-christmas-carol",
+    "chapter_index": 3,
+    "chapter_name": "Stave IV - The Last of the Spirits",
+    "element_index": 54,
+    "element_type": "paragraph",
+    "raw": "“It’s the truest word that ever was spoke,” said \nMrs.\n Dilber. “It’s a judgement on him.”",
+    "expected": "<<Its the truest word that ever was spoke,>> said Mrs. Dilber. <<Its a judgement on him.>>"
+  },
+  {
+    "book": "charles-dickens-a-christmas-carol",
+    "chapter_index": 4,
+    "chapter_name": "Stave V - The End of It",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "“Thank’ee,” said Scrooge. “I am much obliged to you. I thank you fifty times. Bless you!”",
+    "expected": "<<Thankee,>> said Scrooge. <<I am much obliged to you. I thank you fifty times. Bless you!>>"
+  }
+]

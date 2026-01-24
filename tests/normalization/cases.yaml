@@ -1,0 +1,29 @@
+- id: normalize_line_endings
+  rule: Normalize line endings to LF and trim surrounding whitespace.
+  input: "Line one\r\nLine two\rLine three"
+  expected: "Line one Line two Line three"
+
+- id: trim_lines
+  rule: Trim whitespace at the start and end of each line.
+  input: "  Alpha  \n\tBeta\t\n  Gamma"
+  expected: "Alpha Beta Gamma"
+
+- id: collapse_blank_lines
+  rule: Collapse multiple blank lines to a single blank line.
+  input: "A\n\n\n\nB"
+  expected: "A B"
+
+- id: preserve_single_blank_line
+  rule: Preserve a single blank line between blocks.
+  input: "First line\n\nSecond line"
+  expected: "First line Second line"
+
+- id: normalize_quotes
+  rule: Normalize quotes to << >>.
+  input: '“Hello.”'
+  expected: '<<Hello.>>'
+
+- id: ascii_transliteration
+  rule: Transliterate to ASCII (NFKD) and drop non-ASCII characters.
+  input: "Klüft skräms inför på fédéral"
+  expected: "Kluft skrams infor pa federal"

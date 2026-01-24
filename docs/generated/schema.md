@@ -30,10 +30,10 @@
 
 ### Required fields
 - `name`
-- `pp`
+- `elements`
 - `chunks`
 
 ### Properties
 - `name` (type: `string` | Chapter name/title)
-- `pp` (type: `array` | List of paragraph texts in the chapter)
-- `chunks` (type: `array` | Paragraph indexes at which new chunks start)
+- `elements` (type: `array` | List of typed elements in the chapter)
+- `chunks` (type: `array` | Element indexes at which new chunks start)

@@ -89,7 +89,7 @@ def main() -> int:
         return 1
 
     output = build_output(epub_path)
-    golden_path = PROJECT_ROOT / "tests" / f"{name}.json"
+    golden_path = PROJECT_ROOT / "tests" / "schema" / "json" / f"{name}.json"
 
     if args.regen:
         golden_path.write_text(

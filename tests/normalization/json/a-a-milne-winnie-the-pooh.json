@@ -1,0 +1,92 @@
+[
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 0,
+    "chapter_name": "I - In Which We Are Introduced to Winnie-the-Pooh and Some Bees, and the Stories Begin",
+    "element_index": 103,
+    "element_type": "paragraph",
+    "raw": "“But if you \ndon’t\n,” said Pooh, “I shall have to let go, and that would spoil \nme\n.”",
+    "expected": "<<But if you dont ,>> said Pooh, <<I shall have to let go, and that would spoil me .>>"
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 1,
+    "chapter_name": "II - In Which Pooh Goes Visiting and Gets Into a Tight Place",
+    "element_index": 51,
+    "element_type": "paragraph",
+    "raw": "“It all comes,” said Rabbit sternly, “of eating too much. I thought at the time,” said Rabbit, “only I didn’t like to say anything,” said Rabbit, “that one of us was eating too much,” said Rabbit, “and I knew it wasn’t \nme\n,” he said. “Well, well, I shall go and fetch Christopher Robin.”",
+    "expected": "<<It all comes,>> said Rabbit sternly, <<of eating too much. I thought at the time,>> said Rabbit, <<only I didnt like to say anything,>> said Rabbit, <<that one of us was eating too much,>> said Rabbit, <<and I knew it wasnt me ,>> he said. <<Well, well, I shall go and fetch Christopher Robin.>>"
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 2,
+    "chapter_name": "III - In Which Pooh and Piglet Go Hunting and Nearly Catch a Woozle",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "There was a small spinney of larch trees just here, and it seemed as if the two Woozles, if that is what they were, had been going round this spinney; so round this spinney went Pooh and Piglet after them; Piglet passing the time by telling Pooh what his Grandfather Trespassers W had done to Remove Stiffness after Tracking, and how his Grandfather Trespassers W had suffered in his later years from Shortness of Breath, and other matters of interest, and Pooh wondering what a Grandfather was like, and if perhaps this was Two Grandfathers they were after now, and, if so, whether he would be allowed to take one home and keep it, and what Christopher Robin would say. And still the tracks went on in front of them.﻿ ﻿…",
+    "expected": "There was a small spinney of larch trees just here, and it seemed as if the two Woozles, if that is what they were, had been going round this spinney; so round this spinney went Pooh and Piglet after them; Piglet passing the time by telling Pooh what his Grandfather Trespassers W had done to Remove Stiffness after Tracking, and how his Grandfather Trespassers W had suffered in his later years from Shortness of Breath, and other matters of interest, and Pooh wondering what a Grandfather was like, and if perhaps this was Two Grandfathers they were after now, and, if so, whether he would be allowed to take one home and keep it, and what Christopher Robin would say. And still the tracks went on in front of them. ..."
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 3,
+    "chapter_name": "IV - In Which Eeyore Loses a Tail and Pooh Finds One",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "Eeyore shook his head from side to side.",
+    "expected": "Eeyore shook his head from side to side."
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 4,
+    "chapter_name": "V - In Which Piglet Meets a Heffalump",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "“Good night!”",
+    "expected": "<<Good night!>>"
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 5,
+    "chapter_name": "VI - In Which Eeyore Has a Birthday and Gets Two Presents",
+    "element_index": 152,
+    "element_type": "paragraph",
+    "raw": "“Why!” he said. “I believe my Balloon will just go into that Pot!”",
+    "expected": "<<Why!>> he said. <<I believe my Balloon will just go into that Pot!>>"
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 6,
+    "chapter_name": "VII - In Which Kanga and Baby Roo Come to the Forest, and Piglet Has a Bath",
+    "element_index": 30,
+    "element_type": "paragraph",
+    "raw": "“It is hard to be brave,” said Piglet, sniffing slightly, “when you’re only a Very Small Animal.”",
+    "expected": "<<It is hard to be brave,>> said Piglet, sniffing slightly, <<when youre only a Very Small Animal.>>"
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 7,
+    "chapter_name": "VIII - In Which Christopher Robin Leads an Expotition to the North Pole",
+    "element_index": 117,
+    "element_type": "paragraph",
+    "raw": "“Get something across the stream lower down, some of you fellows,” called Rabbit.",
+    "expected": "<<Get something across the stream lower down, some of you fellows,>> called Rabbit."
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 8,
+    "chapter_name": "IX - In Which Piglet Is Entirely Surrounded by Water",
+    "element_index": 31,
+    "element_type": "paragraph",
+    "raw": "Christopher Robin lived at the very top of the Forest. It rained, and it rained, and it rained, but the water couldn’t come up to \nhis\n house. It was rather jolly to look down into the valleys and see the water all round him, but it rained so hard that he stayed indoors most of the time, and thought about things. Every morning he went out with his umbrella and put a stick in the place where the water came up to, and every next morning he went out and couldn’t see his stick any more, so he put another stick in the place where the water came up to, and then he walked home again, and each morning he had a shorter way to walk than he had had the morning before. On the morning of the fifth day he saw the water all round him, and knew that for the first time in his life he was on a real island. Which was very exciting.",
+    "expected": "Christopher Robin lived at the very top of the Forest. It rained, and it rained, and it rained, but the water couldnt come up to his house. It was rather jolly to look down into the valleys and see the water all round him, but it rained so hard that he stayed indoors most of the time, and thought about things. Every morning he went out with his umbrella and put a stick in the place where the water came up to, and every next morning he went out and couldnt see his stick any more, so he put another stick in the place where the water came up to, and then he walked home again, and each morning he had a shorter way to walk than he had had the morning before. On the morning of the fifth day he saw the water all round him, and knew that for the first time in his life he was on a real island. Which was very exciting."
+  },
+  {
+    "book": "a-a-milne-winnie-the-pooh",
+    "chapter_index": 9,
+    "chapter_name": "X - In Which Christopher Robin Gives Pooh a Party, and We Say Goodbye",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "“This isn’t anything to eat, it’s asking you to the party. Tomorrow.”",
+    "expected": "<<This isnt anything to eat, its asking you to the party. Tomorrow.>>"
+  }
+]

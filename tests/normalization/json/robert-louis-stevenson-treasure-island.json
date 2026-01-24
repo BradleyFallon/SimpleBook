@@ -1,0 +1,299 @@
+[
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 1,
+    "chapter_name": "I - At the Admiral Benbow",
+    "element_index": 15,
+    "element_type": "paragraph",
+    "raw": "He was only once crossed, and that was toward the end, when my poor father was far gone in a decline that took him off. Doctor Livesey came late one afternoon to see the patient, took a bit of dinner from my mother, and went into the parlor to smoke a pipe until his horse should come down from the hamlet, for we had no stabling at the old Benbow. I followed him in, and I remember observing the contrast the neat, bright doctor, with his powder as white as snow, and his bright, black eyes and pleasant manners, made with the coltish country folk, and above all, with that filthy, heavy, bleared scarecrow of a pirate of ours, sitting far gone in rum, with his arms on the table. Suddenly he﻿—the captain, that is﻿—began to pipe up his eternal song:",
+    "expected": "He was only once crossed, and that was toward the end, when my poor father was far gone in a decline that took him off. Doctor Livesey came late one afternoon to see the patient, took a bit of dinner from my mother, and went into the parlor to smoke a pipe until his horse should come down from the hamlet, for we had no stabling at the old Benbow. I followed him in, and I remember observing the contrast the neat, bright doctor, with his powder as white as snow, and his bright, black eyes and pleasant manners, made with the coltish country folk, and above all, with that filthy, heavy, bleared scarecrow of a pirate of ours, sitting far gone in rum, with his arms on the table. Suddenly hethe captain, that isbegan to pipe up his eternal song:"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 2,
+    "chapter_name": "II - Black Dog Appears and Disappears",
+    "element_index": 29,
+    "element_type": "paragraph",
+    "raw": "That blow was the last of the battle. Once out upon the road, Black Dog, in spite of his wound, showed a wonderful clean pair of heels, and disappeared over the edge of the hill in half a minute. The captain, for his part, stood staring at the signboard like a bewildered man. Then he passed his hand over his eyes several times, and at last turned back into the house.",
+    "expected": "That blow was the last of the battle. Once out upon the road, Black Dog, in spite of his wound, showed a wonderful clean pair of heels, and disappeared over the edge of the hill in half a minute. The captain, for his part, stood staring at the signboard like a bewildered man. Then he passed his hand over his eyes several times, and at last turned back into the house."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 3,
+    "chapter_name": "III - The Black Spot",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“A week at least,” said I.",
+    "expected": "<<A week at least,>> said I."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 4,
+    "chapter_name": "IV - The Sea-Chest",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "Overcoming a strong repugnance, I tore open his shirt at the neck, and there, sure enough, hanging to a bit of tarry string, which I cut with his own gully, we found the key. At this triumph we were filled with hope, and hurried upstairs, without delay, to the little room where he had slept so long, and where his box had stood since the day of his arrival.",
+    "expected": "Overcoming a strong repugnance, I tore open his shirt at the neck, and there, sure enough, hanging to a bit of tarry string, which I cut with his own gully, we found the key. At this triumph we were filled with hope, and hurried upstairs, without delay, to the little room where he had slept so long, and where his box had stood since the day of his arrival."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 5,
+    "chapter_name": "V - The Last of the Blind Man",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "“It’s these people of the inn﻿—it’s that boy. I wish I had put his eyes out!” cried the blind man, Pew. “They were here no time ago﻿—they had the door bolted when I tried it. Scatter, lads, and find ’em.”",
+    "expected": "<<Its these people of the innits that boy. I wish I had put his eyes out!>> cried the blind man, Pew. <<They were here no time agothey had the door bolted when I tried it. Scatter, lads, and find em.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 6,
+    "chapter_name": "VI - The Captains Papers",
+    "element_index": 28,
+    "element_type": "paragraph",
+    "raw": "The bundle was sewn together, and the doctor had to get out his instrument case and cut the stitches with his medical scissors. It contained two things﻿—a book and a sealed paper.",
+    "expected": "The bundle was sewn together, and the doctor had to get out his instrument case and cut the stitches with his medical scissors. It contained two thingsa book and a sealed paper."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 8,
+    "chapter_name": "VII - I Go to Bristol",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "“Oh, sir,” cried I, “when do we sail?”",
+    "expected": "<<Oh, sir,>> cried I, <<when do we sail?>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 9,
+    "chapter_name": "VIII - At the Sign of the Spy-Glass",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“Oh!” said he, quite aloud, and offering his hand, “I see. You are our new cabin-boy; pleased I am to see you.”",
+    "expected": "<<Oh!>> said he, quite aloud, and offering his hand, <<I see. You are our new cabin-boy; pleased I am to see you.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 10,
+    "chapter_name": "IX - Powder and Arms",
+    "element_index": 32,
+    "element_type": "paragraph",
+    "raw": "“The hands know it, sir,” returned the captain.",
+    "expected": "<<The hands know it, sir,>> returned the captain."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 11,
+    "chapter_name": "X - The Voyage",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "All the crew respected and even obeyed him. He had a way of talking to each, and doing everybody some particular service. To me he was unweariedly kind, and always glad to see me in the galley, which he kept as clean as a new pin; the dishes hanging up burnished, and his parrot in a cage in the corner.",
+    "expected": "All the crew respected and even obeyed him. He had a way of talking to each, and doing everybody some particular service. To me he was unweariedly kind, and always glad to see me in the galley, which he kept as clean as a new pin; the dishes hanging up burnished, and his parrot in a cage in the corner."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 12,
+    "chapter_name": "XI - What I Heard in the Apple Barrel",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "“Easy all, Long John,” cried Israel. “Who’s a-crossin’ of you?”",
+    "expected": "<<Easy all, Long John,>> cried Israel. <<Whos a-crossin of you?>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 13,
+    "chapter_name": "XII - Council of War",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "“And now, men,” said the captain, when all was sheeted home, “has any one of you ever seen that land ahead?”",
+    "expected": "<<And now, men,>> said the captain, when all was sheeted home, <<has any one of you ever seen that land ahead?>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 15,
+    "chapter_name": "XIII - How My Shore Adventure Began",
+    "element_index": 20,
+    "element_type": "paragraph",
+    "raw": "“My lads,” said he, “we’ve had a hot day, and are all tired and out of sorts. A turn ashore’ll hurt nobody; the boats are still in the water; you can take the gigs, and as many as please can go ashore for the afternoon. I’ll fire a gun half an hour before sundown.”",
+    "expected": "<<My lads,>> said he, <<weve had a hot day, and are all tired and out of sorts. A turn ashorell hurt nobody; the boats are still in the water; you can take the gigs, and as many as please can go ashore for the afternoon. Ill fire a gun half an hour before sundown.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 16,
+    "chapter_name": "XIV - The First Blow",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "“That?” returned Silver, smiling away, but warier than ever, his eye a mere pinpoint in his big face, but gleaming like a crumb of glass. “That? Oh, I reckon that’ll be Alan.”",
+    "expected": "<<That?>> returned Silver, smiling away, but warier than ever, his eye a mere pinpoint in his big face, but gleaming like a crumb of glass. <<That? Oh, I reckon thatll be Alan.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 17,
+    "chapter_name": "XV - The Man of the Island",
+    "element_index": 39,
+    "element_type": "paragraph",
+    "raw": "“Why,” I cried, “the squire’s a gentleman. And, besides, if we got rid of the others, we should want you to help work the vessel home.”",
+    "expected": "<<Why,>> I cried, <<the squires a gentleman. And, besides, if we got rid of the others, we should want you to help work the vessel home.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 18,
+    "chapter_name": "XVI - Narrative Continued by the DoctorHow the Ship Was Abandoned",
+    "element_index": 20,
+    "element_type": "paragraph",
+    "raw": "This second trip fairly aroused the watchers along shore. “Lillibullero” was dropped again, and just before we lost sight of them behind the little point, one of them whipped ashore and disappeared. I had half a mind to change my plan and destroy their boats, but I feared that Silver and the others might be close at hand, and all might very well be lost by trying for too much.",
+    "expected": "This second trip fairly aroused the watchers along shore. <<Lillibullero>> was dropped again, and just before we lost sight of them behind the little point, one of them whipped ashore and disappeared. I had half a mind to change my plan and destroy their boats, but I feared that Silver and the others might be close at hand, and all might very well be lost by trying for too much."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 19,
+    "chapter_name": "XVII - Narrative Continued by the DoctorThe Jolly-Boats Last Trip",
+    "element_index": 31,
+    "element_type": "paragraph",
+    "raw": "“If I durst,” said the captain, “I’d stop and pick off another man.”",
+    "expected": "<<If I durst,>> said the captain, <<Id stop and pick off another man.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 20,
+    "chapter_name": "XVIII - Narrative Continued by the DoctorEnd of the First Days Fighting",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "Forty paces farther we came to the edge of the wood and saw the stockade in front of us. We struck the enclosure about the middle of the south side, and, almost at the same time, seven mutineers﻿—Job Anderson, the boatswain, at their head﻿—appeared in full cry at the southwestern corner.",
+    "expected": "Forty paces farther we came to the edge of the wood and saw the stockade in front of us. We struck the enclosure about the middle of the south side, and, almost at the same time, seven mutineersJob Anderson, the boatswain, at their headappeared in full cry at the southwestern corner."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 21,
+    "chapter_name": "XX - Silvers Embassy",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "We could see the man who carried the flag of truce attempting to hold Silver back. Nor was that wonderful, seeing how cavalier had been the captain’s answer. But Silver laughed at him aloud, and slapped him on the back, as if the idea of alarm had been absurd. Then he advanced to the stockade, threw over his crutch, got a leg up, and with great vigor and skill succeeded in surmounting the fence and dropping safely to the other side.",
+    "expected": "We could see the man who carried the flag of truce attempting to hold Silver back. Nor was that wonderful, seeing how cavalier had been the captains answer. But Silver laughed at him aloud, and slapped him on the back, as if the idea of alarm had been absurd. Then he advanced to the stockade, threw over his crutch, got a leg up, and with great vigor and skill succeeded in surmounting the fence and dropping safely to the other side."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 22,
+    "chapter_name": "XXI - The Attack",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "The log-house was full of smoke, to which we owed our comparative safety. Cries and confusion, the flashes and reports of pistol-shots, and one loud groan, rang in my ears.",
+    "expected": "The log-house was full of smoke, to which we owed our comparative safety. Cries and confusion, the flashes and reports of pistol-shots, and one loud groan, rang in my ears."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 24,
+    "chapter_name": "XXII - How My Sea Adventure Began",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "“I take it,” replied I, “the doctor has his idea, and if I am right, he’s going now to see Ben Gunn.”",
+    "expected": "<<I take it,>> replied I, <<the doctor has his idea, and if I am right, hes going now to see Ben Gunn.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 25,
+    "chapter_name": "XXIII - The Ebb-Tide Runs",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "Suddenly the schooner in front of me gave a violent yaw, turning, perhaps, through twenty degrees; and almost at the same moment one shout followed another from on board. I could hear feet pounding on the companion ladder, and I knew that the two drunkards had at last been interrupted in their quarrel and awakened to a sense of their disaster.",
+    "expected": "Suddenly the schooner in front of me gave a violent yaw, turning, perhaps, through twenty degrees; and almost at the same moment one shout followed another from on board. I could hear feet pounding on the companion ladder, and I knew that the two drunkards had at last been interrupted in their quarrel and awakened to a sense of their disaster."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 26,
+    "chapter_name": "XXIV - The Cruise of the Coracle",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "I began after a little to grow very bold, and sat up to try my skill at paddling. But even a small change in the disposition of the weight will produce violent changes in the behavior of a coracle. And I had hardly moved before the boat, giving up at once her gentle, dancing movement, ran straight down a slope of water so steep that it made me giddy, and struck her nose, with a spout of spray, deep into the side of the next wave.",
+    "expected": "I began after a little to grow very bold, and sat up to try my skill at paddling. But even a small change in the disposition of the weight will produce violent changes in the behavior of a coracle. And I had hardly moved before the boat, giving up at once her gentle, dancing movement, ran straight down a slope of water so steep that it made me giddy, and struck her nose, with a spout of spray, deep into the side of the next wave."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 27,
+    "chapter_name": "XXV - I Strike the Jolly Roger",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "“Much hurt?” I asked him.",
+    "expected": "<<Much hurt?>> I asked him."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 28,
+    "chapter_name": "XXVI - Israel Hands",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "With that I scuttled down the companion with all the noise I could, slipped off my shoes, ran quietly along the sparred gallery, mounted the forecastle ladder and popped my head out of the fore companion. I knew he would not expect to see me there, yet I took every precaution possible, and certainly the worst of my suspicions proved too true.",
+    "expected": "With that I scuttled down the companion with all the noise I could, slipped off my shoes, ran quietly along the sparred gallery, mounted the forecastle ladder and popped my head out of the fore companion. I knew he would not expect to see me there, yet I took every precaution possible, and certainly the worst of my suspicions proved too true."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 29,
+    "chapter_name": "XXVII - <<Pieces of Eight>>",
+    "element_index": 17,
+    "element_type": "paragraph",
+    "raw": "The moon was climbing higher and higher; its light began to fall here and there in masses through the more open districts of the wood, and right in front of me a glow of a different color appeared among the trees. It was red and hot, and now and again it was a little darkened﻿—as it were the embers of a bonfire smoldering.",
+    "expected": "The moon was climbing higher and higher; its light began to fall here and there in masses through the more open districts of the wood, and right in front of me a glow of a different color appeared among the trees. It was red and hot, and now and again it was a little darkenedas it were the embers of a bonfire smoldering."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 31,
+    "chapter_name": "XXVIII - In the Enemys Camp",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "“And now, \nMr.\n Silver,” I said, “I believe you’re the best man here, and if things go to the worst, I’ll take it kind of you to let the doctor know the way I took it.”",
+    "expected": "<<And now, Mr. Silver,>> I said, <<I believe youre the best man here, and if things go to the worst, Ill take it kind of you to let the doctor know the way I took it.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 32,
+    "chapter_name": "XXIX - The Black Spot Again",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "“So that’s the toon, is it?” cried the cook. “George, I reckon you’ll have to wait another turn, friend, and lucky for you as I’m not a revengeful man. But that was never my way. And now, shipmates, this black spot? ’Tain’t much good now, is it? Dick’s crossed his luck and spoiled his Bible, and that’s about all.”",
+    "expected": "<<So thats the toon, is it?>> cried the cook. <<George, I reckon youll have to wait another turn, friend, and lucky for you as Im not a revengeful man. But that was never my way. And now, shipmates, this black spot? Taint much good now, is it? Dicks crossed his luck and spoiled his Bible, and thats about all.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 33,
+    "chapter_name": "XXX - On Parole",
+    "element_index": 46,
+    "element_type": "paragraph",
+    "raw": "“There’s a kind of fate in this,” he observed, when I had done. “Every step it’s you that save our lives, and do you suppose by any chance that we are going to let you lose yours? That would be a poor return, my boy. You found out the plot; you found Ben Gunn﻿—the best deed that ever you did, or will do, though you live to ninety. Oh, by Jupiter! and talking of Ben Gunn, why, this is the mischief in person. Silver!” he cried, “Silver! I’ll give you a piece of advice,” he continued, as the cook drew near again; “don’t you be in any great hurry after that treasure.”",
+    "expected": "<<Theres a kind of fate in this,>> he observed, when I had done. <<Every step its you that save our lives, and do you suppose by any chance that we are going to let you lose yours? That would be a poor return, my boy. You found out the plot; you found Ben Gunnthe best deed that ever you did, or will do, though you live to ninety. Oh, by Jupiter! and talking of Ben Gunn, why, this is the mischief in person. Silver!>> he cried, <<Silver! Ill give you a piece of advice,>> he continued, as the cook drew near again; <<dont you be in any great hurry after that treasure.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 34,
+    "chapter_name": "XXXI - The Treasure-HuntFlints Pointer",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "Well, thus equipped, we all set out﻿—even the fellow with the broken head, who should certainly have kept in shadow﻿—and straggled, one after another, to the beach, where the two gigs awaited us. Even these bore trace of the drunken folly of the pirates, one in a broken thwart, and both in their muddied and unbailed condition. Both were to be carried along with us, for the sake of safety; and so, with our numbers divided between them, we set forth upon the bosom of the anchorage.",
+    "expected": "Well, thus equipped, we all set outeven the fellow with the broken head, who should certainly have kept in shadowand straggled, one after another, to the beach, where the two gigs awaited us. Even these bore trace of the drunken folly of the pirates, one in a broken thwart, and both in their muddied and unbailed condition. Both were to be carried along with us, for the sake of safety; and so, with our numbers divided between them, we set forth upon the bosom of the anchorage."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 35,
+    "chapter_name": "XXXII - The Treasure-HuntThe Voice Among the Trees",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "Silver hobbled, grunting, on his crutch; his nostrils stood out and quivered; he cursed like a madman when the flies settled on his hot and shiny countenance; he plucked furiously at the line that held me to him, and, from time to time, turned his eyes upon me with a deadly look. Certainly he took no pains to hide his thoughts; and certainly I read them like print. In the immediate nearness of the gold, all else had been forgotten; his promise and the doctor’s warning were both things of the past; and I could not doubt that he hoped to seize upon the treasure, find and board the \nHispaniola\n under cover of night, cut every honest throat about that island, and sail away as he had at first intended, laden with crimes and riches.",
+    "expected": "Silver hobbled, grunting, on his crutch; his nostrils stood out and quivered; he cursed like a madman when the flies settled on his hot and shiny countenance; he plucked furiously at the line that held me to him, and, from time to time, turned his eyes upon me with a deadly look. Certainly he took no pains to hide his thoughts; and certainly I read them like print. In the immediate nearness of the gold, all else had been forgotten; his promise and the doctors warning were both things of the past; and I could not doubt that he hoped to seize upon the treasure, find and board the Hispaniola under cover of night, cut every honest throat about that island, and sail away as he had at first intended, laden with crimes and riches."
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 36,
+    "chapter_name": "XXXIII - The Fall of a Chieftain",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "“Thank ye kindly, doctor,” says he. “You came in in about the nick, I guess, for me and Hawkins. And so it’s you, Ben Gunn!” he added. “Well, you’re a nice one, to be sure.”",
+    "expected": "<<Thank ye kindly, doctor,>> says he. <<You came in in about the nick, I guess, for me and Hawkins. And so its you, Ben Gunn!>> he added. <<Well, youre a nice one, to be sure.>>"
+  },
+  {
+    "book": "robert-louis-stevenson-treasure-island",
+    "chapter_index": 37,
+    "chapter_name": "XXXIV - And Last",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "Silver, I should say, was allowed his entire liberty, and, in spite of daily rebuffs, seemed to regard himself once more as quite a privileged and friendly dependent. Indeed, it was remarkable how well he bore these slights, and with what unwearying politeness he kept at trying to ingratiate himself with all. Yet, I think, none treated him better than a dog, unless it was Ben Gunn, who was still terribly afraid of his old quartermaster, or myself, who had really something to thank him for; although for that matter, I suppose, I had reason to think even worse of him than anybody else, for I had seen him meditating a fresh treachery upon the plateau. Accordingly, it was pretty gruffly that the doctor answered him.",
+    "expected": "Silver, I should say, was allowed his entire liberty, and, in spite of daily rebuffs, seemed to regard himself once more as quite a privileged and friendly dependent. Indeed, it was remarkable how well he bore these slights, and with what unwearying politeness he kept at trying to ingratiate himself with all. Yet, I think, none treated him better than a dog, unless it was Ben Gunn, who was still terribly afraid of his old quartermaster, or myself, who had really something to thank him for; although for that matter, I suppose, I had reason to think even worse of him than anybody else, for I had seen him meditating a fresh treachery upon the plateau. Accordingly, it was pretty gruffly that the doctor answered him."
+  }
+]

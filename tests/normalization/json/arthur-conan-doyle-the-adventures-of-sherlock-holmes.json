@@ -1,0 +1,110 @@
+[
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 0,
+    "chapter_name": "A Scandal in Bohemia",
+    "element_index": 98,
+    "element_type": "paragraph",
+    "raw": "“To Clotilde Lothman von Saxe-Meningen, second daughter of the King of Scandinavia. You may know the strict principles of her family. She is herself the very soul of delicacy. A shadow of a doubt as to my conduct would bring the matter to an end.”",
+    "expected": "<<To Clotilde Lothman von Saxe-Meningen, second daughter of the King of Scandinavia. You may know the strict principles of her family. She is herself the very soul of delicacy. A shadow of a doubt as to my conduct would bring the matter to an end.>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 1,
+    "chapter_name": "The Redheaded League",
+    "element_index": 112,
+    "element_type": "paragraph",
+    "raw": "“About a month then.”",
+    "expected": "<<About a month then.>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 2,
+    "chapter_name": "A Case of Identity",
+    "element_index": 138,
+    "element_type": "paragraph",
+    "raw": "“If I tell her she will not believe me. You may remember the old Persian saying, ‘There is danger for him who taketh the tiger cub, and danger also for whoso snatches a delusion from a woman.’ There is as much sense in Hafiz as in Horace, and as much knowledge of the world.”",
+    "expected": "<<If I tell her she will not believe me. You may remember the old Persian saying, There is danger for him who taketh the tiger cub, and danger also for whoso snatches a delusion from a woman. There is as much sense in Hafiz as in Horace, and as much knowledge of the world.>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 3,
+    "chapter_name": "The Boscombe Valley Mystery",
+    "element_index": 64,
+    "element_type": "paragraph",
+    "raw": "“Yes, at the mines.”",
+    "expected": "<<Yes, at the mines.>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 4,
+    "chapter_name": "The Five Orange Pips",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“Yes, from Horsham.”",
+    "expected": "<<Yes, from Horsham.>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 5,
+    "chapter_name": "The Man with the Twisted Lip",
+    "element_index": 141,
+    "element_type": "paragraph",
+    "raw": "“He only, as I understand, gave an inarticulate cry?”",
+    "expected": "<<He only, as I understand, gave an inarticulate cry?>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 6,
+    "chapter_name": "The Adventure of the Blue Carbuncle",
+    "element_index": 38,
+    "element_type": "paragraph",
+    "raw": "Sherlock Holmes laughed. “Here is the foresight,” said he putting his finger upon the little disc and loop of the hat-securer. “They are never sold upon hats. If this man ordered one, it is a sign of a certain amount of foresight, since he went out of his way to take this precaution against the wind. But since we see that he has broken the elastic and has not troubled to replace it, it is obvious that he has less foresight now than formerly, which is a distinct proof of a weakening nature. On the other hand, he has endeavoured to conceal some of these stains upon the felt by daubing them with ink, which is a sign that he has not entirely lost his self-respect.”",
+    "expected": "Sherlock Holmes laughed. <<Here is the foresight,>> said he putting his finger upon the little disc and loop of the hat-securer. <<They are never sold upon hats. If this man ordered one, it is a sign of a certain amount of foresight, since he went out of his way to take this precaution against the wind. But since we see that he has broken the elastic and has not troubled to replace it, it is obvious that he has less foresight now than formerly, which is a distinct proof of a weakening nature. On the other hand, he has endeavoured to conceal some of these stains upon the felt by daubing them with ink, which is a sign that he has not entirely lost his self-respect.>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 7,
+    "chapter_name": "The Adventure of the Speckled Band",
+    "element_index": 109,
+    "element_type": "paragraph",
+    "raw": "Holmes chuckled heartily. “Your conversation is most entertaining,” said he. “When you go out close the door, for there is a decided draught.”",
+    "expected": "Holmes chuckled heartily. <<Your conversation is most entertaining,>> said he. <<When you go out close the door, for there is a decided draught.>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 8,
+    "chapter_name": "The Adventure of the Engineers Thumb",
+    "element_index": 89,
+    "element_type": "paragraph",
+    "raw": "“One horse?” interjected Holmes.",
+    "expected": "<<One horse?>> interjected Holmes."
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 9,
+    "chapter_name": "The Adventure of the Noble Bachelor",
+    "element_index": 155,
+    "element_type": "paragraph",
+    "raw": "“Oh, indeed! Then you think that the Serpentine plays no part in the matter?”",
+    "expected": "<<Oh, indeed! Then you think that the Serpentine plays no part in the matter?>>"
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 10,
+    "chapter_name": "The Adventure of the Beryl Coronet",
+    "element_index": 183,
+    "element_type": "blockquote",
+    "raw": "“ ‘\nMy Dearest Uncle\n:﻿—I feel that I have brought trouble upon you, and that if I had acted differently this terrible misfortune might never have occurred. I cannot, with this thought in my mind, ever again be happy under your roof, and I feel that I must leave you forever. Do not worry about my future, for that is provided for; and, above all, do not search for me, for it will be fruitless labour and an ill-service to me. In life or in death, I am ever your loving\n“ ‘Mary.’",
+    "expected": "<< My Dearest Uncle :I feel that I have brought trouble upon you, and that if I had acted differently this terrible misfortune might never have occurred. I cannot, with this thought in my mind, ever again be happy under your roof, and I feel that I must leave you forever. Do not worry about my future, for that is provided for; and, above all, do not search for me, for it will be fruitless labour and an ill-service to me. In life or in death, I am ever your loving >> Mary."
+  },
+  {
+    "book": "arthur-conan-doyle-the-adventures-of-sherlock-holmes",
+    "chapter_index": 11,
+    "chapter_name": "The Adventure of the Copper Beeches",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "It was dated from Montague Place upon the preceding evening, and ran thus:",
+    "expected": "It was dated from Montague Place upon the preceding evening, and ran thus:"
+  }
+]

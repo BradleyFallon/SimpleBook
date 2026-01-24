@@ -1,0 +1,353 @@
+[
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 0,
+    "chapter_name": "Anne of Green Gables By L. M. Montgomery .",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "By \nL. M.\n Montgomery\n.",
+    "expected": "By L. M. Montgomery ."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 1,
+    "chapter_name": "I - Mrs. Rachel Lynde Is Surprised",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "Mrs.\n Rachel, before she had fairly closed the door, had taken mental note of everything that was on that table. There were three plates laid, so that Marilla must be expecting someone home with Matthew to tea; but the dishes were everyday dishes and there was only crab-apple preserves and one kind of cake, so that the expected company could not be any particular company. Yet what of Matthew’s white collar and the sorrel mare? \nMrs.\n Rachel was getting fairly dizzy with this unusual mystery about quiet, unmysterious Green Gables.",
+    "expected": "Mrs. Rachel, before she had fairly closed the door, had taken mental note of everything that was on that table. There were three plates laid, so that Marilla must be expecting someone home with Matthew to tea; but the dishes were everyday dishes and there was only crab-apple preserves and one kind of cake, so that the expected company could not be any particular company. Yet what of Matthews white collar and the sorrel mare? Mrs. Rachel was getting fairly dizzy with this unusual mystery about quiet, unmysterious Green Gables."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 2,
+    "chapter_name": "II - Matthew Cuthbert Is Surprised",
+    "element_index": 60,
+    "element_type": "paragraph",
+    "raw": "“Oh, I don’t think that can be exactly the same kind of a thrill. Do you think it can? There doesn’t seem to be much connection between grubs and lakes of shining waters, does there? But why do other people call it Barry’s pond?”",
+    "expected": "<<Oh, I dont think that can be exactly the same kind of a thrill. Do you think it can? There doesnt seem to be much connection between grubs and lakes of shining waters, does there? But why do other people call it Barrys pond?>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 3,
+    "chapter_name": "III - Marilla Cuthbert Is Surprised",
+    "element_index": 68,
+    "element_type": "paragraph",
+    "raw": "To bed went Matthew. And to bed, when she had put her dishes away, went Marilla, frowning most resolutely. And upstairs, in the east gable, a lonely, heart-hungry, friendless child cried herself to sleep.",
+    "expected": "To bed went Matthew. And to bed, when she had put her dishes away, went Marilla, frowning most resolutely. And upstairs, in the east gable, a lonely, heart-hungry, friendless child cried herself to sleep."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 4,
+    "chapter_name": "IV - Morning at Green Gables",
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "Thereupon Anne held her tongue so obediently and thoroughly that her continued silence made Marilla rather nervous, as if in the presence of something not exactly natural. Matthew also held his tongue﻿—but this at least was natural﻿—so that the meal was a very silent one.",
+    "expected": "Thereupon Anne held her tongue so obediently and thoroughly that her continued silence made Marilla rather nervous, as if in the presence of something not exactly natural. Matthew also held his tonguebut this at least was naturalso that the meal was a very silent one."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 5,
+    "chapter_name": "V - Annes History",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "“I guess it doesn’t matter what a person’s name is as long as he behaves himself,” said Marilla, feeling herself called upon to inculcate a good and useful moral.",
+    "expected": "<<I guess it doesnt matter what a persons name is as long as he behaves himself,>> said Marilla, feeling herself called upon to inculcate a good and useful moral."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 6,
+    "chapter_name": "VI - Marilla Makes Up Her Mind",
+    "element_index": 34,
+    "element_type": "paragraph",
+    "raw": "“It’d be more to the point if you could say she was a useful little thing,” retorted Marilla, “but I’ll make it my business to see she’s trained to be that. And mind, Matthew, you’re not to go interfering with my methods. Perhaps an old maid doesn’t know much about bringing up a child, but I guess she knows more than an old bachelor. So you just leave me to manage her. When I fail it’ll be time enough to put your oar in.”",
+    "expected": "<<Itd be more to the point if you could say she was a useful little thing,>> retorted Marilla, <<but Ill make it my business to see shes trained to be that. And mind, Matthew, youre not to go interfering with my methods. Perhaps an old maid doesnt know much about bringing up a child, but I guess she knows more than an old bachelor. So you just leave me to manage her. When I fail itll be time enough to put your oar in.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 7,
+    "chapter_name": "VII - Anne Says Her Prayers",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“You must say your prayers while you are under my roof, Anne.”",
+    "expected": "<<You must say your prayers while you are under my roof, Anne.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 8,
+    "chapter_name": "VIII - Annes Bringing-Up Is Begun",
+    "element_index": 37,
+    "element_type": "paragraph",
+    "raw": "“Diana Barry lives over at Orchard Slope and she’s about your age. She’s a very nice little girl, and perhaps she will be a playmate for you when she comes home. She’s visiting her aunt over at Carmody just now. You’ll have to be careful how you behave yourself, though. \nMrs.\n Barry is a very particular woman. She won’t let Diana play with any little girl who isn’t nice and good.”",
+    "expected": "<<Diana Barry lives over at Orchard Slope and shes about your age. Shes a very nice little girl, and perhaps she will be a playmate for you when she comes home. Shes visiting her aunt over at Carmody just now. Youll have to be careful how you behave yourself, though. Mrs. Barry is a very particular woman. She wont let Diana play with any little girl who isnt nice and good.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 9,
+    "chapter_name": "IX - Mrs. Rachel Lynde Is Properly Horrified",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "No answer.",
+    "expected": "No answer."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 10,
+    "chapter_name": "X - Annes Apology",
+    "element_index": 33,
+    "element_type": "paragraph",
+    "raw": "There was no mistaking her sincerity﻿—it breathed in every tone of her voice. Both Marilla and \nMrs.\n Lynde recognized its unmistakable ring. But the former understood in dismay that Anne was actually enjoying her valley of humiliation﻿—was reveling in the thoroughness of her abasement. Where was the wholesome punishment upon which she, Marilla, had plumed herself? Anne had turned it into a species of positive pleasure.",
+    "expected": "There was no mistaking her sincerityit breathed in every tone of her voice. Both Marilla and Mrs. Lynde recognized its unmistakable ring. But the former understood in dismay that Anne was actually enjoying her valley of humiliationwas reveling in the thoroughness of her abasement. Where was the wholesome punishment upon which she, Marilla, had plumed herself? Anne had turned it into a species of positive pleasure."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 11,
+    "chapter_name": "XI - Annes Impressions of Sunday-School",
+    "element_index": 26,
+    "element_type": "paragraph",
+    "raw": "“You shouldn’t have done anything of the sort. You should have listened to \nMr.\n Bell.”",
+    "expected": "<<You shouldnt have done anything of the sort. You should have listened to Mr. Bell.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 12,
+    "chapter_name": "XII - A Solemn Vow and Promise",
+    "element_index": 27,
+    "element_type": "paragraph",
+    "raw": "“Why, I guess so,” she said frankly. “I’m awfully glad you’ve come to live at Green Gables. It will be jolly to have somebody to play with. There isn’t any other girl who lives near enough to play with, and I’ve no sisters big enough.”",
+    "expected": "<<Why, I guess so,>> she said frankly. <<Im awfully glad youve come to live at Green Gables. It will be jolly to have somebody to play with. There isnt any other girl who lives near enough to play with, and Ive no sisters big enough.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 13,
+    "chapter_name": "XIII - The Delights of Anticipation",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "A series of staccato taps on the west window brought Anne flying in from the yard, eyes shining, cheeks faintly flushed with pink, unbraided hair streaming behind her in a torrent of brightness.",
+    "expected": "A series of staccato taps on the west window brought Anne flying in from the yard, eyes shining, cheeks faintly flushed with pink, unbraided hair streaming behind her in a torrent of brightness."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 14,
+    "chapter_name": "XIV - Annes Confession",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "“I don’t know what I wouldn’t sooner have had happen,” thought Marilla, as she nervously shelled the peas. “Of course, I don’t suppose she meant to steal it or anything like that. She’s just taken it to play with or help along that imagination of hers. She must have taken it, that’s clear, for there hasn’t been a soul in that room since she was in it, by her own story, until I went up tonight. And the brooch is gone, there’s nothing surer. I suppose she has lost it and is afraid to own up for fear she’ll be punished. It’s a dreadful thing to think she tells falsehoods. It’s a far worse thing than her fit of temper. It’s a fearful responsibility to have a child in your house you can’t trust. Slyness and untruthfulness﻿—that’s what she has displayed. I declare I feel worse about that than about the brooch. If she’d only have told the truth about it I wouldn’t mind so much.”",
+    "expected": "<<I dont know what I wouldnt sooner have had happen,>> thought Marilla, as she nervously shelled the peas. <<Of course, I dont suppose she meant to steal it or anything like that. Shes just taken it to play with or help along that imagination of hers. She must have taken it, thats clear, for there hasnt been a soul in that room since she was in it, by her own story, until I went up tonight. And the brooch is gone, theres nothing surer. I suppose she has lost it and is afraid to own up for fear shell be punished. Its a dreadful thing to think she tells falsehoods. Its a far worse thing than her fit of temper. Its a fearful responsibility to have a child in your house you cant trust. Slyness and untruthfulnessthats what she has displayed. I declare I feel worse about that than about the brooch. If shed only have told the truth about it I wouldnt mind so much.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 15,
+    "chapter_name": "XV - A Tempest in the School Teapot",
+    "element_index": 43,
+    "element_type": "paragraph",
+    "raw": "Anne returned no answer. It was asking too much of flesh and blood to expect her to tell before the whole school that she had been called “carrots.” Gilbert it was who spoke up stoutly.",
+    "expected": "Anne returned no answer. It was asking too much of flesh and blood to expect her to tell before the whole school that she had been called <<carrots.>> Gilbert it was who spoke up stoutly."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 16,
+    "chapter_name": "XVI - Diana Is Invited to Tea with Tragic Results",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“How is your mother?” inquired Anne politely, just as if she had not seen \nMrs.\n Barry picking apples that morning in excellent health and spirits.",
+    "expected": "<<How is your mother?>> inquired Anne politely, just as if she had not seen Mrs. Barry picking apples that morning in excellent health and spirits."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 17,
+    "chapter_name": "XVII - A New Interest in Life",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "But as,",
+    "expected": "But as,"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 18,
+    "chapter_name": "XVIII - Anne to the Rescue",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "“Oh, Anne, do come quick,” implored Diana nervously. “Minnie May is awful sick﻿—she’s got croup, Young Mary Joe says﻿—and Father and Mother are away to town and there’s nobody to go for the doctor. Minnie May is awful bad and Young Mary Joe doesn’t know what to do﻿—and oh, Anne, I’m so scared!”",
+    "expected": "<<Oh, Anne, do come quick,>> implored Diana nervously. <<Minnie May is awful sickshes got croup, Young Mary Joe saysand Father and Mother are away to town and theres nobody to go for the doctor. Minnie May is awful bad and Young Mary Joe doesnt know what to doand oh, Anne, Im so scared!>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 19,
+    "chapter_name": "XIX - A Concert, a Catastrophe, and a Confession",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“But it’s such a very special occasion,” mourned Anne, on the verge of tears. “Diana has only one birthday in a year. It isn’t as if birthdays were common things, Marilla. Prissy Andrews is going to recite ‘Curfew Must Not Ring Tonight.’ That is such a good moral piece, Marilla, I’m sure it would do me lots of good to hear it. And the choir are going to sing four lovely pathetic songs that are pretty near as good as hymns. And oh, Marilla, the minister is going to take part; yes, indeed, he is; he’s going to give an address. That will be just about the same thing as a sermon. Please, mayn’t I go, Marilla?”",
+    "expected": "<<But its such a very special occasion,>> mourned Anne, on the verge of tears. <<Diana has only one birthday in a year. It isnt as if birthdays were common things, Marilla. Prissy Andrews is going to recite Curfew Must Not Ring Tonight. That is such a good moral piece, Marilla, Im sure it would do me lots of good to hear it. And the choir are going to sing four lovely pathetic songs that are pretty near as good as hymns. And oh, Marilla, the minister is going to take part; yes, indeed, he is; hes going to give an address. That will be just about the same thing as a sermon. Please, maynt I go, Marilla?>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 20,
+    "chapter_name": "XX - A Good Imagination Gone Wrong",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "“Well, so nothing caught you?” said Marilla unsympathetically.",
+    "expected": "<<Well, so nothing caught you?>> said Marilla unsympathetically."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 21,
+    "chapter_name": "XXI - A New Departure in Flavourings",
+    "element_index": 59,
+    "element_type": "paragraph",
+    "raw": "“Well, you’d better go and give that cake to the pigs,” said Marilla. “It isn’t fit for any human to eat, not even Jerry Buote.”",
+    "expected": "<<Well, youd better go and give that cake to the pigs,>> said Marilla. <<It isnt fit for any human to eat, not even Jerry Buote.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 22,
+    "chapter_name": "XXII - Anne Is Invited Out to Tea",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "“\nMrs.\n Allan told me she meant to have all the members of her Sunday school class to tea in turn,” said Marilla, regarding the wonderful event very coolly. “You needn’t get in such a fever over it. Do learn to take things calmly, child.”",
+    "expected": "<< Mrs. Allan told me she meant to have all the members of her Sunday school class to tea in turn,>> said Marilla, regarding the wonderful event very coolly. <<You neednt get in such a fever over it. Do learn to take things calmly, child.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 23,
+    "chapter_name": "XXIII - Anne Comes to Grief in an Affair of Honour",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“Don’t you do it, Anne,” entreated Diana. “You’ll fall off and be killed. Never mind Josie Pye. It isn’t fair to dare anybody to do anything so dangerous.”",
+    "expected": "<<Dont you do it, Anne,>> entreated Diana. <<Youll fall off and be killed. Never mind Josie Pye. It isnt fair to dare anybody to do anything so dangerous.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 24,
+    "chapter_name": "XXIV - Miss Stacy and Her Pupils Get Up a Concert",
+    "element_index": 11,
+    "element_type": "paragraph",
+    "raw": "“It’s just filling your heads up with nonsense and taking time that ought to be put on your lessons,” she grumbled. “I don’t approve of children’s getting up concerts and racing about to practises. It makes them vain and forward and fond of gadding.”",
+    "expected": "<<Its just filling your heads up with nonsense and taking time that ought to be put on your lessons,>> she grumbled. <<I dont approve of childrens getting up concerts and racing about to practises. It makes them vain and forward and fond of gadding.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 25,
+    "chapter_name": "XXV - Matthew Insists on Puffed Sleeves",
+    "element_index": 33,
+    "element_type": "paragraph",
+    "raw": "“Merry Christmas, Marilla! Merry Christmas, Matthew! Isn’t it a lovely Christmas? I’m so glad it’s white. Any other kind of Christmas doesn’t seem real, does it? I don’t like green Christmases. They’re \nnot\n green﻿—they’re just nasty faded browns and grays. What makes people call them green? Why﻿—why﻿—Matthew, is that for me? Oh, Matthew!”",
+    "expected": "<<Merry Christmas, Marilla! Merry Christmas, Matthew! Isnt it a lovely Christmas? Im so glad its white. Any other kind of Christmas doesnt seem real, does it? I dont like green Christmases. Theyre not greentheyre just nasty faded browns and grays. What makes people call them green? WhywhyMatthew, is that for me? Oh, Matthew!>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 26,
+    "chapter_name": "XXVI - The Story Club Is Formed",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "“Ruby Gillis says she means to have a beau as soon as she’s fifteen,” said Diana.",
+    "expected": "<<Ruby Gillis says she means to have a beau as soon as shes fifteen,>> said Diana."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 27,
+    "chapter_name": "XXVII - Vanity and Vexation of Spirit",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "Anne’s clipped head made a sensation in school on the following Monday, but to her relief nobody guessed the real reason for it, not even Josie Pye, who, however, did not fail to inform Anne that she looked like a perfect scarecrow.",
+    "expected": "Annes clipped head made a sensation in school on the following Monday, but to her relief nobody guessed the real reason for it, not even Josie Pye, who, however, did not fail to inform Anne that she looked like a perfect scarecrow."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 28,
+    "chapter_name": "XXVIII - An Unfortunate Lily Maid",
+    "element_index": 28,
+    "element_type": "paragraph",
+    "raw": "“We were playing Elaine,” explained Anne frigidly, without even looking at her rescuer, “and I had to drift down to Camelot in the barge﻿—I mean the flat. The flat began to leak and I climbed out on the pile. The girls went for help. Will you be kind enough to row me to the landing?”",
+    "expected": "<<We were playing Elaine,>> explained Anne frigidly, without even looking at her rescuer, <<and I had to drift down to Camelot in the bargeI mean the flat. The flat began to leak and I climbed out on the pile. The girls went for help. Will you be kind enough to row me to the landing?>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 29,
+    "chapter_name": "XXIX - An Epoch in Annes Life",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“I’m not going to think about it at all until I know whether I can go or not,” said Anne resolutely. “If I did and then was disappointed, it would be more than I could bear. But in case I do go I’m very glad my new coat will be ready by that time. Marilla didn’t think I needed a new coat. She said my old one would do very well for another winter and that I ought to be satisfied with having a new dress. The dress is very pretty, Diana﻿—navy blue and made so fashionably. Marilla always makes my dresses fashionably now, because she says she doesn’t intend to have Matthew going to \nMrs.\n Lynde to make them. I’m so glad. It is ever so much easier to be good if your clothes are fashionable. At least, it is easier for me. I suppose it doesn’t make such a difference to naturally good people. But Matthew said I must have a new coat, so Marilla bought a lovely piece of blue broadcloth, and it’s being made by a real dressmaker over at Carmody. It’s to be done Saturday night, and I’m trying not to imagine myself walking up the church aisle on Sunday in my new suit and cap, because I’m afraid it isn’t right to imagine such things. But it just slips into my mind in spite of me. My cap is so pretty. Matthew bought it for me the day we were over at Carmody. It is one of those little blue velvet ones that are all the rage, with gold cord and tassels. Your new hat is elegant, Diana, and so becoming. When I saw you come into church last Sunday my heart swelled with pride to think you were my dearest friend. Do you suppose it’s wrong for us to think so much about our clothes? Marilla says it is very sinful. But it \nis\n such an interesting subject, isn’t it?”",
+    "expected": "<<Im not going to think about it at all until I know whether I can go or not,>> said Anne resolutely. <<If I did and then was disappointed, it would be more than I could bear. But in case I do go Im very glad my new coat will be ready by that time. Marilla didnt think I needed a new coat. She said my old one would do very well for another winter and that I ought to be satisfied with having a new dress. The dress is very pretty, Diananavy blue and made so fashionably. Marilla always makes my dresses fashionably now, because she says she doesnt intend to have Matthew going to Mrs. Lynde to make them. Im so glad. It is ever so much easier to be good if your clothes are fashionable. At least, it is easier for me. I suppose it doesnt make such a difference to naturally good people. But Matthew said I must have a new coat, so Marilla bought a lovely piece of blue broadcloth, and its being made by a real dressmaker over at Carmody. Its to be done Saturday night, and Im trying not to imagine myself walking up the church aisle on Sunday in my new suit and cap, because Im afraid it isnt right to imagine such things. But it just slips into my mind in spite of me. My cap is so pretty. Matthew bought it for me the day we were over at Carmody. It is one of those little blue velvet ones that are all the rage, with gold cord and tassels. Your new hat is elegant, Diana, and so becoming. When I saw you come into church last Sunday my heart swelled with pride to think you were my dearest friend. Do you suppose its wrong for us to think so much about our clothes? Marilla says it is very sinful. But it is such an interesting subject, isnt it?>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 30,
+    "chapter_name": "XXX - The Queens Class Is Organized",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "“But, oh, Marilla, I really felt that I had tasted the bitterness of death, as \nMr.\n Allan said in his sermon last Sunday, when I saw Diana go out alone,” she said mournfully that night. “I thought how splendid it would have been if Diana had only been going to study for the Entrance, too. But we can’t have things perfect in this imperfect world, as \nMrs.\n Lynde says. \nMrs.\n Lynde isn’t exactly a comforting person sometimes, but there’s no doubt she says a great many very true things. And I think the Queen’s class is going to be extremely interesting. Jane and Ruby are just going to study to be teachers. That is the height of their ambition. Ruby says she will only teach for two years after she gets through, and then she intends to be married. Jane says she will devote her whole life to teaching, and never, never marry, because you are paid a salary for teaching, but a husband won’t pay you anything, and growls if you ask for a share in the egg and butter money. I expect Jane speaks from mournful experience, for \nMrs.\n Lynde says that her father is a perfect old crank, and meaner than second skimmings. Josie Pye says she is just going to college for education’s sake, because she won’t have to earn her own living; she says of course it is different with orphans who are living on charity﻿—\nthey\n have to hustle. Moody Spurgeon is going to be a minister. \nMrs.\n Lynde says he couldn’t be anything else with a name like that to live up to. I hope it isn’t wicked of me, Marilla, but really the thought of Moody Spurgeon being a minister makes me laugh. He’s such a funny-looking boy with that big fat face, and his little blue eyes, and his ears sticking out like flaps. But perhaps he will be more intellectual-looking when he grows up. Charlie Sloane says he’s going to go into politics and be a member of Parliament, but \nMrs.\n Lynde says he’ll never succeed at that, because the Sloanes are all honest people, and it’s only rascals that get on in politics nowadays.”",
+    "expected": "<<But, oh, Marilla, I really felt that I had tasted the bitterness of death, as Mr. Allan said in his sermon last Sunday, when I saw Diana go out alone,>> she said mournfully that night. <<I thought how splendid it would have been if Diana had only been going to study for the Entrance, too. But we cant have things perfect in this imperfect world, as Mrs. Lynde says. Mrs. Lynde isnt exactly a comforting person sometimes, but theres no doubt she says a great many very true things. And I think the Queens class is going to be extremely interesting. Jane and Ruby are just going to study to be teachers. That is the height of their ambition. Ruby says she will only teach for two years after she gets through, and then she intends to be married. Jane says she will devote her whole life to teaching, and never, never marry, because you are paid a salary for teaching, but a husband wont pay you anything, and growls if you ask for a share in the egg and butter money. I expect Jane speaks from mournful experience, for Mrs. Lynde says that her father is a perfect old crank, and meaner than second skimmings. Josie Pye says she is just going to college for educations sake, because she wont have to earn her own living; she says of course it is different with orphans who are living on charity they have to hustle. Moody Spurgeon is going to be a minister. Mrs. Lynde says he couldnt be anything else with a name like that to live up to. I hope it isnt wicked of me, Marilla, but really the thought of Moody Spurgeon being a minister makes me laugh. Hes such a funny-looking boy with that big fat face, and his little blue eyes, and his ears sticking out like flaps. But perhaps he will be more intellectual-looking when he grows up. Charlie Sloane says hes going to go into politics and be a member of Parliament, but Mrs. Lynde says hell never succeed at that, because the Sloanes are all honest people, and its only rascals that get on in politics nowadays.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 31,
+    "chapter_name": "XXXI - Where the Brook and River Meet",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "Marilla looked dubious for a moment. Then she laughed.",
+    "expected": "Marilla looked dubious for a moment. Then she laughed."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 32,
+    "chapter_name": "XXXII - The Pass List Is Out",
+    "element_index": 31,
+    "element_type": "paragraph",
+    "raw": "Diana flung the paper on the table and herself on Anne’s bed, utterly breathless and incapable of further speech. Anne lighted the lamp, oversetting the match safe and using up half a dozen matches before her shaking hands could accomplish the task. Then she snatched up the paper. Yes, she had passed﻿—there was her name at the very top of a list of two hundred! That moment was worth living for.",
+    "expected": "Diana flung the paper on the table and herself on Annes bed, utterly breathless and incapable of further speech. Anne lighted the lamp, oversetting the match safe and using up half a dozen matches before her shaking hands could accomplish the task. Then she snatched up the paper. Yes, she had passedthere was her name at the very top of a list of two hundred! That moment was worth living for."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 33,
+    "chapter_name": "XXXIII - The Hotel Concert",
+    "element_index": 19,
+    "element_type": "blockquote",
+    "raw": "“One moonbeam from the forehead to the crown”",
+    "expected": "<<One moonbeam from the forehead to the crown>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 34,
+    "chapter_name": "XXXIV - A Queens Girl",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "“Oh, Marilla, it’s just lovely,” said Anne. “Thank you so much. I don’t believe you ought to be so kind to me﻿—it’s making it harder every day for me to go away.”",
+    "expected": "<<Oh, Marilla, its just lovely,>> said Anne. <<Thank you so much. I dont believe you ought to be so kind to meits making it harder every day for me to go away.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 35,
+    "chapter_name": "XXXV - The Winter at Queens",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Gilbert Blythe nearly always walked with Ruby Gillis and carried her satchel for her. Ruby was a very handsome young lady, now thinking herself quite as grown up as she really was; she wore her skirts as long as her mother would let her and did her hair up in town, though she had to take it down when she went home. She had large, bright-blue eyes, a brilliant complexion, and a plump showy figure. She laughed a great deal, was cheerful and good-tempered, and enjoyed the pleasant things of life frankly.",
+    "expected": "Gilbert Blythe nearly always walked with Ruby Gillis and carried her satchel for her. Ruby was a very handsome young lady, now thinking herself quite as grown up as she really was; she wore her skirts as long as her mother would let her and did her hair up in town, though she had to take it down when she went home. She had large, bright-blue eyes, a brilliant complexion, and a plump showy figure. She laughed a great deal, was cheerful and good-tempered, and enjoyed the pleasant things of life frankly."
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 36,
+    "chapter_name": "XXXVI - The Glory and the Dream",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "“I think he has only been its nominal head for many years,” said Anne. “He is a very old man; his nephews are really at the head of the institution.”",
+    "expected": "<<I think he has only been its nominal head for many years,>> said Anne. <<He is a very old man; his nephews are really at the head of the institution.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 37,
+    "chapter_name": "XXXVII - The Reaper Whose Name Is Death",
+    "element_index": 7,
+    "element_type": "paragraph",
+    "raw": "“Child, yes, I’m afraid of it. Look at his face. When you’ve seen that look as often as I have you’ll know what it means.”",
+    "expected": "<<Child, yes, Im afraid of it. Look at his face. When youve seen that look as often as I have youll know what it means.>>"
+  },
+  {
+    "book": "l-m-montgomery-anne-of-green-gables",
+    "chapter_index": 38,
+    "chapter_name": "XXXVIII - The Bend in the Road",
+    "element_index": 27,
+    "element_type": "paragraph",
+    "raw": "“But you can’t prevent me. I’m sixteen and a half, ‘obstinate as a mule,’ as \nMrs.\n Lynde once told me,” laughed Anne. “Oh, Marilla, don’t you go pitying me. I don’t like to be pitied, and there is no need for it. I’m heart glad over the very thought of staying at dear Green Gables. Nobody could love it as you and I do﻿—so we must keep it.”",
+    "expected": "<<But you cant prevent me. Im sixteen and a half, obstinate as a mule, as Mrs. Lynde once told me,>> laughed Anne. <<Oh, Marilla, dont you go pitying me. I dont like to be pitied, and there is no need for it. Im heart glad over the very thought of staying at dear Green Gables. Nobody could love it as you and I doso we must keep it.>>"
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 0,
+    "chapter_name": "Part I",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nI\n\n",
+    "expected": "Part I"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 1,
+    "chapter_name": "I",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "The heat in the street was terrible: and the airlessness, the bustle and the plaster, scaffolding, bricks, and dust all about him, and that special Petersburg stench, so familiar to all who are unable to get out of town in summer﻿—all worked painfully upon the young man’s already overwrought nerves. The insufferable stench from the pothouses, which are particularly numerous in that part of the town, and the drunken men whom he met continually, although it was a working day, completed the revolting misery of the picture. An expression of the profoundest disgust gleamed for a moment in the young man’s refined face. He was, by the way, exceptionally handsome, above the average in height, slim, well-built, with beautiful dark eyes and dark brown hair. Soon he sank into deep thought, or more accurately speaking into a complete blankness of mind; he walked along not observing what was about him and not caring to observe it. From time to time, he would mutter something, from the habit of talking to himself, to which he had just confessed. At these moments he would become conscious that his ideas were sometimes in a tangle and that he was very weak; for two days he had scarcely tasted food.",
+    "expected": "The heat in the street was terrible: and the airlessness, the bustle and the plaster, scaffolding, bricks, and dust all about him, and that special Petersburg stench, so familiar to all who are unable to get out of town in summerall worked painfully upon the young mans already overwrought nerves. The insufferable stench from the pothouses, which are particularly numerous in that part of the town, and the drunken men whom he met continually, although it was a working day, completed the revolting misery of the picture. An expression of the profoundest disgust gleamed for a moment in the young mans refined face. He was, by the way, exceptionally handsome, above the average in height, slim, well-built, with beautiful dark eyes and dark brown hair. Soon he sank into deep thought, or more accurately speaking into a complete blankness of mind; he walked along not observing what was about him and not caring to observe it. From time to time, he would mutter something, from the habit of talking to himself, to which he had just confessed. At these moments he would become conscious that his ideas were sometimes in a tangle and that he was very weak; for two days he had scarcely tasted food."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 2,
+    "chapter_name": "II",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "“No, I am studying,” answered the young man, somewhat surprised at the grandiloquent style of the speaker and also at being so directly addressed. In spite of the momentary desire he had just been feeling for company of any sort, on being actually spoken to he felt immediately his habitual irritable and uneasy aversion for any stranger who approached or attempted to approach him.",
+    "expected": "<<No, I am studying,>> answered the young man, somewhat surprised at the grandiloquent style of the speaker and also at being so directly addressed. In spite of the momentary desire he had just been feeling for company of any sort, on being actually spoken to he felt immediately his habitual irritable and uneasy aversion for any stranger who approached or attempted to approach him."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 3,
+    "chapter_name": "III",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "When the soup had been brought, and he had begun upon it, Nastasya sat down beside him on the sofa and began chatting. She was a country peasant-woman and a very talkative one.",
+    "expected": "When the soup had been brought, and he had begun upon it, Nastasya sat down beside him on the sofa and began chatting. She was a country peasant-woman and a very talkative one."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 4,
+    "chapter_name": "IV",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "“The chief thing is,” Raskolnikov persisted, “to keep her out of this scoundrel’s hands! Why should he outrage her? It’s as clear as day what he is after; ah, the brute, he is not moving off!”",
+    "expected": "<<The chief thing is,>> Raskolnikov persisted, <<to keep her out of this scoundrels hands! Why should he outrage her? Its as clear as day what he is after; ah, the brute, he is not moving off!>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 5,
+    "chapter_name": "V",
+    "element_index": 51,
+    "element_type": "paragraph",
+    "raw": "But the poor boy, beside himself, made his way, screaming, through the crowd to the sorrel nag, put his arms round her bleeding dead head and kissed it, kissed the eyes and kissed the lips.﻿ ﻿… Then he jumped up and flew in a frenzy with his little fists out at Mikolka. At that instant his father, who had been running after him, snatched him up and carried him out of the crowd.",
+    "expected": "But the poor boy, beside himself, made his way, screaming, through the crowd to the sorrel nag, put his arms round her bleeding dead head and kissed it, kissed the eyes and kissed the lips. ... Then he jumped up and flew in a frenzy with his little fists out at Mikolka. At that instant his father, who had been running after him, snatched him up and carried him out of the crowd."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 6,
+    "chapter_name": "VI",
+    "element_index": 36,
+    "element_type": "paragraph",
+    "raw": "“Afterwards,” he said weakly. “You can go.”",
+    "expected": "<<Afterwards,>> he said weakly. <<You can go.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 7,
+    "chapter_name": "VII",
+    "element_index": 76,
+    "element_type": "paragraph",
+    "raw": "“What the devil?” he cried suddenly and in impatience deserting his sentry duty, he, too, went down, hurrying and thumping with his heavy boots on the stairs. The steps died away.",
+    "expected": "<<What the devil?>> he cried suddenly and in impatience deserting his sentry duty, he, too, went down, hurrying and thumping with his heavy boots on the stairs. The steps died away."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 8,
+    "chapter_name": "Part II",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nII\n\n",
+    "expected": "Part II"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 9,
+    "chapter_name": "I",
+    "element_index": 15,
+    "element_type": "paragraph",
+    "raw": "He pulled off the noose, hurriedly cut it to pieces and threw the bits among his linen under the pillow.",
+    "expected": "He pulled off the noose, hurriedly cut it to pieces and threw the bits among his linen under the pillow."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 10,
+    "chapter_name": "II",
+    "element_index": 55,
+    "element_type": "paragraph",
+    "raw": "She looked intently at him.",
+    "expected": "She looked intently at him."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 11,
+    "chapter_name": "III",
+    "element_index": 29,
+    "element_type": "paragraph",
+    "raw": "“I won’t sign it.”",
+    "expected": "<<I wont sign it.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 12,
+    "chapter_name": "IV",
+    "element_index": 53,
+    "element_type": "paragraph",
+    "raw": "“Well, anyway, there’s the evidence.”",
+    "expected": "<<Well, anyway, theres the evidence.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 13,
+    "chapter_name": "V",
+    "element_index": 42,
+    "element_type": "paragraph",
+    "raw": "“Excuse me, I fancied so from your inquiry. I was once his guardian.﻿ ﻿… A very nice young man and advanced. I like to meet young people: one learns new things from them.” Luzhin looked round hopefully at them all.",
+    "expected": "<<Excuse me, I fancied so from your inquiry. I was once his guardian. ... A very nice young man and advanced. I like to meet young people: one learns new things from them.>> Luzhin looked round hopefully at them all."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 14,
+    "chapter_name": "VI",
+    "element_index": 141,
+    "element_type": "paragraph",
+    "raw": "“Yes.”",
+    "expected": "<<Yes.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 15,
+    "chapter_name": "VII",
+    "element_index": 118,
+    "element_type": "paragraph",
+    "raw": "“Listen,” Raskolnikov hastened to say, “I’ve only just come to tell you you’ve won your bet and that no one really knows what may not happen to him. I can’t come in; I am so weak that I shall fall down directly. And so good evening and goodbye! Come and see me tomorrow.”",
+    "expected": "<<Listen,>> Raskolnikov hastened to say, <<Ive only just come to tell you youve won your bet and that no one really knows what may not happen to him. I cant come in; I am so weak that I shall fall down directly. And so good evening and goodbye! Come and see me tomorrow.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 16,
+    "chapter_name": "Part III",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nIII\n\n",
+    "expected": "Part III"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 17,
+    "chapter_name": "I",
+    "element_index": 24,
+    "element_type": "paragraph",
+    "raw": "“Goodbye till tomorrow, brother,” said Dounia compassionately﻿—“let us go, mother﻿ ﻿… Goodbye, Rodya.”",
+    "expected": "<<Goodbye till tomorrow, brother,>> said Dounia compassionately<<let us go, mother ... Goodbye, Rodya.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 18,
+    "chapter_name": "II",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "“If he is still at home,” he added. “Damn it all! If one can’t control one’s patients, how is one to cure them? Do you know whether \nhe\n will go to them, or whether \nthey\n are coming here?”",
+    "expected": "<<If he is still at home,>> he added. <<Damn it all! If one cant control ones patients, how is one to cure them? Do you know whether he will go to them, or whether they are coming here?>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 19,
+    "chapter_name": "III",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "“As for you, mother, I don’t dare to speak,” he went on, as though repeating a lesson learned by heart. “It is only today that I have been able to realise a little how distressed you must have been here yesterday, waiting for me to come back.”",
+    "expected": "<<As for you, mother, I dont dare to speak,>> he went on, as though repeating a lesson learned by heart. <<It is only today that I have been able to realise a little how distressed you must have been here yesterday, waiting for me to come back.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 20,
+    "chapter_name": "IV",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "Sonia sat down again, and again timidly she took a hurried, frightened look at the two ladies, and dropped her eyes. Raskolnikov’s pale face flushed, a shudder passed over him, his eyes glowed.",
+    "expected": "Sonia sat down again, and again timidly she took a hurried, frightened look at the two ladies, and dropped her eyes. Raskolnikovs pale face flushed, a shudder passed over him, his eyes glowed."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 21,
+    "chapter_name": "V",
+    "element_index": 34,
+    "element_type": "paragraph",
+    "raw": "Porfiry paused as though reflecting.",
+    "expected": "Porfiry paused as though reflecting."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 22,
+    "chapter_name": "VI",
+    "element_index": 46,
+    "element_type": "paragraph",
+    "raw": "Raskolnikov went on walking beside him. His legs felt suddenly weak, a cold shiver ran down his spine, and his heart seemed to stand still for a moment, then suddenly began throbbing as though it were set free. So they walked for about a hundred paces, side by side in silence.",
+    "expected": "Raskolnikov went on walking beside him. His legs felt suddenly weak, a cold shiver ran down his spine, and his heart seemed to stand still for a moment, then suddenly began throbbing as though it were set free. So they walked for about a hundred paces, side by side in silence."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 23,
+    "chapter_name": "Part IV",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nIV\n\n",
+    "expected": "Part IV"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 24,
+    "chapter_name": "I",
+    "element_index": 96,
+    "element_type": "paragraph",
+    "raw": "“You mean to say that I am seeking my own ends. Don’t be uneasy, Rodion Romanovitch, if I were working for my own advantage, I would not have spoken out so directly. I am not quite a fool. I will confess something psychologically curious about that: just now, defending my love for Avdotya Romanovna, I said I was myself the victim. Well, let me tell you that I’ve no feeling of love now, not the slightest, so that I wonder myself indeed, for I really did feel something﻿ ﻿…”",
+    "expected": "<<You mean to say that I am seeking my own ends. Dont be uneasy, Rodion Romanovitch, if I were working for my own advantage, I would not have spoken out so directly. I am not quite a fool. I will confess something psychologically curious about that: just now, defending my love for Avdotya Romanovna, I said I was myself the victim. Well, let me tell you that Ive no feeling of love now, not the slightest, so that I wonder myself indeed, for I really did feel something ...>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 25,
+    "chapter_name": "II",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "“It was Svidrigaïlov, that landowner in whose house my sister was insulted when she was their governess. Through his persecuting her with his attentions, she was turned out by his wife, Marfa Petrovna. This Marfa Petrovna begged Dounia’s forgiveness afterwards, and she’s just died suddenly. It was of her we were talking this morning. I don’t know why I’m afraid of that man. He came here at once after his wife’s funeral. He is very strange, and is determined on doing something.﻿ ﻿… We must guard Dounia from him﻿ ﻿… that’s what I wanted to tell you, do you hear?”",
+    "expected": "<<It was Svidrigailov, that landowner in whose house my sister was insulted when she was their governess. Through his persecuting her with his attentions, she was turned out by his wife, Marfa Petrovna. This Marfa Petrovna begged Dounias forgiveness afterwards, and shes just died suddenly. It was of her we were talking this morning. I dont know why Im afraid of that man. He came here at once after his wifes funeral. He is very strange, and is determined on doing something. ... We must guard Dounia from him ... thats what I wanted to tell you, do you hear?>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 26,
+    "chapter_name": "III",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "III",
+    "expected": "III"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 27,
+    "chapter_name": "IV",
+    "element_index": 206,
+    "element_type": "paragraph",
+    "raw": "Sonia started with terror.",
+    "expected": "Sonia started with terror."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 28,
+    "chapter_name": "V",
+    "element_index": 86,
+    "element_type": "paragraph",
+    "raw": "“Don’t worry about the form,” Porfiry interrupted with the same sly smile, as it were, gloating with enjoyment over Raskolnikov. “I invited you to see me quite in a friendly way.”",
+    "expected": "<<Dont worry about the form,>> Porfiry interrupted with the same sly smile, as it were, gloating with enjoyment over Raskolnikov. <<I invited you to see me quite in a friendly way.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 29,
+    "chapter_name": "VI",
+    "element_index": 31,
+    "element_type": "paragraph",
+    "raw": "“Yes, alone. And Mitka is not guilty and had no share in it.”",
+    "expected": "<<Yes, alone. And Mitka is not guilty and had no share in it.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 30,
+    "chapter_name": "Part V",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nV\n\n",
+    "expected": "Part V"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 31,
+    "chapter_name": "I",
+    "element_index": 69,
+    "element_type": "paragraph",
+    "raw": "“Or it would be simpler and more comprehensible to say, ill.”",
+    "expected": "<<Or it would be simpler and more comprehensible to say, ill.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 32,
+    "chapter_name": "II",
+    "element_index": 35,
+    "element_type": "paragraph",
+    "raw": "Katerina Ivanovna, who certainly was upset and very tired, as well as heartily sick of the dinner, at once cut short Amalia Ivanovna, saying “she knew nothing about it and was talking nonsense, that it was the business of the laundry maid, and not of the directress of a high-class boarding-school to look after \ndie Wäsche\n, and as for novel-reading, that was simply rudeness, and she begged her to be silent.” Amalia Ivanovna fired up and getting angry observed that she only “meant her good,” and that “she had meant her very good,” and that “it was long since she had paid her \ngold\n for the lodgings.”",
+    "expected": "Katerina Ivanovna, who certainly was upset and very tired, as well as heartily sick of the dinner, at once cut short Amalia Ivanovna, saying <<she knew nothing about it and was talking nonsense, that it was the business of the laundry maid, and not of the directress of a high-class boarding-school to look after die Wasche , and as for novel-reading, that was simply rudeness, and she begged her to be silent.>> Amalia Ivanovna fired up and getting angry observed that she only <<meant her good,>> and that <<she had meant her very good,>> and that <<it was long since she had paid her gold for the lodgings.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 33,
+    "chapter_name": "III",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“Good God!” broke from Sonia.",
+    "expected": "<<Good God!>> broke from Sonia."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 34,
+    "chapter_name": "IV",
+    "element_index": 166,
+    "element_type": "paragraph",
+    "raw": "“Not now, Sonia. Better later,” he added to comfort her.",
+    "expected": "<<Not now, Sonia. Better later,>> he added to comfort her."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 35,
+    "chapter_name": "V",
+    "element_index": 50,
+    "element_type": "blockquote",
+    "raw": "“\nCinq sous, cinq sous\nPour monter notre ménage.\n”",
+    "expected": "<< Cinq sous, cinq sous Pour monter notre menage. >>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 36,
+    "chapter_name": "Part VI",
+    "element_index": 0,
+    "element_type": "heading",
+    "raw": "\n\nPart\n\n\nVI\n\n",
+    "expected": "Part VI"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 37,
+    "chapter_name": "I",
+    "element_index": 66,
+    "element_type": "paragraph",
+    "raw": "“You didn’t expect a visitor, Rodion Romanovitch,” Porfiry explained, laughing. “I’ve been meaning to look in a long time; I was passing by and thought why not go in for five minutes. Are you going out? I won’t keep you long. Just let me have one cigarette.”",
+    "expected": "<<You didnt expect a visitor, Rodion Romanovitch,>> Porfiry explained, laughing. <<Ive been meaning to look in a long time; I was passing by and thought why not go in for five minutes. Are you going out? I wont keep you long. Just let me have one cigarette.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 38,
+    "chapter_name": "II",
+    "element_index": 71,
+    "element_type": "paragraph",
+    "raw": "He, too, took his cap.",
+    "expected": "He, too, took his cap."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 39,
+    "chapter_name": "III",
+    "element_index": 36,
+    "element_type": "paragraph",
+    "raw": "“You had better tell me, if you come here to drink, and directed me twice to come here to you, why did you hide, and try to get away just now when I looked at the window from the street? I saw it.”",
+    "expected": "<<You had better tell me, if you come here to drink, and directed me twice to come here to you, why did you hide, and try to get away just now when I looked at the window from the street? I saw it.>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 40,
+    "chapter_name": "IV",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "Svidrigaïlov struck the table with his fist impatiently. He was flushed. Raskolnikov saw clearly that the glass or glass and a half of champagne that he had sipped almost unconsciously was affecting him﻿—and he resolved to take advantage of the opportunity. He felt very suspicious of Svidrigaïlov.",
+    "expected": "Svidrigailov struck the table with his fist impatiently. He was flushed. Raskolnikov saw clearly that the glass or glass and a half of champagne that he had sipped almost unconsciously was affecting himand he resolved to take advantage of the opportunity. He felt very suspicious of Svidrigailov."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 41,
+    "chapter_name": "V",
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Raskolnikov walked after him.",
+    "expected": "Raskolnikov walked after him."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 42,
+    "chapter_name": "VI",
+    "element_index": 53,
+    "element_type": "paragraph",
+    "raw": "“To foreign parts?”",
+    "expected": "<<To foreign parts?>>"
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 43,
+    "chapter_name": "VII",
+    "element_index": 38,
+    "element_type": "paragraph",
+    "raw": "“What God sends﻿ ﻿… only pray for me.” Raskolnikov went to the door, but she clutched him and gazed despairingly into his eyes. Her face worked with terror.",
+    "expected": "<<What God sends ... only pray for me.>> Raskolnikov went to the door, but she clutched him and gazed despairingly into his eyes. Her face worked with terror."
+  },
+  {
+    "book": "fyodor-dostoevsky-crime-and-punishment-constance-garnett",
+    "chapter_index": 44,
+    "chapter_name": "VIII",
+    "element_index": 62,
+    "element_type": "paragraph",
+    "raw": "“Yes, that’s so. He had lost his wife, was a man of reckless habits and all of a sudden shot himself, and in such a shocking way.﻿ ﻿… He left in his notebook a few words: that he dies in full possession of his faculties and that no one is to blame for his death. He had money, they say. How did you come to know him?”",
+    "expected": "<<Yes, thats so. He had lost his wife, was a man of reckless habits and all of a sudden shot himself, and in such a shocking way. ... He left in his notebook a few words: that he dies in full possession of his faculties and that no one is to blame for his death. He had money, they say. How did you come to know him?>>"
+  }
+]

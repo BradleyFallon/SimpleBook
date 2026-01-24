@@ -1,0 +1,83 @@
+[
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 0,
+    "chapter_name": "I",
+    "element_index": 136,
+    "element_type": "paragraph",
+    "raw": "“Her family.”",
+    "expected": "<<Her family.>>"
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 1,
+    "chapter_name": "II",
+    "element_index": 84,
+    "element_type": "paragraph",
+    "raw": "“I’m scared of him. I’d hate to have him get anything on me.”",
+    "expected": "<<Im scared of him. Id hate to have him get anything on me.>>"
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 2,
+    "chapter_name": "III",
+    "element_index": 70,
+    "element_type": "paragraph",
+    "raw": "“Having a gay time now?” she inquired.",
+    "expected": "<<Having a gay time now?>> she inquired."
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 3,
+    "chapter_name": "IV",
+    "element_index": 148,
+    "element_type": "paragraph",
+    "raw": "When Jordan Baker had finished telling all this we had left the Plaza for half an hour and were driving in a victoria through Central Park. The sun had gone down behind the tall apartments of the movie stars in the West Fifties, and the clear voices of children, already gathered like crickets on the grass, rose through the hot twilight:",
+    "expected": "When Jordan Baker had finished telling all this we had left the Plaza for half an hour and were driving in a victoria through Central Park. The sun had gone down behind the tall apartments of the movie stars in the West Fifties, and the clear voices of children, already gathered like crickets on the grass, rose through the hot twilight:"
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 4,
+    "chapter_name": "V",
+    "element_index": 26,
+    "element_type": "paragraph",
+    "raw": "“I’ve got my hands full,” I said. “I’m much obliged but I couldn’t take on any more work.”",
+    "expected": "<<Ive got my hands full,>> I said. <<Im much obliged but I couldnt take on any more work.>>"
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 5,
+    "chapter_name": "VI",
+    "element_index": 39,
+    "element_type": "paragraph",
+    "raw": "“We’ll all come over to your next party, \nMr.\n Gatsby,” she suggested. “What do you say?”",
+    "expected": "<<Well all come over to your next party, Mr. Gatsby,>> she suggested. <<What do you say?>>"
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 6,
+    "chapter_name": "VII",
+    "element_index": 258,
+    "element_type": "paragraph",
+    "raw": "“Not at Kapiolani?” demanded Tom suddenly.",
+    "expected": "<<Not at Kapiolani?>> demanded Tom suddenly."
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 7,
+    "chapter_name": "VIII",
+    "element_index": 98,
+    "element_type": "paragraph",
+    "raw": "He began to rock again, and Michaelis stood twisting the leash in his hand.",
+    "expected": "He began to rock again, and Michaelis stood twisting the leash in his hand."
+  },
+  {
+    "book": "f-scott-fitzgerald-the-great-gatsby",
+    "chapter_index": 8,
+    "chapter_name": "IX",
+    "element_index": 151,
+    "element_type": "paragraph",
+    "raw": "She was dressed to play golf, and I remember thinking she looked like a good illustration, her chin raised a little jauntily, her hair the colour of an autumn leaf, her face the same brown tint as the fingerless glove on her knee. When I had finished she told me without comment that she was engaged to another man. I doubted that, though there were several she could have married at a nod of her head, but I pretended to be surprised. For just a minute I wondered if I wasn’t making a mistake, then I thought it all over again quickly and got up to say goodbye.",
+    "expected": "She was dressed to play golf, and I remember thinking she looked like a good illustration, her chin raised a little jauntily, her hair the colour of an autumn leaf, her face the same brown tint as the fingerless glove on her knee. When I had finished she told me without comment that she was engaged to another man. I doubted that, though there were several she could have married at a nod of her head, but I pretended to be surprised. For just a minute I wondered if I wasnt making a mistake, then I thought it all over again quickly and got up to say goodbye."
+  }
+]

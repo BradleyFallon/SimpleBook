@@ -1,0 +1,605 @@
+[
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 0,
+    "chapter_name": "I - The Three Presents of dArtagnan the Elder",
+    "element_index": 101,
+    "element_type": "paragraph",
+    "raw": "“That letter is not lost!” cried he.",
+    "expected": "<<That letter is not lost!>> cried he."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 1,
+    "chapter_name": "II - The Antechamber of M. de Treville",
+    "element_index": 54,
+    "element_type": "paragraph",
+    "raw": "“Are you going to give me a lesson, Porthos?” cried Aramis, from whose usually mild eye a flash passed like lightning.",
+    "expected": "<<Are you going to give me a lesson, Porthos?>> cried Aramis, from whose usually mild eye a flash passed like lightning."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 2,
+    "chapter_name": "III - The Audience",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "“Monsieur,” said d’Artagnan, “on quitting Tarbes and coming hither, it was my intention to request of you, in remembrance of the friendship which you have not forgotten, the uniform of a musketeer; but after all that I have seen during the last two hours, I comprehend that such a favor is enormous, and tremble lest I should not merit it.”",
+    "expected": "<<Monsieur,>> said dArtagnan, <<on quitting Tarbes and coming hither, it was my intention to request of you, in remembrance of the friendship which you have not forgotten, the uniform of a musketeer; but after all that I have seen during the last two hours, I comprehend that such a favor is enormous, and tremble lest I should not merit it.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 3,
+    "chapter_name": "IV - The Shoulder of Athos, the Baldric of Porthos and the Handkerchief of Aramis",
+    "element_index": 58,
+    "element_type": "paragraph",
+    "raw": "“Ah, Monsieur,” interrupted Aramis, “permit me to observe to you that you have not acted in this affair as a gallant man ought.”",
+    "expected": "<<Ah, Monsieur,>> interrupted Aramis, <<permit me to observe to you that you have not acted in this affair as a gallant man ought.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 4,
+    "chapter_name": "V - The Kingss Musketeers and the Cardinals Guards",
+    "element_index": 77,
+    "element_type": "paragraph",
+    "raw": "“Withdraw, young man,” cried Jussac, who doubtless, by his gestures and the expression of his countenance, had guessed d’Artagnan’s design. “You may retire; we consent to that. Save your skin; begone quickly.”",
+    "expected": "<<Withdraw, young man,>> cried Jussac, who doubtless, by his gestures and the expression of his countenance, had guessed dArtagnans design. <<You may retire; we consent to that. Save your skin; begone quickly.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 5,
+    "chapter_name": "VI - His Majesty King Louis XIII",
+    "element_index": 67,
+    "element_type": "paragraph",
+    "raw": "“What you say is full of sense,” replied d’Artagnan; “but unfortunately I have very little time to spare, having an appointment at twelve precisely. On guard, then, Monsieur, on guard!”",
+    "expected": "<<What you say is full of sense,>> replied dArtagnan; <<but unfortunately I have very little time to spare, having an appointment at twelve precisely. On guard, then, Monsieur, on guard!>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 6,
+    "chapter_name": "VII - The Housekeeping of the Musketeers",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "One day, when he had an appointment with a duchess, he endeavored even to borrow it of Athos. Athos, without saying anything, emptied his pockets, got together all his jewels, purses, aiguillettes, and gold chains, and offered them all to Porthos; but as to the sword, he said it was sealed to its place and should never quit it until its master should himself quit his lodgings. In addition to the sword, there was a portrait representing a nobleman of the time of Henry \nIII\n, dressed with the greatest elegance, and who wore the Order of the Holy Ghost; and this portrait had certain resemblances of lines with Athos, certain family likenesses which indicated that this great noble, a knight of the Order of the King, was his ancestor.",
+    "expected": "One day, when he had an appointment with a duchess, he endeavored even to borrow it of Athos. Athos, without saying anything, emptied his pockets, got together all his jewels, purses, aiguillettes, and gold chains, and offered them all to Porthos; but as to the sword, he said it was sealed to its place and should never quit it until its master should himself quit his lodgings. In addition to the sword, there was a portrait representing a nobleman of the time of Henry III , dressed with the greatest elegance, and who wore the Order of the Holy Ghost; and this portrait had certain resemblances of lines with Athos, certain family likenesses which indicated that this great noble, a knight of the Order of the King, was his ancestor."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 7,
+    "chapter_name": "VIII - Concerning a Court Intrigue",
+    "element_index": 70,
+    "element_type": "paragraph",
+    "raw": "“I know not.”",
+    "expected": "<<I know not.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 8,
+    "chapter_name": "IX - dArtagnan Shows Himself",
+    "element_index": 8,
+    "element_type": "paragraph",
+    "raw": "“How is that?” cried Porthos and Aramis in a breath.",
+    "expected": "<<How is that?>> cried Porthos and Aramis in a breath."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 9,
+    "chapter_name": "X - A Mousetrap in the Seventeenth Century",
+    "element_index": 81,
+    "element_type": "paragraph",
+    "raw": "“No, I can trust nobody.”",
+    "expected": "<<No, I can trust nobody.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 10,
+    "chapter_name": "XI - In Which the Plot Thickens",
+    "element_index": 134,
+    "element_type": "paragraph",
+    "raw": "“Yes; there is peril of imprisonment, risk of life in knowing me.”",
+    "expected": "<<Yes; there is peril of imprisonment, risk of life in knowing me.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 11,
+    "chapter_name": "XII - George Villiers, Duke of Buckingham",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "The favorite of two kings, immensely rich, all-powerful in a kingdom which he disordered at his fancy and calmed again at his caprice, George Villiers, Duke of Buckingham, had lived one of those fabulous existences which survive, in the course of centuries, to astonish posterity.",
+    "expected": "The favorite of two kings, immensely rich, all-powerful in a kingdom which he disordered at his fancy and calmed again at his caprice, George Villiers, Duke of Buckingham, had lived one of those fabulous existences which survive, in the course of centuries, to astonish posterity."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 12,
+    "chapter_name": "XIII - Monsieur Bonacieux",
+    "element_index": 9,
+    "element_type": "paragraph",
+    "raw": "After this second part of his discourse, fixing his hawk’s eye upon poor Bonacieux, he bade him reflect upon the gravity of his situation.",
+    "expected": "After this second part of his discourse, fixing his hawks eye upon poor Bonacieux, he bade him reflect upon the gravity of his situation."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 13,
+    "chapter_name": "XIV - The Man of Meung",
+    "element_index": 104,
+    "element_type": "paragraph",
+    "raw": "“And then?”",
+    "expected": "<<And then?>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 14,
+    "chapter_name": "XV - Men of the Robe and Men of the Sword",
+    "element_index": 83,
+    "element_type": "paragraph",
+    "raw": "M.\n de Tréville made his entrance triumphantly into the Fort L’Évêque, whence he delivered the musketeer, whose peaceful indifference had not for a moment abandoned him.",
+    "expected": "M. de Treville made his entrance triumphantly into the Fort LEveque, whence he delivered the musketeer, whose peaceful indifference had not for a moment abandoned him."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 15,
+    "chapter_name": "XVI - In Which M. Seguier, Keeper of the Seals, Looks More Than Once for the Bell, in Order to Ring It, as He Did Before",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“She is not the less guilty, Monsieur Duke! The more she has forgotten the high position in which she was placed, the more degrading is her fall. Besides, I long ago determined to put an end to all these petty intrigues of policy and love. She has near her a certain Laporte.”",
+    "expected": "<<She is not the less guilty, Monsieur Duke! The more she has forgotten the high position in which she was placed, the more degrading is her fall. Besides, I long ago determined to put an end to all these petty intrigues of policy and love. She has near her a certain Laporte.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 16,
+    "chapter_name": "XVII - Bonacieux at Home",
+    "element_index": 172,
+    "element_type": "paragraph",
+    "raw": "“Not the least in the world.”",
+    "expected": "<<Not the least in the world.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 17,
+    "chapter_name": "XVIII - Lover and Husband",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "“By a mode of proceeding known to myself, and by which I likewise overheard the more animated conversation which he had with the cardinal’s police.”",
+    "expected": "<<By a mode of proceeding known to myself, and by which I likewise overheard the more animated conversation which he had with the cardinals police.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 18,
+    "chapter_name": "XIX - Plan of Campaign",
+    "element_index": 50,
+    "element_type": "paragraph",
+    "raw": "“Enough?” asked \nM.\n de Tréville.",
+    "expected": "<<Enough?>> asked M. de Treville."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 19,
+    "chapter_name": "XX - The Journey",
+    "element_index": 50,
+    "element_type": "paragraph",
+    "raw": "At a hundred paces from the gates of Calais, d’Artagnan’s horse gave out, and could not by any means be made to get up again, the blood flowing from his eyes and his nose. There still remained Planchet’s horse; but he stopped short, and could not be made to move a step.",
+    "expected": "At a hundred paces from the gates of Calais, dArtagnans horse gave out, and could not by any means be made to get up again, the blood flowing from his eyes and his nose. There still remained Planchets horse; but he stopped short, and could not be made to move a step."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 20,
+    "chapter_name": "XXI - The Comtesse de Winter",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“He has agents, then, throughout the world?” cried d’Artagnan.",
+    "expected": "<<He has agents, then, throughout the world?>> cried dArtagnan."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 21,
+    "chapter_name": "XXII - The Ballet of La Merlaison",
+    "element_index": 18,
+    "element_type": "paragraph",
+    "raw": "“And you were wrong, Madame. If I made you that present it was that you might adorn yourself therewith. I tell you that you were wrong.”",
+    "expected": "<<And you were wrong, Madame. If I made you that present it was that you might adorn yourself therewith. I tell you that you were wrong.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 22,
+    "chapter_name": "XXIII - The Rendezvous",
+    "element_index": 50,
+    "element_type": "paragraph",
+    "raw": "“My faith!” said the young man, laughing, “I confess it, and so much more the readily, my dear Bonacieux, as I see there is no concealing anything from you. Yes, I was expected, and very impatiently, I acknowledge.”",
+    "expected": "<<My faith!>> said the young man, laughing, <<I confess it, and so much more the readily, my dear Bonacieux, as I see there is no concealing anything from you. Yes, I was expected, and very impatiently, I acknowledge.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 23,
+    "chapter_name": "XXIV - The Pavillion",
+    "element_index": 57,
+    "element_type": "paragraph",
+    "raw": "It soon appeared to him that he heard a slight noise within﻿—a timid noise which seemed to tremble lest it should be heard.",
+    "expected": "It soon appeared to him that he heard a slight noise withina timid noise which seemed to tremble lest it should be heard."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 24,
+    "chapter_name": "XXV - Porthos",
+    "element_index": 191,
+    "element_type": "paragraph",
+    "raw": "“It is that as I was cruelly bored, as you say, and as I had the seventy-five pistoles in my pocket which you had distributed to me, in order to amuse myself I invited a gentleman who was traveling this way to walk up, and proposed a cast of dice. He accepted my challenge, and, my faith, my seventy-five pistoles passed from my pocket to his, without reckoning my horse, which he won into the bargain. But you, my dear d’Artagnan?”",
+    "expected": "<<It is that as I was cruelly bored, as you say, and as I had the seventy-five pistoles in my pocket which you had distributed to me, in order to amuse myself I invited a gentleman who was traveling this way to walk up, and proposed a cast of dice. He accepted my challenge, and, my faith, my seventy-five pistoles passed from my pocket to his, without reckoning my horse, which he won into the bargain. But you, my dear dArtagnan?>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 25,
+    "chapter_name": "XXVI - Aramis and His Thesis",
+    "element_index": 145,
+    "element_type": "paragraph",
+    "raw": "“Pardon, my dear Aramis, but I thought you carried your eyes higher.”",
+    "expected": "<<Pardon, my dear Aramis, but I thought you carried your eyes higher.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 26,
+    "chapter_name": "XXVII - The Wife of Athos",
+    "element_index": 80,
+    "element_type": "paragraph",
+    "raw": "“Patience, monseigneur, we are coming to it. There happened then that which you know, and of which your precipitate departure,” added the host, with an acuteness that did not escape d’Artagnan, “appeared to authorize the issue. That gentleman, your friend, defended himself desperately. His lackey, who, by an unforeseen piece of ill luck, had quarreled with the officers, disguised as stable lads﻿—”",
+    "expected": "<<Patience, monseigneur, we are coming to it. There happened then that which you know, and of which your precipitate departure,>> added the host, with an acuteness that did not escape dArtagnan, <<appeared to authorize the issue. That gentleman, your friend, defended himself desperately. His lackey, who, by an unforeseen piece of ill luck, had quarreled with the officers, disguised as stable lads>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 27,
+    "chapter_name": "XXVIII - The Return",
+    "element_index": 3,
+    "element_type": "paragraph",
+    "raw": "“No,” replied d’Artagnan, “if I recollect well what you said, it was nothing out of the common way.”",
+    "expected": "<<No,>> replied dArtagnan, <<if I recollect well what you said, it was nothing out of the common way.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 28,
+    "chapter_name": "XXIX - Hunting for the Equipments",
+    "element_index": 78,
+    "element_type": "paragraph",
+    "raw": "“Rather say that you have a new love.”",
+    "expected": "<<Rather say that you have a new love.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 29,
+    "chapter_name": "XXX - Milady",
+    "element_index": 42,
+    "element_type": "paragraph",
+    "raw": "“For you, Monsieur,” said Planchet, presenting the billet to the young man.",
+    "expected": "<<For you, Monsieur,>> said Planchet, presenting the billet to the young man."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 30,
+    "chapter_name": "XXXI - English and French",
+    "element_index": 55,
+    "element_type": "paragraph",
+    "raw": "D’Artagnan felt the truth of this reproach.",
+    "expected": "DArtagnan felt the truth of this reproach."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 31,
+    "chapter_name": "XXXII - A Procurators Dinner",
+    "element_index": 73,
+    "element_type": "paragraph",
+    "raw": "“To how much?” said she. “I hope it does not exceed﻿—” She stopped; speech failed her.",
+    "expected": "<<To how much?>> said she. <<I hope it does not exceed>> She stopped; speech failed her."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 32,
+    "chapter_name": "XXXIII - Soubrette and Mistress",
+    "element_index": 58,
+    "element_type": "paragraph",
+    "raw": "“I? In what can I have offended her﻿—I who ever since I have known her have lived at her feet like a slave? Speak, I beg you!”",
+    "expected": "<<I? In what can I have offended herI who ever since I have known her have lived at her feet like a slave? Speak, I beg you!>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 33,
+    "chapter_name": "XXXIV - In Which the Equipment of Aramis and Porthos Is Treated Of",
+    "element_index": 70,
+    "element_type": "paragraph",
+    "raw": "“What, does Monsieur know this horse?” said Mousqueton.",
+    "expected": "<<What, does Monsieur know this horse?>> said Mousqueton."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 34,
+    "chapter_name": "XXXV - All Cats Are Grey in the Dark",
+    "element_index": 5,
+    "element_type": "paragraph",
+    "raw": "D’Artagnan rose and took his hat; Milady gave him her hand to kiss. The young man felt her press his hand, and comprehended that this was a sentiment, not of coquetry, but of gratitude because of his departure.",
+    "expected": "DArtagnan rose and took his hat; Milady gave him her hand to kiss. The young man felt her press his hand, and comprehended that this was a sentiment, not of coquetry, but of gratitude because of his departure."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 35,
+    "chapter_name": "XXXVI - Dream of Vengeance",
+    "element_index": 78,
+    "element_type": "paragraph",
+    "raw": "“Yet I must know his name.”",
+    "expected": "<<Yet I must know his name.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 36,
+    "chapter_name": "XXXVII - Miladys Secret",
+    "element_index": 27,
+    "element_type": "paragraph",
+    "raw": "“Impossible!” cried Milady, “you are such a valiant man, and such an expert swordsman.”",
+    "expected": "<<Impossible!>> cried Milady, <<you are such a valiant man, and such an expert swordsman.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 37,
+    "chapter_name": "XXXVIII - How, Without Incommoding Himself, Athos Procures His Equipment",
+    "element_index": 46,
+    "element_type": "paragraph",
+    "raw": "“A tigress, a panther! Ah, my dear Athos, I am greatly afraid I have drawn a terrible vengeance on both of us!”",
+    "expected": "<<A tigress, a panther! Ah, my dear Athos, I am greatly afraid I have drawn a terrible vengeance on both of us!>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 38,
+    "chapter_name": "XXXIX - A Vision",
+    "element_index": 67,
+    "element_type": "paragraph",
+    "raw": "“Send your saddle, then, to the hotel of the musketeers, and your horse can be brought back with ours.”",
+    "expected": "<<Send your saddle, then, to the hotel of the musketeers, and your horse can be brought back with ours.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 39,
+    "chapter_name": "XL - A Terrible Vision",
+    "element_index": 67,
+    "element_type": "paragraph",
+    "raw": "At the first sound of the morning trumpet the friends separated; the Musketeers hastening to the hotel of \nM.\n de Tréville, the Guards to that of \nM.\n des Essart. Each of the captains then led his company to the Louvre, where the king held his review.",
+    "expected": "At the first sound of the morning trumpet the friends separated; the Musketeers hastening to the hotel of M. de Treville, the Guards to that of M. des Essart. Each of the captains then led his company to the Louvre, where the king held his review."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 40,
+    "chapter_name": "XLI - The Seige of La Rochelle",
+    "element_index": 67,
+    "element_type": "paragraph",
+    "raw": "He quickly saw two heads appear above an abandoned work within thirty paces of him; they were the heads of the two soldiers. D’Artagnan had not been deceived; these two men had only followed for the purpose of assassinating him, hoping that the young man’s death would be placed to the account of the enemy.",
+    "expected": "He quickly saw two heads appear above an abandoned work within thirty paces of him; they were the heads of the two soldiers. DArtagnan had not been deceived; these two men had only followed for the purpose of assassinating him, hoping that the young mans death would be placed to the account of the enemy."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 41,
+    "chapter_name": "XLII - The Anjou Wine",
+    "element_index": 23,
+    "element_type": "paragraph",
+    "raw": "“You know very well﻿—the wine from the hills of Anjou.”",
+    "expected": "<<You know very wellthe wine from the hills of Anjou.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 42,
+    "chapter_name": "XLIII - The Sign of the Red Dovecot",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "As it is not our intention to give a journal of the siege, but on the contrary only to describe such of the events of it as are connected with the story we are relating, we will content ourselves with saying in two words that the expedition succeeded, to the great astonishment of the king and the great glory of the cardinal. The English, repulsed foot by foot, beaten in all encounters, and defeated in the passage of the Isle of Loie, were obliged to re-embark, leaving on the field of battle two thousand men, among whom were five colonels, three lieutenant colonels, two hundred and fifty captains, twenty gentlemen of rank, four pieces of cannon, and sixty flags, which were taken to Paris by Claude de Saint-Simon, and suspended with great pomp in the arches of Notre Dame.",
+    "expected": "As it is not our intention to give a journal of the siege, but on the contrary only to describe such of the events of it as are connected with the story we are relating, we will content ourselves with saying in two words that the expedition succeeded, to the great astonishment of the king and the great glory of the cardinal. The English, repulsed foot by foot, beaten in all encounters, and defeated in the passage of the Isle of Loie, were obliged to re-embark, leaving on the field of battle two thousand men, among whom were five colonels, three lieutenant colonels, two hundred and fifty captains, twenty gentlemen of rank, four pieces of cannon, and sixty flags, which were taken to Paris by Claude de Saint-Simon, and suspended with great pomp in the arches of Notre Dame."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 43,
+    "chapter_name": "XLIV - The Utility of Stovepipes",
+    "element_index": 95,
+    "element_type": "paragraph",
+    "raw": "“An infamous scoundrel, monseigneur, a scoundrel!”",
+    "expected": "<<An infamous scoundrel, monseigneur, a scoundrel!>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 44,
+    "chapter_name": "XLV - A Conjugal Scene",
+    "element_index": 63,
+    "element_type": "paragraph",
+    "raw": "“Monsieur Athos,” said Richelieu, “receive my thanks for the good guard you have kept. Gentlemen, we are arrived; take the gate on the left. The watchword is, ‘King and Ré.’ ”",
+    "expected": "<<Monsieur Athos,>> said Richelieu, <<receive my thanks for the good guard you have kept. Gentlemen, we are arrived; take the gate on the left. The watchword is, King and Re. >>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 45,
+    "chapter_name": "XLVI - The Bastion of Saint-Gervais",
+    "element_index": 90,
+    "element_type": "paragraph",
+    "raw": "Athos pointed to the bastion.",
+    "expected": "Athos pointed to the bastion."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 46,
+    "chapter_name": "XLVII - The Council of the Musketeers",
+    "element_index": 233,
+    "element_type": "paragraph",
+    "raw": "“Oh, it’s nothing,” said d’Artagnan.",
+    "expected": "<<Oh, its nothing,>> said dArtagnan."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 47,
+    "chapter_name": "XLVIII - A Family Affair",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "D’Artagnan would have been at the height of his wishes if he had not constantly seen Milady like a dark cloud hovering in the horizon.",
+    "expected": "DArtagnan would have been at the height of his wishes if he had not constantly seen Milady like a dark cloud hovering in the horizon."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 48,
+    "chapter_name": "XLIX - Fatality",
+    "element_index": 66,
+    "element_type": "paragraph",
+    "raw": "“That person is here, Madame,” said the officer, leaving the entrance open, and drawing himself up in an attitude of respect.",
+    "expected": "<<That person is here, Madame,>> said the officer, leaving the entrance open, and drawing himself up in an attitude of respect."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 49,
+    "chapter_name": "L - Chat Between Brother and Sister",
+    "element_index": 62,
+    "element_type": "paragraph",
+    "raw": "“My Lord,” said the young officer, summoning to his mild countenance all the hatred he could find in his heart, “my Lord, I swear all shall be done as you desire.”",
+    "expected": "<<My Lord,>> said the young officer, summoning to his mild countenance all the hatred he could find in his heart, <<my Lord, I swear all shall be done as you desire.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 50,
+    "chapter_name": "LI - Officer",
+    "element_index": 69,
+    "element_type": "paragraph",
+    "raw": "“Why, upon the frontiers of Artois and of Flanders. The siege once over, we shall be able to make a tour in that direction.”",
+    "expected": "<<Why, upon the frontiers of Artois and of Flanders. The siege once over, we shall be able to make a tour in that direction.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 51,
+    "chapter_name": "LII - Captivity: The First Day",
+    "element_index": 48,
+    "element_type": "paragraph",
+    "raw": "A burst of laughter resounded from the other side of the ill-closed door, and the door reopened.",
+    "expected": "A burst of laughter resounded from the other side of the ill-closed door, and the door reopened."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 52,
+    "chapter_name": "LIII - Captivity: The Second Day",
+    "element_index": 45,
+    "element_type": "paragraph",
+    "raw": "“Oh, you need not avow this religious indifference, my Lord; your debaucheries and crimes would vouch for it.”",
+    "expected": "<<Oh, you need not avow this religious indifference, my Lord; your debaucheries and crimes would vouch for it.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 53,
+    "chapter_name": "LIV - Captivity: The Third Day",
+    "element_index": 94,
+    "element_type": "paragraph",
+    "raw": "However, a few instants after she had finished her religious song, Milady thought she heard a profound sigh. Then the same steps she had heard approach slowly withdrew, as if with regret.",
+    "expected": "However, a few instants after she had finished her religious song, Milady thought she heard a profound sigh. Then the same steps she had heard approach slowly withdrew, as if with regret."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 54,
+    "chapter_name": "LV - Captivity: The Fourth Day",
+    "element_index": 71,
+    "element_type": "paragraph",
+    "raw": "The young man advanced rapidly into the chamber, leaving the door open behind him, and making a sign to Milady to be silent; his face was much agitated.",
+    "expected": "The young man advanced rapidly into the chamber, leaving the door open behind him, and making a sign to Milady to be silent; his face was much agitated."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 55,
+    "chapter_name": "LVI - Captivity: The Fifth Day",
+    "element_index": 145,
+    "element_type": "paragraph",
+    "raw": "“ ‘Till tomorrow evening, then!’ replied I, allowing myself to fall, and biting the carpet with rage.”",
+    "expected": "<< Till tomorrow evening, then! replied I, allowing myself to fall, and biting the carpet with rage.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 56,
+    "chapter_name": "LVII - Means for Classical Tragedy",
+    "element_index": 82,
+    "element_type": "paragraph",
+    "raw": "“Go, sir, I command you!”",
+    "expected": "<<Go, sir, I command you!>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 57,
+    "chapter_name": "LVIII - Escape",
+    "element_index": 65,
+    "element_type": "paragraph",
+    "raw": "All at once Felton stopped.",
+    "expected": "All at once Felton stopped."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 58,
+    "chapter_name": "LIX - What Took Place at Portsmouth August 23, 1628",
+    "element_index": 67,
+    "element_type": "paragraph",
+    "raw": "“In the hands of the devil, you mean!” cried Buckingham, raising his voice so as to attract the notice of his people, without absolutely shouting.",
+    "expected": "<<In the hands of the devil, you mean!>> cried Buckingham, raising his voice so as to attract the notice of his people, without absolutely shouting."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 59,
+    "chapter_name": "LX - In France",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "During this time nothing new occurred in the camp at La Rochelle; only the king, who was bored, as always, but perhaps a little more so in camp than elsewhere, resolved to go incognito and spend the festival of \nSt.\n Louis at Saint-Germain, and asked the cardinal to order him an escort of only twenty musketeers. The cardinal, who sometimes became weary of the king, granted this leave of absence with great pleasure to his royal lieutenant, who promised to return about the fifteenth of September.",
+    "expected": "During this time nothing new occurred in the camp at La Rochelle; only the king, who was bored, as always, but perhaps a little more so in camp than elsewhere, resolved to go incognito and spend the festival of St. Louis at Saint-Germain, and asked the cardinal to order him an escort of only twenty musketeers. The cardinal, who sometimes became weary of the king, granted this leave of absence with great pleasure to his royal lieutenant, who promised to return about the fifteenth of September."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 60,
+    "chapter_name": "LXI - The Carmelite Convent at Bethune",
+    "element_index": 33,
+    "element_type": "paragraph",
+    "raw": "“And yet I speak ill of him,” replied Milady, finishing the thought of the superior.",
+    "expected": "<<And yet I speak ill of him,>> replied Milady, finishing the thought of the superior."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 61,
+    "chapter_name": "LXII - Two Varieties of Demons",
+    "element_index": 121,
+    "element_type": "paragraph",
+    "raw": "“Capital! Adieu, Chevalier.”",
+    "expected": "<<Capital! Adieu, Chevalier.>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 62,
+    "chapter_name": "LXIII - The Drop of Water",
+    "element_index": 15,
+    "element_type": "paragraph",
+    "raw": "“That man, then, was not﻿—”",
+    "expected": "<<That man, then, was not>>"
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 63,
+    "chapter_name": "LXIV - The Man in the Red Cloak",
+    "element_index": 10,
+    "element_type": "paragraph",
+    "raw": "Arrived at the angle of a street, he pointed to a small house, isolated, solitary, and dismal. Athos went toward the house, while the mendicant, who had received his reward, left as fast as his legs could carry him.",
+    "expected": "Arrived at the angle of a street, he pointed to a small house, isolated, solitary, and dismal. Athos went toward the house, while the mendicant, who had received his reward, left as fast as his legs could carry him."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 64,
+    "chapter_name": "LXV - Judgment",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "He could not distinguish her countenance, but a sinister smile passed over the lips of Athos. He was not deceived; it was she whom he sought.",
+    "expected": "He could not distinguish her countenance, but a sinister smile passed over the lips of Athos. He was not deceived; it was she whom he sought."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 65,
+    "chapter_name": "LXVI - Execution",
+    "element_index": 52,
+    "element_type": "paragraph",
+    "raw": "Milady, during the passage had contrived to untie the cord which fastened her feet. On coming near the bank, she jumped lightly on shore and took to flight. But the soil was moist; on reaching the top of the bank, she slipped and fell upon her knees.",
+    "expected": "Milady, during the passage had contrived to untie the cord which fastened her feet. On coming near the bank, she jumped lightly on shore and took to flight. But the soil was moist; on reaching the top of the bank, she slipped and fell upon her knees."
+  },
+  {
+    "book": "alexandre-dumas-the-three-musketeers-william-robson",
+    "chapter_index": 66,
+    "chapter_name": "LXVII - Conclusion",
+    "element_index": 20,
+    "element_type": "paragraph",
+    "raw": "“I must place him in the hands of guards who will take him into camp.”",
+    "expected": "<<I must place him in the hands of guards who will take him into camp.>>"
+  }
+]

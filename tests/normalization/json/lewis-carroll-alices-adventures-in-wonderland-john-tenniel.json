@@ -1,0 +1,110 @@
+[
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 0,
+    "chapter_name": "I - Down the Rabbit-Hole",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "She ate a little bit, and said anxiously to herself, “Which way? Which way?”, holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way.",
+    "expected": "She ate a little bit, and said anxiously to herself, <<Which way? Which way?>>, holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way."
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 1,
+    "chapter_name": "II - The Pool of Tears",
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "“I won’t indeed!” said Alice, in a great hurry to change the subject of conversation. “Are you﻿—are you fond﻿—of﻿—of dogs?” The Mouse did not answer, so Alice went on eagerly: “There is such a nice little dog near our house I should like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things﻿—I can’t remember half of them﻿—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds! He says it kills all the rats and﻿—oh dear!” cried Alice in a sorrowful tone, “I’m afraid I’ve offended it again!” For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went.",
+    "expected": "<<I wont indeed!>> said Alice, in a great hurry to change the subject of conversation. <<Are youare you fondofof dogs?>> The Mouse did not answer, so Alice went on eagerly: <<There is such a nice little dog near our house I should like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And itll fetch things when you throw them, and itll sit up and beg for its dinner, and all sorts of thingsI cant remember half of themand it belongs to a farmer, you know, and he says its so useful, its worth a hundred pounds! He says it kills all the rats andoh dear!>> cried Alice in a sorrowful tone, <<Im afraid Ive offended it again!>> For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 2,
+    "chapter_name": "III - A Caucus-Race and a Long Tale",
+    "element_index": 14,
+    "element_type": "paragraph",
+    "raw": "“Speak English!” said the Eaglet. “I don’t know the meaning of half those long words, and, what’s more, I don’t believe you do either!” And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly.",
+    "expected": "<<Speak English!>> said the Eaglet. <<I dont know the meaning of half those long words, and, whats more, I dont believe you do either!>> And the Eaglet bent down its head to hide a smile: some of the other birds tittered audibly."
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 3,
+    "chapter_name": "IV - The Rabbit Sends in a Little Bill",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "“Mary Ann! Mary Ann!” said the voice. “Fetch me my gloves this moment!” Then came a little pattering of feet on the stairs. Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it.",
+    "expected": "<<Mary Ann! Mary Ann!>> said the voice. <<Fetch me my gloves this moment!>> Then came a little pattering of feet on the stairs. Alice knew it was the Rabbit coming to look for her, and she trembled till she shook the house, quite forgetting that she was now about a thousand times as large as the Rabbit, and had no reason to be afraid of it."
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 4,
+    "chapter_name": "V - Advice from a Caterpillar",
+    "element_index": 64,
+    "element_type": "paragraph",
+    "raw": "“A likely story indeed!” said the Pigeon in a tone of the deepest contempt. “I’ve seen a good many little girls in my time, but never \none\n with such a neck as that! No, no! You’re a serpent; and there’s no use denying it. I suppose you’ll be telling me next that you never tasted an egg!”",
+    "expected": "<<A likely story indeed!>> said the Pigeon in a tone of the deepest contempt. <<Ive seen a good many little girls in my time, but never one with such a neck as that! No, no! Youre a serpent; and theres no use denying it. I suppose youll be telling me next that you never tasted an egg!>>"
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 5,
+    "chapter_name": "VI - Pig and Pepper",
+    "element_index": 55,
+    "element_type": "paragraph",
+    "raw": "“Oh, you’re sure to do that,” said the Cat, “if you only walk long enough.”",
+    "expected": "<<Oh, youre sure to do that,>> said the Cat, <<if you only walk long enough.>>"
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 6,
+    "chapter_name": "VII - A Mad Tea-Party",
+    "element_index": 74,
+    "element_type": "paragraph",
+    "raw": "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on: “But why did they live at the bottom of a well?”",
+    "expected": "Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on: <<But why did they live at the bottom of a well?>>"
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 7,
+    "chapter_name": "VIII - The Queens Croquet-Ground",
+    "element_index": 52,
+    "element_type": "paragraph",
+    "raw": "“It’s a friend of mine﻿—a Cheshire Cat,” said Alice: “allow me to introduce it.”",
+    "expected": "<<Its a friend of minea Cheshire Cat,>> said Alice: <<allow me to introduce it.>>"
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 8,
+    "chapter_name": "IX - The Mock Turtles Story",
+    "element_index": 87,
+    "element_type": "paragraph",
+    "raw": "“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”",
+    "expected": "<<Thats the reason theyre called lessons,>> the Gryphon remarked: <<because they lessen from day to day.>>"
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 9,
+    "chapter_name": "X - The Lobster Quadrille",
+    "element_index": 12,
+    "element_type": "paragraph",
+    "raw": "“﻿—as far out to sea as you can﻿—”",
+    "expected": "<<as far out to sea as you can>>"
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 10,
+    "chapter_name": "XI - Who Stole the Tarts?",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "The twelve jurors were all writing very busily on slates. “What are they doing?” Alice whispered to the Gryphon. “They can’t have anything to put down yet, before the trial’s begun.”",
+    "expected": "The twelve jurors were all writing very busily on slates. <<What are they doing?>> Alice whispered to the Gryphon. <<They cant have anything to put down yet, before the trials begun.>>"
+  },
+  {
+    "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
+    "chapter_index": 11,
+    "chapter_name": "XII - Alices Evidence",
+    "element_index": 2,
+    "element_type": "paragraph",
+    "raw": "“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places﻿—\nall\n,” he repeated with great emphasis, looking hard at Alice as he said so.",
+    "expected": "<<The trial cannot proceed,>> said the King in a very grave voice, <<until all the jurymen are back in their proper places all ,>> he repeated with great emphasis, looking hard at Alice as he said so."
+  }
+]

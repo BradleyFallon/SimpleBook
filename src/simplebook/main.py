@@ -1,10 +1,11 @@
 
 
 import json
+import unicodedata
 from pathlib import Path
 
 from ebooklib import epub  # type: ignore[import-untyped]
-from bs4 import BeautifulSoup  # type: ignore[import-untyped]
+from bs4 import BeautifulSoup, Comment  # type: ignore[import-untyped]
 
 from .config import (
     MAX_CHUNK_ADDITION_CHARS,
@@ -23,20 +24,36 @@ from .config import (
 # UTILITY FUNCTIONS
 # ============================================================================
 
+DOUBLE_QUOTE_CHARS = {'"', "“", "”", "„"}
+
+
+def _normalize_quotes(text: str) -> str:
+    if not text:
+        return text
+    result: list[str] = []
+    open_quote = True
+    for ch in text:
+        if ch in DOUBLE_QUOTE_CHARS:
+            result.append("<<" if open_quote else ">>")
+            open_quote = not open_quote
+        else:
+            result.append(ch)
+    return "".join(result)
+
+
+def _to_ascii(text: str) -> str:
+    if not text:
+        return text
+    normalized = unicodedata.normalize("NFKD", text)
+    return normalized.encode("ascii", "ignore").decode("ascii")
+
+
 def _clean_text(raw: str) -> str:
     text = raw.replace("\r\n", "\n").replace("\r", "\n")
-    lines = [line.strip() for line in text.split("\n")]
-    cleaned: list[str] = []
-    blank_run = 0
-    for line in lines:
-        if not line:
-            blank_run += 1
-            if blank_run <= 1:
-                cleaned.append("")
-        else:
-            blank_run = 0
-            cleaned.append(line)
-    return "\n".join(cleaned).strip()
+    text = _normalize_quotes(text)
+    text = _to_ascii(text)
+    text = " ".join(text.split())
+    return text.strip()
 
 
 def _ordered_items(book: epub.EpubBook):
@@ -103,6 +120,7 @@ def _extract_heading_texts(soup: BeautifulSoup) -> list[str]:
             if not text:
                 continue
             attrs = el.attrs if hasattr(el, "attrs") else {}
+            classes = " ".join(el.get("class", [])) if hasattr(el, "get") else ""
             epub_type = (attrs.get("epub:type") or "").lower()
             is_heading_p = any(key in epub_type for key in ["title", "subtitle", "heading"])
             is_heading_p = is_heading_p or any(
@@ -141,29 +159,158 @@ def _extract_heading_label(soup: BeautifulSoup) -> str | None:
     return label or None
 
 
-def _classify_html_item(html: bytes | str) -> tuple[str | None, str]:
+ELEMENT_TAG_TYPES = {
+    "p": "paragraph",
+    "blockquote": "blockquote",
+    "li": "list_item",
+    "dt": "definition_term",
+    "dd": "definition_desc",
+    "cite": "cite",
+    "figcaption": "caption",
+    "caption": "caption",
+    "table": "table",
+}
+
+HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
+TABLE_CELL_TAGS = {"td", "th"}
+CONTAINER_TAGS = {
+    "div",
+    "section",
+    "article",
+    "header",
+    "footer",
+    "aside",
+    "main",
+    "figure",
+    "ul",
+    "ol",
+    "dl",
+    "tbody",
+    "thead",
+    "tfoot",
+    "tr",
+}
+
+ALLOWED_TEXT_TAGS = set(ELEMENT_TAG_TYPES.keys()) | HEADING_TAGS | TABLE_CELL_TAGS
+
+
+def _html_to_soup(html: bytes | str) -> BeautifulSoup:
     if isinstance(html, (bytes, bytearray)):
         html = html.decode("utf-8", errors="ignore")
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup(STRIP_ELEMENTS):
         tag.decompose()
+    return soup
+
+
+def _assert_supported_text(root: BeautifulSoup) -> None:
+    for text in root.find_all(string=True):
+        if not text or not text.strip():
+            continue
+        if isinstance(text, Comment):
+            continue
+        if text.find_parent(ALLOWED_TEXT_TAGS):
+            continue
+        parent = text.parent
+        parent_name = parent.name if parent else "unknown"
+        snippet = " ".join(str(text).split())
+        if len(snippet) > 120:
+            snippet = f"{snippet[:120]}..."
+        raise NotImplementedError(
+            f"Unsupported text outside allowed tags (parent <{parent_name}>): {snippet}"
+        )
+
+
+def _blockquote_text(tag) -> str:
+    parts: list[str] = []
+    for text in tag.find_all(string=True):
+        if not text or not text.strip():
+            continue
+        if isinstance(text, Comment):
+            continue
+        if text.find_parent("cite"):
+            continue
+        parts.append(str(text))
+    return _clean_text("\n".join(parts))
+
+
+def _table_rows(tag) -> list[list[str]]:
+    rows: list[list[str]] = []
+    for tr in tag.find_all("tr"):
+        cells = []
+        for cell in tr.find_all(list(TABLE_CELL_TAGS)):
+            cell_text = _clean_text(cell.get_text("\n"))
+            cells.append(cell_text)
+        if cells:
+            rows.append(cells)
+    return rows
+
+
+def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
+    root = soup.body if soup.body is not None else soup
+    _assert_supported_text(root)
+    elements: list[Element] = []
+
+    def walk(node) -> None:
+        for child in node.children:
+            if not hasattr(child, "name") or child.name is None:
+                continue
+            name = child.name.lower()
+            if name in STRIP_ELEMENTS:
+                continue
+            if name in CONTAINER_TAGS:
+                walk(child)
+                continue
+            if name in HEADING_TAGS:
+                text = _clean_text(child.get_text("\n"))
+                if text:
+                    elements.append(Element("heading", text=text))
+                continue
+            if name == "blockquote":
+                text = _blockquote_text(child)
+                if text:
+                    elements.append(Element("blockquote", text=text))
+                for cite in child.find_all("cite"):
+                    cite_text = _clean_text(cite.get_text("\n"))
+                    if cite_text:
+                        elements.append(Element("cite", text=cite_text))
+                continue
+            if name == "table":
+                caption = child.find("caption") or child.find("figcaption")
+                if caption is not None:
+                    caption_text = _clean_text(caption.get_text("\n"))
+                    if caption_text:
+                        elements.append(Element("caption", text=caption_text))
+                rows = _table_rows(child)
+                if rows:
+                    elements.append(Element("table", rows=rows))
+                continue
+            if name in ELEMENT_TAG_TYPES:
+                text = _clean_text(child.get_text("\n"))
+                if text:
+                    elements.append(Element(ELEMENT_TAG_TYPES[name], text=text))
+                continue
+            walk(child)
+
+    walk(root)
+    return elements
+
+
+def _classify_html_item(html: bytes | str) -> tuple[str | None, str]:
+    soup = _html_to_soup(html)
 
     name = _extract_heading_label(soup)
     label_type = _classify_label_type(name)
 
-    # Fallback: paragraph count threshold.
-    paragraphs = [
-        _clean_text(p.get_text("\n"))
-        for p in soup.find_all("p")
-        if _clean_text(p.get_text("\n"))
-    ]
-    para_count = len(paragraphs)
+    # Fallback: element count threshold.
+    elements = _extract_elements(soup)
+    element_count = sum(1 for el in elements if el.text_length() > 0)
 
     if label_type in {"front", "back"}:
         return name, label_type
     if label_type == "chapter":
         return name, "chapter"
-    if para_count >= 10:
+    if element_count >= 10:
         return name, "chapter"
     return name, "other"
 
@@ -208,204 +355,147 @@ class Node:
             child.normalize()
 
 
-class Chunk(Node):
-    """Optional grouping of one or more paragraphs."""
+class Element(Node):
+    """Typed content element extracted from HTML."""
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        element_type: str,
+        text: str | None = None,
+        rows: list[list[str]] | None = None,
+        meta: dict | None = None,
+    ) -> None:
         super().__init__()
-        self.paragraphs: list["Paragraph"] = []
-        self.ordinal = 0
-
-    def append_para(self, paragraph: "Paragraph") -> None:
-        if paragraph.text.strip():
-            self.paragraphs.append(paragraph)
+        self.type = element_type
+        self.text = text
+        self.rows = rows
+        self.meta = meta or {}
 
     def validate(self) -> None:
-        self.children = list(self.paragraphs)
-        super().validate()
-
-    def serialize(self) -> dict:
-        text = "\n\n".join(para.text for para in self.paragraphs if para.text.strip()).strip()
-        return {"text": text, "ordinal": self.ordinal}
-
-    def build_from_paragraphs(self, paragraphs: list["Paragraph"]) -> None:
-        """Populate this chunk from paragraph objects."""
-        self.paragraphs = paragraphs
-
-    def normalize(self) -> None:
-        self.children = list(self.paragraphs)
-        super().normalize()
-
-class Paragraph(Node):
-    """A single paragraph taken from the HTML."""
-
-    def __init__(self) -> None:
-        super().__init__()
-        self.text = ""
-
-    def validate(self) -> None:
-        if not isinstance(self.text, str):
+        if self.text is not None and not isinstance(self.text, str):
             self.text = str(self.text)
 
     def repair(self) -> None:
         if self.text is None:
-            self.text = ""
+            self.text = None
         else:
             self.text = _clean_text(self.text)
+        if self.rows:
+            self.rows = [[_clean_text(cell) for cell in row] for row in self.rows]
 
-    def serialize(self) -> str:
-        return self.text
+    def text_length(self) -> int:
+        if self.text:
+            return len(self.text)
+        if self.rows:
+            return sum(len(cell) for row in self.rows for cell in row)
+        return 0
 
-    def load_html(self, html: str) -> None:
-        """Load paragraph text from HTML (stub)."""
-        if isinstance(html, (bytes, bytearray)):
-            html = html.decode("utf-8", errors="ignore")
-        soup = BeautifulSoup(html, "html.parser")
-        self.text = _clean_text(soup.get_text("\n"))
+    def serialize(self, preview: bool = False) -> dict:
+        data = {"type": self.type}
+        if not preview:
+            if self.text is not None:
+                data["text"] = self.text
+            if self.rows is not None:
+                data["rows"] = self.rows
+            if self.meta:
+                data["meta"] = self.meta
+        return data
 
     def to_string(self) -> str:
-        return self.text
+        if self.text is not None:
+            return self.text
+        if self.rows:
+            return "\n".join(" | ".join(row) for row in self.rows)
+        return ""
 
     def normalize(self) -> None:
-        """Remove special chars and collapse whitespace (stub)."""
-        self.text = _clean_text(self.text)
+        if self.text is not None:
+            self.text = _clean_text(self.text)
+        if self.rows:
+            self.rows = [[_clean_text(cell) for cell in row] for row in self.rows]
 
 
 class Chapter(Node):
     def __init__(self) -> None:
         super().__init__()
-        self.paragraphs = []
-        self.chunks = []
+        self.elements: list[Element] = []
+        self.chunk_starts: list[int] = []
         self.label: str | None = None
 
     def validate(self) -> None:
-        self.children = [*self.paragraphs, *self.chunks]
+        self.children = list(self.elements)
         super().validate()
 
     def repair(self) -> None:
-        self.children = [*self.paragraphs, *self.chunks]
+        self.children = list(self.elements)
         super().repair()
 
     def serialize(self, preview: bool = False) -> dict:
         name = self.label if self.label else None
-        kept_paragraphs = [para for para in self.paragraphs if para.text.strip()]
-        paragraph_texts = [para.text for para in kept_paragraphs]
-        index_by_para = {para: idx for idx, para in enumerate(kept_paragraphs)}
-        chunk_starts: list[int] = []
-        for chunk in self.chunks:
-            if not chunk.paragraphs:
-                continue
-            first_para = chunk.paragraphs[0]
-            if first_para in index_by_para:
-                chunk_starts.append(index_by_para[first_para])
-
-        if preview:
-            return {
-                "name": name,
-                "pp": [],
-                "chunks": chunk_starts,
-            }
-
-        if not paragraph_texts:
-            return {
-                "name": name,
-                "pp": [],
-                "chunks": chunk_starts,
-            }
-
         return {
             "name": name,
-            "pp": paragraph_texts,
-            "chunks": chunk_starts,
+            "elements": [el.serialize(preview=preview) for el in self.elements],
+            "chunks": list(self.chunk_starts),
         }
 
     def load_html(self, html: str) -> None:
         """Load chapter HTML and delegate to child objects."""
-        soup = BeautifulSoup(html, "html.parser")
-        for tag in soup(STRIP_ELEMENTS):
-            tag.decompose()
+        soup = _html_to_soup(html)
 
         if self.label is None:
             self.label = _extract_heading_label(soup)
 
-        paragraphs = soup.find_all("p")
-        if paragraphs:
-            for p in paragraphs:
-                para_text = _clean_text(p.get_text("\n"))
-                if not para_text:
-                    continue
-                para = Paragraph()
-                para.text = para_text
-                self.paragraphs.append(para)
-        else:
-            raw_text = _clean_text(soup.get_text("\n"))
-            for block in raw_text.split("\n\n"):
-                block = block.strip()
-                if not block:
-                    continue
-                para = Paragraph()
-                para.text = block
-                self.paragraphs.append(para)
+        self.elements = _extract_elements(soup)
+        self.build_chunks(self.elements)
 
-        self.build_chunks(self.paragraphs)
-
-    def build_chunks(self, paragraphs: list["Paragraph"]) -> None:
-        """Group paragraphs into chunks (stub)."""
-        if not paragraphs:
+    def build_chunks(self, elements: list[Element]) -> None:
+        """Compute chunk start indexes for element list."""
+        if not elements:
+            self.chunk_starts = []
             return
 
-        chunks: list[Chunk] = []
-        current: list[Paragraph] = []
+        hard_break_types = {"blockquote", "table"}
+        soft_break_types = {"heading"}
+        chunk_starts: list[int] = []
         current_len = 0
 
-        for para in paragraphs:
-            text = para.text.strip()
-            if not text:
-                if current:
-                    chunk = Chunk()
-                    chunk.build_from_paragraphs(current)
-                    chunks.append(chunk)
-                    current = []
-                    current_len = 0
+        for idx, element in enumerate(elements):
+            elem_len = element.text_length()
+            is_hard_break = element.type in hard_break_types
+            is_soft_break = element.type in soft_break_types
+
+            if is_hard_break:
+                chunk_starts.append(idx)
+                current_len = 0
                 continue
 
-            is_break = text in {"***", "* * *", "---"}
-            para_len = len(text)
+            if is_soft_break:
+                chunk_starts.append(idx)
+                current_len = elem_len
+                continue
 
-            if current and (
-                is_break
-                or para_len >= LARGE_PARAGRAPH_CHARS
-                or current_len + para_len > MAX_CHUNK_CHARS
-                or (para_len > MAX_CHUNK_ADDITION_CHARS and current_len > 0)
-            ):
-                chunk = Chunk()
-                chunk.build_from_paragraphs(current)
-                chunks.append(chunk)
-                current = []
+            if not chunk_starts:
+                chunk_starts.append(idx)
                 current_len = 0
 
-            if is_break:
-                continue
+            if current_len and (
+                elem_len >= LARGE_PARAGRAPH_CHARS
+                or current_len + elem_len > MAX_CHUNK_CHARS
+                or (elem_len > MAX_CHUNK_ADDITION_CHARS)
+            ):
+                chunk_starts.append(idx)
+                current_len = 0
 
-            current.append(para)
-            current_len += para_len
+            current_len += elem_len
 
-        if current:
-            chunk = Chunk()
-            chunk.build_from_paragraphs(current)
-            chunks.append(chunk)
-
-        for idx, chunk in enumerate(chunks, start=1):
-            chunk.ordinal = idx
-
-        self.chunks = chunks
+        self.chunk_starts = chunk_starts
 
     def to_string(self) -> str:
-        self.children = [*self.paragraphs, *self.chunks]
+        self.children = list(self.elements)
         return super().to_string()
 
     def normalize(self) -> None:
-        self.children = [*self.paragraphs, *self.chunks]
+        self.children = list(self.elements)
         super().normalize()
 
 
@@ -431,6 +521,8 @@ class EbookContent(epub.EpubBook):
             key = self._item_key(item)
             try:
                 name, item_type = _classify_html_item(item.get_content())
+            except NotImplementedError:
+                raise
             except Exception:
                 name = None
                 item_type = "other"
@@ -498,7 +590,7 @@ class SimpleBook(Node):
             chapter.load_html(item.get_content())
             if not chapter.label:
                 continue
-            if not chapter.paragraphs:
+            if not chapter.elements:
                 continue
             self.chapters.append(chapter)
 

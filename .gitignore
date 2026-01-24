@@ -149,5 +149,10 @@ tmp/
 
 # Keep large test EPUBs and caches ignored
 tests/epubs/*.epub
+tests/epubs/unpacked/
 src/**/__pycache__/
 tests/**/__pycache__/
+src/**/*.egg-info/
+
+# Secret
+devtools/pypi_token

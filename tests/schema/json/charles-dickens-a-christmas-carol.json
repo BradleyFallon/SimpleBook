@@ -1,0 +1,2408 @@
+{
+  "metadata": {
+    "title": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "language": "en-GB",
+    "isbn": "",
+    "uuid": "https://standardebooks.org/ebooks/charles-dickens/a-christmas-carol"
+  },
+  "chapters": [
+    {
+      "name": "Stave I - Marleys Ghost",
+      "elements": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "blockquote"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        }
+      ],
+      "chunks": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        17,
+        21,
+        26,
+        28,
+        40,
+        49,
+        50,
+        58,
+        61,
+        67,
+        68,
+        69,
+        79,
+        80,
+        81,
+        82,
+        85,
+        86,
+        87,
+        89,
+        91,
+        93,
+        94,
+        98,
+        100,
+        110,
+        118,
+        124,
+        129,
+        136,
+        137,
+        146,
+        147,
+        151,
+        161,
+        167,
+        168,
+        169,
+        171,
+        173
+      ]
+    },
+    {
+      "name": "Stave II - The First of the Three Spirits",
+      "elements": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        }
+      ],
+      "chunks": [
+        0,
+        2,
+        6,
+        8,
+        9,
+        20,
+        21,
+        22,
+        31,
+        38,
+        41,
+        43,
+        49,
+        51,
+        54,
+        55,
+        56,
+        58,
+        60,
+        66,
+        71,
+        74,
+        75,
+        81,
+        88,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        103,
+        111,
+        117,
+        123,
+        127,
+        129,
+        136,
+        137,
+        138,
+        139,
+        148,
+        150
+      ]
+    },
+    {
+      "name": "Stave III - The Second of the Three Spirits",
+      "elements": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        }
+      ],
+      "chunks": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        17,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        40,
+        41,
+        42,
+        43,
+        44,
+        51,
+        57,
+        59,
+        60,
+        61,
+        63,
+        64,
+        65,
+        72,
+        76,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        100,
+        104,
+        109,
+        114,
+        115,
+        117,
+        118,
+        119,
+        121,
+        122,
+        126,
+        130,
+        131,
+        132,
+        140,
+        142,
+        145
+      ]
+    },
+    {
+      "name": "Stave IV - The Last of the Spirits",
+      "elements": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        }
+      ],
+      "chunks": [
+        0,
+        9,
+        15,
+        23,
+        28,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        46,
+        51,
+        57,
+        58,
+        63,
+        73,
+        75,
+        79,
+        80,
+        81,
+        82,
+        84,
+        91,
+        100,
+        105,
+        106,
+        114,
+        120,
+        125,
+        126,
+        130,
+        138,
+        143,
+        150,
+        157,
+        167
+      ]
+    },
+    {
+      "name": "Stave V - The End of It",
+      "elements": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "paragraph"
+        }
+      ],
+      "chunks": [
+        0,
+        7,
+        9,
+        14,
+        28,
+        33,
+        35,
+        37,
+        38,
+        46,
+        48,
+        57,
+        60,
+        67,
+        70,
+        71,
+        72
+      ]
+    }
+  ]
+}

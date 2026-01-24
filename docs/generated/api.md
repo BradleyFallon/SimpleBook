@@ -13,10 +13,8 @@ _Note: import failed, parsed from source (No module named 'ebooklib')._
   Minimal book metadata.
 - `Node`
   Prototype node to enforce delegation.
-- `Chunk`
-  Optional grouping of one or more paragraphs.
-- `Paragraph`
-  A single paragraph taken from the HTML.
+- `Element`
+  Typed content element extracted from HTML.
 - `Chapter`
   No docstring.
 - `EbookContent`
@@ -27,6 +25,10 @@ _Note: import failed, parsed from source (No module named 'ebooklib')._
   Manages conversion of an ebook into a SimpleBook.
 
 ### Functions
+- `_normalize_quotes`
+  No docstring.
+- `_to_ascii`
+  No docstring.
 - `_clean_text`
   No docstring.
 - `_ordered_items`
@@ -39,8 +41,26 @@ _Note: import failed, parsed from source (No module named 'ebooklib')._
   No docstring.
 - `_extract_heading_label`
   No docstring.
+- `_html_to_soup`
+  No docstring.
+- `_assert_supported_text`
+  No docstring.
+- `_blockquote_text`
+  No docstring.
+- `_table_rows`
+  No docstring.
+- `_extract_elements`
+  No docstring.
 - `_classify_html_item`
   No docstring.
+
+### Constants
+- `DOUBLE_QUOTE_CHARS` = `{'”', '“', '„', '"'}`
+- `ELEMENT_TAG_TYPES` = `{'p': 'paragraph', 'blockquote': 'blockquote', 'li': 'list_item', 'dt': 'definition_term', 'dd': 'definition_desc', 'cite': 'cite', 'figcaption': 'caption', 'caption': 'caption', 'table': 'table'}`
+- `HEADING_TAGS` = `{'h4', 'h6', 'h3', 'h2', 'h5', 'h1'}`
+- `TABLE_CELL_TAGS` = `{'th', 'td'}`
+- `CONTAINER_TAGS` = `{'aside', 'main', 'footer', 'ul', 'figure', 'tr', 'article', 'tfoot', 'thead', 'ol', 'tbody', 'dl', 'section', 'div', 'header'}`
+- `ALLOWED_TEXT_TAGS` = `<expr>`
 
 ## Module: `simplebook.cli`
 

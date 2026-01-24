@@ -1,0 +1,38 @@
+[
+  {
+    "book": "isaac-asimov-short-science-fiction",
+    "chapter_index": 0,
+    "chapter_name": "The Magnificent Possession",
+    "element_index": 64,
+    "element_type": "paragraph",
+    "raw": "Walter Sills was happy, deliriously so. He walked about his laboratory king of all he surveyed, strutting like a peacock, basking in his newfound glory. Eugene Taylor sat and watched him, scarcely less happy himself.",
+    "expected": "Walter Sills was happy, deliriously so. He walked about his laboratory king of all he surveyed, strutting like a peacock, basking in his newfound glory. Eugene Taylor sat and watched him, scarcely less happy himself."
+  },
+  {
+    "book": "isaac-asimov-short-science-fiction",
+    "chapter_index": 1,
+    "chapter_name": "Youth - I",
+    "element_index": 54,
+    "element_type": "paragraph",
+    "raw": "“I don’t know then.”",
+    "expected": "<<I dont know then.>>"
+  },
+  {
+    "book": "isaac-asimov-short-science-fiction",
+    "chapter_index": 2,
+    "chapter_name": "Everest",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "The last photographs put bite into his words, though. After all, you \nmight\n just barely think they were men.",
+    "expected": "The last photographs put bite into his words, though. After all, you might just barely think they were men."
+  },
+  {
+    "book": "isaac-asimov-short-science-fiction",
+    "chapter_index": 3,
+    "chapter_name": "Lets Get Together",
+    "element_index": 159,
+    "element_type": "paragraph",
+    "raw": "Lynn said, ruefully, “He has us there, Laszlo.”",
+    "expected": "Lynn said, ruefully, <<He has us there, Laszlo.>>"
+  }
+]

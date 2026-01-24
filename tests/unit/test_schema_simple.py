@@ -88,9 +88,9 @@ def test_validate_complete_output():
             "chapters": [
                 {
                     "name": "Chapter 1",
-                    "pp": [
-                        "This is chapter one content.",
-                        "It has multiple sentences."
+                    "elements": [
+                        {"type": "paragraph", "text": "This is chapter one content."},
+                        {"type": "paragraph", "text": "It has multiple sentences."}
                     ],
                     "chunks": [0]
                 }

@@ -1,0 +1,191 @@
+[
+  {
+    "book": "the-hobbit",
+    "chapter_index": 0,
+    "chapter_name": null,
+    "element_index": 19,
+    "element_type": "paragraph",
+    "raw": "CHAPTER XV: THE GATHERING OF THE CLOUDS",
+    "expected": "CHAPTER XV: THE GATHERING OF THE CLOUDS"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 1,
+    "chapter_name": "Chapter I - AN UNEXPECTED PARTY",
+    "element_index": 136,
+    "element_type": "paragraph",
+    "raw": "In the meanwhile, however, Bullroarer’s gentler descendant was reviving in the drawing-room. After a while and a drink he\n         crept nervously to the door of the parlour. This is what he heard, Gloin speaking: “Humph!” (or some snort more or less like\n         that). “Will he do, do you think? It is all very well for Gandalf to talk about this hobbit being fierce, but one shriek like\n         that in a moment of excitement would be enough to wake the dragon and all his relatives, and kill the lot of us. I think it\n         sounded more like fright than excitement! In fact, if it had not been for the sign on the door, I should have been sure we\n         had come to the wrong house. As soon as I clapped eyes on the little fellow bobbing and puffing on the mat, I had my doubts.\n         He looks more like a grocer than a burglar!”\n      ",
+    "expected": "In the meanwhile, however, Bullroarers gentler descendant was reviving in the drawing-room. After a while and a drink he crept nervously to the door of the parlour. This is what he heard, Gloin speaking: <<Humph!>> (or some snort more or less like that). <<Will he do, do you think? It is all very well for Gandalf to talk about this hobbit being fierce, but one shriek like that in a moment of excitement would be enough to wake the dragon and all his relatives, and kill the lot of us. I think it sounded more like fright than excitement! In fact, if it had not been for the sign on the door, I should have been sure we had come to the wrong house. As soon as I clapped eyes on the little fellow bobbing and puffing on the mat, I had my doubts. He looks more like a grocer than a burglar!>>"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 2,
+    "chapter_name": "Chapter II - ROAST MUTTON",
+    "element_index": 93,
+    "element_type": "paragraph",
+    "raw": "“Booby yerself!” said Tom.",
+    "expected": "<<Booby yerself!>> said Tom."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 3,
+    "chapter_name": "Chapter III - A SHORT REST",
+    "element_index": 73,
+    "element_type": "paragraph",
+    "raw": "“Durin, Durin!” said Thorin. “He was the father of the fathers of the eldest race of Dwarves, the Longbeards, and my first\n ancestor: I am his heir.”\n ",
+    "expected": "<<Durin, Durin!>> said Thorin. <<He was the father of the fathers of the eldest race of Dwarves, the Longbeards, and my first ancestor: I am his heir.>>"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 4,
+    "chapter_name": "Chapter IV - OVER HILL AND UNDER HILL",
+    "element_index": 21,
+    "element_type": "paragraph",
+    "raw": "Clap! Snap! the black crack!",
+    "expected": "Clap! Snap! the black crack!"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 5,
+    "chapter_name": "Chapter V - RIDDLES IN THE DARK",
+    "element_index": 85,
+    "element_type": "paragraph",
+    "raw": "Poor Bilbo sat in the dark thinking of all the horrible names of all the giants and ogres he had ever heard told of in tales,\n         but not one of them had done all these things. He had a feeling that the answer was quite different and that he ought to know it, but he could not think of it. He began to get frightened, and that is bad for\n         thinking. Gollum began to get out of his boat. He flapped into the water and paddled to the bank; Bilbo could see his eyes\n         coming towards him. His tongue seemed to stick in his mouth; he wanted to shout out: “Give me more time! Give me time!” But\n         all that came out with a sudden squeal was:\n      ",
+    "expected": "Poor Bilbo sat in the dark thinking of all the horrible names of all the giants and ogres he had ever heard told of in tales, but not one of them had done all these things. He had a feeling that the answer was quite different and that he ought to know it, but he could not think of it. He began to get frightened, and that is bad for thinking. Gollum began to get out of his boat. He flapped into the water and paddled to the bank; Bilbo could see his eyes coming towards him. His tongue seemed to stick in his mouth; he wanted to shout out: <<Give me more time! Give me time!>> But all that came out with a sudden squeal was:"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 6,
+    "chapter_name": "Chapter VI - OUT OF THE FRYING-PAN INTO THE FIRE",
+    "element_index": 49,
+    "element_type": "paragraph",
+    "raw": "After what seemed ages further they came suddenly to an opening where no trees grew. The moon was up and was shining into\n         the clearing. Somehow it struck all of them as not at all a nice place, although there was nothing wrong to see.\n      ",
+    "expected": "After what seemed ages further they came suddenly to an opening where no trees grew. The moon was up and was shining into the clearing. Somehow it struck all of them as not at all a nice place, although there was nothing wrong to see."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 7,
+    "chapter_name": "Chapter VII - QUEER LODGINGS",
+    "element_index": 162,
+    "element_type": "paragraph",
+    "raw": "When tomorrow morning came he still said the same. So now there was nothing left to do but to fill their water-skins at a\n         clear spring they found close to the forest-gate, and unpack the ponies. They distributed the packages as fairly as they could,\n         though Bilbo thought his lot was wearisomely heavy, and did not at all like the idea of trudging for miles and miles with\n         all that on his back.\n      ",
+    "expected": "When tomorrow morning came he still said the same. So now there was nothing left to do but to fill their water-skins at a clear spring they found close to the forest-gate, and unpack the ponies. They distributed the packages as fairly as they could, though Bilbo thought his lot was wearisomely heavy, and did not at all like the idea of trudging for miles and miles with all that on his back."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 8,
+    "chapter_name": "Chapter VIII - FLIES AND SPIDERS",
+    "element_index": 92,
+    "element_type": "paragraph",
+    "raw": "“I’ll soon put an end to that,” hissed the angry spider climbing back onto the branch.",
+    "expected": "<<Ill soon put an end to that,>> hissed the angry spider climbing back onto the branch."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 9,
+    "chapter_name": "Chapter IX - BARRELS OUT OF BOND",
+    "element_index": 39,
+    "element_type": "paragraph",
+    "raw": "Balin was told off to watch the guard and the butler and give warning if they stirred. The rest went into the adjoining cellar\n         with the trapdoors. There was little time to lose. Before long, as Bilbo knew, some elves were under orders to come down and\n         help the butler get the empty barrels through the doors into the stream. These were in fact already standing in rows in the middle of the floor waiting to be pushed off. Some of them\n         were wine-barrels, and these were not much use, as they could not easily be opened at the end without a deal of noise, nor\n         could they easily be secured again. But among them were several others, which had been used for bringing other stuffs, butter,\n         apples, and all sorts of things, to the king’s palace.\n      ",
+    "expected": "Balin was told off to watch the guard and the butler and give warning if they stirred. The rest went into the adjoining cellar with the trapdoors. There was little time to lose. Before long, as Bilbo knew, some elves were under orders to come down and help the butler get the empty barrels through the doors into the stream. These were in fact already standing in rows in the middle of the floor waiting to be pushed off. Some of them were wine-barrels, and these were not much use, as they could not easily be opened at the end without a deal of noise, nor could they easily be secured again. But among them were several others, which had been used for bringing other stuffs, butter, apples, and all sorts of things, to the kings palace."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 10,
+    "chapter_name": "Chapter X - A WARM WELCOME",
+    "element_index": 25,
+    "element_type": "paragraph",
+    "raw": "“If you come in peace lay down your arms!” said the captain.",
+    "expected": "<<If you come in peace lay down your arms!>> said the captain."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 11,
+    "chapter_name": "Chapter XI - ON THE DOORSTEP",
+    "element_index": 13,
+    "element_type": "paragraph",
+    "raw": "“That does not prove it,” said Balin, “though I don’t doubt you are right. But he might be gone away some time, or he might\n         be lying out on the mountain-side keeping watch, and still I expect smokes and steams would come out of the gates: all the\n         halls within must be filled with his foul reek.”\n      ",
+    "expected": "<<That does not prove it,>> said Balin, <<though I dont doubt you are right. But he might be gone away some time, or he might be lying out on the mountain-side keeping watch, and still I expect smokes and steams would come out of the gates: all the halls within must be filled with his foul reek.>>"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 12,
+    "chapter_name": "Chapter XII - INSIDE INFORMATION",
+    "element_index": 97,
+    "element_type": "paragraph",
+    "raw": "“The Arkenstone! The Arkenstone!” murmured Thorin in the dark, half dreaming with his chin upon his knees. “It was like a\n         globe with a thousand facets; it shone like silver in the firelight, like water in the sun, like snow under the stars, like\n         rain upon the Moon!”\n      ",
+    "expected": "<<The Arkenstone! The Arkenstone!>> murmured Thorin in the dark, half dreaming with his chin upon his knees. <<It was like a globe with a thousand facets; it shone like silver in the firelight, like water in the sun, like snow under the stars, like rain upon the Moon!>>"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 13,
+    "chapter_name": "Chapter XIII - NOT AT HOME",
+    "element_index": 46,
+    "element_type": "paragraph",
+    "raw": "They passed through the ruined chamber. Tables were rotting there; chairs and benches were lying there overturned, charred\n         and decaying. Skulls and bones were upon the floor among flagons and bowls and broken drinking-horns and dust. As they came through yet more doors at the further end, a sound of water fell upon their\n         ears, and the grey light grew suddenly more full.\n      ",
+    "expected": "They passed through the ruined chamber. Tables were rotting there; chairs and benches were lying there overturned, charred and decaying. Skulls and bones were upon the floor among flagons and bowls and broken drinking-horns and dust. As they came through yet more doors at the further end, a sound of water fell upon their ears, and the grey light grew suddenly more full."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 14,
+    "chapter_name": "Chapter XIV - FIRE AND WATER",
+    "element_index": 6,
+    "element_type": "paragraph",
+    "raw": "“Perhaps the King under the Mountain is forging gold,” said another. “It is long since he went North. It is time the songs\n         began to prove themselves again.”\n      ",
+    "expected": "<<Perhaps the King under the Mountain is forging gold,>> said another. <<It is long since he went North. It is time the songs began to prove themselves again.>>"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 15,
+    "chapter_name": "Chapter XV - THE GATHERING OF THE CLOUDS",
+    "element_index": 54,
+    "element_type": "paragraph",
+    "raw": "O! wandering folk, the summons heed!",
+    "expected": "O! wandering folk, the summons heed!"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 16,
+    "chapter_name": "Chapter XVI - A THIEF IN THE NIGHT",
+    "element_index": 40,
+    "element_type": "paragraph",
+    "raw": "“O well!” said the hobbit uncomfortably. “It isn’t exactly; but, well, I am willing to let it stand against all my claim,\n         don’t you know. I may be a burglar—or so they say: personally I never really felt like one—but I am an honest one, I hope,\n         more or less. Anyway I am going back now, and the dwarves can do what they like to me. I hope you will find it useful.”\n      ",
+    "expected": "<<O well!>> said the hobbit uncomfortably. <<It isnt exactly; but, well, I am willing to let it stand against all my claim, dont you know. I may be a burglaror so they say: personally I never really felt like onebut I am an honest one, I hope, more or less. Anyway I am going back now, and the dwarves can do what they like to me. I hope you will find it useful.>>"
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 17,
+    "chapter_name": "Chapter XVII - THE CLOUDS BURST",
+    "element_index": 51,
+    "element_type": "paragraph",
+    "raw": "The elves were the first to charge. Their hatred for the goblins is cold and bitter. Their spears and swords shone in the\n         gloom with a gleam of chill flame, so deadly was the wrath of the hands that held them. As soon as the host of their enemies\n         was dense in the valley, they sent against it a shower of arrows, and each flickered as it fled as if with stinging fire. Behind the\n         arrows a thousand of their spearmen leapt down and charged. The yells were deafening. The rocks were stained black with goblin\n         blood.\n      ",
+    "expected": "The elves were the first to charge. Their hatred for the goblins is cold and bitter. Their spears and swords shone in the gloom with a gleam of chill flame, so deadly was the wrath of the hands that held them. As soon as the host of their enemies was dense in the valley, they sent against it a shower of arrows, and each flickered as it fled as if with stinging fire. Behind the arrows a thousand of their spearmen leapt down and charged. The yells were deafening. The rocks were stained black with goblin blood."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 18,
+    "chapter_name": "Chapter XVIII - THE RETURN JOURNEY",
+    "element_index": 4,
+    "element_type": "paragraph",
+    "raw": "He sat up painfully. Looking into the valley he could see no living goblins. After a while as his head cleared a little, he\n         thought he could see elves moving in the rocks below. He rubbed his eyes. Surely there was a camp still in the plain some\n         distance off; and there was a coming and going about the Gate? Dwarves seemed to be busy removing the wall. But all was deadly\n         still. There was no call and no echo of a song. Sorrow seemed to be in the air.\n      ",
+    "expected": "He sat up painfully. Looking into the valley he could see no living goblins. After a while as his head cleared a little, he thought he could see elves moving in the rocks below. He rubbed his eyes. Surely there was a camp still in the plain some distance off; and there was a coming and going about the Gate? Dwarves seemed to be busy removing the wall. But all was deadly still. There was no call and no echo of a song. Sorrow seemed to be in the air."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 19,
+    "chapter_name": "Chapter XIX - THE LAST STAGE",
+    "element_index": 64,
+    "element_type": "paragraph",
+    "raw": "“A little sleep does a great cure in the house of Elrond,” said he; “but I will take all the cure I can get. A second good\n         night, fair friends!” And with that he went back to bed and slept till late morning.\n      ",
+    "expected": "<<A little sleep does a great cure in the house of Elrond,>> said he; <<but I will take all the cure I can get. A second good night, fair friends!>> And with that he went back to bed and slept till late morning."
+  },
+  {
+    "book": "the-hobbit",
+    "chapter_index": 20,
+    "chapter_name": null,
+    "element_index": 22,
+    "element_type": "paragraph",
+    "raw": "The Legend of Sigurd and Gudrún",
+    "expected": "The Legend of Sigurd and Gudrun"
+  }
+]
