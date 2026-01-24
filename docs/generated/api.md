@@ -15,6 +15,8 @@ _Note: import failed, parsed from source (No module named 'ebooklib')._
   Prototype node to enforce delegation.
 - `Element`
   Typed content element extracted from HTML.
+- `Chunk`
+  Logical grouping of elements within a chapter.
 - `Chapter`
   No docstring.
 - `EbookContent`
@@ -49,17 +51,19 @@ _Note: import failed, parsed from source (No module named 'ebooklib')._
   No docstring.
 - `_table_rows`
   No docstring.
+- `_render_markdown`
+  No docstring.
 - `_extract_elements`
   No docstring.
 - `_classify_html_item`
   No docstring.
 
 ### Constants
-- `DOUBLE_QUOTE_CHARS` = `{'”', '“', '„', '"'}`
+- `DOUBLE_QUOTE_CHARS` = `{'“', '„', '"', '”'}`
 - `ELEMENT_TAG_TYPES` = `{'p': 'paragraph', 'blockquote': 'blockquote', 'li': 'list_item', 'dt': 'definition_term', 'dd': 'definition_desc', 'cite': 'cite', 'figcaption': 'caption', 'caption': 'caption', 'table': 'table'}`
-- `HEADING_TAGS` = `{'h4', 'h6', 'h3', 'h2', 'h5', 'h1'}`
-- `TABLE_CELL_TAGS` = `{'th', 'td'}`
-- `CONTAINER_TAGS` = `{'aside', 'main', 'footer', 'ul', 'figure', 'tr', 'article', 'tfoot', 'thead', 'ol', 'tbody', 'dl', 'section', 'div', 'header'}`
+- `HEADING_TAGS` = `{'h3', 'h5', 'h4', 'h1', 'h2', 'h6'}`
+- `TABLE_CELL_TAGS` = `{'td', 'th'}`
+- `CONTAINER_TAGS` = `{'dl', 'ul', 'footer', 'tfoot', 'tr', 'figure', 'thead', 'aside', 'tbody', 'section', 'article', 'div', 'main', 'header', 'ol'}`
 - `ALLOWED_TEXT_TAGS` = `<expr>`
 
 ## Module: `simplebook.cli`

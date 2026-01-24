@@ -1,29 +1,25 @@
-- id: normalize_line_endings
-  rule: Normalize line endings to LF and trim surrounding whitespace.
-  input: "Line one\r\nLine two\rLine three"
-  expected: "Line one Line two Line three"
-
-- id: trim_lines
-  rule: Trim whitespace at the start and end of each line.
-  input: "  Alpha  \n\tBeta\t\n  Gamma"
-  expected: "Alpha Beta Gamma"
-
-- id: collapse_blank_lines
-  rule: Collapse multiple blank lines to a single blank line.
-  input: "A\n\n\n\nB"
-  expected: "A B"
-
-- id: preserve_single_blank_line
-  rule: Preserve a single blank line between blocks.
-  input: "First line\n\nSecond line"
-  expected: "First line Second line"
+- id: normalize_whitespace
+  rule: Collapse all whitespace (line breaks, tabs, repeated spaces) into single spaces.
+  examples:
+    - input: "Line one\r\nLine two\rLine three"
+      expected: "Line one Line two Line three"
+    - input: "  Alpha  \n\tBeta\t\n  Gamma"
+      expected: "Alpha Beta Gamma"
+    - input: "A\n\n\n\nB"
+      expected: "A B"
 
 - id: normalize_quotes
-  rule: Normalize quotes to << >>.
-  input: '“Hello.”'
-  expected: '<<Hello.>>'
+  rule: Normalize double quotes to << >> and keep content order.
+  examples:
+    - input: "“Hello.”"
+      expected: "<<Hello.>>"
+    - input: "“But if you \ndon’t\n,” said Pooh, “I shall have to let go, and that would spoil \nme\n.”"
+      expected: "<<But if you dont ,>> said Pooh, <<I shall have to let go, and that would spoil me .>>"
 
 - id: ascii_transliteration
   rule: Transliterate to ASCII (NFKD) and drop non-ASCII characters.
-  input: "Klüft skräms inför på fédéral"
-  expected: "Kluft skrams infor pa federal"
+  examples:
+    - input: "Klüft skräms inför på fédéral"
+      expected: "Kluft skrams infor pa federal"
+    - input: "Résumé—naïve façade"
+      expected: "Resume-naive facade"

@@ -246,12 +246,69 @@ def _table_rows(tag) -> list[list[str]]:
     return rows
 
 
+def _render_markdown(
+    element_type: str,
+    text: str | None,
+    rows: list[list[str]] | None = None,
+    heading_level: int | None = None,
+) -> str | None:
+    if text is None and not rows:
+        return None
+    base_text = text or ""
+    if element_type == "heading":
+        level = heading_level or 1
+        prefix = "#" * max(level, 1)
+        return f"{prefix} {base_text}".strip()
+    if element_type == "blockquote":
+        if not base_text:
+            return ""
+        return "\n".join(
+            f"> {line}" if line else ">" for line in base_text.splitlines()
+        )
+    if element_type == "list_item":
+        return f"- {base_text}".strip()
+    if element_type == "table":
+        if not rows:
+            return ""
+        return "\n".join(" | ".join(row) for row in rows)
+    return base_text
+
+
 def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
     root = soup.body if soup.body is not None else soup
     _assert_supported_text(root)
     elements: list[Element] = []
+    saw_title = False
+
+    def append_element(
+        element_type: str,
+        text: str | None = None,
+        rows: list[list[str]] | None = None,
+        raw_html: str | None = None,
+        role: str | None = None,
+        heading_level: int | None = None,
+        meta: dict | None = None,
+    ) -> None:
+        markdown = _render_markdown(
+            element_type,
+            text,
+            rows=rows,
+            heading_level=heading_level,
+        )
+        elements.append(
+            Element(
+                element_type,
+                text=text,
+                rows=rows,
+                raw_html=raw_html,
+                markdown=markdown,
+                role=role,
+                meta=meta,
+            )
+        )
 
     def walk(node) -> None:
+        nonlocal saw_title
         for child in node.children:
             if not hasattr(child, "name") or child.name is None:
                 continue
@@ -261,34 +318,73 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
             if name in CONTAINER_TAGS:
                 walk(child)
                 continue
+            raw_html = str(child)
             if name in HEADING_TAGS:
                 text = _clean_text(child.get_text("\n"))
                 if text:
-                    elements.append(Element("heading", text=text))
+                    level = int(name[1]) if len(name) > 1 and name[1].isdigit() else None
+                    role = "title" if not saw_title else "heading"
+                    saw_title = True if role == "title" else saw_title
+                    meta = {"level": level} if level is not None else None
+                    append_element(
+                        "heading",
+                        text=text,
+                        raw_html=raw_html,
+                        role=role,
+                        heading_level=level,
+                        meta=meta,
+                    )
                 continue
             if name == "blockquote":
                 text = _blockquote_text(child)
                 if text:
-                    elements.append(Element("blockquote", text=text))
+                    append_element(
+                        "blockquote",
+                        text=text,
+                        raw_html=raw_html,
+                        role="body",
+                    )
                 for cite in child.find_all("cite"):
                     cite_text = _clean_text(cite.get_text("\n"))
                     if cite_text:
-                        elements.append(Element("cite", text=cite_text))
+                        append_element(
+                            "cite",
+                            text=cite_text,
+                            raw_html=str(cite),
+                            role="comment",
+                        )
                 continue
             if name == "table":
                 caption = child.find("caption") or child.find("figcaption")
                 if caption is not None:
                     caption_text = _clean_text(caption.get_text("\n"))
                     if caption_text:
-                        elements.append(Element("caption", text=caption_text))
+                        append_element(
+                            "caption",
+                            text=caption_text,
+                            raw_html=str(caption),
+                            role="comment",
+                        )
                 rows = _table_rows(child)
                 if rows:
-                    elements.append(Element("table", rows=rows))
+                    append_element(
+                        "table",
+                        rows=rows,
+                        raw_html=raw_html,
+                        role="body",
+                    )
                 continue
             if name in ELEMENT_TAG_TYPES:
                 text = _clean_text(child.get_text("\n"))
                 if text:
-                    elements.append(Element(ELEMENT_TAG_TYPES[name], text=text))
+                    element_type = ELEMENT_TAG_TYPES[name]
+                    role = "comment" if element_type in {"caption", "cite"} else "body"
+                    append_element(
+                        element_type,
+                        text=text,
+                        raw_html=raw_html,
+                        role=role,
+                    )
                 continue
             walk(child)
 
@@ -363,17 +459,29 @@ class Element(Node):
         element_type: str,
         text: str | None = None,
         rows: list[list[str]] | None = None,
+        raw_html: str | None = None,
+        markdown: str | None = None,
+        role: str | None = None,
         meta: dict | None = None,
     ) -> None:
         super().__init__()
         self.type = element_type
         self.text = text
         self.rows = rows
+        self.raw_html = raw_html
+        self.markdown = markdown
+        self.role = role
         self.meta = meta or {}
 
     def validate(self) -> None:
         if self.text is not None and not isinstance(self.text, str):
             self.text = str(self.text)
+        if self.raw_html is not None and not isinstance(self.raw_html, str):
+            self.raw_html = str(self.raw_html)
+        if self.markdown is not None and not isinstance(self.markdown, str):
+            self.markdown = str(self.markdown)
+        if self.role is not None and not isinstance(self.role, str):
+            self.role = str(self.role)
 
     def repair(self) -> None:
         if self.text is None:
@@ -382,6 +490,12 @@ class Element(Node):
             self.text = _clean_text(self.text)
         if self.rows:
             self.rows = [[_clean_text(cell) for cell in row] for row in self.rows]
+        self.markdown = _render_markdown(
+            self.type,
+            self.text,
+            rows=self.rows,
+            heading_level=self._heading_level(),
+        )
 
     def text_length(self) -> int:
         if self.text:
@@ -397,6 +511,12 @@ class Element(Node):
                 data["text"] = self.text
             if self.rows is not None:
                 data["rows"] = self.rows
+            if self.raw_html is not None:
+                data["raw_html"] = self.raw_html
+            if self.markdown is not None:
+                data["markdown"] = self.markdown
+            if self.role is not None:
+                data["role"] = self.role
             if self.meta:
                 data["meta"] = self.meta
         return data
@@ -408,11 +528,65 @@ class Element(Node):
             return "\n".join(" | ".join(row) for row in self.rows)
         return ""
 
+    def get_raw(self) -> str | None:
+        return self.raw_html
+
+    def get_markdown(self) -> str | None:
+        return self.markdown
+
+    def get_normalized(self) -> str:
+        return self.to_string()
+
+    def _heading_level(self) -> int | None:
+        if self.type == "heading" and isinstance(self.meta, dict):
+            level = self.meta.get("level")
+            if isinstance(level, int):
+                return level
+            if isinstance(level, str) and level.isdigit():
+                return int(level)
+        return None
+
     def normalize(self) -> None:
         if self.text is not None:
             self.text = _clean_text(self.text)
         if self.rows:
             self.rows = [[_clean_text(cell) for cell in row] for row in self.rows]
+        self.markdown = _render_markdown(
+            self.type,
+            self.text,
+            rows=self.rows,
+            heading_level=self._heading_level(),
+        )
+
+
+class Chunk:
+    """Logical grouping of elements within a chapter."""
+
+    def __init__(self, elements: list[Element], start_index: int, end_index: int) -> None:
+        self.elements = elements
+        self.start_index = start_index
+        self.end_index = end_index
+        self.summary = None
+
+    def length(self) -> int:
+        return sum(element.text_length() for element in self.elements)
+
+    def word_count(self) -> int:
+        text = self.get_text()
+        if not text:
+            return 0
+        return len(text.split())
+
+    def get_text(self) -> str:
+        parts = [element.to_string() for element in self.elements if element.to_string()]
+        return " ".join(parts)
+
+    def __repr__(self) -> str:
+        summary_state = "set" if self.summary else "none"
+        return (
+            f"Chunk(start={self.start_index}, end={self.end_index}, "
+            f"length={self.length()}, summary={summary_state})"
+        )
 
 
 class Chapter(Node):
@@ -420,6 +594,7 @@ class Chapter(Node):
         super().__init__()
         self.elements: list[Element] = []
         self.chunk_starts: list[int] = []
+        self.chunks: list[Chunk] = []
         self.label: str | None = None
 
     def validate(self) -> None:
@@ -452,6 +627,7 @@ class Chapter(Node):
         """Compute chunk start indexes for element list."""
         if not elements:
             self.chunk_starts = []
+            self.chunks = []
             return
 
         hard_break_types = {"blockquote", "table"}
@@ -489,6 +665,11 @@ class Chapter(Node):
             current_len += elem_len
 
         self.chunk_starts = chunk_starts
+        self.chunks = []
+        for idx, start in enumerate(chunk_starts):
+            end = chunk_starts[idx + 1] - 1 if idx + 1 < len(chunk_starts) else len(elements) - 1
+            chunk_elements = elements[start : end + 1]
+            self.chunks.append(Chunk(chunk_elements, start, end))
 
     def to_string(self) -> str:
         self.children = list(self.elements)

@@ -96,6 +96,16 @@ Each chapter contains:
 Each chunk entry is:
 - **integer**: Zero-based element index where a new chunk starts
 
+### Element Fields
+
+Each element includes:
+- **`type`**: Element type (e.g., paragraph, blockquote, table)
+- **`text`**: Normalized text (optional)
+- **`rows`**: Table rows (for table elements)
+- **`raw_html`**: Original HTML snippet (optional)
+- **`markdown`**: Markdown representation (optional)
+- **`role`**: Semantic role (optional; title/body/comment/heading)
+
 ## Example Valid Output
 
 ```json
@@ -111,8 +121,20 @@ Each chunk entry is:
     {
       "name": "Chapter 1",
       "elements": [
-        { "type": "paragraph", "text": "This is the first paragraph." },
-        { "type": "paragraph", "text": "This is the second paragraph." }
+        {
+          "type": "heading",
+          "text": "Chapter 1",
+          "role": "title",
+          "markdown": "# Chapter 1",
+          "raw_html": "<h1>Chapter 1</h1>"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the first paragraph.",
+          "role": "body",
+          "markdown": "This is the first paragraph.",
+          "raw_html": "<p>This is the first paragraph.</p>"
+        }
       ],
       "chunks": [0]
     },

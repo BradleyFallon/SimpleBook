@@ -25,24 +25,29 @@ def _load_cases() -> list[dict]:
     if not data:
         return []
     if not isinstance(data, list):
-        raise AssertionError("Normalization cases must be a list of cases.")
+        raise AssertionError("Normalization cases must be a list of rules.")
     return data
 
 
 def test_normalization_cases_yaml() -> None:
-    cases = _load_cases()
-    assert cases, f"Missing cases file: {CASES_PATH}"
+    rules = _load_cases()
+    assert rules, f"Missing cases file: {CASES_PATH}"
 
     failures: list[str] = []
-    for case in cases:
-        case_id = case.get("id", "<missing-id>")
-        raw = case.get("input", "")
-        expected = case.get("expected", "")
-        actual = _clean_text(raw)
-        if actual != expected:
-            failures.append(
-                f"{case_id} expected {expected!r} got {actual!r}"
-            )
+    for rule in rules:
+        rule_id = rule.get("id", "<missing-id>")
+        examples = rule.get("examples", [])
+        if not isinstance(examples, list) or not examples:
+            failures.append(f"{rule_id} has no examples")
+            continue
+        for idx, example in enumerate(examples, start=1):
+            raw = example.get("input", "")
+            expected = example.get("expected", "")
+            actual = _clean_text(raw)
+            if actual != expected:
+                failures.append(
+                    f"{rule_id}[{idx}] expected {expected!r} got {actual!r}"
+                )
 
     if failures:
         preview = "\n".join(failures[:10])

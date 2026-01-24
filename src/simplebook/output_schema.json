@@ -61,6 +61,18 @@
                   "type": "string",
                   "description": "Normalized text content (when applicable)"
                 },
+                "raw_html": {
+                  "type": "string",
+                  "description": "Original raw HTML for the element"
+                },
+                "markdown": {
+                  "type": "string",
+                  "description": "Markdown representation of the element content"
+                },
+                "role": {
+                  "type": "string",
+                  "description": "Semantic role for the element (e.g., title, body, comment, heading)"
+                },
                 "rows": {
                   "type": "array",
                   "description": "Table rows when element type is table",

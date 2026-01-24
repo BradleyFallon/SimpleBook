@@ -20,31 +20,34 @@ def _load_cases() -> list[dict]:
     if not data:
         return []
     if not isinstance(data, list):
-        raise ValueError("Normalization cases must be a list of cases.")
+        raise ValueError("Normalization cases must be a list of rules.")
     return data
 
 
-def _format_case(case: dict) -> str:
-    rule = case.get("rule", "").strip()
-    raw = case.get("input", "")
-    expected = case.get("expected", "")
-    case_id = case.get("id", "")
+def _format_rule(rule: dict) -> str:
+    rule_id = rule.get("id", "")
+    rule_text = rule.get("rule", "").strip()
+    examples = rule.get("examples", [])
 
     lines = []
-    header = f"### {case_id}" if case_id else "### Case"
+    header = f"### {rule_id}" if rule_id else "### Rule"
     lines.append(header)
-    if rule:
-        lines.append(rule)
+    if rule_text:
+        lines.append(rule_text)
+
     def _escaped(value: str) -> str:
         return value.encode("unicode_escape").decode("ascii")
 
-    if raw is not None:
+    for idx, example in enumerate(examples, start=1):
+        raw = example.get("input", "")
+        expected = example.get("expected", "")
+        lines.append("")
+        lines.append(f"Example {idx}:")
         lines.append("")
         lines.append("Input (escaped):")
         lines.append("```text")
         lines.append(_escaped(raw))
         lines.append("```")
-    if expected is not None:
         lines.append("")
         lines.append("Expected (escaped):")
         lines.append("```text")
@@ -63,9 +66,9 @@ def main() -> int:
         "",
         "## Rules & Examples",
     ]
-    for case in cases:
+    for rule in cases:
         parts.append("")
-        parts.append(_format_case(case))
+        parts.append(_format_rule(rule))
 
     DOC_PATH.write_text("\n".join(parts).rstrip() + "\n", encoding="utf-8")
     print(f"OK: wrote {DOC_PATH}")
