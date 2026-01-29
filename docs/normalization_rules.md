@@ -95,5 +95,17 @@ R\xe9sum\xe9\u2014na\xefve fa\xe7ade
 
 Expected (escaped):
 ```text
-Resume-naive facade
+Resume--naive facade
+```
+
+Example 3:
+
+Input (escaped):
+```text
+Hello\u2014there
+```
+
+Expected (escaped):
+```text
+Hello--there
 ```

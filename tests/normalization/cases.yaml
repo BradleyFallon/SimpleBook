@@ -22,4 +22,6 @@
     - input: "Klüft skräms inför på fédéral"
       expected: "Kluft skrams infor pa federal"
     - input: "Résumé—naïve façade"
-      expected: "Resume-naive facade"
+      expected: "Resume--naive facade"
+    - input: "Hello—there"
+      expected: "Hello--there"

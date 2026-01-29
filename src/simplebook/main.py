@@ -7,17 +7,59 @@ from pathlib import Path
 from ebooklib import epub  # type: ignore[import-untyped]
 from bs4 import BeautifulSoup, Comment  # type: ignore[import-untyped]
 
-from .config import (
-    MAX_CHUNK_ADDITION_CHARS,
-    MAX_CHUNK_CHARS,
-    LARGE_PARAGRAPH_CHARS,
-    CHAPTER_PATTERNS,
-    ROMAN_NUMERALS,
-    FRONT_MATTER_KEYWORDS,
-    BACK_MATTER_KEYWORDS,
-    NON_CHAPTER_KEYWORDS,
-    STRIP_ELEMENTS,
-)
+# Rule parameters (chunking/normalization heuristics)
+# Soft-limit constants (deprecated in favor of size class sum).
+SOFT_MAX_CHUNK_WORDS = 300
+MAX_CHUNK_ADDITION_WORDS = 80
+LARGE_PARAGRAPH_WORDS = 120
+SOFT_WORD_THRESHOLD = 10
+SOFT_WORD_MAX = 500
+
+# Element size breakpoints (word counts)
+ELEM_BP_S = 10
+ELEM_BP_M = 30
+ELEM_BP_L = 100
+ELEM_BP_XL = 250
+
+# Chunk size breakpoints (word counts)
+CHUNK_BP_S = 50
+CHUNK_BP_M = 100
+CHUNK_BP_L = 200
+CHUNK_BP_XL = 300
+
+# Chapter detection patterns
+CHAPTER_PATTERNS = ["chapter", "ch.", "book", "part"]
+
+ROMAN_NUMERALS = [
+    "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
+    "xi", "xii", "xiii", "xiv", "xv", "xvi", "xvii", "xviii", "xix", "xx",
+    "xxi", "xxii", "xxiii", "xxiv", "xxv", "xxvi", "xxvii", "xxviii", "xxix", "xxx",
+    "xxxi", "xxxii", "xxxiii", "xxxiv", "xxxv", "xxxvi", "xxxvii", "xxxviii", "xxxix", "xl",
+    "xli", "xlii", "xliii", "xliv", "xlv", "xlvi", "xlvii", "xlviii", "xlix", "l",
+]
+
+FRONT_MATTER_KEYWORDS = [
+    "titlepage", "cover", "copyright", "imprint", "dedication",
+    "preface", "foreword", "introduction", "prologue",
+    "illustration", "illustrations",
+]
+
+BACK_MATTER_KEYWORDS = [
+    "acknowledgments", "acknowledgements", "notes", "endnotes",
+    "epilogue", "afterword", "colophon", "about the author", "about",
+]
+
+NON_CHAPTER_KEYWORDS = FRONT_MATTER_KEYWORDS + \
+    BACK_MATTER_KEYWORDS + ["toc", "contents"]
+
+# Quote normalization (unused but kept for future normalization passes)
+OPENING_QUOTES = ['"', '"', "'", "„"]
+CLOSING_QUOTES = ['"', '"', "'", '"']
+GUILLEMET_OPEN = "<<"
+GUILLEMET_CLOSE = ">>"
+
+# HTML elements to strip during text extraction
+STRIP_ELEMENTS = ["script", "style", "nav"]
 
 
 # ============================================================================
@@ -44,6 +86,7 @@ def _normalize_quotes(text: str) -> str:
 def _to_ascii(text: str) -> str:
     if not text:
         return text
+    text = text.replace("—", "--").replace("–", "--")
     normalized = unicodedata.normalize("NFKD", text)
     return normalized.encode("ascii", "ignore").decode("ascii")
 
@@ -58,7 +101,8 @@ def _clean_text(raw: str) -> str:
 
 def _ordered_items(book: epub.EpubBook):
     item_document = getattr(epub, "ITEM_DOCUMENT", 9)
-    items_by_id = {item.get_id(): item for item in book.get_items_of_type(item_document)}
+    items_by_id = {
+        item.get_id(): item for item in book.get_items_of_type(item_document)}
     ordered = []
     for item_id, _linear in book.spine:
         item = items_by_id.get(item_id)
@@ -120,9 +164,11 @@ def _extract_heading_texts(soup: BeautifulSoup) -> list[str]:
             if not text:
                 continue
             attrs = el.attrs if hasattr(el, "attrs") else {}
-            classes = " ".join(el.get("class", [])) if hasattr(el, "get") else ""
+            classes = " ".join(el.get("class", [])) if hasattr(
+                el, "get") else ""
             epub_type = (attrs.get("epub:type") or "").lower()
-            is_heading_p = any(key in epub_type for key in ["title", "subtitle", "heading"])
+            is_heading_p = any(key in epub_type for key in [
+                               "title", "subtitle", "heading"])
             is_heading_p = is_heading_p or any(
                 key in classes.lower() for key in ["title", "subtitle", "chapter", "heading"]
             )
@@ -133,7 +179,8 @@ def _extract_heading_texts(soup: BeautifulSoup) -> list[str]:
 
         classes = " ".join(el.get("class", [])) if hasattr(el, "get") else ""
         is_heading = name in {"h1", "h2", "h3", "h4", "h5", "h6", "subtitle"}
-        is_heading = is_heading or (hasattr(el, "get") and el.get("role") == "heading")
+        is_heading = is_heading or (
+            hasattr(el, "get") and el.get("role") == "heading")
         is_heading = is_heading or any(
             key in classes.lower() for key in ["title", "subtitle", "chapter", "heading"]
         )
@@ -191,7 +238,8 @@ CONTAINER_TAGS = {
     "tr",
 }
 
-ALLOWED_TEXT_TAGS = set(ELEMENT_TAG_TYPES.keys()) | HEADING_TAGS | TABLE_CELL_TAGS
+ALLOWED_TEXT_TAGS = set(ELEMENT_TAG_TYPES.keys()
+                        ) | HEADING_TAGS | TABLE_CELL_TAGS
 
 
 def _html_to_soup(html: bytes | str) -> BeautifulSoup:
@@ -246,6 +294,16 @@ def _table_rows(tag) -> list[list[str]]:
     return rows
 
 
+def _manual_text_from_html(raw_html: str) -> str:
+    soup = BeautifulSoup(raw_html, "html.parser")
+    for tag in soup.find_all(["em", "i"]):
+        tag.replace_with(f"///{tag.get_text()}///")
+    for tag in soup.find_all(["strong", "b"]):
+        tag.replace_with(f"**{tag.get_text()}**")
+    text = soup.get_text("\n")
+    return _clean_text(text)
+
+
 def _render_markdown(
     element_type: str,
     text: str | None,
@@ -280,11 +338,28 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
     elements: list[Element] = []
     saw_title = False
 
+    def tag_path(node) -> str:
+        parts: list[str] = []
+        cur = node
+        while cur is not None:
+            name = getattr(cur, "name", None)
+            if not name:
+                break
+            parts.append(name.lower())
+            cur = cur.parent
+            if cur == root:
+                root_name = getattr(cur, "name", None)
+                if root_name:
+                    parts.append(root_name.lower())
+                break
+        return "/".join(reversed(parts))
+
     def append_element(
         element_type: str,
         text: str | None = None,
         rows: list[list[str]] | None = None,
         raw_html: str | None = None,
+        path: str | None = None,
         role: str | None = None,
         heading_level: int | None = None,
         meta: dict | None = None,
@@ -302,6 +377,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
                 rows=rows,
                 raw_html=raw_html,
                 markdown=markdown,
+                path=path,
                 role=role,
                 meta=meta,
             )
@@ -322,7 +398,8 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
             if name in HEADING_TAGS:
                 text = _clean_text(child.get_text("\n"))
                 if text:
-                    level = int(name[1]) if len(name) > 1 and name[1].isdigit() else None
+                    level = int(name[1]) if len(
+                        name) > 1 and name[1].isdigit() else None
                     role = "title" if not saw_title else "heading"
                     saw_title = True if role == "title" else saw_title
                     meta = {"level": level} if level is not None else None
@@ -330,6 +407,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
                         "heading",
                         text=text,
                         raw_html=raw_html,
+                        path=tag_path(child),
                         role=role,
                         heading_level=level,
                         meta=meta,
@@ -342,6 +420,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
                         "blockquote",
                         text=text,
                         raw_html=raw_html,
+                        path=tag_path(child),
                         role="body",
                     )
                 for cite in child.find_all("cite"):
@@ -351,6 +430,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
                             "cite",
                             text=cite_text,
                             raw_html=str(cite),
+                            path=tag_path(cite),
                             role="comment",
                         )
                 continue
@@ -363,6 +443,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
                             "caption",
                             text=caption_text,
                             raw_html=str(caption),
+                            path=tag_path(caption),
                             role="comment",
                         )
                 rows = _table_rows(child)
@@ -371,6 +452,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
                         "table",
                         rows=rows,
                         raw_html=raw_html,
+                        path=tag_path(child),
                         role="body",
                     )
                 continue
@@ -378,11 +460,13 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
                 text = _clean_text(child.get_text("\n"))
                 if text:
                     element_type = ELEMENT_TAG_TYPES[name]
-                    role = "comment" if element_type in {"caption", "cite"} else "body"
+                    role = "comment" if element_type in {
+                        "caption", "cite"} else "body"
                     append_element(
                         element_type,
                         text=text,
                         raw_html=raw_html,
+                        path=tag_path(child),
                         role=role,
                     )
                 continue
@@ -461,6 +545,7 @@ class Element(Node):
         rows: list[list[str]] | None = None,
         raw_html: str | None = None,
         markdown: str | None = None,
+        path: str | None = None,
         role: str | None = None,
         meta: dict | None = None,
     ) -> None:
@@ -470,6 +555,7 @@ class Element(Node):
         self.rows = rows
         self.raw_html = raw_html
         self.markdown = markdown
+        self.path = path or ""
         self.role = role
         self.meta = meta or {}
 
@@ -487,9 +573,13 @@ class Element(Node):
         if self.text is None:
             self.text = None
         else:
-            self.text = _clean_text(self.text)
+            if self.raw_html:
+                self.text = _manual_text_from_html(self.raw_html)
+            else:
+                self.text = _clean_text(self.text)
         if self.rows:
-            self.rows = [[_clean_text(cell) for cell in row] for row in self.rows]
+            self.rows = [[_clean_text(cell) for cell in row]
+                         for row in self.rows]
         self.markdown = _render_markdown(
             self.type,
             self.text,
@@ -503,6 +593,135 @@ class Element(Node):
         if self.rows:
             return sum(len(cell) for row in self.rows for cell in row)
         return 0
+
+    def word_count(self) -> int:
+        text = self.to_string()
+        if not text:
+            return 0
+        return len(text.split())
+
+    def is_small(self) -> bool:
+        """True if element is short enough to be merged past soft limits."""
+        return self.word_count() <= SOFT_WORD_THRESHOLD
+
+    def is_large_element(self) -> bool:
+        """True if element should be isolated as its own chunk."""
+        return self.word_count() >= LARGE_PARAGRAPH_WORDS
+
+    def is_small_size(self) -> bool:
+        return self.word_count() < ELEM_BP_S
+
+    def is_medium(self) -> bool:
+        return self.word_count() < ELEM_BP_M
+
+    def is_large(self) -> bool:
+        return self.word_count() >= ELEM_BP_L
+
+    def size_label(self) -> str:
+        wc = self.word_count()
+        if wc < ELEM_BP_S:
+            return "XS"
+        if wc < ELEM_BP_M:
+            return "S"
+        if wc < ELEM_BP_L:
+            return "M"
+        if wc < ELEM_BP_XL:
+            return "L"
+        return "XL"
+
+    def size_class(self) -> int:
+        wc = self.word_count()
+        if wc < ELEM_BP_S:
+            return 0
+        if wc < ELEM_BP_M:
+            return 1
+        if wc < ELEM_BP_L:
+            return 2
+        if wc < ELEM_BP_XL:
+            return 3
+        return 4
+
+    def is_heading(self) -> bool:
+        return self.type == "heading"
+
+    def is_blockquote(self) -> bool:
+        return self.type == "blockquote"
+
+    def is_table(self) -> bool:
+        return self.type == "table"
+
+    def is_dialogue(self) -> bool:
+        text = self.get_normalized()
+        return text.startswith("<<") if text else False
+
+    def starts_with_quote(self) -> bool:
+        text = self.get_normalized()
+        return text.startswith("<<") if text else False
+
+    def has_quote(self) -> bool:
+        text = self.get_normalized()
+        return ("<<" in text) if text else False
+
+    def has_exchange_marker(self) -> bool:
+        text = self.exchange_text()
+        if not text:
+            return False
+        return ("<<" in text) or ("///" in text)
+
+    def has_quote_within_words(self, limit: int) -> bool:
+        text = self.get_normalized()
+        if not text:
+            return False
+        words = text.split()
+        if not words:
+            return False
+        limit = max(1, limit)
+        return any("<<" in word for word in words[:limit])
+
+    def words_before_first_quote(self) -> int:
+        text = self.get_normalized()
+        if not text:
+            return 0
+        words = text.split()
+        for idx, word in enumerate(words):
+            if "<<" in word or "///" in word:
+                return idx
+        return len(words)
+
+    def words_after_last_quote(self) -> int:
+        text = self.get_normalized()
+        if not text:
+            return 0
+        words = text.split()
+        for idx in range(len(words) - 1, -1, -1):
+            if ">>" in words[idx] or "<<" in words[idx] or "///" in words[idx]:
+                return len(words) - idx - 1
+        return len(words)
+
+    def words_before_first_exchange(self) -> int:
+        text = self.exchange_text()
+        if not text:
+            return 0
+        words = text.split()
+        for idx, word in enumerate(words):
+            if "<<" in word or "///" in word:
+                return idx
+        return len(words)
+
+    def words_after_last_exchange(self) -> int:
+        text = self.exchange_text()
+        if not text:
+            return 0
+        words = text.split()
+        for idx in range(len(words) - 1, -1, -1):
+            if ">>" in words[idx] or "<<" in words[idx] or "///" in words[idx]:
+                return len(words) - idx - 1
+        return len(words)
+
+    def exchange_text(self) -> str:
+        if self.raw_html:
+            return _manual_text_from_html(self.raw_html)
+        return self.get_normalized()
 
     def serialize(self, preview: bool = False) -> dict:
         data = {"type": self.type}
@@ -548,9 +767,13 @@ class Element(Node):
 
     def normalize(self) -> None:
         if self.text is not None:
-            self.text = _clean_text(self.text)
+            if self.raw_html:
+                self.text = _manual_text_from_html(self.raw_html)
+            else:
+                self.text = _clean_text(self.text)
         if self.rows:
-            self.rows = [[_clean_text(cell) for cell in row] for row in self.rows]
+            self.rows = [[_clean_text(cell) for cell in row]
+                         for row in self.rows]
         self.markdown = _render_markdown(
             self.type,
             self.text,
@@ -578,8 +801,45 @@ class Chunk:
         return len(text.split())
 
     def get_text(self) -> str:
-        parts = [element.to_string() for element in self.elements if element.to_string()]
+        parts = [element.to_string()
+                 for element in self.elements if element.to_string()]
         return " ".join(parts)
+
+    def is_larger_than_max(self) -> bool:
+        return self.word_count() > SOFT_MAX_CHUNK_WORDS
+
+    def is_small(self) -> bool:
+        return self.word_count() < CHUNK_BP_S
+
+    def is_medium(self) -> bool:
+        return self.word_count() < CHUNK_BP_M
+
+    def is_large(self) -> bool:
+        return self.word_count() >= CHUNK_BP_L
+
+    def size_label(self) -> str:
+        wc = self.word_count()
+        if wc < CHUNK_BP_S:
+            return "XS"
+        if wc < CHUNK_BP_M:
+            return "S"
+        if wc < CHUNK_BP_L:
+            return "M"
+        if wc < CHUNK_BP_XL:
+            return "L"
+        return "XL"
+
+    def size_class(self) -> int:
+        wc = self.word_count()
+        if wc < CHUNK_BP_S:
+            return 0
+        if wc < CHUNK_BP_M:
+            return 1
+        if wc < CHUNK_BP_L:
+            return 2
+        if wc < CHUNK_BP_XL:
+            return 3
+        return 4
 
     def __repr__(self) -> str:
         summary_state = "set" if self.summary else "none"
@@ -625,50 +885,13 @@ class Chapter(Node):
 
     def build_chunks(self, elements: list[Element]) -> None:
         """Compute chunk start indexes for element list."""
-        if not elements:
-            self.chunk_starts = []
-            self.chunks = []
-            return
-
-        hard_break_types = {"blockquote", "table"}
-        soft_break_types = {"heading"}
-        chunk_starts: list[int] = []
-        current_len = 0
-
-        for idx, element in enumerate(elements):
-            elem_len = element.text_length()
-            is_hard_break = element.type in hard_break_types
-            is_soft_break = element.type in soft_break_types
-
-            if is_hard_break:
-                chunk_starts.append(idx)
-                current_len = 0
-                continue
-
-            if is_soft_break:
-                chunk_starts.append(idx)
-                current_len = elem_len
-                continue
-
-            if not chunk_starts:
-                chunk_starts.append(idx)
-                current_len = 0
-
-            if current_len and (
-                elem_len >= LARGE_PARAGRAPH_CHARS
-                or current_len + elem_len > MAX_CHUNK_CHARS
-                or (elem_len > MAX_CHUNK_ADDITION_CHARS)
-            ):
-                chunk_starts.append(idx)
-                current_len = 0
-
-            current_len += elem_len
-
+        chunk_starts, _reasons, _continues = self._compute_chunk_plan(elements)
         self.chunk_starts = chunk_starts
         self.chunks = []
         for idx, start in enumerate(chunk_starts):
-            end = chunk_starts[idx + 1] - 1 if idx + 1 < len(chunk_starts) else len(elements) - 1
-            chunk_elements = elements[start : end + 1]
+            end = chunk_starts[idx + 1] - 1 if idx + \
+                1 < len(chunk_starts) else len(elements) - 1
+            chunk_elements = elements[start: end + 1]
             self.chunks.append(Chunk(chunk_elements, start, end))
 
     def to_string(self) -> str:
@@ -679,9 +902,203 @@ class Chapter(Node):
         self.children = list(self.elements)
         super().normalize()
 
+    def _compute_chunk_plan(
+        self, elements: list[Element]
+    ) -> tuple[list[int], dict[int, str], dict[int, str]]:
+        """Compute chunk starts and optional reasons for each boundary."""
+        if not elements:
+            return [], {}, {}
+
+        hard_break_types = {"blockquote", "table"}
+        soft_break_types = {"heading"}
+        chunk_starts: list[int] = [0]
+        reasons: dict[int, str] = {}
+        continues: dict[int, str] = {}
+        current_len = 0
+        current_words = 0
+
+        RULE_NEXT = 0
+        RULE_CHUNK_BEFORE = 1
+        RULE_CHUNK_AFTER = 2
+        RULE_CHUNK_CONTINUE = 3
+
+        def add_split(idx: int, reason: str | None) -> None:
+            if idx <= 0:
+                return
+            if idx not in chunk_starts:
+                chunk_starts.append(idx)
+            if reason:
+                reasons[idx] = reason
+
+        def apply_decision(idx: int, decision: int | None, reason: str | None) -> bool:
+            nonlocal current_len, current_words
+            if decision is None or decision == RULE_NEXT:
+                return False
+            if decision in {RULE_CHUNK_BEFORE, RULE_CHUNK_AFTER}:
+                add_split(idx, reason)
+            if decision in {RULE_CHUNK_BEFORE, RULE_CHUNK_AFTER}:
+                current_len = 0
+                current_words = 0
+            if decision == RULE_CHUNK_CONTINUE:
+                if reason:
+                    continues[idx] = reason
+                return True
+            return True
+
+        def rule_hard_break(element: Element) -> tuple[int, str] | None:
+            """Always split before blockquotes/tables to keep them isolated."""
+            if element.is_blockquote() or element.is_table():
+                return (RULE_CHUNK_BEFORE, "hard_break")
+            return None
+
+        def rule_heading(element: Element) -> tuple[int, str] | None:
+            """Split at headings to start a new topical section."""
+            if element.is_heading():
+                return (RULE_CHUNK_BEFORE, "heading")
+            return None
+
+        def rule_heading_end(prev: Element | None) -> tuple[int, str] | None:
+            """Always split after headings to keep them isolated."""
+            if prev is None:
+                return None
+            if prev.is_heading():
+                return (RULE_CHUNK_BEFORE, "heading_end")
+            return None
+
+        def rule_dialogue_start(element: Element, prev: Element | None) -> tuple[int, str] | None:
+            """Split before a new dialogue line that follows narration."""
+            if prev is None:
+                return None
+            if element.starts_with_quote() and not prev.starts_with_quote():
+                if current_words >= CHUNK_BP_M:
+                    return (RULE_CHUNK_BEFORE, "dialogue_start")
+            return None
+
+        def rule_dialogue_continue(element: Element, prev: Element | None) -> tuple[int, str] | None:
+            """Keep adjacent dialogue together unless both sides are large or the quote gap is large."""
+            if prev is None:
+                return None
+            if not (element.starts_with_quote() and prev.has_quote()):
+                return None
+            gap_words, _tail_words, _lead_words = exchange_gap_words(current_chunk_elements, element)
+            if gap_words > 10:
+                return None
+            if element.is_large_element() and prev.is_large_element():
+                return None
+            return (RULE_CHUNK_CONTINUE, "dialogue_continue")
+
+        def exchange_gap_words(
+            chunk_elements: list[Element],
+            next_element: Element,
+        ) -> tuple[int, int, int]:
+            tail_words = 0
+            for prior in reversed(chunk_elements):
+                if prior.has_exchange_marker():
+                    tail_words = prior.words_after_last_exchange()
+                    break
+                tail_words += prior.word_count()
+            lead_words = next_element.words_before_first_exchange()
+            return tail_words + lead_words, tail_words, lead_words
+
+        def rule_quote_gap(
+            element: Element,
+            prev: Element | None,
+            current_chunk_elements: list[Element],
+        ) -> tuple[int, str] | None:
+            """Split if a quoted paragraph isn't followed by a prompt response."""
+            if prev is None:
+                return None
+            if not prev.has_exchange_marker():
+                return None
+            if current_words < CHUNK_BP_M:
+                return None
+            gap_words, tail_words, lead_words = exchange_gap_words(current_chunk_elements, element)
+            if gap_words <= 10:
+                return None
+            return (RULE_CHUNK_BEFORE, f"quote_gap_{gap_words} (tail={tail_words} lead={lead_words})")
+
+        def rule_question_response(element: Element, prev: Element | None) -> tuple[int, str] | None:
+            """Keep question+response together when the response is quoted dialogue."""
+            if prev is None:
+                return None
+            if "?" in prev.get_normalized() and element.starts_with_quote():
+                return (RULE_CHUNK_CONTINUE, "question_response")
+            return None
+
+        def rule_large_chunk_large_element(element: Element, elem_words: int) -> tuple[int, str] | None:
+            """Prevent continuing when the chunk is already large and the element is medium+."""
+            nonlocal current_words
+            if current_words < CHUNK_BP_L:
+                return None
+            if elem_words < ELEM_BP_M:
+                return None
+            return (
+                RULE_CHUNK_BEFORE,
+                f"large_chunk_medium_element (chunk_wc={current_words}, elem_wc={elem_words})",
+            )
+
+        def rule_size_class_sum(element: Element) -> tuple[int, str] | None:
+            """Split when chunk+element size classes are too large combined."""
+            if current_words < CHUNK_BP_S:
+                chunk_class_value = 0
+            elif current_words < CHUNK_BP_M:
+                chunk_class_value = 1
+            elif current_words < CHUNK_BP_L:
+                chunk_class_value = 2
+            elif current_words < CHUNK_BP_XL:
+                chunk_class_value = 3
+            else:
+                chunk_class_value = 4
+            elem_class_value = element.size_class()
+            if chunk_class_value + elem_class_value >= 5:
+                return (
+                    RULE_CHUNK_BEFORE,
+                    f"size_class_sum {chunk_class_value}+{elem_class_value}",
+                )
+            return None
+
+        current_chunk_elements: list[Element] = []
+        for idx, element in enumerate(elements):
+            elem_len = element.text_length()
+            elem_words = element.word_count()
+            prev = elements[idx - 1] if idx > 0 else None
+
+            rule_list = [
+                ("decision", lambda: rule_heading_end(prev)),
+                ("decision", lambda: rule_size_class_sum(element)),
+                ("decision", lambda: rule_large_chunk_large_element(element, elem_words)),
+                ("decision", lambda: rule_dialogue_continue(element, prev)),
+                ("decision", lambda: rule_hard_break(element)),
+                ("decision", lambda: rule_heading(element)),
+                ("decision", lambda: rule_quote_gap(element, prev, current_chunk_elements)),
+                ("decision", lambda: rule_question_response(element, prev)),
+                ("decision", lambda: rule_dialogue_start(element, prev)),
+            ]
+
+            for kind, rule in rule_list:
+                result = rule()
+                if not result:
+                    continue
+                if kind == "before":
+                    add_split(idx, result)
+                    break
+                decision, reason = result
+                if apply_decision(idx, decision, reason):
+                    if decision in {RULE_CHUNK_BEFORE, RULE_CHUNK_AFTER}:
+                        current_chunk_elements = []
+                    break
+
+            current_len += elem_len
+            current_words += elem_words
+            current_chunk_elements.append(element)
+
+        chunk_starts.sort()
+        return chunk_starts, reasons, continues
+
 
 class EbookContent(epub.EpubBook):
     """EpubBook extension with spine classification helpers."""
+
     def __init__(self, path: str) -> None:
         super().__init__()
         self.path = path
@@ -722,6 +1139,7 @@ class EbookContent(epub.EpubBook):
     def item_name(self, item) -> str | None:
         return self._item_names.get(self._item_key(item))
 
+
 class SimpleBook(Node):
     def __init__(self) -> None:
         super().__init__()
@@ -743,8 +1161,10 @@ class SimpleBook(Node):
 
         meta_title = (source.get_metadata("DC", "title") or [[None]])[0][0]
         meta_author = (source.get_metadata("DC", "creator") or [[None]])[0][0]
-        meta_language = (source.get_metadata("DC", "language") or [[None]])[0][0]
-        meta_identifiers = [val for val, _attrs in source.get_metadata("DC", "identifier")]
+        meta_language = (source.get_metadata(
+            "DC", "language") or [[None]])[0][0]
+        meta_identifiers = [val for val,
+                            _attrs in source.get_metadata("DC", "identifier")]
 
         self.metadata.title = meta_title or ""
         self.metadata.author = meta_author or ""
@@ -800,9 +1220,133 @@ class SimpleBook(Node):
             "chapters": [chapter.serialize(preview=preview) for chapter in self.chapters],
         }
 
+    def export_chunk_form(self, path: str) -> None:
+        """
+        Write a simple chunking form:
+        [path] :: content
+        Blank lines indicate chunk boundaries.
+        """
+        lines: list[str] = []
+        for chapter in self.chapters:
+            chapter_name = chapter.label or "Untitled"
+            lines.append(f"# Chapter: {chapter_name}")
+            _, chunk_reasons, continue_reasons = chapter._compute_chunk_plan(chapter.elements)
+            chunk_index = 0
+            chunk_starts = chapter.chunk_starts
+            chunk_start = chunk_starts[0] if chunk_starts else 0
+            chunk_end = (chunk_starts[1] - 1) if len(chunk_starts) > 1 else len(chapter.elements) - 1
+            chunk = Chunk(chapter.elements[chunk_start : chunk_end + 1], chunk_start, chunk_end)
+            lines.append(
+                "%% Total Chunk "
+                f"[wc:{chunk.word_count()} "
+                f"ec:{len(chunk.elements)}] "
+                f"({chunk.size_label()})"
+            )
+            current_wc = 0
+            current_ec = 0
+            for idx, element in enumerate(chapter.elements):
+                if idx in chunk_starts and idx != chunk_starts[0]:
+                    reason = chunk_reasons.get(idx, "manual")
+                    lines.append(f"---- {reason}")
+                    chunk_index += 1
+                    chunk_start = chunk_starts[chunk_index]
+                    chunk_end = (
+                        chunk_starts[chunk_index + 1] - 1
+                        if chunk_index + 1 < len(chunk_starts)
+                        else len(chapter.elements) - 1
+                    )
+                    chunk = Chunk(
+                        chapter.elements[chunk_start : chunk_end + 1],
+                        chunk_start,
+                        chunk_end,
+                    )
+                    lines.append(
+                        "%% Total Chunk "
+                        f"[wc:{chunk.word_count()} "
+                        f"ec:{len(chunk.elements)}] "
+                        f"({chunk.size_label()})"
+                    )
+                    current_wc = 0
+                    current_ec = 0
+                def _chunk_label(word_count: int) -> str:
+                    if word_count >= CHUNK_BP_L:
+                        return "L"
+                    if word_count >= CHUNK_BP_M:
+                        return "M"
+                    if word_count >= CHUNK_BP_S:
+                        return "S"
+                    return "T"
+                if idx in continue_reasons:
+                    lines.append(f"... continue ({continue_reasons[idx]})")
+                lines.append(
+                    "%% current "
+                    f"C[wc:{current_wc} "
+                    f"ec:{current_ec}]({_chunk_label(current_wc)}) "
+                    f"E[wc:{element.word_count()}]({element.size_label()})"
+                )
+                current_wc += element.word_count()
+                current_ec += 1
+                if element.type == "heading":
+                    lines.append("")
+                content = element.get_normalized()
+                if element.raw_html:
+                    manual_text = _manual_text_from_html(element.raw_html)
+                    if manual_text:
+                        content = manual_text
+                if not content:
+                    continue
+                path_text = element.path or element.type
+                if element.type == "heading":
+                    content = f"## {content}"
+                lines.append(f"{path_text} :: {content}")
+            lines.append("")
+        Path(path).write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+    def import_chunk_form(self, path: str) -> None:
+        """
+        Read the chunking form and rebuild chunk_starts based on blank lines.
+        """
+        text = Path(path).read_text(encoding="utf-8")
+        blocks: list[list[str]] = []
+        current: list[str] = []
+        for line in text.splitlines():
+            if line.strip() == "":
+                if current:
+                    blocks.append(current)
+                    current = []
+                continue
+            if line.strip().startswith("#"):
+                continue
+            current.append(line)
+        if current:
+            blocks.append(current)
+
+        chapter_idx = 0
+        line_idx = 0
+        for chapter in self.chapters:
+            element_count = len(chapter.elements)
+            if element_count == 0:
+                chapter.chunk_starts = []
+                chapter.chunks = []
+                continue
+            starts = [0]
+            seen = 0
+            while line_idx < len(blocks):
+                block = blocks[line_idx]
+                block_len = len(block)
+                if seen + block_len >= element_count:
+                    break
+                seen += block_len
+                starts.append(seen)
+                line_idx += 1
+            chapter.chunk_starts = starts
+            chapter.build_chunks(chapter.elements)
+            chapter_idx += 1
+
 
 class EbookNormalizer:
     """Manages conversion of an ebook into a SimpleBook."""
+
     def __init__(self) -> None:
         self.simple_book = SimpleBook()
         self.source_ebook = EbookContent("")
@@ -856,5 +1400,3 @@ class EbookNormalizer:
         """Write the serialized output to disk."""
         data = self.serialize()
         Path(path).write_text(json.dumps(data, indent=2), encoding="utf-8")
-
-    
