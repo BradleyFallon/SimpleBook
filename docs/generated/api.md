@@ -2,87 +2,116 @@
 
 ## Module: `simplebook`
 
-_Note: import failed, parsed from source (No module named 'ebooklib')._
-
 ## Module: `simplebook.main`
 
-_Note: import failed, parsed from source (No module named 'ebooklib')._
-
 ### Classes
+- `Chapter`
+  Chapter container with elements and chunk boundaries.
+- `Chunk`
+  Logical grouping of elements within a chapter.
+- `EbookContent`
+  EpubBook extension with spine classification helpers.
+- `EbookNormalizer`
+  Manages conversion of an ebook into a SimpleBook.
+- `Element`
+  Typed content element extracted from HTML.
 - `Metadata`
   Minimal book metadata.
 - `Node`
   Prototype node to enforce delegation.
-- `Element`
-  Typed content element extracted from HTML.
-- `Chunk`
-  Logical grouping of elements within a chapter.
-- `Chapter`
-  No docstring.
-- `EbookContent`
-  EpubBook extension with spine classification helpers.
 - `SimpleBook`
-  No docstring.
-- `EbookNormalizer`
-  Manages conversion of an ebook into a SimpleBook.
+  Top-level model containing metadata and chapters.
 
 ### Functions
-- `_normalize_quotes`
-  No docstring.
-- `_to_ascii`
-  No docstring.
-- `_clean_text`
-  No docstring.
-- `_ordered_items`
-  No docstring.
-- `_classify_label_type`
-  No docstring.
-- `_heading_matches_chapter`
-  No docstring.
-- `_extract_heading_texts`
-  No docstring.
-- `_extract_heading_label`
-  No docstring.
-- `_html_to_soup`
-  No docstring.
 - `_assert_supported_text`
-  No docstring.
+  Raise if text appears outside the supported tag set.
 - `_blockquote_text`
-  No docstring.
-- `_table_rows`
-  No docstring.
-- `_render_markdown`
-  No docstring.
-- `_extract_elements`
-  No docstring.
+  Extract blockquote text, excluding nested cite content.
 - `_classify_html_item`
-  No docstring.
+  Classify an HTML spine item as chapter/front/back/other.
+- `_classify_label_type`
+  Classify a label as chapter/front/back/other by heuristics.
+- `_clean_text`
+  Normalize whitespace, quotes, and ASCII in a raw text string.
+- `_extract_elements`
+  Extract typed Elements from HTML soup in document order.
+- `_extract_heading_label`
+  Combine heading fragments into a single chapter label.
+- `_extract_heading_texts`
+  Collect heading-like text nodes used to name a chapter.
+- `_heading_matches_chapter`
+  Return True if heading text looks like a chapter label.
+- `_html_to_soup`
+  Parse HTML into BeautifulSoup and remove stripped elements.
+- `_manual_text_from_html`
+  Convert inline emphasis tags to markers and normalize text.
+- `_normalize_quotes`
+  Normalize straight/curly double quotes to << >> pairs.
+- `_ordered_items`
+  Return spine-ordered document items from an EbookLib book.
+- `_render_markdown`
+  Render a lightweight Markdown representation for an element.
+- `_table_rows`
+  Extract table rows as a list of cleaned cell strings.
+- `_to_ascii`
+  Transliterate text to ASCII and normalize dashes.
 
 ### Constants
-- `DOUBLE_QUOTE_CHARS` = `{'“', '„', '"', '”'}`
+- `ALLOWED_TEXT_TAGS` = `{'h4', 'dd', 'blockquote', 'dt', 'th', 'td', 'li', 'h5', 'h2', 'h1', 'cite', 'table', 'p', 'caption', 'h6', 'figcaption', 'h3'}`
+- `BACK_MATTER_KEYWORDS` = `['acknowledgments', 'acknowledgements', 'notes', 'endnotes', 'epilogue', 'afterword', 'colophon', 'about the author', 'about']`
+- `CHAPTER_PATTERNS` = `['chapter', 'ch.', 'book', 'part']`
+- `CHUNK_BP_L` = `200`
+- `CHUNK_BP_M` = `100`
+- `CHUNK_BP_S` = `50`
+- `CHUNK_BP_XL` = `300`
+- `CLOSING_QUOTES` = `['"', '"', "'", '"']`
+- `CONTAINER_TAGS` = `{'tr', 'tfoot', 'figure', 'div', 'main', 'aside', 'header', 'tbody', 'footer', 'thead', 'ul', 'article', 'dl', 'section', 'ol'}`
+- `DOUBLE_QUOTE_CHARS` = `{'„', '“', '”', '"'}`
 - `ELEMENT_TAG_TYPES` = `{'p': 'paragraph', 'blockquote': 'blockquote', 'li': 'list_item', 'dt': 'definition_term', 'dd': 'definition_desc', 'cite': 'cite', 'figcaption': 'caption', 'caption': 'caption', 'table': 'table'}`
-- `HEADING_TAGS` = `{'h3', 'h5', 'h4', 'h1', 'h2', 'h6'}`
-- `TABLE_CELL_TAGS` = `{'td', 'th'}`
-- `CONTAINER_TAGS` = `{'dl', 'ul', 'footer', 'tfoot', 'tr', 'figure', 'thead', 'aside', 'tbody', 'section', 'article', 'div', 'main', 'header', 'ol'}`
-- `ALLOWED_TEXT_TAGS` = `<expr>`
+- `ELEM_BP_L` = `100`
+- `ELEM_BP_M` = `30`
+- `ELEM_BP_S` = `10`
+- `ELEM_BP_XL` = `250`
+- `FRONT_MATTER_KEYWORDS` = `['titlepage', 'cover', 'copyright', 'imprint', 'dedication', 'preface', 'foreword', 'introduction', 'prologue', 'illustration', 'illustrations']`
+- `GUILLEMET_CLOSE` = `'>>'`
+- `GUILLEMET_OPEN` = `'<<'`
+- `HEADING_TAGS` = `{'h4', 'h1', 'h6', 'h3', 'h5', 'h2'}`
+- `LARGE_PARAGRAPH_WORDS` = `120`
+- `MAX_CHUNK_ADDITION_WORDS` = `80`
+- `NON_CHAPTER_KEYWORDS` = `['titlepage', 'cover', 'copyright', 'imprint', 'dedication', 'preface', 'foreword', 'introduction', 'prologue', 'illustration', 'illustrations', 'acknowledgments', 'acknowledgements', 'notes', 'endnotes', 'epilogue', 'afterword', 'colophon', 'about the author', 'about', 'toc', 'contents']`
+- `OPENING_QUOTES` = `['"', '"', "'", '„']`
+- `ROMAN_NUMERALS` = `['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi', 'xvii', 'xviii', 'xix', 'xx', 'xxi', 'xxii', 'xxiii', 'xxiv', 'xxv', 'xxvi', 'xxvii', 'xxviii', 'xxix', 'xxx', 'xxxi', 'xxxii', 'xxxiii', 'xxxiv', 'xxxv', 'xxxvi', 'xxxvii', 'xxxviii', 'xxxix', 'xl', 'xli', 'xlii', 'xliii', 'xliv', 'xlv', 'xlvi', 'xlvii', 'xlviii', 'xlix', 'l']`
+- `SOFT_MAX_CHUNK_WORDS` = `300`
+- `SOFT_WORD_MAX` = `500`
+- `SOFT_WORD_THRESHOLD` = `10`
+- `STRIP_ELEMENTS` = `['script', 'style', 'nav']`
+- `TABLE_CELL_TAGS` = `{'th', 'td'}`
 
 ## Module: `simplebook.cli`
 
-_Note: import failed, parsed from source (No module named 'ebooklib')._
-
 ### Functions
-- `_parse_args`
-  No docstring.
 - `_load_schema`
-  No docstring.
+  Load a JSON schema from the provided path or the bundled schema.
+- `_parse_args`
+  Parse CLI arguments for the simplebook command.
 - `main`
-  No docstring.
+  Entry point for the simplebook CLI.
 
 ## Module: `simplebook.schema_validator`
 
-_Note: import failed, parsed from source (No module named 'ebooklib')._
-
 ### Functions
+- `assert_valid_output`
+  Assert that output is valid, raising an exception if not.
+
+  Useful for testing.
+
+  Args:
+      data: The output data to validate
+      schema: Optional schema dictionary. If None, loads from file.
+    
+  Raises:
+      AssertionError: If validation fails
+      ImportError: If jsonschema library is not installed
 - `load_schema`
   Load the JSON schema from file.
 
@@ -92,6 +121,11 @@ _Note: import failed, parsed from source (No module named 'ebooklib')._
   Raises:
       FileNotFoundError: If schema file is not found
       json.JSONDecodeError: If schema file is invalid JSON
+- `print_validation_report`
+  Print a validation report for a JSON file.
+
+  Args:
+      json_path: Path to the JSON file to validate
 - `validate_output`
   Validate normalized book output against the schema.
 
@@ -122,46 +156,9 @@ _Note: import failed, parsed from source (No module named 'ebooklib')._
       FileNotFoundError: If JSON file is not found
       json.JSONDecodeError: If JSON file is invalid
       ImportError: If jsonschema library is not installed
-- `assert_valid_output`
-  Assert that output is valid, raising an exception if not.
-
-  Useful for testing.
-
-  Args:
-      data: The output data to validate
-      schema: Optional schema dictionary. If None, loads from file.
-    
-  Raises:
-      AssertionError: If validation fails
-      ImportError: If jsonschema library is not installed
-- `print_validation_report`
-  Print a validation report for a JSON file.
-
-  Args:
-      json_path: Path to the JSON file to validate
 
 ### Constants
-- `SCHEMA_PATH` = `<expr>`
+- `JSONSCHEMA_AVAILABLE` = `True`
+- `SCHEMA_PATH` = `PosixPath('/Users/fallbro/code/SimpleBook/src/simplebook/output_schema.json')`
 
 ## Module: `simplebook.config`
-
-_Note: import failed, parsed from source (No module named 'ebooklib')._
-
-### Constants
-- `MAX_CHUNK_CHARS` = `1200`
-- `MAX_CHUNK_ADDITION_CHARS` = `300`
-- `MIN_PARAGRAPH_CHARS` = `80`
-- `LARGE_PARAGRAPH_CHARS` = `400`
-- `CHAPTER_PATTERNS` = `['chapter', 'ch.', 'book', 'part']`
-- `ROMAN_NUMERALS` = `['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi', 'xvii', 'xviii', 'xix', 'xx', 'xxi', 'xxii', 'xxiii', 'xxiv', 'xxv', 'xxvi', 'xxvii', 'xxviii', 'xxix', 'xxx', 'xxxi', 'xxxii', 'xxxiii', 'xxxiv', 'xxxv', 'xxxvi', 'xxxvii', 'xxxviii', 'xxxix', 'xl', 'xli', 'xlii', 'xliii', 'xliv', 'xlv', 'xlvi', 'xlvii', 'xlviii', 'xlix', 'l']`
-- `FRONT_MATTER_KEYWORDS` = `['titlepage', 'cover', 'copyright', 'imprint', 'dedication', 'preface', 'foreword', 'introduction', 'prologue', 'illustration', 'illustrations']`
-- `BACK_MATTER_KEYWORDS` = `['acknowledgments', 'acknowledgements', 'notes', 'endnotes', 'epilogue', 'afterword', 'colophon', 'about the author', 'about']`
-- `NON_CHAPTER_KEYWORDS` = `<expr>`
-- `OPENING_QUOTES` = `['"', '"', "'", '„']`
-- `CLOSING_QUOTES` = `['"', '"', "'", '"']`
-- `GUILLEMET_OPEN` = `'<<'`
-- `GUILLEMET_CLOSE` = `'>>'`
-- `STRIP_ELEMENTS` = `['script', 'style', 'nav']`
-- `IMAGE_TYPES` = `['image/jpeg', 'image/png', 'image/gif', 'image/svg+xml']`
-- `STYLESHEET_TYPES` = `['text/css']`
-- `FONT_TYPES` = `['font/ttf', 'font/otf', 'font/woff', 'font/woff2', 'application/font-woff', 'application/font-woff2', 'application/vnd.ms-opentype', 'application/x-font-ttf', 'application/x-font-otf']`

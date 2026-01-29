@@ -109,3 +109,42 @@ Expected (escaped):
 ```text
 Hello--there
 ```
+
+### format_markers
+Normalize inline formatting into markers (/// for italics, ** for bold,
+
+Example 1:
+
+Input (escaped):
+```text
+This is ///italic/// text.
+```
+
+Expected (escaped):
+```text
+This is ///italic/// text.
+```
+
+Example 2:
+
+Input (escaped):
+```text
+Make **bold** and ///italic/// together.
+```
+
+Expected (escaped):
+```text
+Make **bold** and ///italic/// together.
+```
+
+Example 3:
+
+Input (escaped):
+```text
+## Heading \u2014 Title
+```
+
+Expected (escaped):
+```text
+## Heading -- Title
+```

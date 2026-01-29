@@ -6,6 +6,8 @@ from __future__ import annotations
 import ast
 import inspect
 import json
+import subprocess
+import os
 from pathlib import Path
 import sys
 import textwrap
@@ -15,6 +17,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SRC_DIR = PROJECT_ROOT / "src"
 DOCS_DIR = PROJECT_ROOT / "docs" / "generated"
 SCHEMA_PATH = SRC_DIR / "simplebook" / "output_schema.json"
+CLI_HELP_PATH = DOCS_DIR / "cli_help.txt"
 
 sys.path.insert(0, str(SRC_DIR))
 
@@ -204,11 +207,49 @@ def generate_index() -> None:
     _write(DOCS_DIR / "README.md", content)
 
 
+def generate_cli_help() -> None:
+    """Capture CLI help output for documentation."""
+    try:
+        env = dict(os.environ)
+        env["PYTHONPATH"] = str(SRC_DIR)
+        result = subprocess.run(
+            [sys.executable, "-m", "simplebook", "--help"],
+            check=True,
+            capture_output=True,
+            text=True,
+            env=env,
+        )
+    except subprocess.CalledProcessError as exc:
+        raise RuntimeError(f"Failed to capture CLI help: {exc}") from exc
+    CLI_HELP_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CLI_HELP_PATH.write_text(result.stdout.rstrip() + "\n", encoding="utf-8")
+
+
 def main() -> int:
     generate_api_docs()
     generate_schema_docs()
     generate_index()
+    generate_cli_help()
     print(f"OK: wrote docs to {DOCS_DIR}")
+    docs_root = PROJECT_ROOT / "docs"
+    build_dir = docs_root / "_build"
+    try:
+        subprocess.check_call(
+            [
+                "sphinx-build",
+                "-M",
+                "html",
+                str(docs_root),
+                str(build_dir),
+            ]
+        )
+    except FileNotFoundError:
+        print("WARN: sphinx-build not found. Install sphinx to build docs.")
+        return 1
+    except subprocess.CalledProcessError as exc:
+        print(f"ERROR: sphinx build failed ({exc.returncode}).")
+        return exc.returncode
+    print(f"OK: built Sphinx docs at {build_dir / 'html'}")
     return 0
 
 

@@ -1,4 +1,4 @@
-
+"""Core normalization pipeline and data model for SimpleBook."""
 
 import json
 import unicodedata
@@ -70,6 +70,7 @@ DOUBLE_QUOTE_CHARS = {'"', "“", "”", "„"}
 
 
 def _normalize_quotes(text: str) -> str:
+    """Normalize straight/curly double quotes to << >> pairs."""
     if not text:
         return text
     result: list[str] = []
@@ -84,6 +85,7 @@ def _normalize_quotes(text: str) -> str:
 
 
 def _to_ascii(text: str) -> str:
+    """Transliterate text to ASCII and normalize dashes."""
     if not text:
         return text
     text = text.replace("—", "--").replace("–", "--")
@@ -92,6 +94,7 @@ def _to_ascii(text: str) -> str:
 
 
 def _clean_text(raw: str) -> str:
+    """Normalize whitespace, quotes, and ASCII in a raw text string."""
     text = raw.replace("\r\n", "\n").replace("\r", "\n")
     text = _normalize_quotes(text)
     text = _to_ascii(text)
@@ -100,6 +103,7 @@ def _clean_text(raw: str) -> str:
 
 
 def _ordered_items(book: epub.EpubBook):
+    """Return spine-ordered document items from an EbookLib book."""
     item_document = getattr(epub, "ITEM_DOCUMENT", 9)
     items_by_id = {
         item.get_id(): item for item in book.get_items_of_type(item_document)}
@@ -112,6 +116,7 @@ def _ordered_items(book: epub.EpubBook):
 
 
 def _classify_label_type(label: str | None) -> str:
+    """Classify a label as chapter/front/back/other by heuristics."""
     lowered = (label or "").strip().lower()
     if not lowered:
         return "other"
@@ -127,6 +132,7 @@ def _classify_label_type(label: str | None) -> str:
 
 
 def _heading_matches_chapter(text: str) -> bool:
+    """Return True if heading text looks like a chapter label."""
     lowered = text.strip().lower()
     if not lowered:
         return False
@@ -141,10 +147,12 @@ def _heading_matches_chapter(text: str) -> bool:
 
 
 def _extract_heading_texts(soup: BeautifulSoup) -> list[str]:
+    """Collect heading-like text nodes used to name a chapter."""
     texts: list[str] = []
     seen: set[str] = set()
 
     def _add(text: str) -> None:
+        """Add a cleaned heading text if it is unique."""
         cleaned = _clean_text(text)
         if cleaned and cleaned not in seen:
             texts.append(cleaned)
@@ -192,6 +200,7 @@ def _extract_heading_texts(soup: BeautifulSoup) -> list[str]:
 
 
 def _extract_heading_label(soup: BeautifulSoup) -> str | None:
+    """Combine heading fragments into a single chapter label."""
     texts = _extract_heading_texts(soup)
     if not texts:
         return None
@@ -243,6 +252,7 @@ ALLOWED_TEXT_TAGS = set(ELEMENT_TAG_TYPES.keys()
 
 
 def _html_to_soup(html: bytes | str) -> BeautifulSoup:
+    """Parse HTML into BeautifulSoup and remove stripped elements."""
     if isinstance(html, (bytes, bytearray)):
         html = html.decode("utf-8", errors="ignore")
     soup = BeautifulSoup(html, "html.parser")
@@ -252,6 +262,7 @@ def _html_to_soup(html: bytes | str) -> BeautifulSoup:
 
 
 def _assert_supported_text(root: BeautifulSoup) -> None:
+    """Raise if text appears outside the supported tag set."""
     for text in root.find_all(string=True):
         if not text or not text.strip():
             continue
@@ -270,6 +281,7 @@ def _assert_supported_text(root: BeautifulSoup) -> None:
 
 
 def _blockquote_text(tag) -> str:
+    """Extract blockquote text, excluding nested cite content."""
     parts: list[str] = []
     for text in tag.find_all(string=True):
         if not text or not text.strip():
@@ -283,6 +295,7 @@ def _blockquote_text(tag) -> str:
 
 
 def _table_rows(tag) -> list[list[str]]:
+    """Extract table rows as a list of cleaned cell strings."""
     rows: list[list[str]] = []
     for tr in tag.find_all("tr"):
         cells = []
@@ -295,6 +308,7 @@ def _table_rows(tag) -> list[list[str]]:
 
 
 def _manual_text_from_html(raw_html: str) -> str:
+    """Convert inline emphasis tags to markers and normalize text."""
     soup = BeautifulSoup(raw_html, "html.parser")
     for tag in soup.find_all(["em", "i"]):
         tag.replace_with(f"///{tag.get_text()}///")
@@ -310,6 +324,7 @@ def _render_markdown(
     rows: list[list[str]] | None = None,
     heading_level: int | None = None,
 ) -> str | None:
+    """Render a lightweight Markdown representation for an element."""
     if text is None and not rows:
         return None
     base_text = text or ""
@@ -333,12 +348,14 @@ def _render_markdown(
 
 
 def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
+    """Extract typed Elements from HTML soup in document order."""
     root = soup.body if soup.body is not None else soup
     _assert_supported_text(root)
     elements: list[Element] = []
     saw_title = False
 
     def tag_path(node) -> str:
+        """Return a slash-delimited tag path for a node."""
         parts: list[str] = []
         cur = node
         while cur is not None:
@@ -364,6 +381,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
         heading_level: int | None = None,
         meta: dict | None = None,
     ) -> None:
+        """Construct and append an Element with rendered markdown."""
         markdown = _render_markdown(
             element_type,
             text,
@@ -384,6 +402,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
         )
 
     def walk(node) -> None:
+        """Walk the DOM and emit elements in document order."""
         nonlocal saw_title
         for child in node.children:
             if not hasattr(child, "name") or child.name is None:
@@ -477,6 +496,7 @@ def _extract_elements(soup: BeautifulSoup) -> list["Element"]:
 
 
 def _classify_html_item(html: bytes | str) -> tuple[str | None, str]:
+    """Classify an HTML spine item as chapter/front/back/other."""
     soup = _html_to_soup(html)
 
     name = _extract_heading_label(soup)
@@ -503,6 +523,7 @@ class Metadata:
     """Minimal book metadata."""
 
     def __init__(self) -> None:
+        """Initialize empty metadata fields."""
         self.title = ""
         self.author = ""
         self.language = ""
@@ -514,23 +535,29 @@ class Node:
     """Prototype node to enforce delegation."""
 
     def __init__(self) -> None:
+        """Initialize an empty child list."""
         self.children = []
 
     def validate(self) -> None:
+        """Validate this node and its children."""
         for child in self.children:
             child.validate()
 
     def repair(self) -> None:
+        """Repair this node and its children."""
         for child in self.children:
             child.repair()
 
     def serialize(self):
+        """Serialize children into a list representation."""
         return [child.serialize() for child in self.children]
 
     def to_string(self) -> str:
+        """Render children as a concatenated string."""
         return "\n".join(child.to_string() for child in self.children)
 
     def normalize(self) -> None:
+        """Normalize this node and its children."""
         for child in self.children:
             child.normalize()
 
@@ -549,6 +576,7 @@ class Element(Node):
         role: str | None = None,
         meta: dict | None = None,
     ) -> None:
+        """Create an element with optional text, rows, and metadata."""
         super().__init__()
         self.type = element_type
         self.text = text
@@ -560,6 +588,7 @@ class Element(Node):
         self.meta = meta or {}
 
     def validate(self) -> None:
+        """Ensure element fields are typed as strings where expected."""
         if self.text is not None and not isinstance(self.text, str):
             self.text = str(self.text)
         if self.raw_html is not None and not isinstance(self.raw_html, str):
@@ -570,6 +599,7 @@ class Element(Node):
             self.role = str(self.role)
 
     def repair(self) -> None:
+        """Normalize text, rows, and markdown for this element."""
         if self.text is None:
             self.text = None
         else:
@@ -588,6 +618,7 @@ class Element(Node):
         )
 
     def text_length(self) -> int:
+        """Return character length across text or table rows."""
         if self.text:
             return len(self.text)
         if self.rows:
@@ -595,6 +626,7 @@ class Element(Node):
         return 0
 
     def word_count(self) -> int:
+        """Return word count of the element's normalized string."""
         text = self.to_string()
         if not text:
             return 0
@@ -609,15 +641,19 @@ class Element(Node):
         return self.word_count() >= LARGE_PARAGRAPH_WORDS
 
     def is_small_size(self) -> bool:
+        """True if element word count is below the small breakpoint."""
         return self.word_count() < ELEM_BP_S
 
     def is_medium(self) -> bool:
+        """True if element word count is below the medium breakpoint."""
         return self.word_count() < ELEM_BP_M
 
     def is_large(self) -> bool:
+        """True if element word count is at or above the large breakpoint."""
         return self.word_count() >= ELEM_BP_L
 
     def size_label(self) -> str:
+        """Return size label (XS/S/M/L/XL) based on word count."""
         wc = self.word_count()
         if wc < ELEM_BP_S:
             return "XS"
@@ -630,6 +666,7 @@ class Element(Node):
         return "XL"
 
     def size_class(self) -> int:
+        """Return size class as an integer for threshold math."""
         wc = self.word_count()
         if wc < ELEM_BP_S:
             return 0
@@ -642,33 +679,41 @@ class Element(Node):
         return 4
 
     def is_heading(self) -> bool:
+        """True if element is a heading."""
         return self.type == "heading"
 
     def is_blockquote(self) -> bool:
+        """True if element is a blockquote."""
         return self.type == "blockquote"
 
     def is_table(self) -> bool:
+        """True if element is a table."""
         return self.type == "table"
 
     def is_dialogue(self) -> bool:
+        """True if element starts with a dialogue marker."""
         text = self.get_normalized()
         return text.startswith("<<") if text else False
 
     def starts_with_quote(self) -> bool:
+        """True if element starts with a quote marker."""
         text = self.get_normalized()
         return text.startswith("<<") if text else False
 
     def has_quote(self) -> bool:
+        """True if element contains a quote marker."""
         text = self.get_normalized()
         return ("<<" in text) if text else False
 
     def has_exchange_marker(self) -> bool:
+        """True if element contains dialogue or italic exchange markers."""
         text = self.exchange_text()
         if not text:
             return False
         return ("<<" in text) or ("///" in text)
 
     def has_quote_within_words(self, limit: int) -> bool:
+        """True if a quote marker appears within the first N words."""
         text = self.get_normalized()
         if not text:
             return False
@@ -679,6 +724,7 @@ class Element(Node):
         return any("<<" in word for word in words[:limit])
 
     def words_before_first_quote(self) -> int:
+        """Count words before the first quote marker."""
         text = self.get_normalized()
         if not text:
             return 0
@@ -689,6 +735,7 @@ class Element(Node):
         return len(words)
 
     def words_after_last_quote(self) -> int:
+        """Count words after the last quote marker."""
         text = self.get_normalized()
         if not text:
             return 0
@@ -699,6 +746,7 @@ class Element(Node):
         return len(words)
 
     def words_before_first_exchange(self) -> int:
+        """Count words before the first exchange marker (quote/italic)."""
         text = self.exchange_text()
         if not text:
             return 0
@@ -709,6 +757,7 @@ class Element(Node):
         return len(words)
 
     def words_after_last_exchange(self) -> int:
+        """Count words after the last exchange marker (quote/italic)."""
         text = self.exchange_text()
         if not text:
             return 0
@@ -719,11 +768,13 @@ class Element(Node):
         return len(words)
 
     def exchange_text(self) -> str:
+        """Return text normalized with exchange markers preserved."""
         if self.raw_html:
             return _manual_text_from_html(self.raw_html)
         return self.get_normalized()
 
     def serialize(self, preview: bool = False) -> dict:
+        """Serialize element for JSON output."""
         data = {"type": self.type}
         if not preview:
             if self.text is not None:
@@ -741,6 +792,7 @@ class Element(Node):
         return data
 
     def to_string(self) -> str:
+        """Render the element to a plain string."""
         if self.text is not None:
             return self.text
         if self.rows:
@@ -748,15 +800,19 @@ class Element(Node):
         return ""
 
     def get_raw(self) -> str | None:
+        """Return raw HTML for the element if available."""
         return self.raw_html
 
     def get_markdown(self) -> str | None:
+        """Return rendered markdown for the element if available."""
         return self.markdown
 
     def get_normalized(self) -> str:
+        """Return normalized text for the element."""
         return self.to_string()
 
     def _heading_level(self) -> int | None:
+        """Extract heading level from metadata when available."""
         if self.type == "heading" and isinstance(self.meta, dict):
             level = self.meta.get("level")
             if isinstance(level, int):
@@ -766,6 +822,7 @@ class Element(Node):
         return None
 
     def normalize(self) -> None:
+        """Normalize text, rows, and markdown for this element."""
         if self.text is not None:
             if self.raw_html:
                 self.text = _manual_text_from_html(self.raw_html)
@@ -786,38 +843,47 @@ class Chunk:
     """Logical grouping of elements within a chapter."""
 
     def __init__(self, elements: list[Element], start_index: int, end_index: int) -> None:
+        """Create a chunk spanning a contiguous element range."""
         self.elements = elements
         self.start_index = start_index
         self.end_index = end_index
         self.summary = None
 
     def length(self) -> int:
+        """Return total character length of elements."""
         return sum(element.text_length() for element in self.elements)
 
     def word_count(self) -> int:
+        """Return total word count of elements."""
         text = self.get_text()
         if not text:
             return 0
         return len(text.split())
 
     def get_text(self) -> str:
+        """Concatenate element text into a single string."""
         parts = [element.to_string()
                  for element in self.elements if element.to_string()]
         return " ".join(parts)
 
     def is_larger_than_max(self) -> bool:
+        """True if chunk exceeds soft max word count."""
         return self.word_count() > SOFT_MAX_CHUNK_WORDS
 
     def is_small(self) -> bool:
+        """True if chunk is below the small breakpoint."""
         return self.word_count() < CHUNK_BP_S
 
     def is_medium(self) -> bool:
+        """True if chunk is below the medium breakpoint."""
         return self.word_count() < CHUNK_BP_M
 
     def is_large(self) -> bool:
+        """True if chunk is at or above the large breakpoint."""
         return self.word_count() >= CHUNK_BP_L
 
     def size_label(self) -> str:
+        """Return size label (XS/S/M/L/XL) based on word count."""
         wc = self.word_count()
         if wc < CHUNK_BP_S:
             return "XS"
@@ -830,6 +896,7 @@ class Chunk:
         return "XL"
 
     def size_class(self) -> int:
+        """Return size class as an integer for threshold math."""
         wc = self.word_count()
         if wc < CHUNK_BP_S:
             return 0
@@ -842,6 +909,7 @@ class Chunk:
         return 4
 
     def __repr__(self) -> str:
+        """Return a compact debug representation."""
         summary_state = "set" if self.summary else "none"
         return (
             f"Chunk(start={self.start_index}, end={self.end_index}, "
@@ -850,7 +918,10 @@ class Chunk:
 
 
 class Chapter(Node):
+    """Chapter container with elements and chunk boundaries."""
+
     def __init__(self) -> None:
+        """Initialize an empty chapter."""
         super().__init__()
         self.elements: list[Element] = []
         self.chunk_starts: list[int] = []
@@ -858,14 +929,17 @@ class Chapter(Node):
         self.label: str | None = None
 
     def validate(self) -> None:
+        """Validate chapter elements."""
         self.children = list(self.elements)
         super().validate()
 
     def repair(self) -> None:
+        """Repair chapter elements."""
         self.children = list(self.elements)
         super().repair()
 
     def serialize(self, preview: bool = False) -> dict:
+        """Serialize chapter into JSON-compatible dict."""
         name = self.label if self.label else None
         return {
             "name": name,
@@ -895,10 +969,12 @@ class Chapter(Node):
             self.chunks.append(Chunk(chunk_elements, start, end))
 
     def to_string(self) -> str:
+        """Render chapter as a concatenated string."""
         self.children = list(self.elements)
         return super().to_string()
 
     def normalize(self) -> None:
+        """Normalize chapter elements."""
         self.children = list(self.elements)
         super().normalize()
 
@@ -923,6 +999,7 @@ class Chapter(Node):
         RULE_CHUNK_CONTINUE = 3
 
         def add_split(idx: int, reason: str | None) -> None:
+            """Record a chunk start index and optional reason."""
             if idx <= 0:
                 return
             if idx not in chunk_starts:
@@ -931,6 +1008,7 @@ class Chapter(Node):
                 reasons[idx] = reason
 
         def apply_decision(idx: int, decision: int | None, reason: str | None) -> bool:
+            """Apply a rule decision and update chunk counters."""
             nonlocal current_len, current_words
             if decision is None or decision == RULE_NEXT:
                 return False
@@ -991,6 +1069,7 @@ class Chapter(Node):
             chunk_elements: list[Element],
             next_element: Element,
         ) -> tuple[int, int, int]:
+            """Return total gap words between exchange markers in chunk + next element."""
             tail_words = 0
             for prior in reversed(chunk_elements):
                 if prior.has_exchange_marker():
@@ -1100,6 +1179,7 @@ class EbookContent(epub.EpubBook):
     """EpubBook extension with spine classification helpers."""
 
     def __init__(self, path: str) -> None:
+        """Initialize from an EPUB path."""
         super().__init__()
         self.path = path
         self.items = []
@@ -1134,19 +1214,25 @@ class EbookContent(epub.EpubBook):
         return self._chapter_items or []
 
     def _item_key(self, item) -> str:
+        """Return a stable-ish key for an EbookLib item."""
         return getattr(item, "get_id", lambda: None)() or getattr(item, "get_name", lambda: None)() or str(id(item))
 
     def item_name(self, item) -> str | None:
+        """Return the cached label for a spine item."""
         return self._item_names.get(self._item_key(item))
 
 
 class SimpleBook(Node):
+    """Top-level model containing metadata and chapters."""
+
     def __init__(self) -> None:
+        """Initialize an empty book."""
         super().__init__()
         self.metadata = Metadata()
         self.chapters = []
 
     def add_chapter(self, chapter: "Chapter") -> None:
+        """Append a chapter to the book."""
         self.chapters.append(chapter)
 
     def load_epub(self, path: str) -> None:
@@ -1156,6 +1242,7 @@ class SimpleBook(Node):
         self.populate(source)
 
     def populate(self, source: EbookContent) -> None:
+        """Populate metadata and chapters from EbookContent."""
         if not source.items:
             return
 
@@ -1196,14 +1283,17 @@ class SimpleBook(Node):
             self.chapters.append(chapter)
 
     def validate(self) -> None:
+        """Validate all chapters."""
         self.children = list(self.chapters)
         super().validate()
 
     def repair(self) -> None:
+        """Repair all chapters."""
         self.children = list(self.chapters)
         super().repair()
 
     def normalize(self) -> None:
+        """Normalize all chapters."""
         self.children = list(self.chapters)
         super().normalize()
 
@@ -1269,6 +1359,7 @@ class SimpleBook(Node):
                     current_wc = 0
                     current_ec = 0
                 def _chunk_label(word_count: int) -> str:
+                    """Map word count to a short chunk size label."""
                     if word_count >= CHUNK_BP_L:
                         return "L"
                     if word_count >= CHUNK_BP_M:
@@ -1348,6 +1439,7 @@ class EbookNormalizer:
     """Manages conversion of an ebook into a SimpleBook."""
 
     def __init__(self) -> None:
+        """Initialize the normalizer with empty state."""
         self.simple_book = SimpleBook()
         self.source_ebook = EbookContent("")
 

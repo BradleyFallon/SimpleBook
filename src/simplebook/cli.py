@@ -12,6 +12,7 @@ from .schema_validator import load_schema, validate_output
 
 
 def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    """Parse CLI arguments for the simplebook command."""
     parser = argparse.ArgumentParser(
         prog="simplebook",
         description="Normalize an EPUB into the SimpleBook JSON format.",
@@ -43,6 +44,7 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 
 def _load_schema(schema_path: str | None) -> dict:
+    """Load a JSON schema from the provided path or the bundled schema."""
     if not schema_path:
         return load_schema()
     path = Path(schema_path).expanduser().resolve()
@@ -52,6 +54,7 @@ def _load_schema(schema_path: str | None) -> dict:
 
 
 def main(argv: list[str] | None = None) -> int:
+    """Entry point for the simplebook CLI."""
     args = _parse_args(argv)
     epub_path = Path(args.epub).expanduser().resolve()
 

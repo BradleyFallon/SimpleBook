@@ -1,0 +1,15 @@
+usage: simplebook [-h] [-o OUT] [--preview] [--validate] [--schema SCHEMA]
+                  epub
+
+Normalize an EPUB into the SimpleBook JSON format.
+
+positional arguments:
+  epub             Path to the EPUB file.
+
+options:
+  -h, --help       show this help message and exit
+  -o, --out OUT    Write JSON output to this file (defaults to stdout).
+  --preview        Emit chapter structure and chunk indices only (omit element
+                   text).
+  --validate       Validate output against the JSON schema.
+  --schema SCHEMA  Path to a JSON schema file (defaults to bundled schema).

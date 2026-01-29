@@ -26,8 +26,8 @@
     - input: "Hello—there"
       expected: "Hello--there"
 
-- id: preserve_format_markers
-  rule: Preserve formatting markers used by the normalizer (///, **, ##).
+- id: format_markers
+  rule: Normalize inline formatting into markers (/// for italics, ** for bold, ## for headings) and preserve them through cleaning.
   examples:
     - input: "This is ///italic/// text."
       expected: "This is ///italic/// text."
