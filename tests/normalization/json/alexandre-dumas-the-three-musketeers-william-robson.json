@@ -213,7 +213,7 @@
     "element_index": 57,
     "element_type": "paragraph",
     "raw": "It soon appeared to him that he heard a slight noise within﻿—a timid noise which seemed to tremble lest it should be heard.",
-    "expected": "It soon appeared to him that he heard a slight noise withina timid noise which seemed to tremble lest it should be heard."
+    "expected": "It soon appeared to him that he heard a slight noise within--a timid noise which seemed to tremble lest it should be heard."
   },
   {
     "book": "alexandre-dumas-the-three-musketeers-william-robson",
@@ -240,7 +240,7 @@
     "element_index": 80,
     "element_type": "paragraph",
     "raw": "“Patience, monseigneur, we are coming to it. There happened then that which you know, and of which your precipitate departure,” added the host, with an acuteness that did not escape d’Artagnan, “appeared to authorize the issue. That gentleman, your friend, defended himself desperately. His lackey, who, by an unforeseen piece of ill luck, had quarreled with the officers, disguised as stable lads﻿—”",
-    "expected": "<<Patience, monseigneur, we are coming to it. There happened then that which you know, and of which your precipitate departure,>> added the host, with an acuteness that did not escape dArtagnan, <<appeared to authorize the issue. That gentleman, your friend, defended himself desperately. His lackey, who, by an unforeseen piece of ill luck, had quarreled with the officers, disguised as stable lads>>"
+    "expected": "<<Patience, monseigneur, we are coming to it. There happened then that which you know, and of which your precipitate departure,>> added the host, with an acuteness that did not escape dArtagnan, <<appeared to authorize the issue. That gentleman, your friend, defended himself desperately. His lackey, who, by an unforeseen piece of ill luck, had quarreled with the officers, disguised as stable lads-->>"
   },
   {
     "book": "alexandre-dumas-the-three-musketeers-william-robson",
@@ -285,7 +285,7 @@
     "element_index": 73,
     "element_type": "paragraph",
     "raw": "“To how much?” said she. “I hope it does not exceed﻿—” She stopped; speech failed her.",
-    "expected": "<<To how much?>> said she. <<I hope it does not exceed>> She stopped; speech failed her."
+    "expected": "<<To how much?>> said she. <<I hope it does not exceed-->> She stopped; speech failed her."
   },
   {
     "book": "alexandre-dumas-the-three-musketeers-william-robson",
@@ -294,7 +294,7 @@
     "element_index": 58,
     "element_type": "paragraph",
     "raw": "“I? In what can I have offended her﻿—I who ever since I have known her have lived at her feet like a slave? Speak, I beg you!”",
-    "expected": "<<I? In what can I have offended herI who ever since I have known her have lived at her feet like a slave? Speak, I beg you!>>"
+    "expected": "<<I? In what can I have offended her--I who ever since I have known her have lived at her feet like a slave? Speak, I beg you!>>"
   },
   {
     "book": "alexandre-dumas-the-three-musketeers-william-robson",
@@ -375,7 +375,7 @@
     "element_index": 23,
     "element_type": "paragraph",
     "raw": "“You know very well﻿—the wine from the hills of Anjou.”",
-    "expected": "<<You know very wellthe wine from the hills of Anjou.>>"
+    "expected": "<<You know very well--the wine from the hills of Anjou.>>"
   },
   {
     "book": "alexandre-dumas-the-three-musketeers-william-robson",
@@ -564,7 +564,7 @@
     "element_index": 15,
     "element_type": "paragraph",
     "raw": "“That man, then, was not﻿—”",
-    "expected": "<<That man, then, was not>>"
+    "expected": "<<That man, then, was not-->>"
   },
   {
     "book": "alexandre-dumas-the-three-musketeers-william-robson",

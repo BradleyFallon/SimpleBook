@@ -150,7 +150,7 @@
     "element_index": 40,
     "element_type": "paragraph",
     "raw": "“O well!” said the hobbit uncomfortably. “It isn’t exactly; but, well, I am willing to let it stand against all my claim,\n         don’t you know. I may be a burglar—or so they say: personally I never really felt like one—but I am an honest one, I hope,\n         more or less. Anyway I am going back now, and the dwarves can do what they like to me. I hope you will find it useful.”\n      ",
-    "expected": "<<O well!>> said the hobbit uncomfortably. <<It isnt exactly; but, well, I am willing to let it stand against all my claim, dont you know. I may be a burglaror so they say: personally I never really felt like onebut I am an honest one, I hope, more or less. Anyway I am going back now, and the dwarves can do what they like to me. I hope you will find it useful.>>"
+    "expected": "<<O well!>> said the hobbit uncomfortably. <<It isnt exactly; but, well, I am willing to let it stand against all my claim, dont you know. I may be a burglar--or so they say: personally I never really felt like one--but I am an honest one, I hope, more or less. Anyway I am going back now, and the dwarves can do what they like to me. I hope you will find it useful.>>"
   },
   {
     "book": "the-hobbit",

@@ -6,7 +6,7 @@
     "element_index": 10,
     "element_type": "paragraph",
     "raw": "Sixpence a year wasn’t enough to live on﻿—even in those days, long ago; and if the Doctor hadn’t had some money saved up in his money-box, no one knows what would have happened.",
-    "expected": "Sixpence a year wasnt enough to live oneven in those days, long ago; and if the Doctor hadnt had some money saved up in his money-box, no one knows what would have happened."
+    "expected": "Sixpence a year wasnt enough to live on--even in those days, long ago; and if the Doctor hadnt had some money saved up in his money-box, no one knows what would have happened."
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -24,7 +24,7 @@
     "element_index": 19,
     "element_type": "paragraph",
     "raw": "Of course at first they all found their new jobs very hard to do﻿—all except Chee-Chee, who had hands, and could do things like a man. But they soon got used to it; and they used to think it great fun to watch Jip, the dog, sweeping his tail over the floor with a rag tied onto it for a broom. After a little they got to do the work so well that the Doctor said that he had never had his house kept so tidy or so clean before.",
-    "expected": "Of course at first they all found their new jobs very hard to doall except Chee-Chee, who had hands, and could do things like a man. But they soon got used to it; and they used to think it great fun to watch Jip, the dog, sweeping his tail over the floor with a rag tied onto it for a broom. After a little they got to do the work so well that the Doctor said that he had never had his house kept so tidy or so clean before."
+    "expected": "Of course at first they all found their new jobs very hard to do--all except Chee-Chee, who had hands, and could do things like a man. But they soon got used to it; and they used to think it great fun to watch Jip, the dog, sweeping his tail over the floor with a rag tied onto it for a broom. After a little they got to do the work so well that the Doctor said that he had never had his house kept so tidy or so clean before."
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -51,7 +51,7 @@
     "element_index": 28,
     "element_type": "paragraph",
     "raw": "“Foolish King!” answered Polynesia. “Have you forgotten that you are talking to John Dolittle, \nM.D.\n﻿—the most wonderful man on earth? Of course you cannot see me. I have made myself invisible. There is nothing I cannot do. Now listen: I have come here tonight to warn you. If you don’t let me and my animals travel through your kingdom, I will make you and all your people sick like the monkeys. For I can make people well: and I can make people ill﻿—just by raising my little finger. Send your soldiers at once to open the dungeon door, or you shall have mumps before the morning sun has risen on the hills of Jolliginki.”",
-    "expected": "<<Foolish King!>> answered Polynesia. <<Have you forgotten that you are talking to John Dolittle, M.D. the most wonderful man on earth? Of course you cannot see me. I have made myself invisible. There is nothing I cannot do. Now listen: I have come here tonight to warn you. If you dont let me and my animals travel through your kingdom, I will make you and all your people sick like the monkeys. For I can make people well: and I can make people illjust by raising my little finger. Send your soldiers at once to open the dungeon door, or you shall have mumps before the morning sun has risen on the hills of Jolliginki.>>"
+    "expected": "<<Foolish King!>> answered Polynesia. <<Have you forgotten that you are talking to John Dolittle, M.D. --the most wonderful man on earth? Of course you cannot see me. I have made myself invisible. There is nothing I cannot do. Now listen: I have come here tonight to warn you. If you dont let me and my animals travel through your kingdom, I will make you and all your people sick like the monkeys. For I can make people well: and I can make people ill--just by raising my little finger. Send your soldiers at once to open the dungeon door, or you shall have mumps before the morning sun has risen on the hills of Jolliginki.>>"
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -87,7 +87,7 @@
     "element_index": 24,
     "element_type": "paragraph",
     "raw": "“Yes,” said the pushmi-pullyu﻿—“to the Abyssinian Gazelles and the Asiatic Chamois﻿—on my mother’s side. My father’s great-grandfather was the last of the Unicorns.”",
-    "expected": "<<Yes,>> said the pushmi-pullyu<<to the Abyssinian Gazelles and the Asiatic Chamoison my mothers side. My fathers great-grandfather was the last of the Unicorns.>>"
+    "expected": "<<Yes,>> said the pushmi-pullyu--<<to the Abyssinian Gazelles and the Asiatic Chamois--on my mothers side. My fathers great-grandfather was the last of the Unicorns.>>"
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -123,7 +123,7 @@
     "element_index": 8,
     "element_type": "paragraph",
     "raw": "“Yes,” said the Doctor﻿—“so I’ve been told.”",
-    "expected": "<<Yes,>> said the Doctor<<so Ive been told.>>"
+    "expected": "<<Yes,>> said the Doctor--<<so Ive been told.>>"
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -141,7 +141,7 @@
     "element_index": 4,
     "element_type": "paragraph",
     "raw": "So the Doctor went downstairs and he saw that it was indeed a beautiful ship. He found the animals gathered round a little door, all talking at once, trying to guess what was inside. The Doctor turned the handle but it wouldn’t open. Then they all started to hunt for the key. They looked under the mat; they looked under all the carpets; they looked in all the cupboards and drawers and lockers﻿—in the big chests in the ship’s dining-room; they looked everywhere.",
-    "expected": "So the Doctor went downstairs and he saw that it was indeed a beautiful ship. He found the animals gathered round a little door, all talking at once, trying to guess what was inside. The Doctor turned the handle but it wouldnt open. Then they all started to hunt for the key. They looked under the mat; they looked under all the carpets; they looked in all the cupboards and drawers and lockersin the big chests in the ships dining-room; they looked everywhere."
+    "expected": "So the Doctor went downstairs and he saw that it was indeed a beautiful ship. He found the animals gathered round a little door, all talking at once, trying to guess what was inside. The Doctor turned the handle but it wouldnt open. Then they all started to hunt for the key. They looked under the mat; they looked under all the carpets; they looked in all the cupboards and drawers and lockers--in the big chests in the ships dining-room; they looked everywhere."
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -159,7 +159,7 @@
     "element_index": 41,
     "element_type": "paragraph",
     "raw": "“Bricks,” he whispered, very low﻿—“old yellow bricks, crumbling with age in a garden-wall; the sweet breath of young cows standing in a mountain-stream; the lead roof of a dovecote﻿—or perhaps a granary﻿—with the midday sun on it; black kid gloves lying in a bureau-drawer of walnut-wood; a dusty road with a horses’ drinking-trough beneath the sycamores; little mushrooms bursting through the rotting leaves; and﻿—and﻿—and﻿—”",
-    "expected": "<<Bricks,>> he whispered, very low<<old yellow bricks, crumbling with age in a garden-wall; the sweet breath of young cows standing in a mountain-stream; the lead roof of a dovecoteor perhaps a granarywith the midday sun on it; black kid gloves lying in a bureau-drawer of walnut-wood; a dusty road with a horses drinking-trough beneath the sycamores; little mushrooms bursting through the rotting leaves; andandand>>"
+    "expected": "<<Bricks,>> he whispered, very low--<<old yellow bricks, crumbling with age in a garden-wall; the sweet breath of young cows standing in a mountain-stream; the lead roof of a dovecote--or perhaps a granary--with the midday sun on it; black kid gloves lying in a bureau-drawer of walnut-wood; a dusty road with a horses drinking-trough beneath the sycamores; little mushrooms bursting through the rotting leaves; and--and--and-->>"
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -168,7 +168,7 @@
     "element_index": 36,
     "element_type": "paragraph",
     "raw": "Jip at once put his nose down close to the ground and began to run all over the place. Up and down he went, back and forth﻿—zigzagging, twisting, doubling and turning. And everywhere he went, the Doctor ran behind him, close at his heels﻿—till he was terribly out of breath.",
-    "expected": "Jip at once put his nose down close to the ground and began to run all over the place. Up and down he went, back and forthzigzagging, twisting, doubling and turning. And everywhere he went, the Doctor ran behind him, close at his heelstill he was terribly out of breath."
+    "expected": "Jip at once put his nose down close to the ground and began to run all over the place. Up and down he went, back and forth--zigzagging, twisting, doubling and turning. And everywhere he went, the Doctor ran behind him, close at his heels--till he was terribly out of breath."
   },
   {
     "book": "hugh-lofting-the-story-of-doctor-dolittle",
@@ -186,6 +186,6 @@
     "element_index": 16,
     "element_type": "paragraph",
     "raw": "“I wonder what The Good Man’s doing now﻿—over there, in the Land of the White Men! Do you think he ever will come back?”",
-    "expected": "<<I wonder what The Good Mans doing nowover there, in the Land of the White Men! Do you think he ever will come back?>>"
+    "expected": "<<I wonder what The Good Mans doing now--over there, in the Land of the White Men! Do you think he ever will come back?>>"
   }
 ]

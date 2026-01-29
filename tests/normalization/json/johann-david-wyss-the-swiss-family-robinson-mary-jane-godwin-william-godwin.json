@@ -60,7 +60,7 @@
     "element_index": 32,
     "element_type": "paragraph",
     "raw": "Perceiving that no preparations were making for supper, I ordered Fritz to bring us the Westphalia ham, for that I was hungry. The eyes of all were now fixed upon me with astonishment; for everyone believed that I could only be in jest; when Fritz returned, jumping and displaying with exultation a large and excellent ham, which we had begun to cut in the morning. A ham! cried one and all; a ham! and ready dressed! What a nice supper we shall have! said they, clapping their hands, to give a hearty welcome to the bearer of so fine a treat.﻿—It comes quite in the nick of time too, interrupted I; for, to judge by appearances, a certain careful steward I could name, seems to have intended to send us supperless to bed, little thinking, I suppose, that a long voyage by water is apt to increase the appetite.",
-    "expected": "Perceiving that no preparations were making for supper, I ordered Fritz to bring us the Westphalia ham, for that I was hungry. The eyes of all were now fixed upon me with astonishment; for everyone believed that I could only be in jest; when Fritz returned, jumping and displaying with exultation a large and excellent ham, which we had begun to cut in the morning. A ham! cried one and all; a ham! and ready dressed! What a nice supper we shall have! said they, clapping their hands, to give a hearty welcome to the bearer of so fine a treat.It comes quite in the nick of time too, interrupted I; for, to judge by appearances, a certain careful steward I could name, seems to have intended to send us supperless to bed, little thinking, I suppose, that a long voyage by water is apt to increase the appetite."
+    "expected": "Perceiving that no preparations were making for supper, I ordered Fritz to bring us the Westphalia ham, for that I was hungry. The eyes of all were now fixed upon me with astonishment; for everyone believed that I could only be in jest; when Fritz returned, jumping and displaying with exultation a large and excellent ham, which we had begun to cut in the morning. A ham! cried one and all; a ham! and ready dressed! What a nice supper we shall have! said they, clapping their hands, to give a hearty welcome to the bearer of so fine a treat.--It comes quite in the nick of time too, interrupted I; for, to judge by appearances, a certain careful steward I could name, seems to have intended to send us supperless to bed, little thinking, I suppose, that a long voyage by water is apt to increase the appetite."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -87,7 +87,7 @@
     "element_index": 32,
     "element_type": "paragraph",
     "raw": "Father.\n﻿—This indeed is a question I cannot answer, and we must be contented with taking care to arm ourselves against them: neither can I explain to you, why many other things, which to us appear to have only injurious qualities, have been created. With respect to beasts of prey, I am inclined to believe, that one of the ends of Providence, in giving them existence, is their embellishing and varying the works of the creation; of maintaining a necessary equilibrium among creatures endowed with life; and lastly, to furnish man, who comes naked into the world, with materials for protecting him from the cold, by the use of their skins, which become the means of exchange and commerce between different nations. We may also add, that the care of protecting himself from the attacks of ferocious animals, invigorates the physical and moral powers of man, supports his activity, and renders him inventive and courageous. The ancient Germans, for example, were rendered robust and valiant warriors, through their habitual exercises in the field, which enabled them, at a time of need, to defend their country and their liberty, with as little difficulty, as they would have experienced in killing a wolf or a bear.",
-    "expected": "Father. This indeed is a question I cannot answer, and we must be contented with taking care to arm ourselves against them: neither can I explain to you, why many other things, which to us appear to have only injurious qualities, have been created. With respect to beasts of prey, I am inclined to believe, that one of the ends of Providence, in giving them existence, is their embellishing and varying the works of the creation; of maintaining a necessary equilibrium among creatures endowed with life; and lastly, to furnish man, who comes naked into the world, with materials for protecting him from the cold, by the use of their skins, which become the means of exchange and commerce between different nations. We may also add, that the care of protecting himself from the attacks of ferocious animals, invigorates the physical and moral powers of man, supports his activity, and renders him inventive and courageous. The ancient Germans, for example, were rendered robust and valiant warriors, through their habitual exercises in the field, which enabled them, at a time of need, to defend their country and their liberty, with as little difficulty, as they would have experienced in killing a wolf or a bear."
+    "expected": "Father. --This indeed is a question I cannot answer, and we must be contented with taking care to arm ourselves against them: neither can I explain to you, why many other things, which to us appear to have only injurious qualities, have been created. With respect to beasts of prey, I am inclined to believe, that one of the ends of Providence, in giving them existence, is their embellishing and varying the works of the creation; of maintaining a necessary equilibrium among creatures endowed with life; and lastly, to furnish man, who comes naked into the world, with materials for protecting him from the cold, by the use of their skins, which become the means of exchange and commerce between different nations. We may also add, that the care of protecting himself from the attacks of ferocious animals, invigorates the physical and moral powers of man, supports his activity, and renders him inventive and courageous. The ancient Germans, for example, were rendered robust and valiant warriors, through their habitual exercises in the field, which enabled them, at a time of need, to defend their country and their liberty, with as little difficulty, as they would have experienced in killing a wolf or a bear."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -96,7 +96,7 @@
     "element_index": 12,
     "element_type": "paragraph",
     "raw": "Ernest.\n﻿—This dead one, then, is an old fellow, and I am afraid by his colours that he will make but a tough dish: shall we not take him home to mamma?",
-    "expected": "Ernest. This dead one, then, is an old fellow, and I am afraid by his colours that he will make but a tough dish: shall we not take him home to mamma?"
+    "expected": "Ernest. --This dead one, then, is an old fellow, and I am afraid by his colours that he will make but a tough dish: shall we not take him home to mamma?"
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -123,7 +123,7 @@
     "element_index": 42,
     "element_type": "paragraph",
     "raw": "Francis.\n﻿—And I will catch my handkerchief full of lobsters in the Jackall’s River, and we will put them into Falcon’s Stream, where, no doubt, they will thrive to admiration.",
-    "expected": "Francis. And I will catch my handkerchief full of lobsters in the Jackalls River, and we will put them into Falcons Stream, where, no doubt, they will thrive to admiration."
+    "expected": "Francis. --And I will catch my handkerchief full of lobsters in the Jackalls River, and we will put them into Falcons Stream, where, no doubt, they will thrive to admiration."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -132,7 +132,7 @@
     "element_index": 55,
     "element_type": "paragraph",
     "raw": "Father.\n﻿—And when a multitude of persons of veracity, and of different ages, shall declare, that with their own eyes they saw a balloon, to which a parachute was fastened filled with men, and that all mounted in the air together, and disappeared above the clouds; should you still maintain that it is false that a man can fly?",
-    "expected": "Father. And when a multitude of persons of veracity, and of different ages, shall declare, that with their own eyes they saw a balloon, to which a parachute was fastened filled with men, and that all mounted in the air together, and disappeared above the clouds; should you still maintain that it is false that a man can fly?"
+    "expected": "Father. --And when a multitude of persons of veracity, and of different ages, shall declare, that with their own eyes they saw a balloon, to which a parachute was fastened filled with men, and that all mounted in the air together, and disappeared above the clouds; should you still maintain that it is false that a man can fly?"
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -141,7 +141,7 @@
     "element_index": 17,
     "element_type": "paragraph",
     "raw": "Father.\n﻿—All ineffectual means, I assure you. Do you think you would have strength enough to destroy so formidable a creature? or that you could penetrate so thick a hide with your clasp knife? Nor would you have the resource of climbing up a tree, for bears climb also. The only means you could use, and I confess it would be most cruel, would be to give up the ass to him, by keeping him before you in readiness. When the bear should begin the attack, you might try to shoot him with your pistol, or to plunge your knife into his throat. But I trust we shall have no such animal to encounter; for I should be sorry to sacrifice our poor ass, even in defence of our own lives.",
-    "expected": "Father. All ineffectual means, I assure you. Do you think you would have strength enough to destroy so formidable a creature? or that you could penetrate so thick a hide with your clasp knife? Nor would you have the resource of climbing up a tree, for bears climb also. The only means you could use, and I confess it would be most cruel, would be to give up the ass to him, by keeping him before you in readiness. When the bear should begin the attack, you might try to shoot him with your pistol, or to plunge your knife into his throat. But I trust we shall have no such animal to encounter; for I should be sorry to sacrifice our poor ass, even in defence of our own lives."
+    "expected": "Father. --All ineffectual means, I assure you. Do you think you would have strength enough to destroy so formidable a creature? or that you could penetrate so thick a hide with your clasp knife? Nor would you have the resource of climbing up a tree, for bears climb also. The only means you could use, and I confess it would be most cruel, would be to give up the ass to him, by keeping him before you in readiness. When the bear should begin the attack, you might try to shoot him with your pistol, or to plunge your knife into his throat. But I trust we shall have no such animal to encounter; for I should be sorry to sacrifice our poor ass, even in defence of our own lives."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -168,7 +168,7 @@
     "element_index": 2,
     "element_type": "paragraph",
     "raw": "I rose with the first crowing of the cock, before the rest of the family was awake, descended the ladder, and employed myself in carefully skinning the kangaroo, so as not to deface its beautiful mouse-coloured coat; and it was really high time to think about it. Our dogs were so well satisfied the preceding evening with their meal on the entrails of the animal, that they became partial to it, and had just sprung up in the design of making a complete breakfast of the whole carcase. Before I was at the bottom of the ladder, they had torn off the head of the kangaroo, which I had suspended at some height by the hind feet, and, half friends half foes, they were going to divide it amongst them, when my presence opportunely prevented the partition. It occurred to me, that as I had neither cellar nor safe to keep my provisions in, it behoved me to give them a slight correction: growling and barking, they took refuge under the roots, and the half-suppressed kind of howling they continued to make, awoke my wife, who, on missing me, came down alarmed to know what was the matter. For the love of God, exclaimed she, what has happened? Are the dogs run mad, or have you lost your senses?﻿—Nothing of the kind, I answered; I was only giving our dogs a short sermon on temperance and the necessity of self-control.﻿—Then better it would be to enforce your precepts by example, to begin by subduing anger, and not by exercising your vengeance on poor faithful animals, who are innocent, and unconscious of the mischief they are doing.",
-    "expected": "I rose with the first crowing of the cock, before the rest of the family was awake, descended the ladder, and employed myself in carefully skinning the kangaroo, so as not to deface its beautiful mouse-coloured coat; and it was really high time to think about it. Our dogs were so well satisfied the preceding evening with their meal on the entrails of the animal, that they became partial to it, and had just sprung up in the design of making a complete breakfast of the whole carcase. Before I was at the bottom of the ladder, they had torn off the head of the kangaroo, which I had suspended at some height by the hind feet, and, half friends half foes, they were going to divide it amongst them, when my presence opportunely prevented the partition. It occurred to me, that as I had neither cellar nor safe to keep my provisions in, it behoved me to give them a slight correction: growling and barking, they took refuge under the roots, and the half-suppressed kind of howling they continued to make, awoke my wife, who, on missing me, came down alarmed to know what was the matter. For the love of God, exclaimed she, what has happened? Are the dogs run mad, or have you lost your senses?Nothing of the kind, I answered; I was only giving our dogs a short sermon on temperance and the necessity of self-control.Then better it would be to enforce your precepts by example, to begin by subduing anger, and not by exercising your vengeance on poor faithful animals, who are innocent, and unconscious of the mischief they are doing."
+    "expected": "I rose with the first crowing of the cock, before the rest of the family was awake, descended the ladder, and employed myself in carefully skinning the kangaroo, so as not to deface its beautiful mouse-coloured coat; and it was really high time to think about it. Our dogs were so well satisfied the preceding evening with their meal on the entrails of the animal, that they became partial to it, and had just sprung up in the design of making a complete breakfast of the whole carcase. Before I was at the bottom of the ladder, they had torn off the head of the kangaroo, which I had suspended at some height by the hind feet, and, half friends half foes, they were going to divide it amongst them, when my presence opportunely prevented the partition. It occurred to me, that as I had neither cellar nor safe to keep my provisions in, it behoved me to give them a slight correction: growling and barking, they took refuge under the roots, and the half-suppressed kind of howling they continued to make, awoke my wife, who, on missing me, came down alarmed to know what was the matter. For the love of God, exclaimed she, what has happened? Are the dogs run mad, or have you lost your senses?--Nothing of the kind, I answered; I was only giving our dogs a short sermon on temperance and the necessity of self-control.--Then better it would be to enforce your precepts by example, to begin by subduing anger, and not by exercising your vengeance on poor faithful animals, who are innocent, and unconscious of the mischief they are doing."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -177,7 +177,7 @@
     "element_index": 24,
     "element_type": "paragraph",
     "raw": "Father.\n﻿—Vastly well, my lads, if we had only our amusement or our ease to think of; but I want you all to form the habit of thinking and acting for the general good, rather than of what will most gratify or accommodate his single self.﻿—Now, then, let me ask to what use Fritz, the only rightful claimant to the shell, had intended to apply it?",
-    "expected": "Father. Vastly well, my lads, if we had only our amusement or our ease to think of; but I want you all to form the habit of thinking and acting for the general good, rather than of what will most gratify or accommodate his single self.Now, then, let me ask to what use Fritz, the only rightful claimant to the shell, had intended to apply it?"
+    "expected": "Father. --Vastly well, my lads, if we had only our amusement or our ease to think of; but I want you all to form the habit of thinking and acting for the general good, rather than of what will most gratify or accommodate his single self.--Now, then, let me ask to what use Fritz, the only rightful claimant to the shell, had intended to apply it?"
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -195,7 +195,7 @@
     "element_index": 24,
     "element_type": "paragraph",
     "raw": "Father.\n﻿—I have no objection; but it would be more prudent to make only a small cake, at first, by way of experiment, which as I said before we will give to the monkey and the fowls, and wait to see the effect, instead of exhausting our whole store at once.",
-    "expected": "Father. I have no objection; but it would be more prudent to make only a small cake, at first, by way of experiment, which as I said before we will give to the monkey and the fowls, and wait to see the effect, instead of exhausting our whole store at once."
+    "expected": "Father. --I have no objection; but it would be more prudent to make only a small cake, at first, by way of experiment, which as I said before we will give to the monkey and the fowls, and wait to see the effect, instead of exhausting our whole store at once."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -240,7 +240,7 @@
     "element_index": 1,
     "element_type": "paragraph",
     "raw": "A new excursion.﻿—Palm tree wine.",
-    "expected": "A new excursion.Palm tree wine."
+    "expected": "A new excursion.--Palm tree wine."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -267,7 +267,7 @@
     "element_index": 49,
     "element_type": "paragraph",
     "raw": "Father.\n﻿—This, in several respects, is useful; wall-trees, being sheltered on one side, bear earlier and more choice fruits; it is easier to defend them from insects; their fruits are more conveniently gathered. The tree, giving less shade, is not so injurious to the culinary plants that are near it.﻿—Are not these substantial reasons?",
-    "expected": "Father. This, in several respects, is useful; wall-trees, being sheltered on one side, bear earlier and more choice fruits; it is easier to defend them from insects; their fruits are more conveniently gathered. The tree, giving less shade, is not so injurious to the culinary plants that are near it.Are not these substantial reasons?"
+    "expected": "Father. --This, in several respects, is useful; wall-trees, being sheltered on one side, bear earlier and more choice fruits; it is easier to defend them from insects; their fruits are more conveniently gathered. The tree, giving less shade, is not so injurious to the culinary plants that are near it.--Are not these substantial reasons?"
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",
@@ -285,7 +285,7 @@
     "element_index": 7,
     "element_type": "paragraph",
     "raw": "Francis.\n﻿—Now I think they are savages come to eat their prisoners on our island; I wish we could save them, and get a good “Man Friday” as Robinson Crusoe did.",
-    "expected": "Francis. Now I think they are savages come to eat their prisoners on our island; I wish we could save them, and get a good <<Man Friday>> as Robinson Crusoe did."
+    "expected": "Francis. --Now I think they are savages come to eat their prisoners on our island; I wish we could save them, and get a good <<Man Friday>> as Robinson Crusoe did."
   },
   {
     "book": "johann-david-wyss-the-swiss-family-robinson-mary-jane-godwin-william-godwin",

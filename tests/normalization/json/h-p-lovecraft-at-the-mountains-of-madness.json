@@ -24,7 +24,7 @@
     "element_index": 46,
     "element_type": "paragraph",
     "raw": "This body of data is in every respect true so far as it goes, and it completely satisfied the men at the camp. We laid our absence of sixteen hours﻿—a longer time than our announced flying, landing, reconnoitering, and rock-collecting program called for﻿—to a long mythical spell of adverse wind conditions, and told truly of our landing on the farther foothills.",
-    "expected": "This body of data is in every respect true so far as it goes, and it completely satisfied the men at the camp. We laid our absence of sixteen hoursa longer time than our announced flying, landing, reconnoitering, and rock-collecting program called forto a long mythical spell of adverse wind conditions, and told truly of our landing on the farther foothills."
+    "expected": "This body of data is in every respect true so far as it goes, and it completely satisfied the men at the camp. We laid our absence of sixteen hours--a longer time than our announced flying, landing, reconnoitering, and rock-collecting program called for--to a long mythical spell of adverse wind conditions, and told truly of our landing on the farther foothills."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness",
@@ -42,7 +42,7 @@
     "element_index": 10,
     "element_type": "paragraph",
     "raw": "The nameless stone labyrinth consisted, for the most part, of walls from ten to one hundred and fifty feet in ice-clear height, and of a thickness varying from five to ten feet. It was composed mostly of prodigious blocks of dark primordial slate, schist, and sandstone﻿—blocks in many cases as large as 4 × 6 × 8 feet﻿—though in several places it seemed to be carved out of a solid, uneven bed rock of pre-Cambrian slate.",
-    "expected": "The nameless stone labyrinth consisted, for the most part, of walls from ten to one hundred and fifty feet in ice-clear height, and of a thickness varying from five to ten feet. It was composed mostly of prodigious blocks of dark primordial slate, schist, and sandstoneblocks in many cases as large as 4 6 8 feetthough in several places it seemed to be carved out of a solid, uneven bed rock of pre-Cambrian slate."
+    "expected": "The nameless stone labyrinth consisted, for the most part, of walls from ten to one hundred and fifty feet in ice-clear height, and of a thickness varying from five to ten feet. It was composed mostly of prodigious blocks of dark primordial slate, schist, and sandstone--blocks in many cases as large as 4 6 8 feet--though in several places it seemed to be carved out of a solid, uneven bed rock of pre-Cambrian slate."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness",
@@ -51,7 +51,7 @@
     "element_index": 20,
     "element_type": "paragraph",
     "raw": "Interrupting these sculptured walls were high windows and massive twelve-foot doorways; both now and then retaining the petrified wooden planks﻿—elaborately carved and polished﻿—of the actual shutters and doors. All metal fixtures had long ago vanished, but some of the doors remained in place and had to be forced aside as we progressed from room to room.",
-    "expected": "Interrupting these sculptured walls were high windows and massive twelve-foot doorways; both now and then retaining the petrified wooden plankselaborately carved and polishedof the actual shutters and doors. All metal fixtures had long ago vanished, but some of the doors remained in place and had to be forced aside as we progressed from room to room."
+    "expected": "Interrupting these sculptured walls were high windows and massive twelve-foot doorways; both now and then retaining the petrified wooden planks--elaborately carved and polished--of the actual shutters and doors. All metal fixtures had long ago vanished, but some of the doors remained in place and had to be forced aside as we progressed from room to room."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness",
@@ -60,7 +60,7 @@
     "element_index": 38,
     "element_type": "paragraph",
     "raw": "At a rather later age their cities dotted all the land and water areas of the globe﻿—hence the recommendation in my coming monograph that some archaeologist make systematic borings with Pabodie’s type of apparatus in certain widely separated regions.",
-    "expected": "At a rather later age their cities dotted all the land and water areas of the globehence the recommendation in my coming monograph that some archaeologist make systematic borings with Pabodies type of apparatus in certain widely separated regions."
+    "expected": "At a rather later age their cities dotted all the land and water areas of the globe--hence the recommendation in my coming monograph that some archaeologist make systematic borings with Pabodies type of apparatus in certain widely separated regions."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness",
@@ -78,7 +78,7 @@
     "element_index": 39,
     "element_type": "paragraph",
     "raw": "Pabodie might have been able to tell what sort of engineering held it in place, but Danforth and I could merely admire and marvel. We could see mighty stone corbels and pillars here and there, but what we saw seemed inadequate to the function performed. The thing was excellently preserved up to the present top of the tower﻿—a highly remarkable circumstance in view of its exposure﻿—and its shelter had done much to protect the bizarre and disturbing cosmic sculptures on the walls.",
-    "expected": "Pabodie might have been able to tell what sort of engineering held it in place, but Danforth and I could merely admire and marvel. We could see mighty stone corbels and pillars here and there, but what we saw seemed inadequate to the function performed. The thing was excellently preserved up to the present top of the towera highly remarkable circumstance in view of its exposureand its shelter had done much to protect the bizarre and disturbing cosmic sculptures on the walls."
+    "expected": "Pabodie might have been able to tell what sort of engineering held it in place, but Danforth and I could merely admire and marvel. We could see mighty stone corbels and pillars here and there, but what we saw seemed inadequate to the function performed. The thing was excellently preserved up to the present top of the tower--a highly remarkable circumstance in view of its exposure--and its shelter had done much to protect the bizarre and disturbing cosmic sculptures on the walls."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness",
@@ -87,7 +87,7 @@
     "element_index": 28,
     "element_type": "paragraph",
     "raw": "The nameless scent of such things was very distinct. Doubtless it was suicidally foolish to venture into that tunnel under the known conditions, but the lure of the unplumbed is stronger in certain persons than most suspect﻿—indeed, it was just such a lure which had brought us to this unearthly polar waste in the first place.",
-    "expected": "The nameless scent of such things was very distinct. Doubtless it was suicidally foolish to venture into that tunnel under the known conditions, but the lure of the unplumbed is stronger in certain persons than most suspectindeed, it was just such a lure which had brought us to this unearthly polar waste in the first place."
+    "expected": "The nameless scent of such things was very distinct. Doubtless it was suicidally foolish to venture into that tunnel under the known conditions, but the lure of the unplumbed is stronger in certain persons than most suspect--indeed, it was just such a lure which had brought us to this unearthly polar waste in the first place."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness",

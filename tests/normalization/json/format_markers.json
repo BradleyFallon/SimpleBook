@@ -1,0 +1,26 @@
+[
+  {
+    "book": "format_markers",
+    "chapter_index": 0,
+    "element_index": 0,
+    "element_type": "paragraph",
+    "raw": "This is ///italic/// text.",
+    "expected": "This is ///italic/// text."
+  },
+  {
+    "book": "format_markers",
+    "chapter_index": 0,
+    "element_index": 1,
+    "element_type": "paragraph",
+    "raw": "Make **bold** and ///italic/// together.",
+    "expected": "Make **bold** and ///italic/// together."
+  },
+  {
+    "book": "format_markers",
+    "chapter_index": 0,
+    "element_index": 2,
+    "element_type": "heading",
+    "raw": "## Heading — Title",
+    "expected": "## Heading -- Title"
+  }
+]

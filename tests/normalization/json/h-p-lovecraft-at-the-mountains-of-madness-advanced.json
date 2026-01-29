@@ -60,7 +60,7 @@
     "element_index": 2,
     "element_type": "paragraph",
     "raw": "They seemed able to traverse the interstellar ether on their vast membranous wings⁠—thus oddly confirming some curious hill folklore long ago told me by an antiquarian colleague. They had lived under the sea a good deal, building fantastic cities and fighting terrific battles with nameless adversaries by means of intricate devices employing unknown principles of energy.",
-    "expected": "They seemed able to traverse the interstellar ether on their vast membranous wingsthus oddly confirming some curious hill folklore long ago told me by an antiquarian colleague. They had lived under the sea a good deal, building fantastic cities and fighting terrific battles with nameless adversaries by means of intricate devices employing unknown principles of energy."
+    "expected": "They seemed able to traverse the interstellar ether on their vast membranous wings--thus oddly confirming some curious hill folklore long ago told me by an antiquarian colleague. They had lived under the sea a good deal, building fantastic cities and fighting terrific battles with nameless adversaries by means of intricate devices employing unknown principles of energy."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness-advanced",
@@ -69,7 +69,7 @@
     "element_index": 9,
     "element_type": "paragraph",
     "raw": "Some of the Old Ones, in the decadent days, had made strange prayers to those mountains⁠—but none ever went near them or dared to guess what lay beyond. No human eye had ever seen them, and as I studied the emotions conveyed in the carvings I prayed that none ever might.",
-    "expected": "Some of the Old Ones, in the decadent days, had made strange prayers to those mountainsbut none ever went near them or dared to guess what lay beyond. No human eye had ever seen them, and as I studied the emotions conveyed in the carvings I prayed that none ever might."
+    "expected": "Some of the Old Ones, in the decadent days, had made strange prayers to those mountains--but none ever went near them or dared to guess what lay beyond. No human eye had ever seen them, and as I studied the emotions conveyed in the carvings I prayed that none ever might."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness-advanced",
@@ -78,7 +78,7 @@
     "element_index": 9,
     "element_type": "paragraph",
     "raw": "As we threaded our dim way through the labyrinth with the aid of map and compass⁠—traversing rooms and corridors in every stage of ruin or preservation, clambering up ramps, crossing upper floors and bridges and clambering down again, encountering choked doorways and piles of debris, hastening now and then along finely preserved and uncannily immaculate stretches, taking false leads and retracing our way (in such cases removing the blind paper trail we had left), and once in a while striking the bottom of an open shaft through which daylight poured or trickled down⁠—we were repeatedly tantalized by the sculptured walls along our route.",
-    "expected": "As we threaded our dim way through the labyrinth with the aid of map and compasstraversing rooms and corridors in every stage of ruin or preservation, clambering up ramps, crossing upper floors and bridges and clambering down again, encountering choked doorways and piles of debris, hastening now and then along finely preserved and uncannily immaculate stretches, taking false leads and retracing our way (in such cases removing the blind paper trail we had left), and once in a while striking the bottom of an open shaft through which daylight poured or trickled downwe were repeatedly tantalized by the sculptured walls along our route."
+    "expected": "As we threaded our dim way through the labyrinth with the aid of map and compass--traversing rooms and corridors in every stage of ruin or preservation, clambering up ramps, crossing upper floors and bridges and clambering down again, encountering choked doorways and piles of debris, hastening now and then along finely preserved and uncannily immaculate stretches, taking false leads and retracing our way (in such cases removing the blind paper trail we had left), and once in a while striking the bottom of an open shaft through which daylight poured or trickled down--we were repeatedly tantalized by the sculptured walls along our route."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness-advanced",
@@ -87,7 +87,7 @@
     "element_index": 6,
     "element_type": "paragraph",
     "raw": "The muffled sound floated from subglacial recesses nearly opposite to the corridor whence we had come⁠—regions manifestly in the direction of that other tunnel to the vast abyss. The presence of a living water bird in such a direction⁠—in a world whose surface was one of age-long and uniform lifelessness⁠—could lead to only one conclusion; hence our first thought was to verify the objective reality of the sound. It was, indeed, repeated, and seemed at times to come from more than one throat.",
-    "expected": "The muffled sound floated from subglacial recesses nearly opposite to the corridor whence we had comeregions manifestly in the direction of that other tunnel to the vast abyss. The presence of a living water bird in such a directionin a world whose surface was one of age-long and uniform lifelessnesscould lead to only one conclusion; hence our first thought was to verify the objective reality of the sound. It was, indeed, repeated, and seemed at times to come from more than one throat."
+    "expected": "The muffled sound floated from subglacial recesses nearly opposite to the corridor whence we had come--regions manifestly in the direction of that other tunnel to the vast abyss. The presence of a living water bird in such a direction--in a world whose surface was one of age-long and uniform lifelessness--could lead to only one conclusion; hence our first thought was to verify the objective reality of the sound. It was, indeed, repeated, and seemed at times to come from more than one throat."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness-advanced",
@@ -96,7 +96,7 @@
     "element_index": 14,
     "element_type": "paragraph",
     "raw": "I came only just short of echoing his cry myself; for I had seen those primal sculptures, too, and had shudderingly admired the way the nameless artist had suggested that hideous slime coating found on certain incomplete and prostrate Old Ones⁠—those whom the frightful Shoggoths had characteristically slain and sucked to a ghastly headlessness in the great war of resubjugation.",
-    "expected": "I came only just short of echoing his cry myself; for I had seen those primal sculptures, too, and had shudderingly admired the way the nameless artist had suggested that hideous slime coating found on certain incomplete and prostrate Old Onesthose whom the frightful Shoggoths had characteristically slain and sucked to a ghastly headlessness in the great war of resubjugation."
+    "expected": "I came only just short of echoing his cry myself; for I had seen those primal sculptures, too, and had shudderingly admired the way the nameless artist had suggested that hideous slime coating found on certain incomplete and prostrate Old Ones--those whom the frightful Shoggoths had characteristically slain and sucked to a ghastly headlessness in the great war of resubjugation."
   },
   {
     "book": "h-p-lovecraft-at-the-mountains-of-madness-advanced",

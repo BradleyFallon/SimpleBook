@@ -60,7 +60,7 @@
     "element_index": 44,
     "element_type": "paragraph",
     "raw": "“Luckily, he’ll not have to satisfy \nMr.\n Applegate, but will have to convince a jury﻿—if it gets that far,” whispered Joe in his brother’s ear.",
-    "expected": "<<Luckily, hell not have to satisfy Mr. Applegate, but will have to convince a juryif it gets that far,>> whispered Joe in his brothers ear."
+    "expected": "<<Luckily, hell not have to satisfy Mr. Applegate, but will have to convince a jury--if it gets that far,>> whispered Joe in his brothers ear."
   },
   {
     "book": "franklin-w-dixon-the-tower-treasure",
@@ -132,7 +132,7 @@
     "element_index": 5,
     "element_type": "paragraph",
     "raw": "“This is the meanest job I ever got,” observed Con Riley. But he ambled across the street, wondering why a crowd of people had collected﻿—for word had quickly spread that a bomb had been found under Rocco’s fruit stand﻿—and when he reached the package he inspected it wonderingly.",
-    "expected": "<<This is the meanest job I ever got,>> observed Con Riley. But he ambled across the street, wondering why a crowd of people had collectedfor word had quickly spread that a bomb had been found under Roccos fruit standand when he reached the package he inspected it wonderingly."
+    "expected": "<<This is the meanest job I ever got,>> observed Con Riley. But he ambled across the street, wondering why a crowd of people had collected--for word had quickly spread that a bomb had been found under Roccos fruit stand--and when he reached the package he inspected it wonderingly."
   },
   {
     "book": "franklin-w-dixon-the-tower-treasure",
@@ -150,7 +150,7 @@
     "element_index": 58,
     "element_type": "paragraph",
     "raw": "“Now, Adelia, I think they meant well﻿—”",
-    "expected": "<<Now, Adelia, I think they meant well>>"
+    "expected": "<<Now, Adelia, I think they meant well-->>"
   },
   {
     "book": "franklin-w-dixon-the-tower-treasure",
@@ -168,7 +168,7 @@
     "element_index": 80,
     "element_type": "paragraph",
     "raw": "“Got to﻿—but can we?”",
-    "expected": "<<Got tobut can we?>>"
+    "expected": "<<Got to--but can we?>>"
   },
   {
     "book": "franklin-w-dixon-the-tower-treasure",

@@ -6,7 +6,7 @@
     "element_index": 2,
     "element_type": "paragraph",
     "raw": "Now the way that the book winds up is this: Tom and me found the money that the robbers hid in the cave, and it made us rich. We got six thousand dollars apiece﻿—all gold. It was an awful sight of money when it was piled up. Well, Judge Thatcher he took it and put it out at interest, and it fetched us a dollar a day apiece all the year round﻿—more than a body could tell what to do with. The Widow Douglas she took me for her son, and allowed she would sivilize me; but it was rough living in the house all the time, considering how dismal regular and decent the widow was in all her ways; and so when I couldn’t stand it no longer I lit out. I got into my old rags and my sugar-hogshead again, and was free and satisfied. But Tom Sawyer he hunted me up and said he was going to start a band of robbers, and I might join if I would go back to the widow and be respectable. So I went back.",
-    "expected": "Now the way that the book winds up is this: Tom and me found the money that the robbers hid in the cave, and it made us rich. We got six thousand dollars apieceall gold. It was an awful sight of money when it was piled up. Well, Judge Thatcher he took it and put it out at interest, and it fetched us a dollar a day apiece all the year roundmore than a body could tell what to do with. The Widow Douglas she took me for her son, and allowed she would sivilize me; but it was rough living in the house all the time, considering how dismal regular and decent the widow was in all her ways; and so when I couldnt stand it no longer I lit out. I got into my old rags and my sugar-hogshead again, and was free and satisfied. But Tom Sawyer he hunted me up and said he was going to start a band of robbers, and I might join if I would go back to the widow and be respectable. So I went back."
+    "expected": "Now the way that the book winds up is this: Tom and me found the money that the robbers hid in the cave, and it made us rich. We got six thousand dollars apiece--all gold. It was an awful sight of money when it was piled up. Well, Judge Thatcher he took it and put it out at interest, and it fetched us a dollar a day apiece all the year round--more than a body could tell what to do with. The Widow Douglas she took me for her son, and allowed she would sivilize me; but it was rough living in the house all the time, considering how dismal regular and decent the widow was in all her ways; and so when I couldnt stand it no longer I lit out. I got into my old rags and my sugar-hogshead again, and was free and satisfied. But Tom Sawyer he hunted me up and said he was going to start a band of robbers, and I might join if I would go back to the widow and be respectable. So I went back."
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -51,7 +51,7 @@
     "element_index": 15,
     "element_type": "paragraph",
     "raw": "“Tramp﻿—tramp﻿—tramp; that’s the dead; tramp﻿—tramp﻿—tramp; they’re coming after me; but I won’t go. Oh, they’re here! don’t touch me﻿—don’t! hands off﻿—they’re cold; let go. Oh, let a poor devil alone!”",
-    "expected": "<<Tramptramptramp; thats the dead; tramptramptramp; theyre coming after me; but I wont go. Oh, theyre here! dont touch medont! hands offtheyre cold; let go. Oh, let a poor devil alone!>>"
+    "expected": "<<Tramp--tramp--tramp; thats the dead; tramp--tramp--tramp; theyre coming after me; but I wont go. Oh, theyre here! dont touch me--dont! hands off--theyre cold; let go. Oh, let a poor devil alone!>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -60,7 +60,7 @@
     "element_index": 16,
     "element_type": "paragraph",
     "raw": "About twelve o’clock we turned out and went along up the bank. The river was coming up pretty fast, and lots of driftwood going by on the rise. By and by along comes part of a log raft﻿—nine logs fast together. We went out with the skiff and towed it ashore. Then we had dinner. Anybody but pap would a waited and seen the day through, so as to catch more stuff; but that warn’t pap’s style. Nine logs was enough for one time; he must shove right over to town and sell. So he locked me in and took the skiff, and started off towing the raft about half-past three. I judged he wouldn’t come back that night. I waited till I reckoned he had got a good start; then I out with my saw, and went to work on that log again. Before he was t’other side of the river I was out of the hole; him and his raft was just a speck on the water away off yonder.",
-    "expected": "About twelve oclock we turned out and went along up the bank. The river was coming up pretty fast, and lots of driftwood going by on the rise. By and by along comes part of a log raftnine logs fast together. We went out with the skiff and towed it ashore. Then we had dinner. Anybody but pap would a waited and seen the day through, so as to catch more stuff; but that warnt paps style. Nine logs was enough for one time; he must shove right over to town and sell. So he locked me in and took the skiff, and started off towing the raft about half-past three. I judged he wouldnt come back that night. I waited till I reckoned he had got a good start; then I out with my saw, and went to work on that log again. Before he was tother side of the river I was out of the hole; him and his raft was just a speck on the water away off yonder."
+    "expected": "About twelve oclock we turned out and went along up the bank. The river was coming up pretty fast, and lots of driftwood going by on the rise. By and by along comes part of a log raft--nine logs fast together. We went out with the skiff and towed it ashore. Then we had dinner. Anybody but pap would a waited and seen the day through, so as to catch more stuff; but that warnt paps style. Nine logs was enough for one time; he must shove right over to town and sell. So he locked me in and took the skiff, and started off towing the raft about half-past three. I judged he wouldnt come back that night. I waited till I reckoned he had got a good start; then I out with my saw, and went to work on that log again. Before he was tother side of the river I was out of the hole; him and his raft was just a speck on the water away off yonder."
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -105,7 +105,7 @@
     "element_index": 33,
     "element_type": "paragraph",
     "raw": "“Here﻿—come in here.”",
-    "expected": "<<Herecome in here.>>"
+    "expected": "<<Here--come in here.>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -123,7 +123,7 @@
     "element_index": 53,
     "element_type": "paragraph",
     "raw": "“Well, den, dey ain’t no sense in a cat talkin’ like a man. Is a cow a man?﻿—er is a cow a cat?”",
-    "expected": "<<Well, den, dey aint no sense in a cat talkin like a man. Is a cow a man?er is a cow a cat?>>"
+    "expected": "<<Well, den, dey aint no sense in a cat talkin like a man. Is a cow a man?--er is a cow a cat?>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -168,7 +168,7 @@
     "element_index": 34,
     "element_type": "paragraph",
     "raw": "Jim pitied him ever so much, and so did I. We tried to comfort him, but he said it warn’t much use, he couldn’t be much comforted; said if we was a mind to acknowledge him, that would do him more good than most anything else; so we said we would, if he would tell us how. He said we ought to bow when we spoke to him, and say “Your Grace,” or “My Lord,” or “Your Lordship”﻿—and he wouldn’t mind it if we called him plain “Bridgewater,” which, he said, was a title anyway, and not a name; and one of us ought to wait on him at dinner, and do any little thing for him he wanted done.",
-    "expected": "Jim pitied him ever so much, and so did I. We tried to comfort him, but he said it warnt much use, he couldnt be much comforted; said if we was a mind to acknowledge him, that would do him more good than most anything else; so we said we would, if he would tell us how. He said we ought to bow when we spoke to him, and say <<Your Grace,>> or <<My Lord,>> or <<Your Lordship>>and he wouldnt mind it if we called him plain <<Bridgewater,>> which, he said, was a title anyway, and not a name; and one of us ought to wait on him at dinner, and do any little thing for him he wanted done."
+    "expected": "Jim pitied him ever so much, and so did I. We tried to comfort him, but he said it warnt much use, he couldnt be much comforted; said if we was a mind to acknowledge him, that would do him more good than most anything else; so we said we would, if he would tell us how. He said we ought to bow when we spoke to him, and say <<Your Grace,>> or <<My Lord,>> or <<Your Lordship>>--and he wouldnt mind it if we called him plain <<Bridgewater,>> which, he said, was a title anyway, and not a name; and one of us ought to wait on him at dinner, and do any little thing for him he wanted done."
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -186,7 +186,7 @@
     "element_index": 20,
     "element_type": "paragraph",
     "raw": "Maybe Bill he gives him a chaw; maybe he lies and says he ain’t got none. Some of them kinds of loafers never has a cent in the world, nor a chaw of tobacco of their own. They get all their chawing by borrowing; they say to a fellow, “I wisht you’d len’ me a chaw, Jack, I jist this minute give Ben Thompson the last chaw I had”﻿—which is a lie pretty much everytime; it don’t fool nobody but a stranger; but Jack ain’t no stranger, so he says:",
-    "expected": "Maybe Bill he gives him a chaw; maybe he lies and says he aint got none. Some of them kinds of loafers never has a cent in the world, nor a chaw of tobacco of their own. They get all their chawing by borrowing; they say to a fellow, <<I wisht youd len me a chaw, Jack, I jist this minute give Ben Thompson the last chaw I had>>which is a lie pretty much everytime; it dont fool nobody but a stranger; but Jack aint no stranger, so he says:"
+    "expected": "Maybe Bill he gives him a chaw; maybe he lies and says he aint got none. Some of them kinds of loafers never has a cent in the world, nor a chaw of tobacco of their own. They get all their chawing by borrowing; they say to a fellow, <<I wisht youd len me a chaw, Jack, I jist this minute give Ben Thompson the last chaw I had>>--which is a lie pretty much everytime; it dont fool nobody but a stranger; but Jack aint no stranger, so he says:"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -213,7 +213,7 @@
     "element_index": 16,
     "element_type": "paragraph",
     "raw": "“Oh, yes; a month or two ago, when Peter was first took; because Peter said then that he sorter felt like he warn’t going to get well this time. You see, he was pretty old, and George’s g’yirls was too young to be much company for him, except Mary Jane, the redheaded one; and so he was kinder lonesome after George and his wife died, and didn’t seem to care much to live. He most desperately wanted to see Harvey﻿—and William, too, for that matter﻿—because he was one of them kind that can’t bear to make a will. He left a letter behind for Harvey, and said he’d told in it where his money was hid, and how he wanted the rest of the property divided up so George’s g’yirls would be all right﻿—for George didn’t leave nothing. And that letter was all they could get him to put a pen to.”",
-    "expected": "<<Oh, yes; a month or two ago, when Peter was first took; because Peter said then that he sorter felt like he warnt going to get well this time. You see, he was pretty old, and Georges gyirls was too young to be much company for him, except Mary Jane, the redheaded one; and so he was kinder lonesome after George and his wife died, and didnt seem to care much to live. He most desperately wanted to see Harveyand William, too, for that matterbecause he was one of them kind that cant bear to make a will. He left a letter behind for Harvey, and said hed told in it where his money was hid, and how he wanted the rest of the property divided up so Georges gyirls would be all rightfor George didnt leave nothing. And that letter was all they could get him to put a pen to.>>"
+    "expected": "<<Oh, yes; a month or two ago, when Peter was first took; because Peter said then that he sorter felt like he warnt going to get well this time. You see, he was pretty old, and Georges gyirls was too young to be much company for him, except Mary Jane, the redheaded one; and so he was kinder lonesome after George and his wife died, and didnt seem to care much to live. He most desperately wanted to see Harvey--and William, too, for that matter--because he was one of them kind that cant bear to make a will. He left a letter behind for Harvey, and said hed told in it where his money was hid, and how he wanted the rest of the property divided up so Georges gyirls would be all right--for George didnt leave nothing. And that letter was all they could get him to put a pen to.>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -222,7 +222,7 @@
     "element_index": 6,
     "element_type": "paragraph",
     "raw": "Then the king he hunched the duke private﻿—I see him do it﻿—and then he looked around and see the coffin, over in the corner on two chairs; so then him and the duke, with a hand across each other’s shoulder, and t’other hand to their eyes, walked slow and solemn over there, everybody dropping back to give them room, and all the talk and noise stopping, people saying “Sh!” and all the men taking their hats off and drooping their heads, so you could a heard a pin fall. And when they got there they bent over and looked in the coffin, and took one sight, and then they bust out a-crying so you could a heard them to Orleans, most; and then they put their arms around each other’s necks, and hung their chins over each other’s shoulders; and then for three minutes, or maybe four, I never see two men leak the way they done. And, mind you, everybody was doing the same; and the place was that damp I never see anything like it. Then one of them got on one side of the coffin, and t’other on t’other side, and they kneeled down and rested their foreheads on the coffin, and let on to pray all to themselves. Well, when it come to that it worked the crowd like you never see anything like it, and everybody broke down and went to sobbing right out loud﻿—the poor girls, too; and every woman, nearly, went up to the girls, without saying a word, and kissed them, solemn, on the forehead, and then put their hand on their head, and looked up towards the sky, with the tears running down, and then busted out and went off sobbing and swabbing, and give the next woman a show. I never see anything so disgusting.",
-    "expected": "Then the king he hunched the duke privateI see him do itand then he looked around and see the coffin, over in the corner on two chairs; so then him and the duke, with a hand across each others shoulder, and tother hand to their eyes, walked slow and solemn over there, everybody dropping back to give them room, and all the talk and noise stopping, people saying <<Sh!>> and all the men taking their hats off and drooping their heads, so you could a heard a pin fall. And when they got there they bent over and looked in the coffin, and took one sight, and then they bust out a-crying so you could a heard them to Orleans, most; and then they put their arms around each others necks, and hung their chins over each others shoulders; and then for three minutes, or maybe four, I never see two men leak the way they done. And, mind you, everybody was doing the same; and the place was that damp I never see anything like it. Then one of them got on one side of the coffin, and tother on tother side, and they kneeled down and rested their foreheads on the coffin, and let on to pray all to themselves. Well, when it come to that it worked the crowd like you never see anything like it, and everybody broke down and went to sobbing right out loudthe poor girls, too; and every woman, nearly, went up to the girls, without saying a word, and kissed them, solemn, on the forehead, and then put their hand on their head, and looked up towards the sky, with the tears running down, and then busted out and went off sobbing and swabbing, and give the next woman a show. I never see anything so disgusting."
+    "expected": "Then the king he hunched the duke private--I see him do it--and then he looked around and see the coffin, over in the corner on two chairs; so then him and the duke, with a hand across each others shoulder, and tother hand to their eyes, walked slow and solemn over there, everybody dropping back to give them room, and all the talk and noise stopping, people saying <<Sh!>> and all the men taking their hats off and drooping their heads, so you could a heard a pin fall. And when they got there they bent over and looked in the coffin, and took one sight, and then they bust out a-crying so you could a heard them to Orleans, most; and then they put their arms around each others necks, and hung their chins over each others shoulders; and then for three minutes, or maybe four, I never see two men leak the way they done. And, mind you, everybody was doing the same; and the place was that damp I never see anything like it. Then one of them got on one side of the coffin, and tother on tother side, and they kneeled down and rested their foreheads on the coffin, and let on to pray all to themselves. Well, when it come to that it worked the crowd like you never see anything like it, and everybody broke down and went to sobbing right out loud--the poor girls, too; and every woman, nearly, went up to the girls, without saying a word, and kissed them, solemn, on the forehead, and then put their hand on their head, and looked up towards the sky, with the tears running down, and then busted out and went off sobbing and swabbing, and give the next woman a show. I never see anything so disgusting."
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -231,7 +231,7 @@
     "element_index": 56,
     "element_type": "paragraph",
     "raw": "“Oh, just listen! A body could tell \nyou\n hain’t ever been to England by that. Why, Hare-l﻿—why, Joanna, they never see a holiday from year’s end to year’s end; never go to the circus, nor theater, nor nigger shows, nor nowheres.”",
-    "expected": "<<Oh, just listen! A body could tell you haint ever been to England by that. Why, Hare-lwhy, Joanna, they never see a holiday from years end to years end; never go to the circus, nor theater, nor nigger shows, nor nowheres.>>"
+    "expected": "<<Oh, just listen! A body could tell you haint ever been to England by that. Why, Hare-l--why, Joanna, they never see a holiday from years end to years end; never go to the circus, nor theater, nor nigger shows, nor nowheres.>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -249,7 +249,7 @@
     "element_index": 14,
     "element_type": "paragraph",
     "raw": "“Don’t you holler. Just set still and take it like a man. I got to tell the truth, and you want to brace up, Miss Mary, because it’s a bad kind, and going to be hard to take, but there ain’t no help for it. These uncles of yourn ain’t no uncles at all; they’re a couple of frauds﻿—regular deadbeats. There, now we’re over the worst of it, you can stand the rest middling easy.”",
-    "expected": "<<Dont you holler. Just set still and take it like a man. I got to tell the truth, and you want to brace up, Miss Mary, because its a bad kind, and going to be hard to take, but there aint no help for it. These uncles of yourn aint no uncles at all; theyre a couple of fraudsregular deadbeats. There, now were over the worst of it, you can stand the rest middling easy.>>"
+    "expected": "<<Dont you holler. Just set still and take it like a man. I got to tell the truth, and you want to brace up, Miss Mary, because its a bad kind, and going to be hard to take, but there aint no help for it. These uncles of yourn aint no uncles at all; theyre a couple of frauds--regular deadbeats. There, now were over the worst of it, you can stand the rest middling easy.>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -258,7 +258,7 @@
     "element_index": 5,
     "element_type": "paragraph",
     "raw": "So he laughed again; and so did everybody else, except three or four, or maybe half a dozen. One of these was that doctor; another one was a sharp-looking gentleman, with a carpetbag of the old-fashioned kind made out of carpet-stuff, that had just come off of the steamboat and was talking to him in a low voice, and glancing towards the king now and then and nodding their heads﻿—it was Levi Bell, the lawyer that was gone up to Louisville; and another one was a big rough husky that come along and listened to all the old gentleman said, and was listening to the king now. And when the king got done this husky up and says:",
-    "expected": "So he laughed again; and so did everybody else, except three or four, or maybe half a dozen. One of these was that doctor; another one was a sharp-looking gentleman, with a carpetbag of the old-fashioned kind made out of carpet-stuff, that had just come off of the steamboat and was talking to him in a low voice, and glancing towards the king now and then and nodding their headsit was Levi Bell, the lawyer that was gone up to Louisville; and another one was a big rough husky that come along and listened to all the old gentleman said, and was listening to the king now. And when the king got done this husky up and says:"
+    "expected": "So he laughed again; and so did everybody else, except three or four, or maybe half a dozen. One of these was that doctor; another one was a sharp-looking gentleman, with a carpetbag of the old-fashioned kind made out of carpet-stuff, that had just come off of the steamboat and was talking to him in a low voice, and glancing towards the king now and then and nodding their heads--it was Levi Bell, the lawyer that was gone up to Louisville; and another one was a big rough husky that come along and listened to all the old gentleman said, and was listening to the king now. And when the king got done this husky up and says:"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -294,7 +294,7 @@
     "element_index": 35,
     "element_type": "paragraph",
     "raw": "“But we won’t \nlet\n you walk﻿—it wouldn’t be Southern hospitality to do it. Come right in.”",
-    "expected": "<<But we wont let you walkit wouldnt be Southern hospitality to do it. Come right in.>>"
+    "expected": "<<But we wont let you walk--it wouldnt be Southern hospitality to do it. Come right in.>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -312,7 +312,7 @@
     "element_index": 10,
     "element_type": "paragraph",
     "raw": "“No, it wouldn’t do﻿—there ain’t necessity enough for it.”",
-    "expected": "<<No, it wouldnt dothere aint necessity enough for it.>>"
+    "expected": "<<No, it wouldnt do--there aint necessity enough for it.>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",
@@ -321,7 +321,7 @@
     "element_index": 8,
     "element_type": "paragraph",
     "raw": "“Well,” he says, “there’s excuse for picks and letting-on in a case like this; if it warn’t so, I wouldn’t approve of it, nor I wouldn’t stand by and see the rules broke﻿—because right is right, and wrong is wrong, and a body ain’t got no business doing wrong when he ain’t ignorant and knows better. It might answer for \nyou\n to dig Jim out with a pick, \nwithout\n any letting on, because you don’t know no better; but it wouldn’t for me, because I do know better. Gimme a case-knife.”",
-    "expected": "<<Well,>> he says, <<theres excuse for picks and letting-on in a case like this; if it warnt so, I wouldnt approve of it, nor I wouldnt stand by and see the rules brokebecause right is right, and wrong is wrong, and a body aint got no business doing wrong when he aint ignorant and knows better. It might answer for you to dig Jim out with a pick, without any letting on, because you dont know no better; but it wouldnt for me, because I do know better. Gimme a case-knife.>>"
+    "expected": "<<Well,>> he says, <<theres excuse for picks and letting-on in a case like this; if it warnt so, I wouldnt approve of it, nor I wouldnt stand by and see the rules broke--because right is right, and wrong is wrong, and a body aint got no business doing wrong when he aint ignorant and knows better. It might answer for you to dig Jim out with a pick, without any letting on, because you dont know no better; but it wouldnt for me, because I do know better. Gimme a case-knife.>>"
   },
   {
     "book": "mark-twain-the-adventures-of-huckleberry-finn",

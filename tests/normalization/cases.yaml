@@ -25,3 +25,13 @@
       expected: "Resume--naive facade"
     - input: "Hello—there"
       expected: "Hello--there"
+
+- id: preserve_format_markers
+  rule: Preserve formatting markers used by the normalizer (///, **, ##).
+  examples:
+    - input: "This is ///italic/// text."
+      expected: "This is ///italic/// text."
+    - input: "Make **bold** and ///italic/// together."
+      expected: "Make **bold** and ///italic/// together."
+    - input: "## Heading — Title"
+      expected: "## Heading -- Title"

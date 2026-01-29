@@ -6,7 +6,7 @@
     "element_index": 15,
     "element_type": "paragraph",
     "raw": "He was only once crossed, and that was toward the end, when my poor father was far gone in a decline that took him off. Doctor Livesey came late one afternoon to see the patient, took a bit of dinner from my mother, and went into the parlor to smoke a pipe until his horse should come down from the hamlet, for we had no stabling at the old Benbow. I followed him in, and I remember observing the contrast the neat, bright doctor, with his powder as white as snow, and his bright, black eyes and pleasant manners, made with the coltish country folk, and above all, with that filthy, heavy, bleared scarecrow of a pirate of ours, sitting far gone in rum, with his arms on the table. Suddenly he﻿—the captain, that is﻿—began to pipe up his eternal song:",
-    "expected": "He was only once crossed, and that was toward the end, when my poor father was far gone in a decline that took him off. Doctor Livesey came late one afternoon to see the patient, took a bit of dinner from my mother, and went into the parlor to smoke a pipe until his horse should come down from the hamlet, for we had no stabling at the old Benbow. I followed him in, and I remember observing the contrast the neat, bright doctor, with his powder as white as snow, and his bright, black eyes and pleasant manners, made with the coltish country folk, and above all, with that filthy, heavy, bleared scarecrow of a pirate of ours, sitting far gone in rum, with his arms on the table. Suddenly hethe captain, that isbegan to pipe up his eternal song:"
+    "expected": "He was only once crossed, and that was toward the end, when my poor father was far gone in a decline that took him off. Doctor Livesey came late one afternoon to see the patient, took a bit of dinner from my mother, and went into the parlor to smoke a pipe until his horse should come down from the hamlet, for we had no stabling at the old Benbow. I followed him in, and I remember observing the contrast the neat, bright doctor, with his powder as white as snow, and his bright, black eyes and pleasant manners, made with the coltish country folk, and above all, with that filthy, heavy, bleared scarecrow of a pirate of ours, sitting far gone in rum, with his arms on the table. Suddenly he--the captain, that is--began to pipe up his eternal song:"
   },
   {
     "book": "robert-louis-stevenson-treasure-island",
@@ -42,7 +42,7 @@
     "element_index": 17,
     "element_type": "paragraph",
     "raw": "“It’s these people of the inn﻿—it’s that boy. I wish I had put his eyes out!” cried the blind man, Pew. “They were here no time ago﻿—they had the door bolted when I tried it. Scatter, lads, and find ’em.”",
-    "expected": "<<Its these people of the innits that boy. I wish I had put his eyes out!>> cried the blind man, Pew. <<They were here no time agothey had the door bolted when I tried it. Scatter, lads, and find em.>>"
+    "expected": "<<Its these people of the inn--its that boy. I wish I had put his eyes out!>> cried the blind man, Pew. <<They were here no time ago--they had the door bolted when I tried it. Scatter, lads, and find em.>>"
   },
   {
     "book": "robert-louis-stevenson-treasure-island",
@@ -51,7 +51,7 @@
     "element_index": 28,
     "element_type": "paragraph",
     "raw": "The bundle was sewn together, and the doctor had to get out his instrument case and cut the stitches with his medical scissors. It contained two things﻿—a book and a sealed paper.",
-    "expected": "The bundle was sewn together, and the doctor had to get out his instrument case and cut the stitches with his medical scissors. It contained two thingsa book and a sealed paper."
+    "expected": "The bundle was sewn together, and the doctor had to get out his instrument case and cut the stitches with his medical scissors. It contained two things--a book and a sealed paper."
   },
   {
     "book": "robert-louis-stevenson-treasure-island",
@@ -159,7 +159,7 @@
     "element_index": 4,
     "element_type": "paragraph",
     "raw": "Forty paces farther we came to the edge of the wood and saw the stockade in front of us. We struck the enclosure about the middle of the south side, and, almost at the same time, seven mutineers﻿—Job Anderson, the boatswain, at their head﻿—appeared in full cry at the southwestern corner.",
-    "expected": "Forty paces farther we came to the edge of the wood and saw the stockade in front of us. We struck the enclosure about the middle of the south side, and, almost at the same time, seven mutineersJob Anderson, the boatswain, at their headappeared in full cry at the southwestern corner."
+    "expected": "Forty paces farther we came to the edge of the wood and saw the stockade in front of us. We struck the enclosure about the middle of the south side, and, almost at the same time, seven mutineers--Job Anderson, the boatswain, at their head--appeared in full cry at the southwestern corner."
   },
   {
     "book": "robert-louis-stevenson-treasure-island",
@@ -231,7 +231,7 @@
     "element_index": 17,
     "element_type": "paragraph",
     "raw": "The moon was climbing higher and higher; its light began to fall here and there in masses through the more open districts of the wood, and right in front of me a glow of a different color appeared among the trees. It was red and hot, and now and again it was a little darkened﻿—as it were the embers of a bonfire smoldering.",
-    "expected": "The moon was climbing higher and higher; its light began to fall here and there in masses through the more open districts of the wood, and right in front of me a glow of a different color appeared among the trees. It was red and hot, and now and again it was a little darkenedas it were the embers of a bonfire smoldering."
+    "expected": "The moon was climbing higher and higher; its light began to fall here and there in masses through the more open districts of the wood, and right in front of me a glow of a different color appeared among the trees. It was red and hot, and now and again it was a little darkened--as it were the embers of a bonfire smoldering."
   },
   {
     "book": "robert-louis-stevenson-treasure-island",
@@ -258,7 +258,7 @@
     "element_index": 46,
     "element_type": "paragraph",
     "raw": "“There’s a kind of fate in this,” he observed, when I had done. “Every step it’s you that save our lives, and do you suppose by any chance that we are going to let you lose yours? That would be a poor return, my boy. You found out the plot; you found Ben Gunn﻿—the best deed that ever you did, or will do, though you live to ninety. Oh, by Jupiter! and talking of Ben Gunn, why, this is the mischief in person. Silver!” he cried, “Silver! I’ll give you a piece of advice,” he continued, as the cook drew near again; “don’t you be in any great hurry after that treasure.”",
-    "expected": "<<Theres a kind of fate in this,>> he observed, when I had done. <<Every step its you that save our lives, and do you suppose by any chance that we are going to let you lose yours? That would be a poor return, my boy. You found out the plot; you found Ben Gunnthe best deed that ever you did, or will do, though you live to ninety. Oh, by Jupiter! and talking of Ben Gunn, why, this is the mischief in person. Silver!>> he cried, <<Silver! Ill give you a piece of advice,>> he continued, as the cook drew near again; <<dont you be in any great hurry after that treasure.>>"
+    "expected": "<<Theres a kind of fate in this,>> he observed, when I had done. <<Every step its you that save our lives, and do you suppose by any chance that we are going to let you lose yours? That would be a poor return, my boy. You found out the plot; you found Ben Gunn--the best deed that ever you did, or will do, though you live to ninety. Oh, by Jupiter! and talking of Ben Gunn, why, this is the mischief in person. Silver!>> he cried, <<Silver! Ill give you a piece of advice,>> he continued, as the cook drew near again; <<dont you be in any great hurry after that treasure.>>"
   },
   {
     "book": "robert-louis-stevenson-treasure-island",
@@ -267,7 +267,7 @@
     "element_index": 11,
     "element_type": "paragraph",
     "raw": "Well, thus equipped, we all set out﻿—even the fellow with the broken head, who should certainly have kept in shadow﻿—and straggled, one after another, to the beach, where the two gigs awaited us. Even these bore trace of the drunken folly of the pirates, one in a broken thwart, and both in their muddied and unbailed condition. Both were to be carried along with us, for the sake of safety; and so, with our numbers divided between them, we set forth upon the bosom of the anchorage.",
-    "expected": "Well, thus equipped, we all set outeven the fellow with the broken head, who should certainly have kept in shadowand straggled, one after another, to the beach, where the two gigs awaited us. Even these bore trace of the drunken folly of the pirates, one in a broken thwart, and both in their muddied and unbailed condition. Both were to be carried along with us, for the sake of safety; and so, with our numbers divided between them, we set forth upon the bosom of the anchorage."
+    "expected": "Well, thus equipped, we all set out--even the fellow with the broken head, who should certainly have kept in shadow--and straggled, one after another, to the beach, where the two gigs awaited us. Even these bore trace of the drunken folly of the pirates, one in a broken thwart, and both in their muddied and unbailed condition. Both were to be carried along with us, for the sake of safety; and so, with our numbers divided between them, we set forth upon the bosom of the anchorage."
   },
   {
     "book": "robert-louis-stevenson-treasure-island",

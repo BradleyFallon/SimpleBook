@@ -15,7 +15,7 @@
     "element_index": 22,
     "element_type": "paragraph",
     "raw": "“I won’t indeed!” said Alice, in a great hurry to change the subject of conversation. “Are you﻿—are you fond﻿—of﻿—of dogs?” The Mouse did not answer, so Alice went on eagerly: “There is such a nice little dog near our house I should like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And it’ll fetch things when you throw them, and it’ll sit up and beg for its dinner, and all sorts of things﻿—I can’t remember half of them﻿—and it belongs to a farmer, you know, and he says it’s so useful, it’s worth a hundred pounds! He says it kills all the rats and﻿—oh dear!” cried Alice in a sorrowful tone, “I’m afraid I’ve offended it again!” For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went.",
-    "expected": "<<I wont indeed!>> said Alice, in a great hurry to change the subject of conversation. <<Are youare you fondofof dogs?>> The Mouse did not answer, so Alice went on eagerly: <<There is such a nice little dog near our house I should like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And itll fetch things when you throw them, and itll sit up and beg for its dinner, and all sorts of thingsI cant remember half of themand it belongs to a farmer, you know, and he says its so useful, its worth a hundred pounds! He says it kills all the rats andoh dear!>> cried Alice in a sorrowful tone, <<Im afraid Ive offended it again!>> For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
+    "expected": "<<I wont indeed!>> said Alice, in a great hurry to change the subject of conversation. <<Are you--are you fond--of--of dogs?>> The Mouse did not answer, so Alice went on eagerly: <<There is such a nice little dog near our house I should like to show you! A little bright-eyed terrier, you know, with oh, such long curly brown hair! And itll fetch things when you throw them, and itll sit up and beg for its dinner, and all sorts of things--I cant remember half of them--and it belongs to a farmer, you know, and he says its so useful, its worth a hundred pounds! He says it kills all the rats and--oh dear!>> cried Alice in a sorrowful tone, <<Im afraid Ive offended it again!>> For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went."
   },
   {
     "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
@@ -69,7 +69,7 @@
     "element_index": 52,
     "element_type": "paragraph",
     "raw": "“It’s a friend of mine﻿—a Cheshire Cat,” said Alice: “allow me to introduce it.”",
-    "expected": "<<Its a friend of minea Cheshire Cat,>> said Alice: <<allow me to introduce it.>>"
+    "expected": "<<Its a friend of mine--a Cheshire Cat,>> said Alice: <<allow me to introduce it.>>"
   },
   {
     "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
@@ -87,7 +87,7 @@
     "element_index": 12,
     "element_type": "paragraph",
     "raw": "“﻿—as far out to sea as you can﻿—”",
-    "expected": "<<as far out to sea as you can>>"
+    "expected": "<<--as far out to sea as you can-->>"
   },
   {
     "book": "lewis-carroll-alices-adventures-in-wonderland-john-tenniel",
@@ -105,6 +105,6 @@
     "element_index": 2,
     "element_type": "paragraph",
     "raw": "“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places﻿—\nall\n,” he repeated with great emphasis, looking hard at Alice as he said so.",
-    "expected": "<<The trial cannot proceed,>> said the King in a very grave voice, <<until all the jurymen are back in their proper places all ,>> he repeated with great emphasis, looking hard at Alice as he said so."
+    "expected": "<<The trial cannot proceed,>> said the King in a very grave voice, <<until all the jurymen are back in their proper places-- all ,>> he repeated with great emphasis, looking hard at Alice as he said so."
   }
 ]
