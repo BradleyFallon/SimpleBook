@@ -9,6 +9,7 @@ alias unpack-all-epubs="${SIMPLEBOOK_ROOT}/scripts/unpack-all-epubs.py"
 alias report-body-coverage="${SIMPLEBOOK_ROOT}/scripts/report-body-coverage.py"
 alias gen-normalization-docs="${SIMPLEBOOK_ROOT}/scripts/gen-normalization-docs.py"
 alias normtest="${SIMPLEBOOK_ROOT}/scripts/normtest.py"
+alias alltests="${SIMPLEBOOK_ROOT}/scripts/alltests.py"
 
 # Optional short alias
 alias reg=regtest
@@ -19,6 +20,7 @@ alias uall=unpack-all-epubs
 alias rbc=report-body-coverage
 alias gnd=gen-normalization-docs
 alias nt=normtest
+alias at=alltests
 
 # --- autocomplete (bash/zsh) ---
 _simplebook_keys() {
@@ -80,6 +82,7 @@ if [ -n "${BASH_VERSION-}" ]; then
   complete -F _simplebook_complete report-body-coverage
   complete -F _simplebook_complete gen-normalization-docs
   complete -F _simplebook_complete normtest
+  complete -F _simplebook_complete alltests
   complete -F _regtest_complete reg
   complete -F _simplebook_complete sb
   complete -F _simplebook_complete gendocs
@@ -88,6 +91,7 @@ if [ -n "${BASH_VERSION-}" ]; then
   complete -F _simplebook_complete rbc
   complete -F _simplebook_complete gnd
   complete -F _simplebook_complete nt
+  complete -F _simplebook_complete at
 elif [ -n "${ZSH_VERSION-}" ]; then
   setopt completealiases 2>/dev/null || true
   autoload -Uz compinit && compinit
@@ -114,6 +118,7 @@ elif [ -n "${ZSH_VERSION-}" ]; then
   compdef _simplebook_zsh report-body-coverage
   compdef _simplebook_zsh gen-normalization-docs
   compdef _simplebook_zsh normtest
+  compdef _simplebook_zsh alltests
   compdef _regtest_zsh reg
   compdef _simplebook_zsh sb
   compdef _simplebook_zsh gendocs
@@ -122,4 +127,5 @@ elif [ -n "${ZSH_VERSION-}" ]; then
   compdef _simplebook_zsh rbc
   compdef _simplebook_zsh gnd
   compdef _simplebook_zsh nt
+  compdef _simplebook_zsh at
 fi

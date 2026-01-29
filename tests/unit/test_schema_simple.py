@@ -5,6 +5,13 @@ Run with: python3 test_schema_simple.py
 
 import json
 
+try:
+    import pytest
+    PYTEST_AVAILABLE = True
+except ImportError:
+    PYTEST_AVAILABLE = False
+    pytest = None
+
 # Check if jsonschema is available
 try:
     from simplebook.schema_validator import validate_output, load_schema
@@ -16,7 +23,7 @@ except ImportError as e:
     JSONSCHEMA_AVAILABLE = False
 
 
-def test_load_schema():
+def _run_load_schema():
     """Test loading the schema file."""
     print("\n📋 Test: Load schema file")
     try:
@@ -33,7 +40,7 @@ def test_load_schema():
         return False
 
 
-def test_validate_minimal_output():
+def _run_validate_minimal_output():
     """Test validation of minimal valid output."""
     print("\n📋 Test: Validate minimal valid output")
     
@@ -68,7 +75,7 @@ def test_validate_minimal_output():
         return False
 
 
-def test_validate_complete_output():
+def _run_validate_complete_output():
     """Test validation of complete valid output."""
     print("\n📋 Test: Validate complete valid output")
     
@@ -112,7 +119,7 @@ def test_validate_complete_output():
         return False
 
 
-def test_validate_invalid_output():
+def _run_validate_invalid_output():
     """Test that invalid output is correctly rejected."""
     print("\n📋 Test: Detect invalid output")
     
@@ -145,6 +152,41 @@ def test_validate_invalid_output():
         return False
 
 
+def test_load_schema():
+    if not JSONSCHEMA_AVAILABLE:
+        if PYTEST_AVAILABLE:
+            pytest.skip("jsonschema not available")
+        return
+    assert _run_load_schema() is True
+
+
+def test_validate_minimal_output():
+    result = _run_validate_minimal_output()
+    if result is None:
+        if PYTEST_AVAILABLE:
+            pytest.skip("jsonschema not available")
+        return
+    assert result is True
+
+
+def test_validate_complete_output():
+    result = _run_validate_complete_output()
+    if result is None:
+        if PYTEST_AVAILABLE:
+            pytest.skip("jsonschema not available")
+        return
+    assert result is True
+
+
+def test_validate_invalid_output():
+    result = _run_validate_invalid_output()
+    if result is None:
+        if PYTEST_AVAILABLE:
+            pytest.skip("jsonschema not available")
+        return
+    assert result is True
+
+
 def main():
     """Run all tests."""
     print("=" * 60)
@@ -154,16 +196,16 @@ def main():
     results = []
     
     # Test 1: Load schema
-    results.append(test_load_schema())
+    results.append(_run_load_schema())
     
     # Test 2: Validate minimal output
-    results.append(test_validate_minimal_output())
+    results.append(_run_validate_minimal_output())
     
     # Test 3: Validate complete output
-    results.append(test_validate_complete_output())
+    results.append(_run_validate_complete_output())
     
     # Test 4: Detect invalid output
-    results.append(test_validate_invalid_output())
+    results.append(_run_validate_invalid_output())
     
     # Summary
     print("\n" + "=" * 60)

@@ -68,6 +68,17 @@ def normalize_epub(epub_path: Path) -> dict:
     book.load_epub(str(epub_path))
     return book.serialize(preview=True)
 
+if PYTEST_AVAILABLE:
+    _EPUBS = get_test_epubs()
+    if not _EPUBS:
+        @pytest.fixture(params=[None], ids=["no-epubs"])
+        def epub_path(request):
+            pytest.skip(f"No EPUB files found in {TEST_EPUBS_DIR}")
+    else:
+        @pytest.fixture(params=_EPUBS, ids=lambda p: p.stem)
+        def epub_path(request):
+            return request.param
+
 
 class TestGoldenFiles:
     """Test normalizer output against golden files."""
@@ -75,7 +86,7 @@ class TestGoldenFiles:
     def test_golden_file_match(self, epub_path):
         """Test that normalizer output matches golden file."""
         if not PYTEST_AVAILABLE:
-            return
+            pytest.skip("pytest is not available")
         
         golden_path = get_golden_file(epub_path)
         
@@ -96,7 +107,7 @@ class TestGoldenFiles:
     def test_output_schema_compliance(self, epub_path):
         """Test that normalizer output conforms to schema."""
         if not PYTEST_AVAILABLE:
-            return
+            pytest.skip("pytest is not available")
         
         # Normalize the EPUB
         output = normalize_epub(epub_path)
@@ -111,7 +122,7 @@ class TestGoldenFiles:
     def test_deterministic_output(self, epub_path):
         """Test that normalizer produces identical output on repeated runs."""
         if not PYTEST_AVAILABLE:
-            return
+            pytest.skip("pytest is not available")
         
         # Normalize twice
         output1 = normalize_epub(epub_path)
